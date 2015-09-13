@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2015.9.13)  13 SEP 2015 11:04
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2015.9.13)  13 SEP 2015 17:58
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -934,6 +934,93 @@ LaTeX Warning: Label `par:pharmakokinetik' multiply defined.
 
 
 LaTeX Warning: Label `par:unerw_nschte_wirkungen' multiply defined.
+
+
+LaTeX Warning: Label `par:wirkmechanismus' multiply defined.
+
+
+LaTeX Warning: Label `par:unerw_nschte_wirkungen' multiply defined.
+
+
+LaTeX Warning: Label `par:wirkmechanismus' multiply defined.
+
+
+LaTeX Warning: Label `par:pharmakokinetik' multiply defined.
+
+
+LaTeX Warning: Label `par:unerw_nschte_wirkungen' multiply defined.
+
+
+LaTeX Warning: Label `par:wirkmechanismus' multiply defined.
+
+
+LaTeX Warning: Label `par:pharmakokinetik' multiply defined.
+
+
+LaTeX Warning: Label `par:unerw_nschte_wirkungen' multiply defined.
+
+
+LaTeX Warning: Label `par:interaktionen' multiply defined.
+
+
+LaTeX Warning: Label `par:wirkmechanismus' multiply defined.
+
+
+LaTeX Warning: Label `par:unerw_nschte_wirkungen' multiply defined.
+
+
+LaTeX Warning: Label `par:kontraindikationen' multiply defined.
+
+
+LaTeX Warning: Label `par:einsatz' multiply defined.
+
+
+LaTeX Warning: Label `par:wirkmechan' multiply defined.
+
+
+LaTeX Warning: Label `par:unerw_nschte_wirkungen' multiply defined.
+
+
+LaTeX Warning: Label `par:einsatz' multiply defined.
+
+
+LaTeX Warning: Label `par:wirkmechanismus' multiply defined.
+
+
+LaTeX Warning: Label `par:einsatz' multiply defined.
+
+
+LaTeX Warning: Label `par:wirkmechanismus' multiply defined.
+
+
+LaTeX Warning: Label `par:pharmakokinetik' multiply defined.
+
+
+LaTeX Warning: Label `par:unerw_nschte_wirkungen' multiply defined.
+
+
+LaTeX Warning: Label `par:interaktionen' multiply defined.
+
+
+LaTeX Warning: Label `par:kontraindikationen' multiply defined.
+
+
+LaTeX Warning: Label `par:einsatz' multiply defined.
+
+
+LaTeX Warning: Label `par:unerw_nschte_wirkungen' multiply defined.
+
+
+LaTeX Warning: Label `par:einsatz' multiply defined.
+
+
+LaTeX Warning: Label `par:paragraph_name' multiply defined.
+
+
+LaTeX Warning: Label `par:wirkmechanismus' multiply defined.
+
+
+LaTeX Warning: Label `par:einsatz' multiply defined.
 
 )
 \openout1 = `Pharmaskript.aux'.
@@ -2429,16 +2516,99 @@ Underfull \hbox (badness 1320) in paragraph at lines 2377--2377
 []|\OT1/cmr/m/n/10 HMG-CoA-Reduktase-Hemmer (Sta-ti-ne) Anionen-
  []
 
-[73] [74] (./Pharmaskript.aux)
+[73]
+Underfull \hbox (badness 10000) in paragraph at lines 2454--2460
+
+ []
+
+[74]
+Overfull \hbox (19.91037pt too wide) in paragraph at lines 2511--2518
+ \OT1/cmr/bx/n/10 Wirk-me-cha-nis-mus[] \OT1/cmr/m/n/10 Ak-ti-vie-rung des Tran
+-skrip-ti-ons-fak-tors Peroxisome-proliferator-activator-receptor $\OML/cmm/m/i
+t/10 $ \OT1/cmr/m/n/10 (PPAR$\OML/cmm/m/it/10 $\OT1/cmr/m/n/10 ) 
+ []
+
+[75] [76] [77]
+Kapitel 10.
+
+Overfull \hbox (7.88977pt too wide) in paragraph at lines 2589--2590
+[]\OT1/cmr/m/n/10 Degranulation von Me-dia-to-ren (ADP, Se-ro-to-nin), Ko-agu-l
+a-ti-ons-fak-to-ren (Fak-tor V, Fi-bri-no-gen), Wachstums-
+ []
+
+[78
+
+]
+Underfull \hbox (badness 10000) in paragraph at lines 2680--2680
+[]|\OT1/cmr/m/n/10 Fab-Fragment ei-nes mo-no-klo-na-len An-tik[]orpers,
+ []
+
+[79]
+Overfull \hbox (7.38853pt too wide) in paragraph at lines 2701--2701
+[]|\OT1/cmr/m/n/10 Integrinselektivit[]at$\OML/cmm/m/it/10 $\OT1/cmr/m/n/10 II
+b$\OML/cmm/m/it/10 ^^L$\OT1/cmr/m/n/10 3,
+ []
+
+[80]
+Underfull \hbox (badness 10000) in paragraph at lines 2781--2781
+[]|\OT1/cmr/m/n/10 Synthetische Pen-ta-sac-
+ []
+
+
+Underfull \hbox (badness 1484) in paragraph at lines 2781--2781
+[]|\OT1/cmr/m/n/10 Relative Hem-mung der
+ []
+
+
+Underfull \hbox (badness 7740) in paragraph at lines 2781--2781
+\OT1/cmr/m/n/10 ak-ti-ven Ge-rin-nungs-fak-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2781--2781
+[]|\OT1/cmr/m/n/10 Bioverf[]ugbarkeit (s.c.-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2781--2781
+[]|\OT1/cmr/m/n/10 Gabe (Throm-bo-se-pro-
+ []
+
+
+Overfull \hbox (0.89745pt too wide) in paragraph at lines 2771--2783
+ \OT1/cmr/bx/n/10 Syn-the-ti-sche Pen-ta-sac-cha-ri-de (z.B. Fon-d-a-pa-ri-nux)
+[] \OT1/cmr/m/n/10 leicht mo-di-fi-zier-tes Pen-ta-sac-cha-rid; Wir-kung []ahnl
+ich
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2771--2783
+
+ []
+
+[81]
+Overfull \hbox (32.24867pt too wide) in paragraph at lines 2789--2790
+[]\OT1/cmr/m/n/10 Heparin-induzierte Throm-bo-zy-to-pe-nie (HIT): An-tik[]orper
+bildung ge-gen Kom-plex aus He-pa-rin und Pl[]attchenfaktor
+ []
+
+[82]
+Overfull \hbox (12.53162pt too wide) in paragraph at lines 2831--2833
+ \OT1/cmr/bx/n/10 Vor-tei-le[] \OT1/cmr/m/n/10 ge-gen[]uber Cu-ma-ri-nen: schne
+l-ler On-Set/Offset, kon-stan-te Do-sie-rung, kein Gerinnungsstatus-Monitoring,
+
+ []
+
+[83] [84] (./Pharmaskript.aux)
 
 LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 17730 strings out of 493304
- 329701 string characters out of 6139871
- 420262 words of memory out of 5000000
- 20801 multiletter control sequences out of 15000+600000
+ 17781 strings out of 493304
+ 331294 string characters out of 6139871
+ 420887 words of memory out of 5000000
+ 20852 multiletter control sequences out of 15000+600000
  14669 words of font info for 57 fonts, out of 8000000 for 9000
  957 hyphenation exceptions out of 8191
  56i,18n,55p,10421b,306s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -2459,10 +2629,10 @@ exlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy5.pfb></usr/share/texlive/
 texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/share/texlive/texmf-d
 ist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/share/texlive/texmf-dist/fo
 nts/type1/public/amsfonts/symbols/msam10.pfb>
-Output written on Pharmaskript.pdf (75 pages, 1207303 bytes).
+Output written on Pharmaskript.pdf (85 pages, 1230480 bytes).
 PDF statistics:
- 335 PDF objects out of 1000 (max. 8388607)
- 225 compressed objects within 3 object streams
+ 367 PDF objects out of 1000 (max. 8388607)
+ 247 compressed objects within 3 object streams
  0 named destinations out of 1000 (max. 500000)
  73 words of extra memory for PDF output out of 10000 (max. 10000000)
 

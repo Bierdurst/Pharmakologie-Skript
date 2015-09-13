@@ -448,3 +448,83 @@
 \contentsline {subparagraph}{Pleiotrope Wirkungen}{74}
 \contentsline {paragraph}{Pharmakokinetik}{74}
 \contentsline {paragraph}{unerw\IeC {\"u}nschte Wirkungen}{74}
+\contentsline {paragraph}{Interaktionen}{74}
+\contentsline {paragraph}{Kontraindikationen}{74}
+\contentsline {section}{\numberline {9.4}Cholesterol-Resorption}{74}
+\contentsline {section}{\numberline {9.5}Anionen-Austauscher-Harze}{74}
+\contentsline {paragraph}{Wirkmechanismus}{75}
+\contentsline {paragraph}{unerw\IeC {\"u}nschte Wirkungen}{75}
+\contentsline {paragraph}{Ineraktionen}{75}
+\contentsline {section}{\numberline {9.6}Cholesterinresorptionshemmer}{75}
+\contentsline {paragraph}{Wirkmechanismus}{75}
+\contentsline {paragraph}{Pharmakokinetik}{75}
+\contentsline {paragraph}{Indikation}{75}
+\contentsline {paragraph}{unerw\IeC {\"u}nschte Wirkungen}{75}
+\contentsline {section}{\numberline {9.7}Fibrate}{75}
+\contentsline {paragraph}{Wirkmechanismus}{76}
+\contentsline {paragraph}{Pharmakokinetik}{76}
+\contentsline {paragraph}{unerw\IeC {\"u}nschte Wirkungen}{76}
+\contentsline {paragraph}{Interaktionen}{76}
+\contentsline {paragraph}{Kontraindikationen}{76}
+\contentsline {section}{\numberline {9.8}Nikotins\IeC {\"a}urederivate}{76}
+\contentsline {paragraph}{Wirkmechanismus}{76}
+\contentsline {paragraph}{unerw\IeC {\"u}nschte Wirkungen}{76}
+\contentsline {section}{\numberline {9.9}Therapieindikationen bei Hypercholesterin\IeC {\"a}mie}{77}
+\contentsline {chapter}{\numberline {10}H\IeC {\"o}mostase, Thrombose}{78}
+\contentsline {section}{\numberline {10.1}Thrombozyten-Adh\IeC {\"a}sion/-Aktivierung}{78}
+\contentsline {section}{\numberline {10.2}Fibrinbildung \IeC {\"u}ber Koagulationskaskade}{78}
+\contentsline {subsubsection}{Antikoagulatorische Mechanismen}{78}
+\contentsline {paragraph}{Antithrombin III}{78}
+\contentsline {paragraph}{Protein C}{78}
+\contentsline {subsubsection}{Pathogenese und Zusammensetzung arterieller und ven\IeC {\"o}ser Thromben}{78}
+\contentsline {paragraph}{Arterieller Thrombus (wei\IeC {\ss }er Thrombus)}{78}
+\contentsline {paragraph}{Ven\IeC {\"o}ser Thrombus (roter Thrombus)}{78}
+\contentsline {subsubsection}{Medikament\IeC {\"o}se Beeinflussung}{79}
+\contentsline {section}{\numberline {10.3}Throbozxtenfunktionshemmer}{79}
+\contentsline {subsubsection}{Acetylsalicyls\IeC {\"a}ure(ASS)}{79}
+\contentsline {paragraph}{Wirkmechanismus}{79}
+\contentsline {paragraph}{unerw\IeC {\"u}nschte Wirkungen}{79}
+\contentsline {paragraph}{Kontraindikationen}{79}
+\contentsline {paragraph}{Einsatz}{79}
+\contentsline {subsubsection}{Thienopyridine}{79}
+\contentsline {paragraph}{Wirkmechanismus}{79}
+\contentsline {paragraph}{unerw\IeC {\"u}nschte Wirkungen}{79}
+\contentsline {paragraph}{Einsatz}{79}
+\contentsline {subsubsection}{GPIIb/IIIa(Integrin$\alpha $IIb$\beta $3)-Rezeptor-Antagonisten}{80}
+\contentsline {paragraph}{Wirkmechanismus}{80}
+\contentsline {paragraph}{unerw\IeC {\"u}nschte Wirkung}{80}
+\contentsline {paragraph}{Einsatz}{80}
+\contentsline {section}{\numberline {10.4}Antikoagulatien}{80}
+\contentsline {subsubsection}{Vitamin-K-Reduktase-Hemmer (Cumarin-Derivate)}{80}
+\contentsline {paragraph}{Wirkmechanismus}{80}
+\contentsline {paragraph}{Pharmakokinetik}{80}
+\contentsline {paragraph}{unerw\IeC {\"u}nschte Wirkungen}{81}
+\contentsline {paragraph}{Interaktionen}{81}
+\contentsline {paragraph}{Kontraindikationen}{81}
+\contentsline {paragraph}{Einsatz}{81}
+\contentsline {subsubsection}{Antithrombin-III-Aktivatoren}{81}
+\contentsline {paragraph}{Unfraktioniertes Heparin}{81}
+\contentsline {paragraph}{Niedermolekulares Heparin (z.B. Enoxaparin, Nadroparin, Dalteparin)}{81}
+\contentsline {paragraph}{Synthetische Pentasaccharide (z.B. Fondaparinux)}{81}
+\contentsline {paragraph}{unerw\IeC {\"u}nschte Wirkungen}{82}
+\contentsline {paragraph}{Einsatz}{82}
+\contentsline {subsection}{\numberline {10.4.1}Direkte Thrombin-Inhibitoren}{82}
+\contentsline {paragraph}{Hirudine}{82}
+\contentsline {paragraph}{niedermolekulare Thrombin-Inhibitoren}{82}
+\contentsline {subparagraph}{Argatroban}{82}
+\contentsline {subparagraph}{Dagibatranetexilat}{82}
+\contentsline {subsection}{\numberline {10.4.2}Direkte Faktor Xa-Inhibitoren}{83}
+\contentsline {paragraph}{pEinsatz}{83}
+\contentsline {paragraph}{Vorteile}{83}
+\contentsline {paragraph}{Nachteile}{83}
+\contentsline {paragraph}{Nutzen}{83}
+\contentsline {section}{\numberline {10.5}Fibrinolytika}{83}
+\contentsline {paragraph}{Wirkmechanismus}{83}
+\contentsline {subsubsection}{Streptokinase}{83}
+\contentsline {subsubsection}{Gewebsplasminaktivator (rt-PA / Alteplase)}{83}
+\contentsline {paragraph}{unerw\IeC {\"u}nschte Wirkungen}{83}
+\contentsline {paragraph}{Einsatz}{83}
+\contentsline {section}{\numberline {10.6}Arterielle Thrombose, Beispiel: Akutes Koronarsyndrom}{84}
+\contentsline {subsubsection}{Instabile Angina pectoris }{84}
+\contentsline {paragraph}{wenn Troponin-Test positiv, aber keine ST-Streckenhebung zus\IeC {\"a}tzlich}{84}
+\contentsline {paragraph}{bei eingetretenem Myokardinfarkt zus\IeC {\"a}tzlich}{84}
