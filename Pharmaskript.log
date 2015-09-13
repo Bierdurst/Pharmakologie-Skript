@@ -1,0 +1,2468 @@
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2015.9.13)  13 SEP 2015 11:04
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**Pharmaskript.tex -recorder
+(./Pharmaskript.tex
+LaTeX2e <2011/06/27>
+Babel <3.9h> and hyphenation patterns for 78 languages loaded.
+(/usr/share/texlive/texmf-dist/tex/latex/base/report.cls
+Document Class: report 2007/10/19 v1.4h Standard LaTeX document class
+(/usr/share/texlive/texmf-dist/tex/latex/base/size10.clo
+File: size10.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
+)
+\c@part=\count79
+\c@chapter=\count80
+\c@section=\count81
+\c@subsection=\count82
+\c@subsubsection=\count83
+\c@paragraph=\count84
+\c@subparagraph=\count85
+\c@figure=\count86
+\c@table=\count87
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen102
+)
+(/usr/share/texlive/texmf-dist/tex/latex/base/inputenc.sty
+Package: inputenc 2008/03/30 v1.1d Input encoding file
+\inpenc@prehook=\toks14
+\inpenc@posthook=\toks15
+
+(/usr/share/texlive/texmf-dist/tex/latex/base/utf8.def
+File: utf8.def 2008/04/05 v1.1m UTF-8 support for inputenc
+Now handling font encoding OML ...
+... no UTF-8 mapping file for font encoding OML
+Now handling font encoding T1 ...
+... processing UTF-8 mapping file for font encoding T1
+
+(/usr/share/texlive/texmf-dist/tex/latex/base/t1enc.dfu
+File: t1enc.dfu 2008/04/05 v1.1m UTF-8 support for inputenc
+   defining Unicode char U+00A1 (decimal 161)
+   defining Unicode char U+00A3 (decimal 163)
+   defining Unicode char U+00AB (decimal 171)
+   defining Unicode char U+00BB (decimal 187)
+   defining Unicode char U+00BF (decimal 191)
+   defining Unicode char U+00C0 (decimal 192)
+   defining Unicode char U+00C1 (decimal 193)
+   defining Unicode char U+00C2 (decimal 194)
+   defining Unicode char U+00C3 (decimal 195)
+   defining Unicode char U+00C4 (decimal 196)
+   defining Unicode char U+00C5 (decimal 197)
+   defining Unicode char U+00C6 (decimal 198)
+   defining Unicode char U+00C7 (decimal 199)
+   defining Unicode char U+00C8 (decimal 200)
+   defining Unicode char U+00C9 (decimal 201)
+   defining Unicode char U+00CA (decimal 202)
+   defining Unicode char U+00CB (decimal 203)
+   defining Unicode char U+00CC (decimal 204)
+   defining Unicode char U+00CD (decimal 205)
+   defining Unicode char U+00CE (decimal 206)
+   defining Unicode char U+00CF (decimal 207)
+   defining Unicode char U+00D0 (decimal 208)
+   defining Unicode char U+00D1 (decimal 209)
+   defining Unicode char U+00D2 (decimal 210)
+   defining Unicode char U+00D3 (decimal 211)
+   defining Unicode char U+00D4 (decimal 212)
+   defining Unicode char U+00D5 (decimal 213)
+   defining Unicode char U+00D6 (decimal 214)
+   defining Unicode char U+00D8 (decimal 216)
+   defining Unicode char U+00D9 (decimal 217)
+   defining Unicode char U+00DA (decimal 218)
+   defining Unicode char U+00DB (decimal 219)
+   defining Unicode char U+00DC (decimal 220)
+   defining Unicode char U+00DD (decimal 221)
+   defining Unicode char U+00DE (decimal 222)
+   defining Unicode char U+00DF (decimal 223)
+   defining Unicode char U+00E0 (decimal 224)
+   defining Unicode char U+00E1 (decimal 225)
+   defining Unicode char U+00E2 (decimal 226)
+   defining Unicode char U+00E3 (decimal 227)
+   defining Unicode char U+00E4 (decimal 228)
+   defining Unicode char U+00E5 (decimal 229)
+   defining Unicode char U+00E6 (decimal 230)
+   defining Unicode char U+00E7 (decimal 231)
+   defining Unicode char U+00E8 (decimal 232)
+   defining Unicode char U+00E9 (decimal 233)
+   defining Unicode char U+00EA (decimal 234)
+   defining Unicode char U+00EB (decimal 235)
+   defining Unicode char U+00EC (decimal 236)
+   defining Unicode char U+00ED (decimal 237)
+   defining Unicode char U+00EE (decimal 238)
+   defining Unicode char U+00EF (decimal 239)
+   defining Unicode char U+00F0 (decimal 240)
+   defining Unicode char U+00F1 (decimal 241)
+   defining Unicode char U+00F2 (decimal 242)
+   defining Unicode char U+00F3 (decimal 243)
+   defining Unicode char U+00F4 (decimal 244)
+   defining Unicode char U+00F5 (decimal 245)
+   defining Unicode char U+00F6 (decimal 246)
+   defining Unicode char U+00F8 (decimal 248)
+   defining Unicode char U+00F9 (decimal 249)
+   defining Unicode char U+00FA (decimal 250)
+   defining Unicode char U+00FB (decimal 251)
+   defining Unicode char U+00FC (decimal 252)
+   defining Unicode char U+00FD (decimal 253)
+   defining Unicode char U+00FE (decimal 254)
+   defining Unicode char U+00FF (decimal 255)
+   defining Unicode char U+0102 (decimal 258)
+   defining Unicode char U+0103 (decimal 259)
+   defining Unicode char U+0104 (decimal 260)
+   defining Unicode char U+0105 (decimal 261)
+   defining Unicode char U+0106 (decimal 262)
+   defining Unicode char U+0107 (decimal 263)
+   defining Unicode char U+010C (decimal 268)
+   defining Unicode char U+010D (decimal 269)
+   defining Unicode char U+010E (decimal 270)
+   defining Unicode char U+010F (decimal 271)
+   defining Unicode char U+0110 (decimal 272)
+   defining Unicode char U+0111 (decimal 273)
+   defining Unicode char U+0118 (decimal 280)
+   defining Unicode char U+0119 (decimal 281)
+   defining Unicode char U+011A (decimal 282)
+   defining Unicode char U+011B (decimal 283)
+   defining Unicode char U+011E (decimal 286)
+   defining Unicode char U+011F (decimal 287)
+   defining Unicode char U+0130 (decimal 304)
+   defining Unicode char U+0131 (decimal 305)
+   defining Unicode char U+0132 (decimal 306)
+   defining Unicode char U+0133 (decimal 307)
+   defining Unicode char U+0139 (decimal 313)
+   defining Unicode char U+013A (decimal 314)
+   defining Unicode char U+013D (decimal 317)
+   defining Unicode char U+013E (decimal 318)
+   defining Unicode char U+0141 (decimal 321)
+   defining Unicode char U+0142 (decimal 322)
+   defining Unicode char U+0143 (decimal 323)
+   defining Unicode char U+0144 (decimal 324)
+   defining Unicode char U+0147 (decimal 327)
+   defining Unicode char U+0148 (decimal 328)
+   defining Unicode char U+014A (decimal 330)
+   defining Unicode char U+014B (decimal 331)
+   defining Unicode char U+0150 (decimal 336)
+   defining Unicode char U+0151 (decimal 337)
+   defining Unicode char U+0152 (decimal 338)
+   defining Unicode char U+0153 (decimal 339)
+   defining Unicode char U+0154 (decimal 340)
+   defining Unicode char U+0155 (decimal 341)
+   defining Unicode char U+0158 (decimal 344)
+   defining Unicode char U+0159 (decimal 345)
+   defining Unicode char U+015A (decimal 346)
+   defining Unicode char U+015B (decimal 347)
+   defining Unicode char U+015E (decimal 350)
+   defining Unicode char U+015F (decimal 351)
+   defining Unicode char U+0160 (decimal 352)
+   defining Unicode char U+0161 (decimal 353)
+   defining Unicode char U+0162 (decimal 354)
+   defining Unicode char U+0163 (decimal 355)
+   defining Unicode char U+0164 (decimal 356)
+   defining Unicode char U+0165 (decimal 357)
+   defining Unicode char U+016E (decimal 366)
+   defining Unicode char U+016F (decimal 367)
+   defining Unicode char U+0170 (decimal 368)
+   defining Unicode char U+0171 (decimal 369)
+   defining Unicode char U+0178 (decimal 376)
+   defining Unicode char U+0179 (decimal 377)
+   defining Unicode char U+017A (decimal 378)
+   defining Unicode char U+017B (decimal 379)
+   defining Unicode char U+017C (decimal 380)
+   defining Unicode char U+017D (decimal 381)
+   defining Unicode char U+017E (decimal 382)
+   defining Unicode char U+200C (decimal 8204)
+   defining Unicode char U+2013 (decimal 8211)
+   defining Unicode char U+2014 (decimal 8212)
+   defining Unicode char U+2018 (decimal 8216)
+   defining Unicode char U+2019 (decimal 8217)
+   defining Unicode char U+201A (decimal 8218)
+   defining Unicode char U+201C (decimal 8220)
+   defining Unicode char U+201D (decimal 8221)
+   defining Unicode char U+201E (decimal 8222)
+   defining Unicode char U+2030 (decimal 8240)
+   defining Unicode char U+2031 (decimal 8241)
+   defining Unicode char U+2039 (decimal 8249)
+   defining Unicode char U+203A (decimal 8250)
+   defining Unicode char U+2423 (decimal 9251)
+)
+Now handling font encoding OT1 ...
+... processing UTF-8 mapping file for font encoding OT1
+
+(/usr/share/texlive/texmf-dist/tex/latex/base/ot1enc.dfu
+File: ot1enc.dfu 2008/04/05 v1.1m UTF-8 support for inputenc
+   defining Unicode char U+00A1 (decimal 161)
+   defining Unicode char U+00A3 (decimal 163)
+   defining Unicode char U+00B8 (decimal 184)
+   defining Unicode char U+00BF (decimal 191)
+   defining Unicode char U+00C5 (decimal 197)
+   defining Unicode char U+00C6 (decimal 198)
+   defining Unicode char U+00D8 (decimal 216)
+   defining Unicode char U+00DF (decimal 223)
+   defining Unicode char U+00E6 (decimal 230)
+   defining Unicode char U+00EC (decimal 236)
+   defining Unicode char U+00ED (decimal 237)
+   defining Unicode char U+00EE (decimal 238)
+   defining Unicode char U+00EF (decimal 239)
+   defining Unicode char U+00F8 (decimal 248)
+   defining Unicode char U+0131 (decimal 305)
+   defining Unicode char U+0141 (decimal 321)
+   defining Unicode char U+0142 (decimal 322)
+   defining Unicode char U+0152 (decimal 338)
+   defining Unicode char U+0153 (decimal 339)
+   defining Unicode char U+2013 (decimal 8211)
+   defining Unicode char U+2014 (decimal 8212)
+   defining Unicode char U+2018 (decimal 8216)
+   defining Unicode char U+2019 (decimal 8217)
+   defining Unicode char U+201C (decimal 8220)
+   defining Unicode char U+201D (decimal 8221)
+)
+Now handling font encoding OMS ...
+... processing UTF-8 mapping file for font encoding OMS
+
+(/usr/share/texlive/texmf-dist/tex/latex/base/omsenc.dfu
+File: omsenc.dfu 2008/04/05 v1.1m UTF-8 support for inputenc
+   defining Unicode char U+00A7 (decimal 167)
+   defining Unicode char U+00B6 (decimal 182)
+   defining Unicode char U+00B7 (decimal 183)
+   defining Unicode char U+2020 (decimal 8224)
+   defining Unicode char U+2021 (decimal 8225)
+   defining Unicode char U+2022 (decimal 8226)
+)
+Now handling font encoding OMX ...
+... no UTF-8 mapping file for font encoding OMX
+Now handling font encoding U ...
+... no UTF-8 mapping file for font encoding U
+   defining Unicode char U+00A9 (decimal 169)
+   defining Unicode char U+00AA (decimal 170)
+   defining Unicode char U+00AE (decimal 174)
+   defining Unicode char U+00BA (decimal 186)
+   defining Unicode char U+02C6 (decimal 710)
+   defining Unicode char U+02DC (decimal 732)
+   defining Unicode char U+200C (decimal 8204)
+   defining Unicode char U+2026 (decimal 8230)
+   defining Unicode char U+2122 (decimal 8482)
+   defining Unicode char U+2423 (decimal 9251)
+))
+(/usr/share/texlive/texmf-dist/tex/generic/babel/babel.sty
+Package: babel 2013/12/03 3.9h The Babel package
+
+(/usr/share/texlive/texmf-dist/tex/generic/babel-german/germanb.ldf
+Language: germanb 2013/12/13 v2.7 German support for babel (traditional orthogr
+aphy)
+
+(/usr/share/texlive/texmf-dist/tex/generic/babel/babel.def
+File: babel.def 2013/12/03 3.9h Babel common definitions
+\babel@savecnt=\count88
+\U@D=\dimen103
+)
+\l@austrian = a dialect from \language\l@german 
+Package babel Info: Making " an active character on input line 107.
+))
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2013/01/14 v2.14 AMS math features
+\@mathmargin=\skip43
+
+For additional information on amsmath, use the `?' option.
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amstext.sty
+Package: amstext 2000/06/29 v2.01
+
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0
+\@emptytoks=\toks16
+\ex@=\dimen104
+))
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d
+\pmbraise@=\dimen105
+)
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsopn.sty
+Package: amsopn 1999/12/14 v2.01 operator names
+)
+\inf@bad=\count89
+LaTeX Info: Redefining \frac on input line 210.
+\uproot@=\count90
+\leftroot@=\count91
+LaTeX Info: Redefining \overline on input line 306.
+\classnum@=\count92
+\DOTSCASE@=\count93
+LaTeX Info: Redefining \ldots on input line 378.
+LaTeX Info: Redefining \dots on input line 381.
+LaTeX Info: Redefining \cdots on input line 466.
+\Mathstrutbox@=\box26
+\strutbox@=\box27
+\big@size=\dimen106
+LaTeX Font Info:    Redeclaring font encoding OML on input line 566.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 567.
+\macc@depth=\count94
+\c@MaxMatrixCols=\count95
+\dotsspace@=\muskip10
+\c@parentequation=\count96
+\dspbrk@lvl=\count97
+\tag@help=\toks17
+\row@=\count98
+\column@=\count99
+\maxfields@=\count100
+\andhelp@=\toks18
+\eqnshift@=\dimen107
+\alignsep@=\dimen108
+\tagshift@=\dimen109
+\tagwidth@=\dimen110
+\totwidth@=\dimen111
+\lineht@=\dimen112
+\@envbody=\toks19
+\multlinegap=\skip44
+\multlinetaggap=\skip45
+\mathdisplay@stack=\toks20
+LaTeX Info: Redefining \[ on input line 2665.
+LaTeX Info: Redefining \] on input line 2666.
+)
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/amsfonts.sty
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+)
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/amssymb.sty
+Package: amssymb 2013/01/14 v3.01 AMS font symbols
+)
+(/usr/share/texlive/texmf-dist/tex/latex/tools/tabularx.sty
+Package: tabularx 1999/01/07 v2.07 `tabularx' package (DPC)
+
+(/usr/share/texlive/texmf-dist/tex/latex/tools/array.sty
+Package: array 2008/09/09 v2.4c Tabular extension package (FMi)
+\col@sep=\dimen113
+\extrarowheight=\dimen114
+\NC@list=\toks21
+\extratabsurround=\skip46
+\backup@length=\skip47
+)
+\TX@col@width=\dimen115
+\TX@old@table=\dimen116
+\TX@old@col=\dimen117
+\TX@target=\dimen118
+\TX@delta=\dimen119
+\TX@cols=\count101
+\TX@ftn=\toks22
+)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
+\KV@toks@=\toks23
+)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2009/02/05 v1.0o Standard LaTeX Graphics (DPC,SPQR)
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/graphics.cfg
+File: graphics.cfg 2010/04/23 v1.9 graphics configuration of TeX Live
+)
+Package graphics Info: Driver file: pdftex.def on input line 91.
+
+(/usr/share/texlive/texmf-dist/tex/latex/pdftex-def/pdftex.def
+File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/infwarerr.sty
+Package: infwarerr 2010/04/08 v1.3 Providing info/warning/error messages (HO)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
+Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
+)
+\Gread@gobject=\count102
+))
+\Gin@req@height=\dimen120
+\Gin@req@width=\dimen121
+)
+(/usr/share/texlive/texmf-dist/tex/latex/wrapfig/wrapfig.sty
+\wrapoverhang=\dimen122
+\WF@size=\dimen123
+\c@WF@wrappedlines=\count103
+\WF@box=\box28
+\WF@everypar=\toks24
+Package: wrapfig 2003/01/31  v 3.6
+)
+(/usr/share/texmf/tex/latex/pgf/frontendlayer/tikz.sty
+(/usr/share/texmf/tex/latex/pgf/basiclayer/pgf.sty
+(/usr/share/texmf/tex/latex/pgf/utilities/pgfrcs.sty
+(/usr/share/texmf/tex/generic/pgf/utilities/pgfutil-common.tex
+\pgfutil@everybye=\toks25
+)
+(/usr/share/texmf/tex/generic/pgf/utilities/pgfutil-latex.def
+\pgfutil@abb=\box29
+
+(/usr/share/texlive/texmf-dist/tex/latex/ms/everyshi.sty
+Package: everyshi 2001/05/15 v3.00 EveryShipout Package (MS)
+))
+(/usr/share/texmf/tex/generic/pgf/utilities/pgfrcs.code.tex
+Package: pgfrcs 2010/10/25 v2.10 (rcs-revision 1.24)
+))
+Package: pgf 2008/01/15 v2.10 (rcs-revision 1.12)
+
+(/usr/share/texmf/tex/latex/pgf/basiclayer/pgfcore.sty
+(/usr/share/texmf/tex/latex/pgf/systemlayer/pgfsys.sty
+(/usr/share/texmf/tex/generic/pgf/systemlayer/pgfsys.code.tex
+Package: pgfsys 2010/06/30 v2.10 (rcs-revision 1.37)
+
+(/usr/share/texmf/tex/generic/pgf/utilities/pgfkeys.code.tex
+\pgfkeys@pathtoks=\toks26
+\pgfkeys@temptoks=\toks27
+
+(/usr/share/texmf/tex/generic/pgf/utilities/pgfkeysfiltered.code.tex
+\pgfkeys@tmptoks=\toks28
+))
+\pgf@x=\dimen124
+\pgf@y=\dimen125
+\pgf@xa=\dimen126
+\pgf@ya=\dimen127
+\pgf@xb=\dimen128
+\pgf@yb=\dimen129
+\pgf@xc=\dimen130
+\pgf@yc=\dimen131
+\w@pgf@writea=\write3
+\r@pgf@reada=\read1
+\c@pgf@counta=\count104
+\c@pgf@countb=\count105
+\c@pgf@countc=\count106
+\c@pgf@countd=\count107
+
+(/usr/share/texmf/tex/generic/pgf/systemlayer/pgf.cfg
+File: pgf.cfg 2008/05/14  (rcs-revision 1.7)
+)
+Package pgfsys Info: Driver file for pgf: pgfsys-pdftex.def on input line 900.
+
+(/usr/share/texmf/tex/generic/pgf/systemlayer/pgfsys-pdftex.def
+File: pgfsys-pdftex.def 2009/05/22  (rcs-revision 1.26)
+
+(/usr/share/texmf/tex/generic/pgf/systemlayer/pgfsys-common-pdf.def
+File: pgfsys-common-pdf.def 2008/05/19  (rcs-revision 1.10)
+)))
+(/usr/share/texmf/tex/generic/pgf/systemlayer/pgfsyssoftpath.code.tex
+File: pgfsyssoftpath.code.tex 2008/07/18  (rcs-revision 1.7)
+\pgfsyssoftpath@smallbuffer@items=\count108
+\pgfsyssoftpath@bigbuffer@items=\count109
+)
+(/usr/share/texmf/tex/generic/pgf/systemlayer/pgfsysprotocol.code.tex
+File: pgfsysprotocol.code.tex 2006/10/16  (rcs-revision 1.4)
+))
+(/usr/share/texmf/tex/latex/xcolor/xcolor.sty
+Package: xcolor 2007/01/21 v2.11 LaTeX color extensions (UK)
+
+(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/color.cfg
+File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
+)
+Package xcolor Info: Driver file: pdftex.def on input line 225.
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1337.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1341.
+Package xcolor Info: Model `RGB' extended on input line 1353.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1355.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1356.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1357.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1358.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1359.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1360.
+)
+(/usr/share/texmf/tex/generic/pgf/basiclayer/pgfcore.code.tex
+Package: pgfcore 2010/04/11 v2.10 (rcs-revision 1.7)
+
+(/usr/share/texmf/tex/generic/pgf/math/pgfmath.code.tex
+(/usr/share/texmf/tex/generic/pgf/math/pgfmathcalc.code.tex
+(/usr/share/texmf/tex/generic/pgf/math/pgfmathutil.code.tex)
+(/usr/share/texmf/tex/generic/pgf/math/pgfmathparser.code.tex
+\pgfmath@dimen=\dimen132
+\pgfmath@count=\count110
+\pgfmath@box=\box30
+\pgfmath@toks=\toks29
+\pgfmath@stack@operand=\toks30
+\pgfmath@stack@operation=\toks31
+)
+(/usr/share/texmf/tex/generic/pgf/math/pgfmathfunctions.code.tex
+(/usr/share/texmf/tex/generic/pgf/math/pgfmathfunctions.basic.code.tex)
+(/usr/share/texmf/tex/generic/pgf/math/pgfmathfunctions.trigonometric.code.tex)
+(/usr/share/texmf/tex/generic/pgf/math/pgfmathfunctions.random.code.tex)
+(/usr/share/texmf/tex/generic/pgf/math/pgfmathfunctions.comparison.code.tex)
+(/usr/share/texmf/tex/generic/pgf/math/pgfmathfunctions.base.code.tex)
+(/usr/share/texmf/tex/generic/pgf/math/pgfmathfunctions.round.code.tex)
+(/usr/share/texmf/tex/generic/pgf/math/pgfmathfunctions.misc.code.tex)))
+(/usr/share/texmf/tex/generic/pgf/math/pgfmathfloat.code.tex
+\c@pgfmathroundto@lastzeros=\count111
+))
+(/usr/share/texmf/tex/generic/pgf/basiclayer/pgfcorepoints.code.tex
+File: pgfcorepoints.code.tex 2010/04/09  (rcs-revision 1.20)
+\pgf@picminx=\dimen133
+\pgf@picmaxx=\dimen134
+\pgf@picminy=\dimen135
+\pgf@picmaxy=\dimen136
+\pgf@pathminx=\dimen137
+\pgf@pathmaxx=\dimen138
+\pgf@pathminy=\dimen139
+\pgf@pathmaxy=\dimen140
+\pgf@xx=\dimen141
+\pgf@xy=\dimen142
+\pgf@yx=\dimen143
+\pgf@yy=\dimen144
+\pgf@zx=\dimen145
+\pgf@zy=\dimen146
+)
+(/usr/share/texmf/tex/generic/pgf/basiclayer/pgfcorepathconstruct.code.tex
+File: pgfcorepathconstruct.code.tex 2010/08/03  (rcs-revision 1.24)
+\pgf@path@lastx=\dimen147
+\pgf@path@lasty=\dimen148
+)
+(/usr/share/texmf/tex/generic/pgf/basiclayer/pgfcorepathusage.code.tex
+File: pgfcorepathusage.code.tex 2008/04/22  (rcs-revision 1.12)
+\pgf@shorten@end@additional=\dimen149
+\pgf@shorten@start@additional=\dimen150
+)
+(/usr/share/texmf/tex/generic/pgf/basiclayer/pgfcorescopes.code.tex
+File: pgfcorescopes.code.tex 2010/09/08  (rcs-revision 1.34)
+\pgfpic=\box31
+\pgf@hbox=\box32
+\pgf@layerbox@main=\box33
+\pgf@picture@serial@count=\count112
+)
+(/usr/share/texmf/tex/generic/pgf/basiclayer/pgfcoregraphicstate.code.tex
+File: pgfcoregraphicstate.code.tex 2008/04/22  (rcs-revision 1.9)
+\pgflinewidth=\dimen151
+)
+(/usr/share/texmf/tex/generic/pgf/basiclayer/pgfcoretransformations.code.tex
+File: pgfcoretransformations.code.tex 2009/06/10  (rcs-revision 1.11)
+\pgf@pt@x=\dimen152
+\pgf@pt@y=\dimen153
+\pgf@pt@temp=\dimen154
+)
+(/usr/share/texmf/tex/generic/pgf/basiclayer/pgfcorequick.code.tex
+File: pgfcorequick.code.tex 2008/10/09  (rcs-revision 1.3)
+)
+(/usr/share/texmf/tex/generic/pgf/basiclayer/pgfcoreobjects.code.tex
+File: pgfcoreobjects.code.tex 2006/10/11  (rcs-revision 1.2)
+)
+(/usr/share/texmf/tex/generic/pgf/basiclayer/pgfcorepathprocessing.code.tex
+File: pgfcorepathprocessing.code.tex 2008/10/09  (rcs-revision 1.8)
+)
+(/usr/share/texmf/tex/generic/pgf/basiclayer/pgfcorearrows.code.tex
+File: pgfcorearrows.code.tex 2008/04/23  (rcs-revision 1.11)
+)
+(/usr/share/texmf/tex/generic/pgf/basiclayer/pgfcoreshade.code.tex
+File: pgfcoreshade.code.tex 2008/11/23  (rcs-revision 1.13)
+\pgf@max=\dimen155
+\pgf@sys@shading@range@num=\count113
+)
+(/usr/share/texmf/tex/generic/pgf/basiclayer/pgfcoreimage.code.tex
+File: pgfcoreimage.code.tex 2010/03/25  (rcs-revision 1.16)
+
+(/usr/share/texmf/tex/generic/pgf/basiclayer/pgfcoreexternal.code.tex
+File: pgfcoreexternal.code.tex 2010/09/01  (rcs-revision 1.17)
+\pgfexternal@startupbox=\box34
+))
+(/usr/share/texmf/tex/generic/pgf/basiclayer/pgfcorelayers.code.tex
+File: pgfcorelayers.code.tex 2010/08/27  (rcs-revision 1.2)
+)
+(/usr/share/texmf/tex/generic/pgf/basiclayer/pgfcoretransparency.code.tex
+File: pgfcoretransparency.code.tex 2008/01/17  (rcs-revision 1.2)
+)
+(/usr/share/texmf/tex/generic/pgf/basiclayer/pgfcorepatterns.code.tex
+File: pgfcorepatterns.code.tex 2009/07/02  (rcs-revision 1.3)
+)))
+(/usr/share/texmf/tex/generic/pgf/modules/pgfmoduleshapes.code.tex
+File: pgfmoduleshapes.code.tex 2010/09/09  (rcs-revision 1.13)
+\pgfnodeparttextbox=\box35
+)
+(/usr/share/texmf/tex/generic/pgf/modules/pgfmoduleplot.code.tex
+File: pgfmoduleplot.code.tex 2010/10/22  (rcs-revision 1.8)
+)
+(/usr/share/texmf/tex/latex/pgf/compatibility/pgfcomp-version-0-65.sty
+Package: pgfcomp-version-0-65 2007/07/03 v2.10 (rcs-revision 1.7)
+\pgf@nodesepstart=\dimen156
+\pgf@nodesepend=\dimen157
+)
+(/usr/share/texmf/tex/latex/pgf/compatibility/pgfcomp-version-1-18.sty
+Package: pgfcomp-version-1-18 2007/07/23 v2.10 (rcs-revision 1.1)
+))
+(/usr/share/texmf/tex/latex/pgf/utilities/pgffor.sty
+(/usr/share/texmf/tex/latex/pgf/utilities/pgfkeys.sty
+(/usr/share/texmf/tex/generic/pgf/utilities/pgfkeys.code.tex))
+(/usr/share/texmf/tex/generic/pgf/utilities/pgffor.code.tex
+Package: pgffor 2010/03/23 v2.10 (rcs-revision 1.18)
+\pgffor@iter=\dimen158
+\pgffor@skip=\dimen159
+\pgffor@stack=\toks32
+\pgffor@toks=\toks33
+))
+(/usr/share/texmf/tex/generic/pgf/frontendlayer/tikz/tikz.code.tex
+Package: tikz 2010/10/13 v2.10 (rcs-revision 1.76)
+
+(/usr/share/texmf/tex/generic/pgf/libraries/pgflibraryplothandlers.code.tex
+File: pgflibraryplothandlers.code.tex 2010/05/31 v2.10 (rcs-revision 1.15)
+\pgf@plot@mark@count=\count114
+\pgfplotmarksize=\dimen160
+)
+\tikz@lastx=\dimen161
+\tikz@lasty=\dimen162
+\tikz@lastxsaved=\dimen163
+\tikz@lastysaved=\dimen164
+\tikzleveldistance=\dimen165
+\tikzsiblingdistance=\dimen166
+\tikz@figbox=\box36
+\tikz@tempbox=\box37
+\tikztreelevel=\count115
+\tikznumberofchildren=\count116
+\tikznumberofcurrentchild=\count117
+\tikz@fig@count=\count118
+
+(/usr/share/texmf/tex/generic/pgf/modules/pgfmodulematrix.code.tex
+File: pgfmodulematrix.code.tex 2010/08/24  (rcs-revision 1.4)
+\pgfmatrixcurrentrow=\count119
+\pgfmatrixcurrentcolumn=\count120
+\pgf@matrix@numberofcolumns=\count121
+)
+\tikz@expandcount=\count122
+
+(/usr/share/texmf/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarytopat
+hs.code.tex
+File: tikzlibrarytopaths.code.tex 2008/06/17 v2.10 (rcs-revision 1.2)
+))) (/usr/share/texlive/texmf-dist/tex/latex/was/gensymb.sty
+Package: gensymb 2003/07/02 v1.0 (WaS)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/ulem/ulem.sty
+\UL@box=\box38
+\UL@hyphenbox=\box39
+\UL@skip=\skip48
+\UL@hook=\toks34
+\UL@height=\dimen167
+\UL@pe=\count123
+\UL@pixel=\dimen168
+\ULC@box=\box40
+Package: ulem 2012/05/18
+\ULdepth=\dimen169
+)
+(/usr/share/texlive/texmf-dist/tex/latex/mhchem/mhchem.sty
+Package: mhchem 2014/02/01 v3.15 for typesetting chemical formulae
+
+(/usr/share/texlive/texmf-dist/tex/latex/base/ifthen.sty
+Package: ifthen 2001/05/26 v1.1c Standard LaTeX ifthen package (DPC)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/tools/calc.sty
+Package: calc 2007/08/22 v4.3 Infix arithmetic (KKT,FJ)
+\calc@Acount=\count124
+\calc@Bcount=\count125
+\calc@Adimen=\dimen170
+\calc@Bdimen=\dimen171
+\calc@Askip=\skip49
+\calc@Bskip=\skip50
+LaTeX Info: Redefining \setlength on input line 76.
+LaTeX Info: Redefining \addtolength on input line 77.
+\calc@Ccount=\count126
+\calc@Cskip=\skip51
+)
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/twoopt.sty
+Package: twoopt 2008/08/11 v1.5 Definitions with two optional arguments (HO)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
+Package: pdftexcmds 2011/11/29 v0.20 Utility functions of pdfTeX for LuaTeX (HO
+)
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ifluatex.sty
+Package: ifluatex 2010/03/01 v1.3 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX not detected.
+)
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ifpdf.sty
+Package: ifpdf 2011/01/30 v2.3 Provides the ifpdf switch (HO)
+Package ifpdf Info: pdfTeX in PDF mode is detected.
+)
+Package pdftexcmds Info: LuaTeX not detected.
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+)
+(/usr/share/texlive/texmf-dist/tex/latex/l3kernel/expl3.sty
+(/usr/share/texlive/texmf-dist/tex/latex/l3kernel/l3names.sty
+(/usr/share/texlive/texmf-dist/tex/latex/l3kernel/l3bootstrap.sty
+Package: l3bootstrap 2014/01/04 v4640 L3 Experimental bootstrap code
+)
+Package: l3names 2014/01/04 v4640 L3 Namespace for primitives
+)
+(/usr/share/texlive/texmf-dist/tex/latex/etex-pkg/etex.sty
+Package: etex 1998/03/26 v2.0 eTeX basic definition package (PEB)
+\et@xins=\count127
+)
+Package: expl3 2014/01/07 v4646 L3 Experimental code bundle wrapper
+
+(/usr/share/texlive/texmf-dist/tex/latex/l3kernel/l3basics.sty
+Package: l3basics 2014/01/04 v4642 L3 Basic definitions
+)
+(/usr/share/texlive/texmf-dist/tex/latex/l3kernel/l3expan.sty
+Package: l3expan 2014/01/04 v4642 L3 Argument expansion
+)
+(/usr/share/texlive/texmf-dist/tex/latex/l3kernel/l3tl.sty
+Package: l3tl 2013/12/27 v4625 L3 Token lists
+)
+(/usr/share/texlive/texmf-dist/tex/latex/l3kernel/l3seq.sty
+Package: l3seq 2013/12/14 v4623 L3 Sequences and stacks
+)
+(/usr/share/texlive/texmf-dist/tex/latex/l3kernel/l3int.sty
+Package: l3int 2013/08/02 v4583 L3 Integers
+\c_max_int=\count128
+\l_tmpa_int=\count129
+\l_tmpb_int=\count130
+\g_tmpa_int=\count131
+\g_tmpb_int=\count132
+)
+(/usr/share/texlive/texmf-dist/tex/latex/l3kernel/l3quark.sty
+Package: l3quark 2013/12/14 v4623 L3 Quarks
+)
+(/usr/share/texlive/texmf-dist/tex/latex/l3kernel/l3prg.sty
+Package: l3prg 2014/01/04 v4642 L3 Control structures
+\g__prg_map_int=\count133
+)
+(/usr/share/texlive/texmf-dist/tex/latex/l3kernel/l3clist.sty
+Package: l3clist 2013/07/28 v4581 L3 Comma separated lists
+)
+(/usr/share/texlive/texmf-dist/tex/latex/l3kernel/l3token.sty
+Package: l3token 2013/08/25 v4587 L3 Experimental token manipulation
+)
+(/usr/share/texlive/texmf-dist/tex/latex/l3kernel/l3prop.sty
+Package: l3prop 2013/12/14 v4623 L3 Property lists
+)
+(/usr/share/texlive/texmf-dist/tex/latex/l3kernel/l3msg.sty
+Package: l3msg 2013/07/28 v4581 L3 Messages
+)
+(/usr/share/texlive/texmf-dist/tex/latex/l3kernel/l3file.sty
+Package: l3file 2013/10/13 v4596 L3 File and I/O operations
+\l_iow_line_count_int=\count134
+\l__iow_target_count_int=\count135
+\l__iow_current_line_int=\count136
+\l__iow_current_word_int=\count137
+\l__iow_current_indentation_int=\count138
+)
+(/usr/share/texlive/texmf-dist/tex/latex/l3kernel/l3skip.sty
+Package: l3skip 2013/07/28 v4581 L3 Dimensions and skips
+\c_zero_dim=\dimen172
+\c_max_dim=\dimen173
+\l_tmpa_dim=\dimen174
+\l_tmpb_dim=\dimen175
+\g_tmpa_dim=\dimen176
+\g_tmpb_dim=\dimen177
+\c_zero_skip=\skip52
+\c_max_skip=\skip53
+\l_tmpa_skip=\skip54
+\l_tmpb_skip=\skip55
+\g_tmpa_skip=\skip56
+\g_tmpb_skip=\skip57
+\c_zero_muskip=\muskip11
+\c_max_muskip=\muskip12
+\l_tmpa_muskip=\muskip13
+\l_tmpb_muskip=\muskip14
+\g_tmpa_muskip=\muskip15
+\g_tmpb_muskip=\muskip16
+)
+(/usr/share/texlive/texmf-dist/tex/latex/l3kernel/l3keys.sty
+Package: l3keys 2013/12/08 v4614 L3 Experimental key-value interfaces
+\g__keyval_level_int=\count139
+\l_keys_choice_int=\count140
+)
+(/usr/share/texlive/texmf-dist/tex/latex/l3kernel/l3fp.sty
+Package: l3fp 2014/01/04 v4642 L3 Floating points
+\c__fp_leading_shift_int=\count141
+\c__fp_middle_shift_int=\count142
+\c__fp_trailing_shift_int=\count143
+\c__fp_big_leading_shift_int=\count144
+\c__fp_big_middle_shift_int=\count145
+\c__fp_big_trailing_shift_int=\count146
+\c__fp_Bigg_leading_shift_int=\count147
+\c__fp_Bigg_middle_shift_int=\count148
+\c__fp_Bigg_trailing_shift_int=\count149
+)
+(/usr/share/texlive/texmf-dist/tex/latex/l3kernel/l3box.sty
+Package: l3box 2013/07/28 v4581 L3 Experimental boxes
+\c_empty_box=\box41
+\l_tmpa_box=\box42
+\l_tmpb_box=\box43
+\g_tmpa_box=\box44
+\g_tmpb_box=\box45
+)
+(/usr/share/texlive/texmf-dist/tex/latex/l3kernel/l3coffins.sty
+Package: l3coffins 2013/12/14 v4624 L3 Coffin code layer
+\l__coffin_internal_box=\box46
+\l__coffin_internal_dim=\dimen178
+\l__coffin_offset_x_dim=\dimen179
+\l__coffin_offset_y_dim=\dimen180
+\l__coffin_x_dim=\dimen181
+\l__coffin_y_dim=\dimen182
+\l__coffin_x_prime_dim=\dimen183
+\l__coffin_y_prime_dim=\dimen184
+\c_empty_coffin=\box47
+\l__coffin_aligned_coffin=\box48
+\l__coffin_aligned_internal_coffin=\box49
+\l_tmpa_coffin=\box50
+\l_tmpb_coffin=\box51
+\l__coffin_display_coffin=\box52
+\l__coffin_display_coord_coffin=\box53
+\l__coffin_display_pole_coffin=\box54
+\l__coffin_display_offset_dim=\dimen185
+\l__coffin_display_x_dim=\dimen186
+\l__coffin_display_y_dim=\dimen187
+)
+(/usr/share/texlive/texmf-dist/tex/latex/l3kernel/l3color.sty
+Package: l3color 2012/08/29 v4156 L3 Experimental color support
+)
+(/usr/share/texlive/texmf-dist/tex/latex/l3kernel/l3luatex.sty
+Package: l3luatex 2013/07/28 v4581 L3 Experimental LuaTeX-specific functions
+\g__cctab_allocate_int=\count150
+\g__cctab_stack_int=\count151
+)
+(/usr/share/texlive/texmf-dist/tex/latex/l3kernel/l3candidates.sty
+Package: l3candidates 2014/01/06 v4643 L3 Experimental additions to l3kernel
+\l__box_top_dim=\dimen188
+\l__box_bottom_dim=\dimen189
+\l__box_left_dim=\dimen190
+\l__box_right_dim=\dimen191
+\l__box_top_new_dim=\dimen192
+\l__box_bottom_new_dim=\dimen193
+\l__box_left_new_dim=\dimen194
+\l__box_right_new_dim=\dimen195
+\l__box_internal_box=\box55
+\l__coffin_bounding_shift_dim=\dimen196
+\l__coffin_left_corner_dim=\dimen197
+\l__coffin_right_corner_dim=\dimen198
+\l__coffin_bottom_corner_dim=\dimen199
+\l__coffin_top_corner_dim=\dimen200
+\l__coffin_scaled_total_height_dim=\dimen201
+Normal \dimen register pool exhausted, switching to extended pool.
+\l__coffin_scaled_width_dim=\dimen256
+))
+\mhchem@ce@result=\toks35
+\mhchem@ce@part=\toks36
+\mhchem@arrow@deployType=\toks37
+\mhchem@arrow@params=\toks38
+\mhchem@arrowlength@pgf=\skip58
+\mhchem@bondwidth=\skip59
+\mhchem@bondheight=\skip60
+\mhchem@smallbondwidth@tmpA=\skip61
+\mhchem@smallbondwidth@tmpB=\skip62
+\mhchem@smallbondwidth=\skip63
+\__mhchem_option_version_int=\count152
+\mhchem@prepostscript@tmp@i=\skip64
+\mhchem@prepostscript@tmp@ii=\skip65
+\mhchem@mathbox@tmp@i=\skip66
+\mhchem@mathbox@tmp@ii=\skip67
+\mhchem@minispace@tmp=\skip68
+\mhchem@option@minussidebearingleft=\skip69
+\mhchem@option@minussidebearingright=\skip70
+)
+(/usr/share/texlive/texmf-dist/tex/latex/geometry/geometry.sty
+Package: geometry 2010/09/12 v5.6 Page Geometry
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ifvtex.sty
+Package: ifvtex 2010/03/01 v1.5 Detect VTeX and its facilities (HO)
+Package ifvtex Info: VTeX not detected.
+)
+(/usr/share/texlive/texmf-dist/tex/generic/ifxetex/ifxetex.sty
+Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
+)
+\Gm@cnth=\count153
+\Gm@cntv=\count154
+\c@Gm@tempcnt=\count155
+\Gm@bindingoffset=\dimen257
+\Gm@wd@mp=\dimen258
+\Gm@odd@mp=\dimen259
+\Gm@even@mp=\dimen260
+\Gm@layoutwidth=\dimen261
+\Gm@layoutheight=\dimen262
+\Gm@layouthoffset=\dimen263
+\Gm@layoutvoffset=\dimen264
+\Gm@dimlist=\toks39
+)
+(./Pharmaskript.aux
+
+LaTeX Warning: Label `fig:Bioverfuegbarkeit' multiply defined.
+
+
+LaTeX Warning: Label `' multiply defined.
+
+
+LaTeX Warning: Label `subp:unerw_nschte_wirkungen' multiply defined.
+
+
+LaTeX Warning: Label `subp:wirkmechanismus' multiply defined.
+
+
+LaTeX Warning: Label `subp:unerw_nschte_wirkungen' multiply defined.
+
+
+LaTeX Warning: Label `subp:wirkmechanismus' multiply defined.
+
+
+LaTeX Warning: Label `subp:pharmakokinetik' multiply defined.
+
+
+LaTeX Warning: Label `subp:kontraindikationen' multiply defined.
+
+
+LaTeX Warning: Label `subp:indikationen' multiply defined.
+
+
+LaTeX Warning: Label `subp:wirkmechanismus' multiply defined.
+
+
+LaTeX Warning: Label `subp:wirkmechanismus' multiply defined.
+
+
+LaTeX Warning: Label `subp:unerw_nschte_wirkungen' multiply defined.
+
+
+LaTeX Warning: Label `subp:kontraindikationen' multiply defined.
+
+
+LaTeX Warning: Label `subp:einsatz' multiply defined.
+
+
+LaTeX Warning: Label `par:wirkmechanismus' multiply defined.
+
+
+LaTeX Warning: Label `ssub:typ_i_diabetes' multiply defined.
+
+
+LaTeX Warning: Label `ssub:typ_ii_diabetes' multiply defined.
+
+
+LaTeX Warning: Label `par:wirkmechanismus' multiply defined.
+
+
+LaTeX Warning: Label `par:pharmakokinetik' multiply defined.
+
+
+LaTeX Warning: Label `par:unerw_nschte_wirkungen' multiply defined.
+
+)
+\openout1 = `Pharmaskript.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+ (/usr/share/texlive/texmf-dist/tex/context/base/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count156
+\scratchdimen=\dimen265
+\scratchbox=\box56
+\nofMPsegments=\count157
+\nofMParguments=\count158
+\everyMPshowfont=\toks40
+\MPscratchCnt=\count159
+\MPscratchDim=\dimen266
+\MPnumerator=\count160
+\makeMPintoPDFobject=\count161
+\everyMPtoPDFconversion=\toks41
+) (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
+Package: epstopdf-base 2010/02/09 v2.5 Base part for package epstopdf
+
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/grfext.sty
+Package: grfext 2010/08/19 v1.1 Manage graphics extensions (HO)
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/kvdefinekeys.sty
+Package: kvdefinekeys 2011/04/07 v1.3 Define keys (HO)
+))
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/kvoptions.sty
+Package: kvoptions 2011/06/30 v3.11 Key value format for package options (HO)
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/kvsetkeys.sty
+Package: kvsetkeys 2012/04/25 v1.16 Key value parser (HO)
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/etexcmds.sty
+Package: etexcmds 2011/02/16 v1.5 Avoid name clashes with e-TeX commands (HO)
+Package etexcmds Info: Could not find \expanded.
+(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
+(etexcmds)             that some package has redefined \expanded.
+(etexcmds)             In the latter case, load this package earlier.
+)))
+Package grfext Info: Graphics extension search list:
+(grfext)             [.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPE
+G,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 452.
+
+(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
+e
+))
+ABD: EveryShipout initializing macros
+LaTeX Info: Redefining \celsius on input line 19.
+Package gensymb Info: Faking symbols for \degree and \celsius on input line 19.
+
+
+
+Package gensymb Warning: Not defining \perthousand.
+
+LaTeX Info: Redefining \ohm on input line 19.
+Package gensymb Info: Using \Omega for \ohm on input line 19.
+
+Package gensymb Warning: Not defining \micro.
+
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+*geometry* verbose mode - [ preamble ] result:
+* driver: pdftex
+* paper: a4paper
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: 
+* h-part:(L,W,R)=(56.9055pt, 483.69684pt, 56.90553pt)
+* v-part:(T,H,B)=(101.40665pt, 591.5302pt, 152.11pt)
+* \paperwidth=597.50787pt
+* \paperheight=845.04684pt
+* \textwidth=483.69684pt
+* \textheight=591.5302pt
+* \oddsidemargin=-15.36449pt
+* \evensidemargin=-15.36449pt
+* \topmargin=-7.86334pt
+* \headheight=12.0pt
+* \headsep=25.0pt
+* \topskip=10.0pt
+* \footskip=30.0pt
+* \marginparwidth=57.0pt
+* \marginparsep=11.0pt
+* \columnsep=10.0pt
+* \skip\footins=9.0pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+LaTeX Font Info:    Try loading font information for U+msa on input line 20.
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Try loading font information for U+msb on input line 20.
+
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+
+LaTeX Warning: No \author given.
+
+[1
+
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] (./Pharmaskript.toc
+[1
+
+]
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 182.
+
+ (/usr/share/texlive/texmf-dist/tex/latex/base/omscmr.fd
+File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 182.
+ [2] [3])
+\tf@toc=\write4
+\openout4 = `Pharmaskript.toc'.
+
+ [4]
+Kapitel 1.
+<Pharmakokinetik.jpg, id=29, 773.89125pt x 726.715pt>
+File: Pharmakokinetik.jpg Graphic file (type jpg)
+
+<use Pharmakokinetik.jpg>
+Package pdftex.def Info: Pharmakokinetik.jpg used on input line 26.
+(pdftex.def)             Requested size: 290.22105pt x 272.52853pt.
+ [5
+
+ <./Pharmakokinetik.jpg>]
+
+LaTeX Warning: Command \textregistered invalid in math mode on input line 41.
+
+
+LaTeX Warning: Command \textcircled invalid in math mode on input line 41.
+
+
+LaTeX Warning: Command \textcircled invalid in math mode on input line 41.
+
+
+LaTeX Warning: Command \textregistered invalid in math mode on input line 41.
+
+
+LaTeX Warning: Command \textcircled invalid in math mode on input line 41.
+
+
+LaTeX Warning: Command \textcircled invalid in math mode on input line 41.
+
+
+LaTeX Warning: Command \textregistered invalid in math mode on input line 41.
+
+
+LaTeX Warning: Command \textcircled invalid in math mode on input line 41.
+
+
+LaTeX Warning: Command \textcircled invalid in math mode on input line 41.
+
+<Biotransformation.png, id=33, 709.65125pt x 494.84875pt>
+File: Biotransformation.png Graphic file (type png)
+
+<use Biotransformation.png>
+Package pdftex.def Info: Biotransformation.png used on input line 69.
+(pdftex.def)             Requested size: 193.47577pt x 134.90968pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[6]
+Underfull \hbox (badness 10000) in paragraph at lines 83--84
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 94--94
+[]|\OT1/cmr/m/n/10 typische Sub-
+ []
+
+
+Underfull \hbox (badness 2503) in paragraph at lines 94--94
+[]|\OT1/cmr/m/n/10 intestinal, pul-
+ []
+
+
+Underfull \hbox (badness 4013) in paragraph at lines 94--94
+[]|\OT1/cmr/m/n/10 arom. Koh-len-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 94--94
+\OT1/cmr/m/n/10 was-ser-stof-fe,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 94--94
+[]|\OT1/cmr/m/n/10 arom. Koh-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 94--94
+\OT1/cmr/m/n/10 len-was-ser-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 94--94
+\OT1/cmr/m/n/10 stof-fe, via
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 94--94
+[]|\OT1/cmr/m/n/10 m[]ogliche Be-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 94--94
+\OT1/cmr/m/n/10 deu-tung bei
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 94--94
+\OT1/cmr/m/n/10 Bio-to-xin-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 94--94
+\OT1/cmr/m/n/10 fi-zie-rung von
+ []
+
+
+Overfull \hbox (5.25623pt too wide) in paragraph at lines 94--94
+\OT1/cmr/m/n/10 Pr[]akanzerogenen| 
+ []
+
+
+Underfull \hbox (badness 4752) in paragraph at lines 94--94
+[]|\OT1/cmr/m/n/10 Coffein, Theo-
+ []
+
+
+Underfull \hbox (badness 4013) in paragraph at lines 94--94
+[]|\OT1/cmr/m/n/10 arom. Koh-len-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 94--94
+\OT1/cmr/m/n/10 Ah-Rezeptor
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 94--94
+\OT1/cmr/m/n/10 (z.B. Ta-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 94--94
+[]|\OT1/cmr/m/n/10 m[]ogliche Be-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 94--94
+\OT1/cmr/m/n/10 deu-tung bei
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 94--94
+\OT1/cmr/m/n/10 Bio-to-xin-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 94--94
+\OT1/cmr/m/n/10 fi-zie-rung von
+ []
+
+
+Overfull \hbox (5.25623pt too wide) in paragraph at lines 94--94
+\OT1/cmr/m/n/10 Pr[]akanzerogenen| 
+ []
+
+
+Overfull \hbox (9.00627pt too wide) in paragraph at lines 94--94
+[]|\OT1/cmr/m/n/10 Cyclophosphamid| 
+ []
+
+
+Overfull \hbox (11.78406pt too wide) in paragraph at lines 94--94
+[]|\OT1/cmr/m/n/10 Cyclophosphamid,
+ []
+
+
+Underfull \hbox (badness 1152) in paragraph at lines 94--94
+\OT1/cmr/m/n/10 fa-rin, Ome-pra-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 94--94
+[]|\OT1/cmr/m/n/10 Barbiturate,
+ []
+
+
+Underfull \hbox (badness 5105) in paragraph at lines 94--94
+[]|\OT1/cmr/m/n/10 ca. 20% al-ler
+ []
+
+
+Underfull \hbox (badness 2103) in paragraph at lines 94--94
+[]|\OT1/cmr/m/n/10 hepatisch in-te-
+ []
+
+
+Underfull \hbox (badness 6316) in paragraph at lines 94--94
+[]|$\OML/cmm/m/it/10 ^^L$\OT1/cmr/m/n/10 -Blocker An-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 94--94
+\OT1/cmr/m/n/10 ti-ar-rhyth-mi-ka
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 94--94
+\OT1/cmr/m/n/10 An-ti-de-pres-si-va
+ []
+
+
+Underfull \hbox (badness 3312) in paragraph at lines 94--94
+[]|\OT1/cmr/m/n/10 Chinidin SSRI
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 94--94
+\OT1/cmr/m/n/10 (z.B. Fluo-xe-
+ []
+
+
+Underfull \hbox (badness 5105) in paragraph at lines 94--94
+[]|\OT1/cmr/m/n/10 ca. 25% al-ler
+ []
+
+
+Underfull \hbox (badness 2103) in paragraph at lines 94--94
+[]|\OT1/cmr/m/n/10 hepatisch in-te-
+ []
+
+
+Underfull \hbox (badness 1616) in paragraph at lines 94--94
+[]|\OT1/cmr/m/n/10 Ethanol Nit-ro-
+ []
+
+
+Underfull \hbox (badness 5105) in paragraph at lines 94--94
+[]|\OT1/cmr/m/n/10 ca. 15% al-ler
+ []
+
+
+Underfull \hbox (badness 2103) in paragraph at lines 94--94
+[]|\OT1/cmr/m/n/10 hepatisch in-te-
+ []
+
+
+Underfull \hbox (badness 1783) in paragraph at lines 94--94
+\OT1/cmr/m/n/10 fe-di-pin Ter-fen-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 94--94
+[]|\OT1/cmr/m/n/10 Rifampicin
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 94--94
+\OT1/cmr/m/n/10 Car-ba-ma-ze-
+ []
+
+
+Underfull \hbox (badness 6608) in paragraph at lines 94--94
+\OT1/cmr/m/n/10 pin Phe-ny-to-in
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 94--94
+\OT1/cmr/m/n/10 Phe-no-bar-bi-tal
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 94--94
+[]|\OT1/cmr/m/n/10 Azol-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 94--94
+\OT1/cmr/m/n/10 Antimykotika
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 94--94
+\OT1/cmr/m/n/10 pe-fruit-saft)
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 94--94
+\OT1/cmr/m/n/10 HIV-Proteaseh.
+ []
+
+<konzentrationzeit.png, id=39, 700.6175pt x 501.875pt>
+File: konzentrationzeit.png Graphic file (type png)
+
+<use konzentrationzeit.png>
+Package pdftex.def Info: konzentrationzeit.png used on input line 97.
+(pdftex.def)             Requested size: 193.47577pt x 138.58656pt.
+
+Overfull \hbox (15.0pt too wide) in paragraph at lines 94--101
+[][]
+ []
+
+[7 <./Biotransformation.png (PNG copy)>]
+<CYP2.png, id=43, 623.32875pt x 564.1075pt>
+File: CYP2.png Graphic file (type png)
+ <use CYP2.png>
+Package pdftex.def Info: CYP2.png used on input line 104.
+(pdftex.def)             Requested size: 193.47577pt x 175.0953pt.
+
+Underfull \hbox (badness 4608) in paragraph at lines 114--114
+[]|\OT1/cmr/m/n/10 Xenobiotikum Phar-ma-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 114--114
+[]|\OT1/cmr/m/n/10 nukle[]arer Re-zep-tor
+ []
+
+
+Underfull \hbox (badness 7814) in paragraph at lines 114--114
+[]|\OT1/cmr/m/n/10 aromat. Hy-dro-car-bo-ne,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 114--114
+\OT1/cmr/m/n/10 Cof-fe-in, Theo-phyl-lin;
+ []
+
+
+Underfull \hbox (badness 2884) in paragraph at lines 114--114
+[]|\OT1/cmr/m/n/10 Rifampicin, Hy-per-fo-rin,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 114--114
+[]|\OT1/cmr/m/n/10 CYP3A/2C)/ MDR-1,
+ []
+
+
+Overfull \hbox (2.22221pt too wide) in paragraph at lines 101--115
+ [] 
+ []
+
+[8 <./konzentrationzeit.png (PNG copy)>]
+Underfull \hbox (badness 10000) in paragraph at lines 116--117
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 141--142
+
+ []
+
+[9 <./CYP2.png (PNG copy)>]
+<Pharmakodynamik.png, id=50, 2278.63058pt x 965.01706pt>
+File: Pharmakodynamik.png Graphic file (type png)
+
+<use Pharmakodynamik.png>
+Package pdftex.def Info: Pharmakodynamik.png used on input line 170.
+(pdftex.def)             Requested size: 241.84842pt x 102.41206pt.
+ <firstpass.png, id=51, 722.7pt x 486.81876pt>
+File: firstpass.png Graphic file (type png)
+
+<use firstpass.png>
+Package pdftex.def Info: firstpass.png used on input line 179.
+(pdftex.def)             Requested size: 193.47577pt x 130.32858pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<ethanolbiotransformation.png, id=52, 649.42625pt x 542.025pt>
+File: ethanolbiotransformation.png Graphic file (type png)
+
+<use ethanolbiotransformation.png>
+Package pdftex.def Info: ethanolbiotransformation.png used on input line 186.
+(pdftex.def)             Requested size: 193.47577pt x 161.47568pt.
+ [10 <./Pharmakodynamik.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 191--193
+
+ []
+
+
+Overfull \hbox (3.11546pt too wide) in paragraph at lines 194--195
+ \OT1/cmr/bx/n/10 Pha-se II[] \OT1/cmr/m/it/10 N-Acetyltransferase (NAT II) []\
+OT1/cmr/m/n/10 lang-sam Ace-ty-lie-rer\ vs. []schnell Ace-ty-lie-rer (je 50% be
+i Eu-rop[]aern)$\OMS/cmsy/m/n/10 !$
+ []
+
+[11 <./firstpass.png (PNG copy)> <./ethanolbiotransformation.png (PNG copy)>]
+<Elimination.png, id=59, 1167.65646pt x 1567.26706pt>
+File: Elimination.png Graphic file (type png)
+ <use Elimination.png>
+Package pdftex.def Info: Elimination.png used on input line 212.
+(pdftex.def)             Requested size: 193.47577pt x 259.68797pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 216--217
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 218--220
+
+ []
+
+[12 <./Elimination.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 220--221
+
+ []
+
+File: konzentrationzeit.png Graphic file (type png)
+<use konzentrationzeit.png>
+Package pdftex.def Info: konzentrationzeit.png used on input line 228.
+(pdftex.def)             Requested size: 193.47577pt x 138.58656pt.
+ <clearance.png, id=64, 392.9079pt x 145.0218pt>
+File: clearance.png Graphic file (type png)
+
+<use clearance.png>
+Package pdftex.def Info: clearance.png used on input line 238.
+(pdftex.def)             Requested size: 193.47577pt x 71.41092pt.
+ <kinetik0.png, id=65, 688.5725pt x 510.90875pt>
+File: kinetik0.png Graphic file (type png)
+
+<use kinetik0.png>
+Package pdftex.def Info: kinetik0.png used on input line 245.
+(pdftex.def)             Requested size: 237.0141pt x 175.85832pt.
+ <kinetik1.png, id=66, 701.62125pt x 500.87125pt>
+File: kinetik1.png Graphic file (type png)
+
+<use kinetik1.png>
+Package pdftex.def Info: kinetik1.png used on input line 250.
+(pdftex.def)             Requested size: 237.0141pt x 169.20107pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 257--258
+
+ []
+
+[13 <./clearance.png (PNG copy)>] [14 <./kinetik0.png (PNG copy)> <./kinetik1.p
+ng (PNG copy)>]
+Kapitel 2.
+
+Overfull \hbox (3.53186pt too wide) in paragraph at lines 276--278
+[]\OT1/cmr/m/n/10 Transporter z.B.: Noradrenalin-/Serotonin-Transporter (An-ti-
+de-pres-si-va) Io-nen-trans-por-ter (Di-ure-ti-ka); Pro-
+ []
+
+
+Overfull \hbox (40.49855pt too wide) in paragraph at lines 278--282
+[]\OT1/cmr/m/n/10 Ionenkan[]ale z.B.: Span-nungs-abh[]angiger $\OML/cmm/m/it/10
+ Na[]$\OT1/cmr/m/n/10 -Kanal (Lo-ka-lan[]asthetika) Span-nungs-abh. $\OML/cmm/m
+/it/10 Ca[]$\OT1/cmr/m/n/10 -Kanal (Calciumkanal-
+ []
+
+
+Overfull \hbox (5.67903pt too wide) in paragraph at lines 282--291
+\OT1/cmr/m/n/10 Angiotensin-Konversionsenzym (ACE-Hemmer) HMG-CoA-Reduktase (Li
+-pid-sen-ker) Vitamin-K-Reduktase
+ []
+
+<kanaele.png, id=77, 528.97626pt x 141.52875pt>
+File: kanaele.png Graphic file (type png)
+ <use kanaele.png>
+Package pdftex.def Info: kanaele.png used on input line 298.
+(pdftex.def)             Requested size: 193.47577pt x 51.76445pt.
+ [15
+
+]
+Underfull \hbox (badness 10000) in paragraph at lines 302--303
+
+ []
+
+
+Overfull \hbox (19.12073pt too wide) in paragraph at lines 305--307
+[]\OT1/cmr/m/n/10 Spannungs-abh[]angige $\OML/cmm/m/it/10 Na[]$\OT1/cmr/m/n/10 
+-Kan[]ale (er-reg-ba-re Zel-len) \OT1/cmr/m/it/10 Phar-ma-ka:  \OT1/cmr/m/n/10 
+Lo-ka-lan[]asthetika, Klasse-I-Antiarrhythmika,
+ []
+
+[16 <./kanaele.png (PNG copy)>]
+Underfull \hbox (badness 10000) in paragraph at lines 335--336
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 378--378
+[]|\OT1/cmr/m/n/10 Acetylsalicyls[]aure (ir-
+ []
+
+
+Underfull \hbox (badness 2334) in paragraph at lines 378--378
+\OT1/cmr/m/n/10 rev.); Dic-l-ofenac (rev.)
+ []
+
+[17] [18] [19]
+Underfull \hbox (badness 4279) in paragraph at lines 486--486
+[]|\OT1/cmr/m/n/7 Phenylephrin (Ag); Pra-zo-sin
+ []
+
+
+Overfull \hbox (7.16353pt too wide) in paragraph at lines 486--486
+[]|\OT1/cmr/m/n/7 Bromocriptin/Haloperidol($\OML/cmm/m/it/7 D[]$\OT1/cmr/m/n/7 
+-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 486--486
+[]|\OT1/cmr/m/n/7 5-$\OML/cmm/m/it/7 HT[]$\OT1/cmr/m/n/7 5-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 486--486
+[]|\OT1/cmr/m/n/7 Sumatriptan(1B/D-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 486--486
+\OT1/cmr/m/n/7 Ag);Buspiron(1A-Ag), Ris-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 486--486
+\OT1/cmr/m/n/7 pe-ri-don (2A-Ant); Ci-s-a-prid
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 486--486
+[]|$\OT1/cmr/m/n/7 ^^A$9-THC (Ag); Ri-mo-na-bant
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 486--486
+[]|\OT1/cmr/m/n/7 Fingolimod (FTY720; S1P-
+ []
+
+
+Underfull \hbox (badness 2376) in paragraph at lines 486--486
+[]|\OT1/cmr/m/n/7 Desmopressin ($\OML/cmm/m/it/7 V[]$\OT1/cmr/m/n/7 -Ag), Ter-l
+i-
+ []
+
+
+Underfull \hbox (badness 3098) in paragraph at lines 486--486
+[]|\OT1/cmr/m/n/7 \orphan"-Rezeptoren (phy-sio-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 428--488
+
+ []
+
+[20]
+Overfull \hbox (5.38158pt too wide) in paragraph at lines 502--502
+[]|\OT1/cmr/m/n/10 Curare/Muskelrelaxantien
+ []
+
+[21]
+Underfull \hbox (badness 7397) in paragraph at lines 540--540
+[]|\OT1/cmr/m/n/10 Ethinylestradiol (Ag); Ta-mo-xi-
+ []
+
+
+Underfull \hbox (badness 2376) in paragraph at lines 540--540
+[]|\OT1/cmr/m/n/10 Norethisteron (Ag), Mi-fe-pri-ston
+ []
+
+[22] [23] [24] [25]
+Underfull \hbox (badness 2671) in paragraph at lines 705--705
+[]|\OT1/cmr/m/n/10 Bradykardie, AV-Block, Herzin-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 705--705
+[]|\OT1/cmr/m/n/10 Blutungsneigung (v.a. Ma-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 705--705
+[]|\OT1/cmr/m/n/10 Thrombozytenfunktionshemmung
+ []
+
+[26]
+Underfull \hbox (badness 10000) in paragraph at lines 707--708
+
+ []
+
+[27] [28]
+Kapitel 3.
+[29
+
+]
+Underfull \hbox (badness 2856) in paragraph at lines 759--759
+[]|\OT1/cmr/m/n/10 exokrine Dr[]usen (Pan-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 759--759
+[]|\OT1/cmr/m/n/10 glatte Mus-ku-la-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 759--759
+\OT1/cmr/m/n/10 tur(Bronch., Darm,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 759--759
+[]|\OT1/cmr/m/n/10 Vasodilatation (NO-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 759--759
+[]|\OT1/cmr/m/n/10 Auge (Zi-li-ar-mus-kel,M.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 759--759
+[]|\OT1/cmr/m/n/10 Kontraktion (Nah-ak-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 759--759
+\OT1/cmr/m/n/10 ko-mod.), Kon-trak-ti-on
+ []
+
+
+Overfull \hbox (21.08144pt too wide) in paragraph at lines 761--768
+ \OT1/cmr/bx/n/10 ni-ko-ti-nisch[] \OT1/cmr/m/n/10 io-no-tro-pe Re-zep-to-ren, 
+Pent-ame-re, 2 $\OML/cmm/m/it/10 $\OT1/cmr/m/n/10 -Untereinheiten ($\OML/cmm/m
+/it/10 $\OT1/cmr/m/n/10 2-10 3 $\OML/cmm/m/it/10 ^^L$\OT1/cmr/m/n/10 -Unterein
+heiten ($\OML/cmm/m/it/10 ^^L$\OT1/cmr/m/n/10 2-4) $\OML/cmm/m/it/10 $\OT1/cmr
+/m/n/10 -Untereinheit
+ []
+
+
+Overfull \hbox (8.76851pt too wide) in paragraph at lines 769--777
+\OT1/cmr/m/n/10 mea-bel) ($\OML/cmm/m/it/10 $\OT1/cmr/m/n/10 7)$[]$ h[]aufig i
+m ZNS, (auch $\OML/cmm/m/it/10 Ca[]$ \OT1/cmr/m/n/10 per-mea-bel) ($\OML/cmm/m/
+it/10 $\OT1/cmr/m/n/10 3)$[]$/($\OML/cmm/m/it/10 ^^L$\OT1/cmr/m/n/10 4)$[]$ Ga
+nglion-Typ $\OMS/cmsy/m/n/10 !$ \OT1/cmr/m/n/10 De-po-la-ri-sa-ti-on/Weiterleit
+ung;
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 778--779
+
+ []
+
+[30]
+Overfull \hbox (84.78674pt too wide) in paragraph at lines 799--810
+\OT1/cmr/m/n/10 de $\OMS/cmsy/m/n/10 !$ \OT1/cmr/m/n/10 RR$\OMS/cmsy/m/n/10 #$\
+OT1/cmr/m/n/10 ; ob-so-let. [] 
+ []
+
+[31]
+Overfull \hbox (7.1123pt too wide) in paragraph at lines 816--817
+ \OT1/cmr/bx/n/10 un-erw[]unschte Wir-kun-gen[] \OT1/cmr/m/n/10 pro-tra-hier-te
+ Ap-noe (here-dit[]arer Cholinesterase-Mangel); Muskelkater-[]ahnliche
+ []
+
+[32] [33] [34]
+Kapitel 4.
+[35
+
+]
+Overfull \hbox (30.03755pt too wide) in paragraph at lines 966--969
+\OT1/cmr/m/n/10 trans-mit-ter-sy-ste-me un-ter-schied-lich stark aus-ge-pr[]agt
+ v.a. No-rad-rena-lin, Do-pa-min: (Met)Amphetamin$\OML/cmm/m/it/10 >$\OT1/cmr/m
+/n/10 Methylphenidat,
+ []
+
+
+Underfull \hbox (badness 4024) in paragraph at lines 991--991
+[]|\OT1/cmr/m/n/10 glatte Gef[]a^^Ymuskulatur
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 991--991
+[]|\OT1/cmr/m/n/10 Glycogenolyse$\OMS/cmsy/m/n/10 "$
+ []
+
+
+Overfull \hbox (7.52864pt too wide) in paragraph at lines 991--991
+\OT1/cmr/m/n/10 pr[]asynapt.Nervenend.($\OML/cmm/m/it/10 []$
+ []
+
+
+Underfull \hbox (badness 1546) in paragraph at lines 991--991
+[]|\OT1/cmr/m/n/10 Sympathikotonus $\OMS/cmsy/m/n/10 #$ \OT1/cmr/m/n/10 Se-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 991--991
+[]|\OT1/cmr/m/n/10 Inotropie$\OMS/cmsy/m/n/10 "$
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 991--991
+\OT1/cmr/m/n/10 Chronotropie$\OMS/cmsy/m/n/10 "$
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 991--991
+[]|\OT1/cmr/m/n/10 glatter Gef[]a^^Ymuskel
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 991--991
+[]|\OT1/cmr/m/n/10 Glycogenolyse, Glu-co-
+ []
+
+[36] [37]
+Underfull \hbox (badness 10000) in paragraph at lines 1022--1022
+[]|$\OML/cmm/m/it/10 $\OT1/cmr/m/n/10 -
+ []
+
+
+Overfull \hbox (3.2983pt too wide) in paragraph at lines 1022--1022
+\OT1/cmr/m/n/10 Methyldopa:Umwandlung
+ []
+
+
+Overfull \hbox (34.3081pt too wide) in paragraph at lines 1037--1038
+ \OT1/cmr/bx/n/10 un-erw[]unschte Wir-kun-gen[] \OMS/cmsy/m/n/10 ^^O \OT1/cmr/m
+/n/10 Se-da-ti-on (zen-tra-le $\OML/cmm/m/it/10 alpha[]$\OT1/cmr/m/n/10 -Rezept
+oren) \OMS/cmsy/m/n/10 ^^O \OT1/cmr/m/n/10 Mund-trocken-heit (Parasympathikoton
+us$\OMS/cmsy/m/n/10 #$\OT1/cmr/m/n/10 ,
+ []
+
+LaTeX Font Info:    Font shape `OMS/cmr/bx/n' in size <14.4> not available
+(Font)              Font shape `OMS/cmsy/b/n' tried instead on input line 1052.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1068--1068
+[]|\OT1/cmr/m/n/10 Rezept.-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1068--1068
+[]|\OT1/cmr/m/n/10 Bioverf[]ug-
+ []
+
+
+Overfull \hbox (2.78804pt too wide) in paragraph at lines 1068--1068
+[]|\OT1/cmr/m/n/10 Elimination| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1068--1068
+[]|\OT1/cmr/m/n/10 Plsama-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1068--1068
+\OT1/cmr/m/n/10 HWZ
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1068--1068
+[]|\OT1/cmr/m/n/10 Dosis(mg)
+ []
+
+
+Overfull \hbox (2.84358pt too wide) in paragraph at lines 1068--1068
+[]|\OT1/cmr/m/n/10 Propranolol| 
+ []
+
+
+Overfull \hbox (9.84473pt too wide) in paragraph at lines 1068--1068
+[]|$\OML/cmm/m/it/10 ^^L[]=beta[]$\OT1/cmr/m/n/10 (pA)| 
+ []
+
+
+Overfull \hbox (21.62138pt too wide) in paragraph at lines 1068--1068
+[]|\OT1/cmr/m/n/10 vasodilatierende| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1068--1068
+[]|\OT1/cmr/m/n/10 hep./ren.6-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1068--1068
+[]|$\OML/cmm/m/it/10 ^^L[] >
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1068--1068
+\OML/cmm/m/it/10 ^^L[]$\OT1/cmr/m/n/10 +NO-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1068--1068
+[]|$\OML/cmm/m/it/10 ^^L[]$\OT1/cmr/m/n/10 -Antag.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1068--1068
+\OT1/cmr/m/n/10 + $\OML/cmm/m/it/10 beta[]$\OT1/cmr/m/n/10 -
+ []
+
+[38] [39] [40] [41]
+Kapitel 5.
+
+Overfull \hbox (3.52292pt too wide) in paragraph at lines 1182--1182
+[]|\OT1/cmr/m/n/10 Bioverf[]ugbarkeit| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1182--1182
+[]|\OT1/cmr/m/n/10 Tageszieldosis
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1182--1182
+\OT1/cmr/m/n/10 (mg) bei
+ []
+
+[42
+
+] [43]
+Overfull \hbox (0.99841pt too wide) in paragraph at lines 1242--1244
+ \OT1/cmr/bx/n/10 Re-gu-la-ti-on der Renin-frei-set-zung []uber MD[] \OT1/cmr/m
+/n/10 z.B. dro-hen-der NaCl/Volumen-Verlust $\OMS/cmsy/m/n/10 !$ \OT1/cmr/m/n/1
+0 NaCl-Aufnahme
+ []
+
+
+Overfull \hbox (42.29132pt too wide) in paragraph at lines 1260--1261
+\OT1/cmr/m/n/10 vermehrte Aus-schei-dung von $\OML/cmm/m/it/10 Na[]; Cl[]; K[];
+ Mg[]; Ca[]$\OT1/cmr/m/n/10 direkt und in-di-rekt v.a. durch erh[]ohte Str[]omu
+ngsgeschwindigkeit
+ []
+
+[44]
+Underfull \hbox (badness 10000) in paragraph at lines 1295--1297
+
+ []
+
+[45] [46] [47]
+Overfull \hbox (32.7936pt too wide) in paragraph at lines 1378--1379
+[]\OT1/cmr/m/n/10 Spironolacton (nicht je-doch Ep-le-re-non) be-sitzt an-ti-an-
+dro-ge-ne und pro-ges-ta-ge-ne Ef-fek-te $\OMS/cmsy/m/n/10 !$ \OT1/cmr/m/n/10 M
+[]anner: Gyn[]akomastie,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1389--1401
+
+ []
+
+[48]
+Overfull \hbox (6.01756pt too wide) in paragraph at lines 1413--1415
+ \OT1/cmr/bx/n/10 RR hoch-nor-mal[] \OT1/cmr/m/n/10 (130-139 / 85-89 mm-Hg) bei
+ ho-hem kar-dio-vas-kul[]arem Ri-si-ko (hy-per-ten-si-ve Organsch[]aden,
+ []
+
+[49]
+Kapitel 6.
+[50
+
+] [51] [52]
+Overfull \hbox (26.76085pt too wide) in paragraph at lines 1558--1558
+[]|\OT1/cmr/m/n/10 Mineralkortikoidrezeptor-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1558--1558
+\OT1/cmr/m/n/10 Antagonist
+ []
+
+
+Underfull \hbox (badness 7186) in paragraph at lines 1558--1558
+\OT1/cmr/m/n/10 ni-ger ein-deu-ti-gem
+ []
+
+
+Overfull \hbox (6.62196pt too wide) in paragraph at lines 1558--1558
+[]|\OT1/cmr/m/n/10 Digitalisglykoside***| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1558--1558
+[]|\OT1/cmr/m/n/10 Hydralazin-
+ []
+
+[53]
+Kapitel 7.
+
+Overfull \hbox (9.10109pt too wide) in paragraph at lines 1572--1574
+ \OT1/cmr/bx/n/10 fr[]uhe Nach-de-po-la-ri-sa-ti-on (EAD)[] \OT1/cmr/m/n/10 St[
+]orung d. Re-pol.; $\OML/cmm/m/it/10 K[]$\OT1/cmr/m/n/10 -Strom ($\OML/cmm/m/it
+/10 I[]$\OT1/cmr/m/n/10 ) , Verl[]ang. d. $\OML/cmm/m/it/10 Ca[]$\OT1/cmr/m/n/1
+0 /$\OML/cmm/m/it/10 Na[]$\OT1/cmr/m/n/10 -Einstroms
+ []
+
+[54
+
+]
+Overfull \hbox (54.64832pt too wide) in paragraph at lines 1586--1587
+ \OT1/cmr/bx/n/10 Klas-se Ia[] [] 
+ []
+
+
+Overfull \hbox (55.44695pt too wide) in paragraph at lines 1607--1608
+ \OT1/cmr/bx/n/10 Klas-se Ib[] [] 
+ []
+
+
+Overfull \hbox (4.38583pt too wide) in paragraph at lines 1617--1618
+ \OT1/cmr/bx/n/10 Ein-satz[] \OT1/cmr/m/n/10 ven-tri-kul[]are Ar-rhyth-mi-en; z
+.B.: nach Herz-in-farkt [akut: Li-do-cain(i.v.)]; durch Digitalis-Intoxikation
+ []
+
+[55]
+Overfull \hbox (54.16917pt too wide) in paragraph at lines 1624--1625
+ \OT1/cmr/bx/n/10 Klas-se Ic[] [] 
+ []
+
+
+Overfull \hbox (6.0532pt too wide) in paragraph at lines 1634--1635
+ $\OML/cmm/m/it/10 ^^L$\OT1/cmr/bx/n/10 -Adrenozeptor-Blocker[] \OT1/cmr/m/n/10
+ Su-pra-ven-tri-kul[]are Ta-chy-kar-di-en (Si-nu-sta-chy-kar-die, par-oxys-ma-l
+e Ta-chy-kar-die); Vor-
+ []
+
+[56]
+Overfull \hbox (42.39905pt too wide) in paragraph at lines 1662--1663
+ \OT1/cmr/bx/n/10 Wirk-me-cha-nis-mus[] $\OML/cmm/m/it/10 Ca[]$\OT1/cmr/m/n/10 
+-Kanal-Blockade (L-Typ) $\OMS/cmsy/m/n/10 !$ \OT1/cmr/m/n/10 De-po-la-ri-sa-ti-
+ons-ge-schwin-dig-keit in spontan-depolarisierenden
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1684--1685
+
+ []
+
+
+Overfull \hbox (15.0pt too wide) in paragraph at lines 1692--1693
+[][] 
+ []
+
+[57]
+Underfull \hbox (badness 10000) in paragraph at lines 1695--1696
+
+ []
+
+
+Overfull \hbox (15.0pt too wide) in paragraph at lines 1701--1702
+[][] 
+ []
+
+[58]
+Overfull \hbox (9.28867pt too wide) in paragraph at lines 1789--1789
+[]|\OT1/cmr/m/n/10 Function/Modulation| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1789--1789
+[]|\OT1/cmr/m/n/10 L-Type(long la-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1789--1789
+\OT1/cmr/m/n/10 ac-ti-vating, high
+ []
+
+
+Underfull \hbox (badness 4819) in paragraph at lines 1789--1789
+\OT1/cmr/m/n/10 con-duc-tan-ce, slow
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1789--1789
+[]|\OT1/cmr/m/n/10 Excitation-contion-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1789--1789
+\OT1/cmr/m/n/10 coupling (PKA
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1789--1789
+[]|\OT1/cmr/m/n/10 Dihydropyridines,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1789--1789
+\OT1/cmr/m/n/10 Phe-nyl-al-kylami-nes,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1789--1789
+\OT1/cmr/m/n/10 Ben-zo-thia-ze-pi-nes
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1789--1789
+\OT1/cmr/m/n/10 (wirk-sam v.a.
+ []
+
+
+Underfull \hbox (badness 5490) in paragraph at lines 1789--1789
+\OT1/cmr/m/n/10 bei $\OML/cmm/m/it/10 Ca[]$\OT1/cmr/m/n/10 1,2a und
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1789--1789
+[]|\OT1/cmr/m/n/10 Hormone re-lea-se,
+ []
+
+
+Underfull \hbox (badness 2173) in paragraph at lines 1789--1789
+\OT1/cmr/m/n/10 syn-ap-tic in-te-gra-ti-
+ []
+
+
+Underfull \hbox (badness 8094) in paragraph at lines 1789--1789
+[]|\OT1/cmr/m/n/10 P/Q-Type (Pur-k-
+ []
+
+
+Underfull \hbox (badness 1881) in paragraph at lines 1789--1789
+\OT1/cmr/m/n/10 ac-tiv., med. Con-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1789--1789
+[]|\OT1/cmr/m/n/10 Nerve ter-mi-nals
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1789--1789
+[]|\OT1/cmr/m/n/10 Neurotransmitter
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1789--1789
+\OT1/cmr/m/n/10 re-lea-se; den-dri-tic
+ []
+
+
+Underfull \hbox (badness 1005) in paragraph at lines 1789--1789
+[]|\OT1/cmr/m/n/10 N-Type (neu-ro-nal;
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1789--1789
+\OT1/cmr/m/n/10 med. Con-duct.,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1789--1789
+[]|\OT1/cmr/m/n/10 Nerve ter-mi-nals
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1789--1789
+[]|\OT1/cmr/m/n/10 Neurotransmitter
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1789--1789
+\OT1/cmr/m/n/10 re-lea-se; den-dri-tic
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1789--1789
+\OML/cmm/m/it/10 Ca[]$ \OT1/cmr/m/n/10 tran-si-ents
+ []
+
+
+Underfull \hbox (badness 2469) in paragraph at lines 1789--1789
+[]|\OT1/cmr/m/n/10 Neuronal cell bo-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1789--1789
+[]|\OT1/cmr/m/n/10 Repetitive fi-ring
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1789--1789
+[]|\OT1/cmr/m/n/10 T-Type(transient;
+ []
+
+
+Underfull \hbox (badness 8075) in paragraph at lines 1789--1789
+\OT1/cmr/m/n/10 low volt. Ac-tiv.,
+ []
+
+
+Underfull \hbox (badness 6252) in paragraph at lines 1789--1789
+\OT1/cmr/m/n/10 small cond., fast
+ []
+
+
+Underfull \hbox (badness 2469) in paragraph at lines 1789--1789
+[]|\OT1/cmr/m/n/10 Neuronal cell bo-
+ []
+
+
+Underfull \hbox (badness 7558) in paragraph at lines 1789--1789
+\OT1/cmr/m/n/10 dies and den-dri-
+ []
+
+
+Underfull \hbox (badness 1701) in paragraph at lines 1789--1789
+[]|\OT1/cmr/m/n/10 Pacemaking, re-pe-
+ []
+
+[59]
+Overfull \hbox (92.33989pt too wide) in paragraph at lines 1796--1797
+ \OT1/cmr/bx/n/10 Dihy-dro-py-ri-di-ne[] [] 
+ []
+
+
+Overfull \hbox (98.99951pt too wide) in paragraph at lines 1807--1809
+ \OT1/cmr/bx/n/10 Phe-nyl-al-kylami-ne[] []
+ []
+
+
+Overfull \hbox (91.9718pt too wide) in paragraph at lines 1813--1815
+ \OT1/cmr/bx/n/10 Ben-zo-thia-ze-pi-ne[] []
+ []
+
+[60]
+Underfull \hbox (badness 10000) in paragraph at lines 1822--1823
+
+ []
+
+
+Overfull \hbox (15.0pt too wide) in paragraph at lines 1831--1832
+[][] 
+ []
+
+[61]
+Underfull \hbox (badness 10000) in paragraph at lines 1863--1864
+
+ []
+
+
+Overfull \hbox (15.0pt too wide) in paragraph at lines 1872--1873
+[][] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1874--1875
+
+ []
+
+
+Overfull \hbox (15.0pt too wide) in paragraph at lines 1881--1882
+[][] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1902--1902
+[]|\OT1/cmr/m/n/10 glatter Mus-kel,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1902--1902
+[]|\OT1/cmr/m/n/10 Bronchien, Im-
+ []
+
+
+Overfull \hbox (12.73308pt too wide) in paragraph at lines 1902--1902
+[]|\OT1/cmr/m/n/10 Roflumilast,Cilomilast| 
+ []
+
+[62]
+Overfull \hbox (89.43709pt too wide) in paragraph at lines 1909--1910
+ \OT1/cmr/bx/n/10 Me-thylx-an-thi-ne[] [] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1933--1933
+[]|\OT1/cmr/m/n/10 Unruhe, Schlafst[]orungen, Di-ure-se, Ta-chy-kar-die,
+ []
+
+
+Overfull \hbox (273.19542pt too wide) in paragraph at lines 1929--1934
+ \OT1/cmr/bx/n/10 un-erw[]unschte Wir-kun-gen[] \OT1/cmr/m/n/10 (ge-rin-ge the-
+ra-peu-ti-sche Brei-te) [] 
+ []
+
+[63]
+Overfull \hbox (20.19304pt too wide) in paragraph at lines 1954--1958
+\OT1/cmr/m/n/10 (NANC) pa-ra-sym-pa-thi-schen Neu-ro-nen, da-ne-ben Endothel-ve
+rmittelt nach Ak-ti-vie-rung endo-the-lia-ler M3-Rezeptoren. 
+ []
+
+[64]
+Kapitel 8.
+
+Overfull \hbox (6.94186pt too wide) in paragraph at lines 1988--1989
+[]\OT1/cmr/m/n/10 Vererbungsrisiko h[]oher als bei Typ I Dia-be-tes Ma-ni-fe-st
+a-ti-on und Ver-lauf von exo-ge-nen Fak-to-ren (Ern[]ahrung,
+ []
+
+[65
+
+]
+Underfull \hbox (badness 10000) in paragraph at lines 2023--2025
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2031--2033
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2048--2048
+[]|\OT1/cmr/m/n/10 Kurz-/ ultrakurz-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2048--2048
+[]|\OT1/cmr/m/n/10 Mittellang-/ lang-
+ []
+
+[66] [67]
+Overfull \hbox (18.06906pt too wide) in paragraph at lines 2139--2143
+\OMS/cmsy/m/n/10 !$ \OT1/cmr/m/n/10 Aus-ma^^Y und Ge-schwin-dig-keit des Blut-z
+ucke-r-an-stiegs nach Kohlehydrat-Aufnahme ver-min-dert, kei-ne Ver[]anderung
+ []
+
+
+Overfull \hbox (16.92294pt too wide) in paragraph at lines 2153--2156
+\OT1/cmr/m/n/10 behandelbarer Typ IIb; the-ra-peu-ti-scher Nut-zen wahr-schein-
+lich ge-ring; even-tu-el-le Vor-tei-le: kei-ne Hy-po-glyk[]amiegefahr 
+ []
+
+[68]
+Underfull \hbox (badness 10000) in paragraph at lines 2208--2208
+[]||   []\OT1/cmr/m/n/10 (Marktr[]ucknahme 2010 we-gen
+ []
+
+[69]
+Overfull \hbox (39.03627pt too wide) in paragraph at lines 2297--2300
+\OT1/cmr/m/n/10 Nationale Ver-sor-gungs-lei-t-li-nie (Sept. 2013): Fest-le-gung
+ in-di-vi-dua-li-sier-ter The-ra-pie-zie-le (Ziel-wer-te) un-ter Ber[]ucksichti
+gung
+ []
+
+[70] [71]
+Kapitel 9.
+
+Overfull \hbox (9.2608pt too wide) in paragraph at lines 2346--2346
+[]|\OT1/cmr/m/n/10 Hypercholesterin[]amie| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2346--2346
+[]|\OT1/cmr/m/n/10 variabel (wei-te-re
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2346--2346
+[]|\OT1/cmr/m/n/10 famili[]are Hy-per-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2346--2346
+[]|\OT1/cmr/m/n/10 Kombinierte Hy-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2346--2346
+[]|\OT1/cmr/m/n/10 famili[]are kom-bin.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2346--2346
+[]|\OT1/cmr/m/n/10 LDL/VLDL
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2346--2346
+\OT1/cmr/m/n/10 ) Hy-per-li-po-pro-te-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2346--2346
+[]|\OT1/cmr/m/n/10 Remnants
+ []
+
+
+Overfull \hbox (7.56639pt too wide) in paragraph at lines 2346--2346
+[]|\OT1/cmr/m/n/10 Hypertriglyzerid[]amie| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2346--2346
+[]|\OT1/cmr/m/n/10 Chylomikronen-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2368--2368
+[]|\OT1/cmr/m/n/10 Gesamtmortalit[]at
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2368--2368
+[]|\OT1/cmr/m/n/10 Gesamtmortalit[]at
+ []
+
+
+Overfull \hbox (2.53862pt too wide) in paragraph at lines 2368--2368
+[]|\OT1/cmr/m/n/10 Sekund[]arpr[]avention| 
+ []
+
+
+Underfull \hbox (badness 2941) in paragraph at lines 2368--2368
+[]|\OT1/cmr/m/n/10 4S (1994) Sim-va-
+ []
+
+
+Underfull \hbox (badness 3260) in paragraph at lines 2368--2368
+[]|\OT1/cmr/m/n/10 4159 KHK, 5 J.
+ []
+
+
+Underfull \hbox (badness 2384) in paragraph at lines 2368--2368
+\OT1/cmr/m/n/10 LDL-C.139 $\OMS/cmsy/m/n/10 !$ \OT1/cmr/m/n/10 98
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2368--2368
+[]|\OT1/cmr/m/n/10 20536
+ []
+
+
+Overfull \hbox (6.28859pt too wide) in paragraph at lines 2368--2368
+\OT1/cmr/m/n/10 KHK,AVK,Diabetes,
+ []
+
+
+Underfull \hbox (badness 3471) in paragraph at lines 2368--2368
+[]|\OT1/cmr/m/n/10 PROSPER (2002)
+ []
+
+
+Underfull \hbox (badness 4108) in paragraph at lines 2368--2368
+[]|\OT1/cmr/m/n/10 5804 Pat. /70-82
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2368--2368
+\OT1/cmr/m/n/10 to-ren, LDL-C.147
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2358--2371
+
+ []
+
+[72
+
+]
+Underfull \hbox (badness 1320) in paragraph at lines 2377--2377
+[]|\OT1/cmr/m/n/10 HMG-CoA-Reduktase-Hemmer (Sta-ti-ne) Anionen-
+ []
+
+[73] [74] (./Pharmaskript.aux)
+
+LaTeX Warning: There were multiply-defined labels.
+
+ ) 
+Here is how much of TeX's memory you used:
+ 17730 strings out of 493304
+ 329701 string characters out of 6139871
+ 420262 words of memory out of 5000000
+ 20801 multiletter control sequences out of 15000+600000
+ 14669 words of font info for 57 fonts, out of 8000000 for 9000
+ 957 hyphenation exceptions out of 8191
+ 56i,18n,55p,10421b,306s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbsy10.pfb></u
+sr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/sha
+re/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/tex
+live/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/t
+exmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/texmf-d
+ist/fonts/type1/public/amsfonts/cm/cmmi5.pfb></usr/share/texlive/texmf-dist/fon
+ts/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texlive/texmf-dist/fonts/type
+1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/publi
+c/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfo
+nts/cm/cmr17.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/
+cmr5.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb
+></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/s
+hare/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/t
+exlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy5.pfb></usr/share/texlive/
+texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/share/texlive/texmf-d
+ist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/share/texlive/texmf-dist/fo
+nts/type1/public/amsfonts/symbols/msam10.pfb>
+Output written on Pharmaskript.pdf (75 pages, 1207303 bytes).
+PDF statistics:
+ 335 PDF objects out of 1000 (max. 8388607)
+ 225 compressed objects within 3 object streams
+ 0 named destinations out of 1000 (max. 500000)
+ 73 words of extra memory for PDF output out of 10000 (max. 10000000)
+

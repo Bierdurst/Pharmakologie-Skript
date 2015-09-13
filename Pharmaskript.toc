@@ -1,0 +1,450 @@
+\select@language {german}
+\contentsline {chapter}{\numberline {1}Pharmakokinetik}{5}
+\contentsline {subsection}{\numberline {1.0.1}Definitionen}{5}
+\contentsline {paragraph}{Pharmakon}{5}
+\contentsline {paragraph}{Arzneistoff}{6}
+\contentsline {paragraph}{Arzneimittel}{6}
+\contentsline {subsection}{\numberline {1.0.2}Bezeichnung von Pharmaka}{6}
+\contentsline {subsection}{\numberline {1.0.3}Pharmakokinetik/Pharmakodynamik}{6}
+\contentsline {paragraph}{Pharmakokinetik}{6}
+\contentsline {paragraph}{Pharmakodynamik}{6}
+\contentsline {paragraph}{Pharmakokinetik}{6}
+\contentsline {paragraph}{Elimination}{6}
+\contentsline {subsection}{\numberline {1.0.4}Biotransformation / Metabolisierung}{6}
+\contentsline {subparagraph}{Problem}{6}
+\contentsline {subparagraph}{L\IeC {\"o}sung}{6}
+\contentsline {paragraph}{Phase I: Funktionalisierungsreaktion}{6}
+\contentsline {paragraph}{Phase II: Konjugationsreaktion}{6}
+\contentsline {paragraph}{Bedeutung von Arzneimittelmetabolisierungsprozessen}{7}
+\contentsline {paragraph}{F\IeC {\"u}r den Fremdstoffmetabolismus wichtige Vertreter aus der Superfamilie der humanen Cytochrom P450 Monooxygenasen (CYP)}{7}
+\contentsline {paragraph}{Mechanismen der Induktion von Cytochrom P450 Monooxygenasen}{9}
+\contentsline {paragraph}{Beispiele f\IeC {\"u}r Arzneimittelinteraktionen durch Enzymhemmung und -induktion}{9}
+\contentsline {subparagraph}{Enzyminduktion}{9}
+\contentsline {subparagraph}{Enzymhemmung}{9}
+\contentsline {paragraph}{Phase II Reaktionen}{10}
+\contentsline {subparagraph}{Glucuronosyltransferasen}{10}
+\contentsline {subparagraph}{Glutathion-S-Transferase (GST)}{10}
+\contentsline {subparagraph}{N-Acetyltransferase (NAT) }{10}
+\contentsline {subparagraph}{Sulfotransferase (SULT)}{10}
+\contentsline {subparagraph}{Methyltransferase}{10}
+\contentsline {paragraph}{Bildung aktiver oder toxischer Metabolite (Beispiele)}{10}
+\contentsline {paragraph}{First-Pass-Effekt}{10}
+\contentsline {subsection}{\numberline {1.0.5}Pharmakogenetik / Genetisch bedingte Unterschiede in der Metabolisierung von Pharmaka (Beispiele)}{11}
+\contentsline {paragraph}{Phase I}{11}
+\contentsline {paragraph}{Phase II}{11}
+\contentsline {subsection}{\numberline {1.0.6}Ausscheidung}{11}
+\contentsline {paragraph}{renal}{12}
+\contentsline {paragraph}{bil\IeC {\"a}r/intestinal}{12}
+\contentsline {paragraph}{pulmonal}{12}
+\contentsline {subsection}{\numberline {1.0.7}Elimination von Pharmaka}{12}
+\contentsline {subsection}{\numberline {1.0.8}Pharmakokinetische Parameter}{12}
+\contentsline {paragraph}{Bioververf\IeC {\"u}gbarkeit}{13}
+\contentsline {subparagraph}{Bei oraler gabe abh\IeC {\"a}ngig von:}{13}
+\contentsline {subparagraph}{\IeC {\quotedblbase }area under the curve\IeC {\textquotedblright } (AUC):}{13}
+\contentsline {paragraph}{Verteilungsvolumen}{13}
+\contentsline {paragraph}{Clearance}{13}
+\contentsline {paragraph}{Plasmahalbwertszeit $t_{\frac {1}{2}}$}{13}
+\contentsline {paragraph}{Kinetik nach wiederholter Gabe}{13}
+\contentsline {subparagraph}{Kumulation}{14}
+\contentsline {chapter}{\numberline {2}Pharmakodynamik}{15}
+\contentsline {section}{\numberline {2.1}Angriffsorte von Pharmaka}{15}
+\contentsline {subsection}{\numberline {2.1.1}Fremdorganismus / Mikroorganismus}{15}
+\contentsline {subsection}{\numberline {2.1.2}Menschlicher / tierischer Organismus (Makroorganismus)}{15}
+\contentsline {paragraph}{Extrazellul\IeC {\"a}r}{15}
+\contentsline {paragraph}{Zellul\IeC {\"a}r}{15}
+\contentsline {section}{\numberline {2.2}Kan\IeC {\"a}le: Definiton und Funktion}{16}
+\contentsline {paragraph}{$Na^+$-Kan\IeC {\"a}le}{16}
+\contentsline {paragraph}{$Ca^{2+}$-Kan\IeC {\"a}le}{16}
+\contentsline {paragraph}{$K^+$-Kan\IeC {\"a}le}{16}
+\contentsline {section}{\numberline {2.3}Transporter: Definition und Funktion}{16}
+\contentsline {paragraph}{Carrier}{16}
+\contentsline {subparagraph}{$Na^+$/Neurotransmitter-Kotransporter}{16}
+\contentsline {subparagraph}{Kation/Cl--Kotransporter}{17}
+\contentsline {paragraph}{Pumpen}{17}
+\contentsline {subparagraph}{Ionenpumpen}{17}
+\contentsline {subparagraph}{ABC-Transporter}{17}
+\contentsline {section}{\numberline {2.4}Enzyme}{17}
+\contentsline {section}{\numberline {2.5}Rezeptor: Definition und Funktion}{19}
+\contentsline {section}{\numberline {2.6}Rezeptortypen}{19}
+\contentsline {section}{\numberline {2.7}G-Protein-gekoppelte Rezeptoren (GPCR)}{19}
+\contentsline {subsection}{\numberline {2.7.1}Aktivierungs-/Inaktivierungs-Zyklus}{19}
+\contentsline {section}{\numberline {2.8}G-Protein vermittelte Signalwege (ubiquit\IeC {\"a}r)}{19}
+\contentsline {subsection}{\numberline {2.8.1}Gs-gekoppelte Rezeptoren}{19}
+\contentsline {paragraph}{Beispiele}{20}
+\contentsline {subsection}{\numberline {2.8.2}Gi/o-gekoppelte Rezeptoren}{20}
+\contentsline {paragraph}{Beispiele}{20}
+\contentsline {section}{\numberline {2.9}Liganden-gesteuerte Ionenkan\IeC {\"a}le}{22}
+\contentsline {section}{\numberline {2.10}Liganden-regulierte Enzyme}{22}
+\contentsline {subsection}{\numberline {2.10.1}Rezeptoren mit Tyrosinkinase-Aktivit\IeC {\"a}t (Beispiel: Insulin-Rezeptor)}{22}
+\contentsline {section}{\numberline {2.11}nukle\IeC {\"a}re Rezeptoren}{23}
+\contentsline {section}{\numberline {2.12}Pharmakon-Rezeptor-Interaktion}{23}
+\contentsline {section}{\numberline {2.13}Wirkungsausl\IeC {\"o}sung}{23}
+\contentsline {paragraph}{Intrinsische Aktivit\IeC {\"a}t (Wirksamkeit, \IeC {\quotedblbase }efficacy\IeC {\textquotedblleft })}{23}
+\contentsline {paragraph}{Konzentrations- Wirkungs-Beziehung:}{23}
+\contentsline {section}{\numberline {2.14}Wirksamkeit/Potenz}{24}
+\contentsline {paragraph}{Potenz:}{24}
+\contentsline {paragraph}{Wirksamkeit:}{24}
+\contentsline {section}{\numberline {2.15}Agonismus}{24}
+\contentsline {section}{\numberline {2.16}Antagonismus}{24}
+\contentsline {paragraph}{Agonist:}{24}
+\contentsline {paragraph}{Antagonist:}{24}
+\contentsline {paragraph}{kompetitiver Antagonismus}{24}
+\contentsline {paragraph}{nichtkompetitiver Antagonismus}{24}
+\contentsline {section}{\numberline {2.17}Toleranzph\IeC {\"a}nomene}{24}
+\contentsline {subsection}{\numberline {2.17.1}Toleranz:}{24}
+\contentsline {paragraph}{pharmakokinetische Toleranz}{24}
+\contentsline {paragraph}{pharmakodynamische Toleranz}{24}
+\contentsline {subsection}{\numberline {2.17.2}Tachyphylaxie}{25}
+\contentsline {section}{\numberline {2.18}Unerw\IeC {\"u}nschte Wirkungen von Pharmaka}{25}
+\contentsline {paragraph}{Hauptwirkung}{25}
+\contentsline {paragraph}{Nebenwirkung}{25}
+\contentsline {paragraph}{Unerw\IeC {\"u}nschte Wirkung}{25}
+\contentsline {subsection}{\numberline {2.18.1}H\IeC {\"a}ufigkeit unerw\IeC {\"u}nschter Arzneimittelwirkungen}{25}
+\contentsline {subsection}{\numberline {2.18.2}Unerw\IeC {\"u}nschte Wirkungen im Rahmen des pharmakodynamischen Wirkprofils}{25}
+\contentsline {subsection}{\numberline {2.18.3}Ursachen dosisabh\IeC {\"a}ngiger unerw\IeC {\"u}nschter Arzneimittelwirkungen}{25}
+\contentsline {paragraph}{Absolute \IeC {\"U}berdosierung}{25}
+\contentsline {paragraph}{Relative \IeC {\"U}berdosierung}{25}
+\contentsline {subsection}{\numberline {2.18.4}Arzneimittel-unabh\IeC {\"a}ngige Faktoren, die zu einer relativen \IeC {\"U}berdosierung f\IeC {\"u}hren}{25}
+\contentsline {subsection}{\numberline {2.18.5}Unerw\IeC {\"u}nschte Wirkungen durch Arzneimittelinteraktionen}{26}
+\contentsline {paragraph}{Beispiele}{27}
+\contentsline {subsection}{\numberline {2.18.6}Unerw.Wirkungen au\IeC {\ss }erhalb des pharmakodynam. Wirkprofils}{27}
+\contentsline {paragraph}{Arzneimittelallergie}{28}
+\contentsline {paragraph}{Pseudoallergische Reaktion}{28}
+\contentsline {chapter}{\numberline {3}Cholinerges System}{29}
+\contentsline {section}{\numberline {3.1}cholinerge und adrenerge \IeC {\"U}bertragung im peripheren efferenten Nervensystem}{29}
+\contentsline {subsection}{\numberline {3.1.1}Eigenschaften des somatomotor. und autonomen Systems}{29}
+\contentsline {section}{\numberline {3.2}Acetylcholin}{29}
+\contentsline {subsection}{\numberline {3.2.1}Cholinerge Synapse}{29}
+\contentsline {subsection}{\numberline {3.2.2}Acetylcholinesterase}{29}
+\contentsline {paragraph}{motorische Endplatte}{29}
+\contentsline {paragraph}{ZNS}{29}
+\contentsline {paragraph}{sezernierte Form}{29}
+\contentsline {section}{\numberline {3.3}Pharmakologische Beeinflussung cholinerger Systeme}{29}
+\contentsline {subsection}{\numberline {3.3.1}Cholinerge Rezeptoren}{30}
+\contentsline {paragraph}{muskarinisch}{30}
+\contentsline {paragraph}{nikotinisch}{30}
+\contentsline {subsection}{\numberline {3.3.2}Agonisten / Antagonisten des nikotinischen Ach-Rezeptor}{30}
+\contentsline {paragraph}{Nikotin}{30}
+\contentsline {subparagraph}{Pharmakokinetik}{30}
+\contentsline {subparagraph}{Pharmakodynamik}{31}
+\contentsline {paragraph}{Cytisin / Vareniclin}{31}
+\contentsline {paragraph}{Muskelrelaxantien}{31}
+\contentsline {subparagraph}{Wirkung}{31}
+\contentsline {subparagraph}{Einsatz}{31}
+\contentsline {subparagraph}{Pharmakokinetik}{31}
+\contentsline {subsection}{\numberline {3.3.3}nicht-depolarisierende Muskelrelaxantien}{31}
+\contentsline {subparagraph}{Elimination}{31}
+\contentsline {subparagraph}{Antidot}{31}
+\contentsline {subsection}{\numberline {3.3.4}depolarisiernde Muskelrelaxantien}{31}
+\contentsline {paragraph}{Suxamethonium, Succinylcholin}{31}
+\contentsline {subparagraph}{Wirkung}{31}
+\contentsline {subparagraph}{Einsatz}{32}
+\contentsline {subparagraph}{unerw\IeC {\"u}nschte Wirkungen}{32}
+\contentsline {section}{\numberline {3.4}Agonisten / Antagonisten muskarinischer Rezeptoren antimuskarinerge Substanzen / Parasympatholytika}{32}
+\contentsline {subsection}{\numberline {3.4.1}Belladonna-Alkaloide}{32}
+\contentsline {subparagraph}{Wirkung}{32}
+\contentsline {subsection}{\numberline {3.4.2}M3-selektiv}{32}
+\contentsline {subsection}{\numberline {3.4.3}quartern\IeC {\"a}re Derivate}{32}
+\contentsline {subparagraph}{Hauptindikationen f\IeC {\"u}r Parasympatholytika}{33}
+\contentsline {subparagraph}{unerw\IeC {\"u}nschte Wirkungen (je nach erw\IeC {\"u}nschter Wirkung)}{33}
+\contentsline {subparagraph}{Kontraindikationen}{33}
+\contentsline {section}{\numberline {3.5}muskarinerge Agonisten / direkte Parasympathomimetika}{33}
+\contentsline {subparagraph}{Hauptindikation f\IeC {\"u}r direkte Parasympathomimetika}{33}
+\contentsline {subparagraph}{unerw\IeC {\"u}nschte Wirkung}{33}
+\contentsline {subparagraph}{Kontraindikationen}{34}
+\contentsline {section}{\numberline {3.6}Cholinesterase-Hemmer/indirekte Parasympathomimetika}{34}
+\contentsline {subsection}{\numberline {3.6.1}Hydrolyse von Ach durch AchE:}{34}
+\contentsline {subsection}{\numberline {3.6.2}Wirkung von AchE-Hemmern:}{34}
+\contentsline {subsection}{\numberline {3.6.3}reversible AchE-Hemmer}{34}
+\contentsline {subparagraph}{Hauptindikationen f\IeC {\"u}r ind. Parasympathomimetika}{34}
+\contentsline {subsection}{\numberline {3.6.4}irreversible AchE-Hemmer}{34}
+\contentsline {chapter}{\numberline {4}Adrenerges System}{35}
+\contentsline {paragraph}{Katecholaminsynthese}{35}
+\contentsline {paragraph}{Abbau von Katecholaminen}{35}
+\contentsline {subsection}{\numberline {4.0.5}adrenerge Varikosit\IeC {\"a}t}{35}
+\contentsline {subsection}{\numberline {4.0.6}Hemmer der NA-Freisetzung}{35}
+\contentsline {subsection}{\numberline {4.0.7}indirekte Sympathomimetika}{36}
+\contentsline {subparagraph}{Effekt von Amphetamin auf die Noradrenalin (NA)-Freisetzung:}{36}
+\contentsline {section}{\numberline {4.1}adrenerge Rezeptoren}{36}
+\contentsline {section}{\numberline {4.2}$\beta _2$-Adrenozeptor-Agonisten / $\beta _2$-Sympathomimetika }{36}
+\contentsline {subparagraph}{Gabe}{36}
+\contentsline {subparagraph}{Indikation}{36}
+\contentsline {subparagraph}{unerw\IeC {\"u}nschte Wirkungen}{36}
+\contentsline {section}{\numberline {4.3}$\alpha $-Adrenozeptor-Agonisten}{36}
+\contentsline {subparagraph}{Indikation}{38}
+\contentsline {subparagraph}{unerw\IeC {\"u}nschte Wirkungen}{38}
+\contentsline {section}{\numberline {4.4}$\alpha _2$-Adrenozeptor-Agonisten}{38}
+\contentsline {subparagraph}{Indikation}{38}
+\contentsline {subparagraph}{unerw\IeC {\"u}nschte Wirkungen}{38}
+\contentsline {section}{\numberline {4.5}$\alpha _1$-Adrenozeptor-Antagonisten}{38}
+\contentsline {subparagraph}{Indikation}{38}
+\contentsline {subparagraph}{unerw\IeC {\"u}nschte Wirkungen}{38}
+\contentsline {section}{\numberline {4.6}\IeC {\textbullet }}{39}
+\contentsline {subsection}{\numberline {4.6.1}Wirkprofil}{39}
+\contentsline {paragraph}{$\beta _1$-Selektivit\IeC {\"a}t (\IeC {\quotedblbase }Kardioselektivit\IeC {\"a}t\IeC {\textquotedblleft })}{39}
+\contentsline {paragraph}{partielle agonistische Aktivit\IeC {\"a}t (PAA)}{39}
+\contentsline {paragraph}{\IeC {\quotedblbase }membranstabilisierende Wirkung\IeC {\textquotedblleft }}{40}
+\contentsline {paragraph}{vasodilatierende Wirkung}{40}
+\contentsline {subsection}{\numberline {4.6.2}Pharmakokinetik}{40}
+\contentsline {subsection}{\numberline {4.6.3}Kontraindikationen}{40}
+\contentsline {subsection}{\numberline {4.6.4}Wechselwirkungen}{40}
+\contentsline {subsection}{\numberline {4.6.5}Indikation}{40}
+\contentsline {subsection}{\numberline {4.6.6}unerw\IeC {\"u}nschte Wirkungen}{41}
+\contentsline {section}{\numberline {4.7}Relative Rezeptorselektivit\IeC {\"a}t von Adrenozeptor-Agonisten und -Antagonisten}{41}
+\contentsline {chapter}{\numberline {5}RAAS/ Diuretika}{42}
+\contentsline {section}{\numberline {5.1}Renin-Angiotensin-System}{42}
+\contentsline {section}{\numberline {5.2}Renin-Inhibitoren}{42}
+\contentsline {paragraph}{Aliskiren}{42}
+\contentsline {subparagraph}{Pharmakokinetik}{42}
+\contentsline {subparagraph}{Unerw. Wirkungen}{42}
+\contentsline {subparagraph}{Einsatz}{42}
+\contentsline {subparagraph}{Kontraindikationen}{42}
+\contentsline {section}{\numberline {5.3}ACE-Hemmer}{42}
+\contentsline {subparagraph}{Pharmakokinetik}{42}
+\contentsline {subparagraph}{unerw\IeC {\"u}nschte Wirkungen}{43}
+\contentsline {subparagraph}{Indikation}{43}
+\contentsline {subparagraph}{Kontraindikationen}{43}
+\contentsline {subparagraph}{Wechselwirkungen}{43}
+\contentsline {section}{\numberline {5.4}$AT_1$-Rezeptor-Antagonisten}{43}
+\contentsline {subparagraph}{Wirkmechanismus}{43}
+\contentsline {subparagraph}{Einsatz}{44}
+\contentsline {section}{\numberline {5.5}Klassen von Diuretika}{44}
+\contentsline {subsection}{\numberline {5.5.1}Tubuloglomerul\IeC {\"a}re Feedback-Mechanismen}{44}
+\contentsline {subparagraph}{Regulation der GFR des Einzelnephrons}{44}
+\contentsline {subparagraph}{Regulation der Reninfreisetzung \IeC {\"u}ber MD}{44}
+\contentsline {section}{\numberline {5.6}Schleifendiuretika}{44}
+\contentsline {subparagraph}{Wirkmechanismus}{44}
+\contentsline {subparagraph}{Pharmakokinetik}{44}
+\contentsline {subparagraph}{Unerw\IeC {\"u}nschte Wirkungen}{45}
+\contentsline {subparagraph}{Einsatz}{45}
+\contentsline {subparagraph}{Interaktionen}{45}
+\contentsline {section}{\numberline {5.7}Thiazide}{45}
+\contentsline {subparagraph}{Wirkmechanismus}{45}
+\contentsline {subparagraph}{Pharmakokinetik}{46}
+\contentsline {subparagraph}{Unerw\IeC {\"u}nschte Wirkungen}{46}
+\contentsline {subparagraph}{Einsatz}{46}
+\contentsline {subparagraph}{Kontraindikationen}{46}
+\contentsline {section}{\numberline {5.8}$K^+$-sparende Diuretika}{46}
+\contentsline {subparagraph}{Wirkmechanismus}{47}
+\contentsline {subparagraph}{Pharmakokinetik}{47}
+\contentsline {subparagraph}{Unerw\IeC {\"u}nschte Wirkungen}{47}
+\contentsline {subparagraph}{Einsatz}{47}
+\contentsline {subparagraph}{Kontraindikationen}{47}
+\contentsline {subparagraph}{Wechselwirkungen}{47}
+\contentsline {section}{\numberline {5.9}Mineralokortikoid-Rezeptor-Antagonisten}{47}
+\contentsline {subparagraph}{Wirkung}{47}
+\contentsline {subparagraph}{Pharmakokinetik}{47}
+\contentsline {subparagraph}{Unerw\IeC {\"u}nschte Wirkungen}{48}
+\contentsline {subparagraph}{Einsatz}{48}
+\contentsline {subparagraph}{Interaktionen}{48}
+\contentsline {subparagraph}{Kontrainkdikationen}{48}
+\contentsline {section}{\numberline {5.10}Arterielle Hypertonie}{48}
+\contentsline {section}{\numberline {5.11}Therapie der Hypertonie}{48}
+\contentsline {paragraph}{Ziel}{48}
+\contentsline {paragraph}{nicht-medikament\IeC {\"o}s}{48}
+\contentsline {paragraph}{medikament\IeC {\"o}s}{49}
+\contentsline {subparagraph}{RR hochnormal}{49}
+\contentsline {subparagraph}{Stadium 1}{49}
+\contentsline {subparagraph}{Stadium 2 und 3}{49}
+\contentsline {paragraph}{Stufentherapie}{49}
+\contentsline {subparagraph}{1. Stufe}{49}
+\contentsline {subparagraph}{2. Stufe}{49}
+\contentsline {subparagraph}{3. Stufe}{49}
+\contentsline {chapter}{\numberline {6}Digitalisglykoside}{50}
+\contentsline {section}{\numberline {6.1}Herzinsuffizienz}{50}
+\contentsline {paragraph}{Ursachen}{50}
+\contentsline {paragraph}{Pathogenese und Klinik}{50}
+\contentsline {subparagraph}{Kompensierte Herzinsuffizienz}{50}
+\contentsline {subparagraph}{Dekompensierte Herzinsuffizienz}{50}
+\contentsline {subparagraph}{bei der Diagnosestellung Unterscheidung in}{50}
+\contentsline {paragraph}{Symptome}{50}
+\contentsline {paragraph}{Klassifikation}{50}
+\contentsline {paragraph}{Prognose}{50}
+\contentsline {paragraph}{Zur Behandlung der chron. Herzinsuff. eingesetzte Pharmaka}{51}
+\contentsline {section}{\numberline {6.2}Digitalisglykoside}{51}
+\contentsline {paragraph}{Wirkmechanismus}{51}
+\contentsline {paragraph}{Pharmokokinetik}{51}
+\contentsline {paragraph}{Unerw\IeC {\"u}nschte Wirkungen}{51}
+\contentsline {paragraph}{Kontraindikationen}{52}
+\contentsline {paragraph}{Interaktionen / Wechselwirkungen}{52}
+\contentsline {paragraph}{Vorgehen bei Digitalisierung}{52}
+\contentsline {subparagraph}{langsame Digitalisierung}{52}
+\contentsline {subparagraph}{mittelschnelle Digitalisierung}{52}
+\contentsline {paragraph}{Vergiftung}{52}
+\contentsline {subparagraph}{Zeichen}{52}
+\contentsline {subparagraph}{Therapie}{52}
+\contentsline {paragraph}{Stellenwert der Digitalisglykoside}{52}
+\contentsline {paragraph}{Therapie der chron. Herzinsuffizienz}{53}
+\contentsline {subparagraph}{nicht medikament\IeC {\"o}s}{53}
+\contentsline {subparagraph}{medikament\IeC {\"o}s}{53}
+\contentsline {chapter}{\numberline {7}Antiarrhythmika}{54}
+\contentsline {section}{\numberline {7.1}Mechanismen der Arrhythmieenstehung}{54}
+\contentsline {paragraph}{abnorme Schrittmacheraktivit\IeC {\"a}t}{54}
+\contentsline {paragraph}{Nachdepolarisation}{54}
+\contentsline {subparagraph}{fr\IeC {\"u}he Nachdepolarisation (EAD)}{54}
+\contentsline {subparagraph}{sp\IeC {\"a}te Nachdepolarisation}{54}
+\contentsline {paragraph}{Blockade der Fortleitung}{54}
+\contentsline {paragraph}{Reentry}{55}
+\contentsline {section}{\numberline {7.2}Antiarrhythmika-Klassen (Vaughan-Williams)}{55}
+\contentsline {subsection}{\numberline {7.2.1}Klasse I-Antiarrhythmika}{55}
+\contentsline {paragraph}{Klasse Ia}{55}
+\contentsline {subparagraph}{Wirkmechanismus}{55}
+\contentsline {subparagraph}{Pharmakokinetik}{55}
+\contentsline {subparagraph}{Einsatz}{55}
+\contentsline {subparagraph}{unerw\IeC {\"u}nschte Wirkungen}{55}
+\contentsline {subparagraph}{Interaktionen}{55}
+\contentsline {paragraph}{Klasse Ib}{55}
+\contentsline {subparagraph}{Wirkmechanismus}{55}
+\contentsline {subparagraph}{Pharmakokinetik}{55}
+\contentsline {subparagraph}{Plasma-HWZ}{56}
+\contentsline {subparagraph}{Einsatz}{56}
+\contentsline {subparagraph}{unerw\IeC {\"u}nschte Wirkungen}{56}
+\contentsline {paragraph}{Klasse Ic}{56}
+\contentsline {subparagraph}{Wirkmechanismus}{56}
+\contentsline {subparagraph}{unerw. Wirkungen}{56}
+\contentsline {subparagraph}{Einsatz}{56}
+\contentsline {subsection}{\numberline {7.2.2}Klasse II-Antiarrhythmika}{56}
+\contentsline {paragraph}{$\beta $-Adrenozeptor-Blocker}{56}
+\contentsline {subsection}{\numberline {7.2.3}Klasse III-Antiarrhythmika}{56}
+\contentsline {subparagraph}{Wirkmechanismus}{56}
+\contentsline {subparagraph}{Pharmakokinetik}{56}
+\contentsline {subparagraph}{Einsatz}{56}
+\contentsline {subparagraph}{unerw\IeC {\"u}nschte Wirkungen}{56}
+\contentsline {subsection}{\numberline {7.2.4}Klasse IV-Antiarrhythmika}{57}
+\contentsline {subparagraph}{Wirkmechanismus}{57}
+\contentsline {subparagraph}{Einsatz}{57}
+\contentsline {subparagraph}{unerw\IeC {\"u}nschte Wirkungen}{57}
+\contentsline {subsection}{\numberline {7.2.5}weitere als Antiarrhythmika eingesetzte Pharmaka}{57}
+\contentsline {paragraph}{Digitalisglykoside}{57}
+\contentsline {paragraph}{Atropin}{57}
+\contentsline {paragraph}{Adenosin}{57}
+\contentsline {subparagraph}{Pharmakokinetik}{57}
+\contentsline {subparagraph}{Einsatz}{57}
+\contentsline {subparagraph}{Unerw. Wirkungen}{57}
+\contentsline {subsection}{\numberline {7.2.6}weitere Kardiaka mit Wirkung auf kardiale Kan\IeC {\"a}le}{57}
+\contentsline {paragraph}{Ivabradin}{57}
+\contentsline {subparagraph}{Wirkung}{57}
+\contentsline {subparagraph}{Einsatz}{57}
+\contentsline {subparagraph}{Unerw. Wirkungen}{57}
+\contentsline {section}{\numberline {7.3}Relaxantien glatter Muskulatur}{57}
+\contentsline {subsection}{\numberline {7.3.1}Regulation des Tonus der glatten Muskulatur}{57}
+\contentsline {paragraph}{Gef\IeC {\"a}\IeC {\ss }e, Bronchien, Uterus, Magen-Darm-Trakt, Ableitende Harnwege}{57}
+\contentsline {subparagraph}{Regulation \IeC {\"u}ber Rezeptoren}{58}
+\contentsline {subsection}{\numberline {7.3.2}NO-Donatoren}{58}
+\contentsline {paragraph}{Organische Nitrate}{58}
+\contentsline {subparagraph}{Wirkmechanismus}{58}
+\contentsline {subparagraph}{Toleranzentwicklung bei organischen Nitraten}{58}
+\contentsline {subparagraph}{Kardiovaskul\IeC {\"a}re Effekte von NO-Donatoren}{58}
+\contentsline {paragraph}{Pharmokokinetik}{58}
+\contentsline {subparagraph}{Glyceroltrinitrat}{59}
+\contentsline {subparagraph}{ISDN / ISMN}{59}
+\contentsline {subparagraph}{Natriumnitroprussid}{59}
+\contentsline {subparagraph}{Molsidomin}{59}
+\contentsline {subparagraph}{Indikationen}{59}
+\contentsline {subparagraph}{unerw\IeC {\"u}nschte Wirkungen}{59}
+\contentsline {subparagraph}{Kontraindikationen}{59}
+\contentsline {subparagraph}{Interaktionen}{59}
+\contentsline {section}{\numberline {7.4}$Ca^{2+}$-Kanalblocker}{60}
+\contentsline {subsection}{\numberline {7.4.1}spannungsabh\IeC {\"a}ngige $Ca^{2+}$-Kan\IeC {\"a}le}{60}
+\contentsline {paragraph}{Dihydropyridine}{60}
+\contentsline {paragraph}{Phenylalkylamine}{60}
+\contentsline {paragraph}{Benzothiazepine}{61}
+\contentsline {subparagraph}{Wirkmechanismus}{61}
+\contentsline {subparagraph}{kardiovaskul\IeC {\"a}re Effekte}{61}
+\contentsline {subparagraph}{Indikationen}{61}
+\contentsline {subparagraph}{Unerw\IeC {\"u}nschte Wirkungen}{61}
+\contentsline {subparagraph}{Kontraindikationen}{61}
+\contentsline {section}{\numberline {7.5}Koronare Herzkrankheit (KHK)}{61}
+\contentsline {subsection}{\numberline {7.5.1}Pathogenese und Klinik}{61}
+\contentsline {paragraph}{Stabile Angina pectoris}{61}
+\contentsline {paragraph}{Akutes Koronarsyndrom}{61}
+\contentsline {paragraph}{Instabile Angina pectoris}{61}
+\contentsline {paragraph}{Nicht ST-Hebungsinfarkt}{61}
+\contentsline {paragraph}{ST-Hebungsinfarkt}{61}
+\contentsline {paragraph}{Sonderformen}{62}
+\contentsline {subsection}{\numberline {7.5.2}Symptomatische Behandlung der Angina pectoris (A.p.)}{62}
+\contentsline {paragraph}{Symptomatische Therapie der A.p. je nach Begleitarkrankungen}{62}
+\contentsline {paragraph}{Prognose verbessernde Pharmakotherapie (Mortalit\IeC {\"a}tssenkung)}{62}
+\contentsline {subsection}{\numberline {7.5.3}Therapie des akuten Angina-pectois Anfall}{62}
+\contentsline {section}{\numberline {7.6}$K^+$-Kanal\IeC {\"o}ffner}{62}
+\contentsline {paragraph}{ATP-abh\IeC {\"a}ngiger $K^+$-Kanal}{62}
+\contentsline {section}{\numberline {7.7}Phosphodiesterase(PDE)-Hemmer}{63}
+\contentsline {subsection}{\numberline {7.7.1}Unselektive PDE-Hemmer}{63}
+\contentsline {paragraph}{Methylxanthine}{63}
+\contentsline {subparagraph}{Wirkmechanismus}{63}
+\contentsline {subparagraph}{Pharmakokinetik}{63}
+\contentsline {paragraph}{unerw\IeC {\"u}nschte Wirkungen}{63}
+\contentsline {subparagraph}{Einsatz}{63}
+\contentsline {subparagraph}{Kontraindikationen}{63}
+\contentsline {subsection}{\numberline {7.7.2}Selektive PDE-Hemmer}{64}
+\contentsline {paragraph}{PDE 3-Hemmer}{64}
+\contentsline {paragraph}{PDE 5-Hemmer}{64}
+\contentsline {subparagraph}{Wirkung}{64}
+\contentsline {subparagraph}{Pharmakokinetik}{64}
+\contentsline {subparagraph}{Unerw. Wirkungen}{64}
+\contentsline {subparagraph}{Wechselwirkungen}{64}
+\contentsline {chapter}{\numberline {8}Antidiabetica}{65}
+\contentsline {section}{\numberline {8.1}Diabetes mellitus}{65}
+\contentsline {subsubsection}{Typ I Diabetes}{65}
+\contentsline {subsubsection}{Typ II Diabetes}{65}
+\contentsline {subsubsection}{Sonderformen}{65}
+\contentsline {section}{\numberline {8.2}Insulinsynthese/-sekretion}{65}
+\contentsline {subsubsection}{Insulin-Rezeptor}{66}
+\contentsline {section}{\numberline {8.3}Insulin}{66}
+\contentsline {subsubsection}{Kurz-/ultrakurz-wirksame Insuline}{66}
+\contentsline {subsubsection}{Mittellang-/lang-wirksame Insuline}{66}
+\contentsline {subsection}{\numberline {8.3.1}Kombinations-/Mischinsuline}{67}
+\contentsline {subsubsection}{Insulinapplikation}{67}
+\contentsline {subparagraph}{unerw\IeC {\"u}nschte Wirkungen}{67}
+\contentsline {section}{\numberline {8.4}Sulfonylharnstoffe}{67}
+\contentsline {subparagraph}{Wirkmechanismus}{67}
+\contentsline {subsubsection}{ATP-abh\IeC {\"a}ngiger $K^+$-Kanal}{67}
+\contentsline {subparagraph}{Pharmakokinetik}{67}
+\contentsline {subparagraph}{unerw\IeC {\"u}nschte Wirkungen}{68}
+\contentsline {subparagraph}{Interaktionen}{68}
+\contentsline {subparagraph}{Indikationen}{68}
+\contentsline {subparagraph}{Kontraindikationen}{68}
+\contentsline {section}{\numberline {8.5}$\alpha $-Glucosidasehemmer}{68}
+\contentsline {subparagraph}{Wirkmechanismus}{68}
+\contentsline {subparagraph}{unerw\IeC {\"u}nschte Wirkungen}{68}
+\contentsline {subparagraph}{Konratindikationen}{68}
+\contentsline {subparagraph}{Indikation}{68}
+\contentsline {section}{\numberline {8.6}Biguanide}{68}
+\contentsline {subparagraph}{Wirkmechanismus}{68}
+\contentsline {subparagraph}{Pharmakokinetik}{68}
+\contentsline {subparagraph}{unerw\IeC {\"u}nschte Wirkungen}{69}
+\contentsline {subparagraph}{Kontraindikationen}{69}
+\contentsline {subparagraph}{Indikationen}{69}
+\contentsline {section}{\numberline {8.7}Thiazolidindion-Derivate ("Glitazone")}{69}
+\contentsline {subparagraph}{Wirkmechanismus}{69}
+\contentsline {subparagraph}{unerw\IeC {\"u}nschte Wirkung}{69}
+\contentsline {subparagraph}{Einsatz}{69}
+\contentsline {section}{\numberline {8.8}Glucagon-like-peptide-1(GLP-1)-Agonisten}{69}
+\contentsline {subparagraph}{Wirkmechanismus}{69}
+\contentsline {subparagraph}{unerw\IeC {\"u}nschte Wirkungen}{70}
+\contentsline {subparagraph}{Kontraindikationen}{70}
+\contentsline {subparagraph}{Einsatz}{70}
+\contentsline {section}{\numberline {8.9}Dipeptidyl-Peptidase-IV(DPP-IV)-Hemmer}{70}
+\contentsline {paragraph}{Wirkmechanismus}{70}
+\contentsline {paragraph}{Unerw\IeC {\"u}nschte Wirkungen}{70}
+\contentsline {paragraph}{Pharmakokinetik}{70}
+\contentsline {paragraph}{Einsatz}{70}
+\contentsline {section}{\numberline {8.10}SGLT2-Inhibitoren}{70}
+\contentsline {paragraph}{Wirkmechanismus}{70}
+\contentsline {section}{\numberline {8.11}Diabets-mellitus Behandlung}{70}
+\contentsline {subsubsection}{Typ I Diabetes}{70}
+\contentsline {subsubsection}{Typ II Diabetes}{70}
+\contentsline {paragraph}{Pharmakotherapie}{71}
+\contentsline {subparagraph}{Nachteil}{71}
+\contentsline {chapter}{\numberline {9}Lipidsenker}{72}
+\contentsline {section}{\numberline {9.1}Lipoproteinstoffwechsel}{72}
+\contentsline {section}{\numberline {9.2}Fettstoffwechselst\IeC {\"o}rung}{72}
+\contentsline {subsubsection}{Prim\IeC {\"a}re Hyperlipoprotein\IeC {\"a}mie}{72}
+\contentsline {subsubsection}{Sekund\IeC {\"a}re Hyperlipoprotein\IeC {\"a}mie}{72}
+\contentsline {subsubsection}{Bedeutung der Therapie insb. der Hypercholesterin\IeC {\"a}mie}{73}
+\contentsline {subsubsection}{Therapie}{73}
+\contentsline {section}{\numberline {9.3}HMG-CoA-Reduktase-Hemmer (Statine)}{73}
+\contentsline {paragraph}{Wirkmechanismus}{74}
+\contentsline {subparagraph}{Pleiotrope Wirkungen}{74}
+\contentsline {paragraph}{Pharmakokinetik}{74}
+\contentsline {paragraph}{unerw\IeC {\"u}nschte Wirkungen}{74}
