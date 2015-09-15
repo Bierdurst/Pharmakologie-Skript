@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2015.9.13)  15 SEP 2015 18:27
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2015.9.13)  15 SEP 2015 18:40
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1166,6 +1166,30 @@ LaTeX Warning: Label `par:unerw_nschte_wirkungen' multiply defined.
 
 LaTeX Warning: Label `par:indikationen' multiply defined.
 
+
+LaTeX Warning: Label `par:wirkmechanismus' multiply defined.
+
+
+LaTeX Warning: Label `par:unerw_nschte_wirkungen' multiply defined.
+
+
+LaTeX Warning: Label `par:indikation' multiply defined.
+
+
+LaTeX Warning: Label `par:wirkmechanismus' multiply defined.
+
+
+LaTeX Warning: Label `par:indikationen' multiply defined.
+
+
+LaTeX Warning: Label `par:wirkmechanismus' multiply defined.
+
+
+LaTeX Warning: Label `par:wirkmechanismus' multiply defined.
+
+
+LaTeX Warning: Label `par:indikationen' multiply defined.
+
 )
 \openout1 = `Pharmaskript.aux'.
 
@@ -1346,11 +1370,7 @@ File: Biotransformation.png Graphic file (type png)
 <use Biotransformation.png>
 Package pdftex.def Info: Biotransformation.png used on input line 69.
 (pdftex.def)             Requested size: 193.47577pt x 134.90968pt.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[8]
+ [8]
 Underfull \hbox (badness 10000) in paragraph at lines 83--84
 
  []
@@ -1642,22 +1662,24 @@ Underfull \hbox (badness 10000) in paragraph at lines 116--117
 
  []
 
-
+[11 <./CYP2.png (PNG copy)>]
 Underfull \hbox (badness 10000) in paragraph at lines 141--142
 
  []
 
-[11 <./CYP2.png (PNG copy)>]
 <Pharmakodynamik.png, id=56, 2278.63058pt x 965.01706pt>
 File: Pharmakodynamik.png Graphic file (type png)
 
 <use Pharmakodynamik.png>
 Package pdftex.def Info: Pharmakodynamik.png used on input line 170.
 (pdftex.def)             Requested size: 241.84842pt x 102.41206pt.
- <firstpass.png, id=57, 722.7pt x 486.81876pt>
-File: firstpass.png Graphic file (type png)
 
-<use firstpass.png>
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<firstpass.png, id=57, 722.7pt x 486.81876pt>
+File: firstpass.png Graphic file (type png)
+ <use firstpass.png>
 Package pdftex.def Info: firstpass.png used on input line 179.
 (pdftex.def)             Requested size: 193.47577pt x 130.32858pt.
 
@@ -1670,24 +1692,25 @@ File: ethanolbiotransformation.png Graphic file (type png)
 <use ethanolbiotransformation.png>
 Package pdftex.def Info: ethanolbiotransformation.png used on input line 186.
 (pdftex.def)             Requested size: 193.47577pt x 161.47568pt.
- [12 <./Pharmakodynamik.png>]
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 191--193
 
  []
 
-
-Overfull \hbox (3.11546pt too wide) in paragraph at lines 194--195
- \OT1/cmr/bx/n/10 Pha-se II[] \OT1/cmr/m/it/10 N-Acetyltransferase (NAT II) []\
-OT1/cmr/m/n/10 lang-sam Ace-ty-lie-rer\ vs. []schnell Ace-ty-lie-rer (je 50% be
-i Eu-rop[]aern)$\OMS/cmsy/m/n/10 !$
- []
-
-[13 <./firstpass.png (PNG copy)> <./ethanolbiotransformation.png (PNG copy)>]
+[12] [13 <./Pharmakodynamik.png> <./firstpass.png (PNG copy)>]
 <Elimination.png, id=66, 1167.65646pt x 1567.26706pt>
 File: Elimination.png Graphic file (type png)
  <use Elimination.png>
 Package pdftex.def Info: Elimination.png used on input line 212.
 (pdftex.def)             Requested size: 193.47577pt x 259.68797pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
 
 Underfull \hbox (badness 10000) in paragraph at lines 216--217
 
@@ -1698,7 +1721,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 218--220
 
  []
 
-[14 <./Elimination.png>]
+[14 <./ethanolbiotransformation.png (PNG copy)>]
 Underfull \hbox (badness 10000) in paragraph at lines 220--221
 
  []
@@ -1707,31 +1730,37 @@ File: konzentrationzeit.png Graphic file (type png)
 <use konzentrationzeit.png>
 Package pdftex.def Info: konzentrationzeit.png used on input line 228.
 (pdftex.def)             Requested size: 193.47577pt x 138.58656pt.
- <clearance.png, id=70, 392.9079pt x 145.0218pt>
-File: clearance.png Graphic file (type png)
 
-<use clearance.png>
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<clearance.png, id=70, 392.9079pt x 145.0218pt>
+File: clearance.png Graphic file (type png)
+ <use clearance.png>
 Package pdftex.def Info: clearance.png used on input line 238.
 (pdftex.def)             Requested size: 193.47577pt x 71.41092pt.
- <kinetik0.png, id=71, 688.5725pt x 510.90875pt>
-File: kinetik0.png Graphic file (type png)
 
-<use kinetik0.png>
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<kinetik0.png, id=71, 688.5725pt x 510.90875pt>
+File: kinetik0.png Graphic file (type png)
+ <use kinetik0.png>
 Package pdftex.def Info: kinetik0.png used on input line 245.
 (pdftex.def)             Requested size: 237.0141pt x 175.85832pt.
- <kinetik1.png, id=72, 701.62125pt x 500.87125pt>
-File: kinetik1.png Graphic file (type png)
 
-<use kinetik1.png>
+<kinetik1.png, id=72, 701.62125pt x 500.87125pt>
+File: kinetik1.png Graphic file (type png)
+ <use kinetik1.png>
 Package pdftex.def Info: kinetik1.png used on input line 250.
 (pdftex.def)             Requested size: 237.0141pt x 169.20107pt.
-
+ [15 <./Elimination.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 257--258
 
  []
 
-[15 <./clearance.png (PNG copy)>] [16 <./kinetik0.png (PNG copy)> <./kinetik1.p
-ng (PNG copy)>]
+[16 <./clearance.png (PNG copy)> <./kinetik0.png (PNG copy)> <./kinetik1.png (P
+NG copy)>] [17]
 Kapitel 2.
 
 Overfull \hbox (3.53186pt too wide) in paragraph at lines 276--278
@@ -1752,12 +1781,12 @@ Overfull \hbox (5.67903pt too wide) in paragraph at lines 282--291
 -pid-sen-ker) Vitamin-K-Reduktase
  []
 
-<kanaele.png, id=83, 528.97626pt x 141.52875pt>
+<kanaele.png, id=86, 528.97626pt x 141.52875pt>
 File: kanaele.png Graphic file (type png)
  <use kanaele.png>
 Package pdftex.def Info: kanaele.png used on input line 298.
 (pdftex.def)             Requested size: 193.47577pt x 51.76445pt.
- [17
+ [18
 
 ]
 Underfull \hbox (badness 10000) in paragraph at lines 302--303
@@ -1771,7 +1800,7 @@ Overfull \hbox (19.12073pt too wide) in paragraph at lines 305--307
 Lo-ka-lan[]asthetika, Klasse-I-Antiarrhythmika,
  []
 
-[18 <./kanaele.png (PNG copy)>]
+[19 <./kanaele.png (PNG copy)>]
 Underfull \hbox (badness 10000) in paragraph at lines 335--336
 
  []
@@ -1786,7 +1815,7 @@ Underfull \hbox (badness 2334) in paragraph at lines 378--378
 \OT1/cmr/m/n/10 rev.); Dic-l-ofenac (rev.)
  []
 
-[19] [20] [21]
+[20] [21] [22]
 Underfull \hbox (badness 4279) in paragraph at lines 486--486
 []|\OT1/cmr/m/n/7 Phenylephrin (Ag); Pra-zo-sin
  []
@@ -1839,16 +1868,24 @@ Underfull \hbox (badness 3098) in paragraph at lines 486--486
  []
 
 
+Overfull \hbox (35.1384pt too wide) in paragraph at lines 428--488
+\OT1/cmr/m/n/10 Opioide ($\OML/cmm/m/it/10 ^^V; ^^N; ^^T$\OT1/cmr/m/n/10 ),GABA
+B,Cannabinoide $\OML/cmm/m/it/10 CB[]$ \OT1/cmr/m/n/10 Do-pa-min $\OML/cmm/m/it
+/10 D[]$\OT1/cmr/m/n/10 , mGluR2-4,6-8, $\OML/cmm/m/it/10 []\OT1/cmr/m/n/10 4$
+-adrenerg, mus-ka-ri-nerg M$[]$,Adenosin
+ []
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 428--488
 
  []
 
-[22]
+[23]
 Overfull \hbox (5.38158pt too wide) in paragraph at lines 502--502
 []|\OT1/cmr/m/n/10 Curare/Muskelrelaxantien
  []
 
-[23]
+[24]
 Underfull \hbox (badness 7397) in paragraph at lines 540--540
 []|\OT1/cmr/m/n/10 Ethinylestradiol (Ag); Ta-mo-xi-
  []
@@ -1858,7 +1895,7 @@ Underfull \hbox (badness 2376) in paragraph at lines 540--540
 []|\OT1/cmr/m/n/10 Norethisteron (Ag), Mi-fe-pri-ston
  []
 
-[24] [25] [26] [27]
+[25] [26] [27] [28]
 Underfull \hbox (badness 2671) in paragraph at lines 705--705
 []|\OT1/cmr/m/n/10 Bradykardie, AV-Block, Herzin-
  []
@@ -1873,14 +1910,14 @@ Underfull \hbox (badness 10000) in paragraph at lines 705--705
 []|\OT1/cmr/m/n/10 Thrombozytenfunktionshemmung
  []
 
-[28]
+[29]
 Underfull \hbox (badness 10000) in paragraph at lines 707--708
 
  []
 
-[29] [30]
+[30] [31]
 Kapitel 3.
-[31
+[32
 
 ]
 Underfull \hbox (badness 2856) in paragraph at lines 759--759
@@ -1918,15 +1955,6 @@ Underfull \hbox (badness 10000) in paragraph at lines 759--759
  []
 
 
-Overfull \hbox (21.08144pt too wide) in paragraph at lines 761--768
- \OT1/cmr/bx/n/10 ni-ko-ti-nisch[] \OT1/cmr/m/n/10 io-no-tro-pe Re-zep-to-ren, 
-Pent-ame-re, 2 $\OML/cmm/m/it/10 $\OT1/cmr/m/n/10 -Untereinheiten ($\OML/cmm/m
-/it/10 $\OT1/cmr/m/n/10 2-10 3 $\OML/cmm/m/it/10 ^^L$\OT1/cmr/m/n/10 -Unterein
-heiten ($\OML/cmm/m/it/10 ^^L$\OT1/cmr/m/n/10 2-4) $\OML/cmm/m/it/10 $\OT1/cmr
-/m/n/10 -Untereinheit
- []
-
-
 Overfull \hbox (8.76851pt too wide) in paragraph at lines 769--777
 \OT1/cmr/m/n/10 mea-bel) ($\OML/cmm/m/it/10 $\OT1/cmr/m/n/10 7)$[]$ h[]aufig i
 m ZNS, (auch $\OML/cmm/m/it/10 Ca[]$ \OT1/cmr/m/n/10 per-mea-bel) ($\OML/cmm/m/
@@ -1940,27 +1968,34 @@ Underfull \hbox (badness 10000) in paragraph at lines 778--779
 
  []
 
-[32]
+[33]
+Overfull \hbox (0.32413pt too wide) in paragraph at lines 797--798
+ \OT1/cmr/bx/n/10 Phar-ma-ko-ki-ne-tik[] \OT1/cmr/m/n/10 Quar-tern[]aren Stick-
+stoff $\OMS/cmsy/m/n/10 !$ \OT1/cmr/m/n/10 schlech-te Re-sorp-ti-on nach ora-le
+r Ga-be $\OMS/cmsy/m/n/10 !$ \OT1/cmr/m/n/10 kei-ne ZNS-G[]angigkeit 
+ []
+
+
 Overfull \hbox (84.78674pt too wide) in paragraph at lines 799--810
 \OT1/cmr/m/n/10 de $\OMS/cmsy/m/n/10 !$ \OT1/cmr/m/n/10 RR$\OMS/cmsy/m/n/10 #$\
 OT1/cmr/m/n/10 ; ob-so-let. [] 
  []
 
-[33]
-Overfull \hbox (7.1123pt too wide) in paragraph at lines 816--817
- \OT1/cmr/bx/n/10 un-erw[]unschte Wir-kun-gen[] \OT1/cmr/m/n/10 pro-tra-hier-te
- Ap-noe (here-dit[]arer Cholinesterase-Mangel); Muskelkater-[]ahnliche
+[34] [35]
+Overfull \hbox (2.93913pt too wide) in paragraph at lines 859--860
+ \OT1/cmr/bx/n/10 un-erw[]unschte Wir-kun-gen (je nach erw[]unschter Wir-kung)[
+] \OT1/cmr/m/n/10 My-dria-sis, Ak-ko-mo-da-ti-onsst[]orungen, Mund-
  []
 
-[34] [35] [36]
+[36] [37] [38]
 Kapitel 4.
-[37
+[39
 
 ]
-Overfull \hbox (30.03755pt too wide) in paragraph at lines 966--969
-\OT1/cmr/m/n/10 trans-mit-ter-sy-ste-me un-ter-schied-lich stark aus-ge-pr[]agt
- v.a. No-rad-rena-lin, Do-pa-min: (Met)Amphetamin$\OML/cmm/m/it/10 >$\OT1/cmr/m
-/n/10 Methylphenidat,
+Overfull \hbox (7.73195pt too wide) in paragraph at lines 966--969
+\OT1/cmr/m/n/10 mit-ter-sy-ste-me un-ter-schied-lich stark aus-ge-pr[]agt v.a. 
+No-rad-rena-lin, Do-pa-min: (Met)Amphetamin$\OML/cmm/m/it/10 >$\OT1/cmr/m/n/10 
+Methylphenidat,
  []
 
 
@@ -2003,7 +2038,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 991--991
 []|\OT1/cmr/m/n/10 Glycogenolyse, Glu-co-
  []
 
-[38] [39]
+[40] [41]
 Underfull \hbox (badness 10000) in paragraph at lines 1022--1022
 []|$\OML/cmm/m/it/10 $\OT1/cmr/m/n/10 -
  []
@@ -2014,7 +2049,7 @@ Overfull \hbox (3.2983pt too wide) in paragraph at lines 1022--1022
  []
 
 
-Overfull \hbox (34.3081pt too wide) in paragraph at lines 1037--1038
+Overfull \hbox (19.3081pt too wide) in paragraph at lines 1037--1038
  \OT1/cmr/bx/n/10 un-erw[]unschte Wir-kun-gen[] \OMS/cmsy/m/n/10 ^^O \OT1/cmr/m
 /n/10 Se-da-ti-on (zen-tra-le $\OML/cmm/m/it/10 alpha[]$\OT1/cmr/m/n/10 -Rezept
 oren) \OMS/cmsy/m/n/10 ^^O \OT1/cmr/m/n/10 Mund-trocken-heit (Parasympathikoton
@@ -2094,7 +2129,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 1068--1068
 \OT1/cmr/m/n/10 + $\OML/cmm/m/it/10 beta[]$\OT1/cmr/m/n/10 -
  []
 
-[40] [41] [42] [43]
+[42] [43] [44] [45]
 Kapitel 5.
 
 Overfull \hbox (3.52292pt too wide) in paragraph at lines 1182--1182
@@ -2111,28 +2146,34 @@ Underfull \hbox (badness 10000) in paragraph at lines 1182--1182
 \OT1/cmr/m/n/10 (mg) bei
  []
 
-[44
+[46
 
-] [45]
-Overfull \hbox (0.99841pt too wide) in paragraph at lines 1242--1244
- \OT1/cmr/bx/n/10 Re-gu-la-ti-on der Renin-frei-set-zung []uber MD[] \OT1/cmr/m
-/n/10 z.B. dro-hen-der NaCl/Volumen-Verlust $\OMS/cmsy/m/n/10 !$ \OT1/cmr/m/n/1
-0 NaCl-Aufnahme
+]
+Overfull \hbox (0.1641pt too wide) in paragraph at lines 1225--1226
+\OT1/cmr/m/n/10 len-de Be-ein-flus-sung des Ab-baus von Ki-ni-nen und Sub-stanz
+ P so-wie Hem-mung der Wir-kung von ACE-unabh[]angig
  []
 
-
+[47]
 Overfull \hbox (42.29132pt too wide) in paragraph at lines 1260--1261
 \OT1/cmr/m/n/10 vermehrte Aus-schei-dung von $\OML/cmm/m/it/10 Na[]; Cl[]; K[];
  Mg[]; Ca[]$\OT1/cmr/m/n/10 direkt und in-di-rekt v.a. durch erh[]ohte Str[]omu
 ngsgeschwindigkeit
  []
 
-[46]
+[48]
+Overfull \hbox (25.59204pt too wide) in paragraph at lines 1295--1297
+ \OT1/cmr/bx/n/10 Wirk-me-cha-nis-mus[] \OT1/cmr/m/n/10 Hem-mung des fast aus-s
+chlie^^Y-lich im fr[]uhdistalen Tu-bu-lus ex-pri-mier-ten $\OML/cmm/m/it/10 Na[
+]$\OT1/cmr/m/n/10 /Cl--Kotransportes
+ []
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 1295--1297
 
  []
 
-[47] [48] [49]
+[49] [50] [51]
 Overfull \hbox (32.7936pt too wide) in paragraph at lines 1378--1379
 []\OT1/cmr/m/n/10 Spironolacton (nicht je-doch Ep-le-re-non) be-sitzt an-ti-an-
 dro-ge-ne und pro-ges-ta-ge-ne Ef-fek-te $\OMS/cmsy/m/n/10 !$ \OT1/cmr/m/n/10 M
@@ -2144,17 +2185,11 @@ Underfull \hbox (badness 10000) in paragraph at lines 1389--1401
 
  []
 
-[50]
-Overfull \hbox (6.01756pt too wide) in paragraph at lines 1413--1415
- \OT1/cmr/bx/n/10 RR hoch-nor-mal[] \OT1/cmr/m/n/10 (130-139 / 85-89 mm-Hg) bei
- ho-hem kar-dio-vas-kul[]arem Ri-si-ko (hy-per-ten-si-ve Organsch[]aden,
- []
-
-[51]
+[52] [53]
 Kapitel 6.
-[52
+[54
 
-] [53] [54]
+] [55] [56]
 Overfull \hbox (26.76085pt too wide) in paragraph at lines 1558--1558
 []|\OT1/cmr/m/n/10 Mineralkortikoidrezeptor-
  []
@@ -2179,54 +2214,39 @@ Underfull \hbox (badness 10000) in paragraph at lines 1558--1558
 []|\OT1/cmr/m/n/10 Hydralazin-
  []
 
-[55]
+[57]
 Kapitel 7.
-
-Overfull \hbox (9.10109pt too wide) in paragraph at lines 1572--1574
- \OT1/cmr/bx/n/10 fr[]uhe Nach-de-po-la-ri-sa-ti-on (EAD)[] \OT1/cmr/m/n/10 St[
-]orung d. Re-pol.; $\OML/cmm/m/it/10 K[]$\OT1/cmr/m/n/10 -Strom ($\OML/cmm/m/it
-/10 I[]$\OT1/cmr/m/n/10 ) , Verl[]ang. d. $\OML/cmm/m/it/10 Ca[]$\OT1/cmr/m/n/1
-0 /$\OML/cmm/m/it/10 Na[]$\OT1/cmr/m/n/10 -Einstroms
- []
-
-[56
+[58
 
 ]
-Overfull \hbox (54.64832pt too wide) in paragraph at lines 1586--1587
- \OT1/cmr/bx/n/10 Klas-se Ia[] [] 
+Overfull \hbox (10.85063pt too wide) in paragraph at lines 1602--1603
+ \OT1/cmr/bx/n/10 In-ter-ak-tio-nen[] \OT1/cmr/m/n/10 v.a. Chi-ni-din: Erh[]oht
+ freie Plas-ma-kon-zen-tra-ti-on von Di-gi-ta-lis-gly-ko-si-den; Hem-mung von C
+YP2D6
+ []
+
+[59]
+Overfull \hbox (23.7506pt too wide) in paragraph at lines 1642--1644
+ \OT1/cmr/bx/n/10 Wirk-me-cha-nis-mus[] \OT1/cmr/m/n/10 Blocka-de ver-schie-de-
+ner $\OML/cmm/m/it/10 K[]$\OT1/cmr/m/n/10 -Kan[]ale $\OMS/cmsy/m/n/10 !$ \OT1/c
+mr/m/n/10 Ak-ti-ons-po-ten-ti-al verl[]angert $\OMS/cmsy/m/n/10 !$ \OT1/cmr/m/n
+/10 Re-frakt[]arzeit verl[]angert;
  []
 
 
-Overfull \hbox (55.44695pt too wide) in paragraph at lines 1607--1608
- \OT1/cmr/bx/n/10 Klas-se Ib[] [] 
+Overfull \hbox (4.41551pt too wide) in paragraph at lines 1645--1648
+ \OT1/cmr/bx/n/10 Phar-ma-ko-ki-ne-tik[] \OT1/cmr/m/n/10 So-ta-lol: 100% bio-ve
+rf[]ugbar, Plasma-HWZ 7-18 h Amio-daron: 22-86% bio-verf[]ugbar, Plasma-
  []
 
-
-Overfull \hbox (4.38583pt too wide) in paragraph at lines 1617--1618
- \OT1/cmr/bx/n/10 Ein-satz[] \OT1/cmr/m/n/10 ven-tri-kul[]are Ar-rhyth-mi-en; z
-.B.: nach Herz-in-farkt [akut: Li-do-cain(i.v.)]; durch Digitalis-Intoxikation
- []
-
-[57]
-Overfull \hbox (54.16917pt too wide) in paragraph at lines 1624--1625
- \OT1/cmr/bx/n/10 Klas-se Ic[] [] 
- []
-
-
-Overfull \hbox (6.0532pt too wide) in paragraph at lines 1634--1635
- $\OML/cmm/m/it/10 ^^L$\OT1/cmr/bx/n/10 -Adrenozeptor-Blocker[] \OT1/cmr/m/n/10
- Su-pra-ven-tri-kul[]are Ta-chy-kar-di-en (Si-nu-sta-chy-kar-die, par-oxys-ma-l
-e Ta-chy-kar-die); Vor-
- []
-
-[58]
-Overfull \hbox (42.39905pt too wide) in paragraph at lines 1662--1663
+[60]
+Overfull \hbox (27.39905pt too wide) in paragraph at lines 1662--1663
  \OT1/cmr/bx/n/10 Wirk-me-cha-nis-mus[] $\OML/cmm/m/it/10 Ca[]$\OT1/cmr/m/n/10 
 -Kanal-Blockade (L-Typ) $\OMS/cmsy/m/n/10 !$ \OT1/cmr/m/n/10 De-po-la-ri-sa-ti-
 ons-ge-schwin-dig-keit in spontan-depolarisierenden
  []
 
-
+[61]
 Underfull \hbox (badness 10000) in paragraph at lines 1684--1685
 
  []
@@ -2236,7 +2256,7 @@ Overfull \hbox (15.0pt too wide) in paragraph at lines 1692--1693
 [][] 
  []
 
-[59]
+
 Underfull \hbox (badness 10000) in paragraph at lines 1695--1696
 
  []
@@ -2246,7 +2266,7 @@ Overfull \hbox (15.0pt too wide) in paragraph at lines 1701--1702
 [][] 
  []
 
-[60]
+[62]
 Overfull \hbox (9.28867pt too wide) in paragraph at lines 1789--1789
 []|\OT1/cmr/m/n/10 Function/Modulation| 
  []
@@ -2406,22 +2426,7 @@ Underfull \hbox (badness 1701) in paragraph at lines 1789--1789
 []|\OT1/cmr/m/n/10 Pacemaking, re-pe-
  []
 
-[61]
-Overfull \hbox (92.33989pt too wide) in paragraph at lines 1796--1797
- \OT1/cmr/bx/n/10 Dihy-dro-py-ri-di-ne[] [] 
- []
-
-
-Overfull \hbox (98.99951pt too wide) in paragraph at lines 1807--1809
- \OT1/cmr/bx/n/10 Phe-nyl-al-kylami-ne[] []
- []
-
-
-Overfull \hbox (91.9718pt too wide) in paragraph at lines 1813--1815
- \OT1/cmr/bx/n/10 Ben-zo-thia-ze-pi-ne[] []
- []
-
-[62]
+[63] [64]
 Underfull \hbox (badness 10000) in paragraph at lines 1822--1823
 
  []
@@ -2431,7 +2436,7 @@ Overfull \hbox (15.0pt too wide) in paragraph at lines 1831--1832
 [][] 
  []
 
-[63]
+[65]
 Underfull \hbox (badness 10000) in paragraph at lines 1863--1864
 
  []
@@ -2451,7 +2456,7 @@ Overfull \hbox (15.0pt too wide) in paragraph at lines 1881--1882
 [][] 
  []
 
-
+[66]
 Underfull \hbox (badness 10000) in paragraph at lines 1902--1902
 []|\OT1/cmr/m/n/10 glatter Mus-kel,
  []
@@ -2466,29 +2471,23 @@ Overfull \hbox (12.73308pt too wide) in paragraph at lines 1902--1902
 []|\OT1/cmr/m/n/10 Roflumilast,Cilomilast| 
  []
 
-[64]
-Overfull \hbox (89.43709pt too wide) in paragraph at lines 1909--1910
- \OT1/cmr/bx/n/10 Me-thylx-an-thi-ne[] [] 
- []
-
-
+[67]
 Underfull \hbox (badness 10000) in paragraph at lines 1933--1933
 []|\OT1/cmr/m/n/10 Unruhe, Schlafst[]orungen, Di-ure-se, Ta-chy-kar-die,
  []
 
 
-Overfull \hbox (273.19542pt too wide) in paragraph at lines 1929--1934
- \OT1/cmr/bx/n/10 un-erw[]unschte Wir-kun-gen[] \OT1/cmr/m/n/10 (ge-rin-ge the-
-ra-peu-ti-sche Brei-te) [] 
+Overfull \hbox (135.55577pt too wide) in paragraph at lines 1929--1934
+\OT1/cmr/m/n/10 (geringe the-ra-peu-ti-sche Brei-te) [] 
  []
 
-[65]
+
 Overfull \hbox (20.19304pt too wide) in paragraph at lines 1954--1958
 \OT1/cmr/m/n/10 (NANC) pa-ra-sym-pa-thi-schen Neu-ro-nen, da-ne-ben Endothel-ve
 rmittelt nach Ak-ti-vie-rung endo-the-lia-ler M3-Rezeptoren. 
  []
 
-[66]
+[68]
 Kapitel 8.
 
 Overfull \hbox (6.94186pt too wide) in paragraph at lines 1988--1989
@@ -2496,7 +2495,7 @@ Overfull \hbox (6.94186pt too wide) in paragraph at lines 1988--1989
 a-ti-on und Ver-lauf von exo-ge-nen Fak-to-ren (Ern[]ahrung,
  []
 
-[67
+[69
 
 ]
 Underfull \hbox (badness 10000) in paragraph at lines 2023--2025
@@ -2518,7 +2517,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 2048--2048
 []|\OT1/cmr/m/n/10 Mittellang-/ lang-
  []
 
-[68] [69]
+[70] [71]
 Overfull \hbox (18.06906pt too wide) in paragraph at lines 2139--2143
 \OMS/cmsy/m/n/10 !$ \OT1/cmr/m/n/10 Aus-ma^^Y und Ge-schwin-dig-keit des Blut-z
 ucke-r-an-stiegs nach Kohlehydrat-Aufnahme ver-min-dert, kei-ne Ver[]anderung
@@ -2530,19 +2529,32 @@ Overfull \hbox (16.92294pt too wide) in paragraph at lines 2153--2156
 lich ge-ring; even-tu-el-le Vor-tei-le: kei-ne Hy-po-glyk[]amiegefahr 
  []
 
-[70]
+[72]
 Underfull \hbox (badness 10000) in paragraph at lines 2208--2208
 []||   []\OT1/cmr/m/n/10 (Marktr[]ucknahme 2010 we-gen
  []
 
-[71]
+
+Overfull \hbox (9.08731pt too wide) in paragraph at lines 2236--2238
+ \OT1/cmr/bx/n/10 Wirk-me-cha-nis-mus[] \OT1/cmr/m/n/10 Ago-nist am GLP-1 Re-ze
+p-tor auf $\OML/cmm/m/it/10 ^^L$\OT1/cmr/m/n/10 -Zellen und im Magen-Darm-Trakt
+ $\OMS/cmsy/m/n/10 !$ \OT1/cmr/m/n/10 Glucose-abh[]angige
+ []
+
+
+Overfull \hbox (0.53687pt too wide) in paragraph at lines 2240--2242
+ \OT1/cmr/bx/n/10 un-erw[]unschte Wir-kun-gen[] []\OT1/cmr/m/n/10 Ubelkeit/Erbr
+echen, Durch-fall, Pan-krea-ti-tis, Bil-dung in-ak-ti-vie-rend. AK. H[]aufige
+ []
+
+[73]
 Overfull \hbox (39.03627pt too wide) in paragraph at lines 2297--2300
 \OT1/cmr/m/n/10 Nationale Ver-sor-gungs-lei-t-li-nie (Sept. 2013): Fest-le-gung
  in-di-vi-dua-li-sier-ter The-ra-pie-zie-le (Ziel-wer-te) un-ter Ber[]ucksichti
 gung
  []
 
-[72] [73]
+[74] [75]
 Kapitel 9.
 
 Overfull \hbox (9.2608pt too wide) in paragraph at lines 2346--2346
@@ -2654,26 +2666,19 @@ Underfull \hbox (badness 10000) in paragraph at lines 2358--2371
 
  []
 
-[74
+[76
 
 ]
 Underfull \hbox (badness 1320) in paragraph at lines 2377--2377
 []|\OT1/cmr/m/n/10 HMG-CoA-Reduktase-Hemmer (Sta-ti-ne) Anionen-
  []
 
-[75]
+[77] [78]
 Underfull \hbox (badness 10000) in paragraph at lines 2454--2460
 
  []
 
-[76]
-Overfull \hbox (19.91037pt too wide) in paragraph at lines 2511--2518
- \OT1/cmr/bx/n/10 Wirk-me-cha-nis-mus[] \OT1/cmr/m/n/10 Ak-ti-vie-rung des Tran
--skrip-ti-ons-fak-tors Peroxisome-proliferator-activator-receptor $\OML/cmm/m/i
-t/10 $ \OT1/cmr/m/n/10 (PPAR$\OML/cmm/m/it/10 $\OT1/cmr/m/n/10 ) 
- []
-
-[77] [78] [79]
+[79] [80] [81]
 Kapitel 10.
 
 Overfull \hbox (7.88977pt too wide) in paragraph at lines 2589--2590
@@ -2681,20 +2686,20 @@ Overfull \hbox (7.88977pt too wide) in paragraph at lines 2589--2590
 a-ti-ons-fak-to-ren (Fak-tor V, Fi-bri-no-gen), Wachstums-
  []
 
-[80
+[82
 
-]
+] [83]
 Underfull \hbox (badness 10000) in paragraph at lines 2680--2680
 []|\OT1/cmr/m/n/10 Fab-Fragment ei-nes mo-no-klo-na-len An-tik[]orpers,
  []
 
-[81]
+
 Overfull \hbox (7.38853pt too wide) in paragraph at lines 2701--2701
 []|\OT1/cmr/m/n/10 Integrinselektivit[]at$\OML/cmm/m/it/10 $\OT1/cmr/m/n/10 II
 b$\OML/cmm/m/it/10 ^^L$\OT1/cmr/m/n/10 3,
  []
 
-[82]
+[84] [85]
 Underfull \hbox (badness 10000) in paragraph at lines 2781--2781
 []|\OT1/cmr/m/n/10 Synthetische Pen-ta-sac-
  []
@@ -2720,36 +2725,28 @@ Underfull \hbox (badness 10000) in paragraph at lines 2781--2781
  []
 
 
-Overfull \hbox (0.89745pt too wide) in paragraph at lines 2771--2783
- \OT1/cmr/bx/n/10 Syn-the-ti-sche Pen-ta-sac-cha-ri-de (z.B. Fon-d-a-pa-ri-nux)
-[] \OT1/cmr/m/n/10 leicht mo-di-fi-zier-tes Pen-ta-sac-cha-rid; Wir-kung []ahnl
-ich
- []
-
-
 Underfull \hbox (badness 10000) in paragraph at lines 2771--2783
 
  []
 
-[83]
+
 Overfull \hbox (32.24867pt too wide) in paragraph at lines 2789--2790
 []\OT1/cmr/m/n/10 Heparin-induzierte Throm-bo-zy-to-pe-nie (HIT): An-tik[]orper
 bildung ge-gen Kom-plex aus He-pa-rin und Pl[]attchenfaktor
  []
 
-[84]
-Overfull \hbox (12.53162pt too wide) in paragraph at lines 2831--2833
- \OT1/cmr/bx/n/10 Vor-tei-le[] \OT1/cmr/m/n/10 ge-gen[]uber Cu-ma-ri-nen: schne
-l-ler On-Set/Offset, kon-stan-te Do-sie-rung, kein Gerinnungsstatus-Monitoring,
-
- []
-
-[85] [86]
+[86] [87] [88] [89]
 Kapitel 11.
 
 Overfull \hbox (33.85759pt too wide) in paragraph at lines 2924--2924
 []\OT1/cmr/bx/n/14.4 Nicht-steroidale An-ti-phlo-gi-sti-ka / An-tir-heu-ma-ti-k
 a (NSAID, NSAR) 
+ []
+
+
+Overfull \hbox (12.1646pt too wide) in paragraph at lines 2933--2934
+\OT1/cmr/m/n/10 Entz[]undung: phy-si-ol. Ant-wort auf ver-schie-de-ne Sti-mu-li
+ wie In-fek-tio-nen, Ge-we-besch[]adigung etc.; Aku-te Entz[]undung
  []
 
 
@@ -2763,17 +2760,18 @@ Underfull \hbox (badness 10000) in paragraph at lines 2936--2937
  []
 
 
-Overfull \hbox (1.00569pt too wide) in paragraph at lines 2949--2951
- \OT1/cmr/bx/n/10 An-al-ge-ti-sche Wir-kung[] \OT1/cmr/m/n/10 v.a. Pros-tag-lan
--din E$[]$ (COX-1/COX-2) sen-si-bi-li-siert No-zi-zep-to-ren f[]ur schmer-zausl
-[]os.
+Overfull \hbox (14.54051pt too wide) in paragraph at lines 2945--2947
+ \OT1/cmr/bx/n/10 Sy-ste-mi-sche Re-ak-ti-on[] \OT1/cmr/m/n/10 Akute-Phase-Reak
+tion: Fie-ber, Leu-ko-zy-to-se, he-pat. Bil-dung von Akute-Phase-Proteinen
  []
 
+[90
 
-Overfull \hbox (13.47281pt too wide) in paragraph at lines 2960--2963
- \OT1/cmr/bx/n/10 Ga-stro-in-te-sti-nal (v.a. COX-1)[] \OT1/cmr/m/n/10 Ma-gen-s
-ch-lein-hau-te-ro-sio-nen, Ul-ze-ra, []Ubelkeit, Er-bre-chen: phy-sio-log.prote
-ktiver
+]
+Overfull \hbox (102.95pt too wide) in paragraph at lines 2960--2963
+\OT1/cmr/m/n/10 Magenschleinhauterosionen, Ul-ze-ra, []Ubelkeit, Er-bre-chen: p
+hy-sio-log.protektiver Ef-fekt von PGE$[]$ S[]aureproduktion$\OMS/cmsy/m/n/10 #
+$\OT1/cmr/m/n/10 ,Schleimproduktion$\OMS/cmsy/m/n/10 "$\OT1/cmr/m/n/10 ,
  []
 
 
@@ -2782,33 +2780,10 @@ Overfull \hbox (30.2064pt too wide) in paragraph at lines 2960--2963
 logon) un-erw. Wir-kung: Di-arr-hoe Zus[]atzlich/alternativ:
  []
 
-[87
-
-]
-Overfull \hbox (19.81406pt too wide) in paragraph at lines 2975--2977
-  \OT1/cmr/bx/n/10 Pro-vo-ka-ti-on von asth-ma-ti-schen Be-schwer-den bei Asth-
-ma-ti-kern[] \OT1/cmr/m/n/10 (Bil-dung bron-cho-kon-strikt. Leukotriene$\OMS/cm
-sy/m/n/10 "$\OT1/cmr/m/n/10 ) 
- []
-
-[88]
-Overfull \hbox (45.18134pt too wide) in paragraph at lines 3026--3029
- \OT1/cmr/bx/n/10 un-erw[]unschte Wir-kun-gen[] \OT1/cmr/m/n/10 Kopf-schmer-zen
- und psych. Re-ak-tio-nen (v.a. In-do-me-ta-cin); []Uberempfindlichkeitsreaktio
-nen
- []
-
-
+[91] [92]
 Overfull \hbox (0.22067pt too wide) in paragraph at lines 3060--3064
 \OT1/cmr/m/n/10 antiphlogistische Wirk-sam-keit bei chro-nisch entz[]undlichen 
 Er-kran-kun-gen ver-gleich-bar mit nicht-selektiven COX-
- []
-
-[89]
-Overfull \hbox (7.13911pt too wide) in paragraph at lines 3082--3084
- \OT1/cmr/bx/n/10 TNF$\OML/cmm/m/it/10 $\OT1/cmr/bx/n/10 /IL-1-Hemmstoffe[] \O
-T1/cmr/m/n/10 gen-tech-no-lo-gisch her-ge-stell-te mo-no-klo-na-le anti-TNF$\OM
-L/cmm/m/it/10 $\OT1/cmr/m/n/10 -Antik[]orper (In-fli-xi-mab, Ada-
  []
 
 
@@ -2831,12 +2806,14 @@ Underfull \hbox (badness 10000) in paragraph at lines 3107--3107
 []|\OT1/cmr/m/n/10 Hydrocortison
  []
 
-[90]
-Overfull \hbox (151.20757pt too wide) in paragraph at lines 3161--3163
- \OT1/cmr/bx/n/10 Re-la-ti-ve Kon-train-di-ka-tio-nen[] [] 
+[93] [94]
+Overfull \hbox (0.45985pt too wide) in paragraph at lines 3173--3174
+ []\OT1/cmr/bx/n/10 phar-ma-ko-dy-na-mi-sche\ The-ra-pie[] \OT1/cmr/m/n/10 an-t
+i-all-er-gisch, an-ti-phlo-gi-stisch, im-mun-sup-pres-siv; meist deut-lich h[]o
+here
  []
 
-[91] [92]
+[95] [96]
 Kapitel 12.
 
 Underfull \hbox (badness 10000) in paragraph at lines 3231--3231
@@ -2863,27 +2840,14 @@ Underfull \hbox (badness 10000) in paragraph at lines 3231--3231
 []|\OT1/cmr/m/n/10 Sympathische post-gan-
  []
 
-[93
+[97
 
 ]
-Overfull \hbox (0.77136pt too wide) in paragraph at lines 3251--3254
- \OT1/cmr/bx/n/10 Trans-mit-ter ex-zi-ta-to-ri-scher no-zi-zep-ti-ver A$\OML/cm
-m/m/it/10 ^^N$\OT1/cmr/bx/n/10 - un C-Fasern[] \OT1/cmr/m/n/10 Glutamat: Wir-ku
-ng []uber AMPA-Rezeptoren
- []
-
-
-Overfull \hbox (3.80527pt too wide) in paragraph at lines 3266--3274
- \OT1/cmr/bx/n/10 Pe-riaqu[]aduktales Grau[] \OT1/cmr/m/n/10 u.a. durch Trac-tu
-s spi-no-me-sence-pha-li-cus in-ner-viert, be-sitzt selbst Opiat-Rezeptoren,
- []
-
-
 Underfull \hbox (badness 10000) in paragraph at lines 3266--3274
 
  []
 
-[94] [95]
+[98] [99] [100]
 Underfull \hbox (badness 10000) in paragraph at lines 3422--3422
 []|\OT1/cmr/m/n/10 Astma bro-chia-le, an-de-re Lun-ge-ner-kran-kun-gen
  []
@@ -2898,34 +2862,20 @@ Overfull \hbox (2.22221pt too wide) in paragraph at lines 3425--3435
 [] []
  []
 
-[96]
-Overfull \hbox (42.32953pt too wide) in paragraph at lines 3437--3440
- \OT1/cmr/bx/n/10 Opia-tin-to-xi-ka-ti-on[] \OT1/cmr/m/n/10 Leit-sym-ptom-tri-a
-s: Be-wusst-seinst[]orung; Atem-de-pres-si-on; Mio-sis The-ra-pie: Sei-ten-la-g
-e, []Uberwachung
+
+Overfull \hbox (60.52959pt too wide) in paragraph at lines 3446--3451
+ \OT1/cmr/bx/n/10 Mor-phin[] \OT1/cmr/m/n/10 nach ora-ler Auf-nah-me ho-her fir
+st-pass-Effekt (Bio-verf[]ugbarkeit 20-40%), m[]a^^Yig ZNS-g[]angig; v.a.Glukur
+onidierung
+ []
+
+[101] [102]
+Overfull \hbox (8.91408pt too wide) in paragraph at lines 3534--3535
+\OT1/cmr/m/n/10 Unstillbares Ver-lan-gen ([]Cra-ving\), Kon-troll-ver-lust. Ver
+-hal-tens-wei-sen, die zur Ein-nah-me f[]uhren, wer-den verst[]arkt,
  []
 
 
-Overfull \hbox (11.13353pt too wide) in paragraph at lines 3458--3460
- \OT1/cmr/bx/n/10 He-ro-in[] \OT1/cmr/m/n/10 (Dia-ce-tyl-mor-phin), syn-the-ti-
-sches Opio-id, selbst un-wirk-sam, nach i.v.-Gabe ex-trem schnel-ler []Ubertrit
-t
- []
-
-
-Overfull \hbox (1.40968pt too wide) in paragraph at lines 3474--3477
- \OT1/cmr/bx/n/10 Le-vo-me-tha-don, Me-tha-don[] \OT1/cmr/m/n/10 4-fach st[]ark
-er und l[]anger wirk-sam als Mor-phin, ho-he Bio-verf[]ugbarkeit (92%),
- []
-
-[97]
-Overfull \hbox (7.57999pt too wide) in paragraph at lines 3494--3497
- \OT1/cmr/bx/n/10 Pen-ta-zo-cin[] \OT1/cmr/m/n/10 schwa-cher par-ti-el-ler Ago-
-nist am $\OML/cmm/m/it/10 ^^V$\OT1/cmr/m/n/10 -Opioid-Rezeptor, Ago-nist am $\O
-ML/cmm/m/it/10 ^^T$\OT1/cmr/m/n/10 -Opioid-Rezeptor; in Deutsch-
- []
-
-[98]
 Underfull \hbox (badness 10000) in paragraph at lines 3549--3549
 []|\OT1/cmr/m/n/10 Ziconitid Hem-mung der spi-na-len no-zi-zep-ti-
  []
@@ -2945,35 +2895,17 @@ Underfull \hbox (badness 2096) in paragraph at lines 3549--3549
 []|\OT1/cmr/m/n/10 Lamotrigin (s. An-ti-kon-vul-si-va); hem-men pe-riph.
  []
 
-[99] [100]
+[103] [104] [105]
 Kapitel 13.
-
-Overfull \hbox (244.68333pt too wide) in paragraph at lines 3633--3634
- \OT1/cmr/bx/n/10 Nat[]urliche []Ostrogene; ge-rin-ge Bio-verf[]ugbarkeit[] [] 
-
- []
-
-
-Overfull \hbox (126.68274pt too wide) in paragraph at lines 3639--3640
- \OT1/cmr/bx/n/10 Syn-the-ti-sche []Ostrogene[] [] 
- []
-
 
 Overfull \hbox (0.83295pt too wide) in paragraph at lines 3645--3646
 []\OT1/cmr/m/n/10 Substitutionstherapie bei der Frau (Kli-mak-te-ri-um, nach Hy
 -ste-rek-to-mie) meist wer-den nat[]urliche []Ostrogene
  []
 
-[101
+[106
 
 ]
-Overfull \hbox (1.09308pt too wide) in paragraph at lines 3688--3689
- \OT1/cmr/bx/n/10 Ful-ve-strant[] \OT1/cmr/m/n/10 In-di-ka-ti-on: fort-ge-schri
-t-te-nes []Osrogen-Rezeptor po-si-ti-ves Mamma-Ca bei post-me-no-pau-sa-len Fra
-u-
- []
-
-
 Underfull \hbox (badness 10000) in paragraph at lines 3710--3710
 []|\OT1/cmr/m/n/10 17$\OML/cmm/m/it/10 $\OT1/cmr/m/n/10 -
  []
@@ -2983,7 +2915,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 3710--3710
 \OT1/cmr/m/n/10 Hydroxyprogesteron-
  []
 
-[102]
+[107]
 Underfull \hbox (badness 10000) in paragraph at lines 3727--3727
 []|\OT1/cmr/m/n/10 vaginale Se-kre-ti-ons-stei-ge-rung
  []
@@ -2998,30 +2930,29 @@ Underfull \hbox (badness 10000) in paragraph at lines 3744--3749
 
  []
 
-[103] [104]
-Overfull \hbox (17.20135pt too wide) in paragraph at lines 3825--3827
- \OT1/cmr/bx/n/10 un-erw[]unschte Wir-kun-gen[] \OT1/cmr/m/n/10 (bei []Uberdosi
-erung): Le-ber-funk-ti-onsst[]orungen, Ak-ne, Se-bor-rhoe, Alo-pe-zie, []Ubelke
-it,
+[108] [109]
+Overfull \hbox (26.26524pt too wide) in paragraph at lines 3825--3827
+\OT1/cmr/m/n/10 (bei []Uberdosierung): Le-ber-funk-ti-onsst[]orungen, Ak-ne, Se
+-bor-rhoe, Alo-pe-zie, []Ubelkeit, Er-bre-chen, psych. Ver[]anderungen
  []
 
 
-Overfull \hbox (14.0354pt too wide) in paragraph at lines 3845--3852
- \OT1/cmr/bx/n/10 Fi-na-ste-rid[] \OT1/cmr/m/n/10 ge-rin-ge Be-ein-flus-sung de
-s Ef-fek-tes von Te-sto-ste-ron auf Mus-ku-la-tur/Knochen, ne-ga-ti-ve R[]uckko
-pplung,
+Overfull \hbox (11.31302pt too wide) in paragraph at lines 3825--3827
+\OT1/cmr/m/n/10 (Li-bi-do, Ag-gres-si-vit[]at), Was-ser-re-ten-ti-on, Hem-mung 
+der Sper-ma-to-ge-ne-se; Ein-satz bei Kli-mak-te-ri-um vi-ri-le: h[]aufigere
  []
 
-[105]
+[110] [111]
 Kapitel 14.
-[106
+[112
 
-]
-Overfull \hbox (104.02032pt too wide) in paragraph at lines 3911--3913
- \OT1/cmr/bx/n/10 kon-train-di-ka-tio-nen[] [] 
+] [113]
+Overfull \hbox (18.01302pt too wide) in paragraph at lines 3968--3970
+\OT1/cmr/m/n/10 gute en-te-r-a-le Re-sorp-ti-on, Wir-kungs-be-ginn: in-ner-halb
+ von 24 Stun-den. Wirk-dau-er bei Hochdosis-gabe: vor[]ubergehend
  []
 
-[107]
+
 Underfull \hbox (badness 10000) in paragraph at lines 3986--3990
 
  []
@@ -3033,34 +2964,33 @@ he). Ka-li-um-jo-did 100-200 $\OML/cmm/m/it/10 ^^V$\OT1/cmr/m/n/10 g/d in Ta-bl
 et-ten-form (konst.
  []
 
-[108]
+[114]
 Kapitel 15.
 
-Overfull \hbox (19.51082pt too wide) in paragraph at lines 4001--4003
-\OT1/cmr/m/n/10 Fr[]uhreaktionen: Er-bre-chen, []Ubelkeit, Fie-ber, all-er-gi-s
-che Er-schei-nun-gen; Sp[]atreaktionen: Kno-chen-marksch[]adigungen,
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 4005--4021
+Underfull \hbox (badness 10000) in paragraph at lines 4005--4020
 
  []
 
-[109
+[115
 
-] (./Pharmaskript.aux)
+]
+Underfull \hbox (badness 10000) in paragraph at lines 4079--4086
+
+ []
+
+[116] (./Pharmaskript.aux)
 
 LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 17915 strings out of 493304
- 335037 string characters out of 6139871
- 422811 words of memory out of 5000000
- 20986 multiletter control sequences out of 15000+600000
+ 17921 strings out of 493304
+ 335179 string characters out of 6139871
+ 422945 words of memory out of 5000000
+ 20992 multiletter control sequences out of 15000+600000
  14669 words of font info for 57 fonts, out of 8000000 for 9000
  957 hyphenation exceptions out of 8191
- 56i,18n,55p,10421b,306s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 56i,18n,55p,10421b,303s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbsy10.pfb></u
 sr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/sha
 re/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/tex
@@ -3078,10 +3008,10 @@ exlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy5.pfb></usr/share/texlive/
 texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/share/texlive/texmf-d
 ist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/share/texlive/texmf-dist/fo
 nts/type1/public/amsfonts/symbols/msam10.pfb>
-Output written on Pharmaskript.pdf (110 pages, 1287561 bytes).
+Output written on Pharmaskript.pdf (117 pages, 1290317 bytes).
 PDF statistics:
- 448 PDF objects out of 1000 (max. 8388607)
- 302 compressed objects within 4 object streams
+ 470 PDF objects out of 1000 (max. 8388607)
+ 317 compressed objects within 4 object streams
  0 named destinations out of 1000 (max. 500000)
  73 words of extra memory for PDF output out of 10000 (max. 10000000)
 
