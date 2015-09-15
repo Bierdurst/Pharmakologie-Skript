@@ -731,3 +731,36 @@
 \contentsline {subsection}{\numberline {15.1.4}Pyrimidin-Antimetabolite}{116}
 \contentsline {subsubsection}{Wirkmechanismus}{116}
 \contentsline {subsubsection}{Indikationen}{116}
+\contentsline {subsubsection}{Wirkmechanismus}{117}
+\contentsline {subsubsection}{Indikationen}{117}
+\contentsline {subsubsection}{Wirkmechanismus}{117}
+\contentsline {subsubsection}{Indikationen}{117}
+\contentsline {section}{\numberline {15.2}Alkylantien}{117}
+\contentsline {subsection}{\numberline {15.2.1}Stickstofflost-Derivate}{117}
+\contentsline {subsubsection}{Pharmakokinetik}{117}
+\contentsline {subsubsection}{unerw\IeC {\"u}nschte Wirkungen}{117}
+\contentsline {subsubsection}{Indikationen}{117}
+\contentsline {subsection}{\numberline {15.2.2}Platinfreisetzende Verbindungen}{117}
+\contentsline {subsubsection}{Wirkmechanismus}{118}
+\contentsline {subsubsection}{unerw\IeC {\"u}nschte Wirkungen}{118}
+\contentsline {subsection}{\numberline {15.2.3}Nitrosoharnstoffderivate}{118}
+\contentsline {subsubsection}{Besonderheiten}{118}
+\contentsline {subsubsection}{unterw\IeC {\"u}nschte Wirkungen}{118}
+\contentsline {section}{\numberline {15.3}Zytostatisch wirksame Antibiotika}{118}
+\contentsline {subsection}{\numberline {15.3.1}Anthracycline}{118}
+\contentsline {subsubsection}{Wirkmechanismus}{118}
+\contentsline {subsubsection}{unerw\IeC {\"u}nschte Wirkung}{118}
+\contentsline {section}{\numberline {15.4}Mitosehemmstoffe}{119}
+\contentsline {subsection}{\numberline {15.4.1}Vinca-Alkaloide}{119}
+\contentsline {subsubsection}{Wirkmechanismus}{119}
+\contentsline {subsection}{\numberline {15.4.2}Taxane}{119}
+\contentsline {subsubsection}{Wirkmechanismus}{119}
+\contentsline {section}{\numberline {15.5}Inhibitoren der Topoisomerase}{119}
+\contentsline {subsubsection}{Topotectan}{119}
+\contentsline {subsubsection}{Etoposid}{119}
+\contentsline {section}{\numberline {15.6}Hormontherapie}{119}
+\contentsline {subsection}{\numberline {15.6.1}Hormon-sensitives Mammakarzinom }{119}
+\contentsline {subsection}{\numberline {15.6.2}Hormonsensitives Prostatakarzinom}{120}
+\contentsline {section}{\numberline {15.7}Tyrosinkinase-Hemmer}{120}
+\contentsline {section}{\numberline {15.8}Protease-Inhibitor}{120}
+\contentsline {section}{\numberline {15.9}Antik\IeC {\"o}rper}{120}

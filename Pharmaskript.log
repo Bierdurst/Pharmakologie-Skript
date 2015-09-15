@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2015.9.13)  15 SEP 2015 18:40
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2015.9.13)  15 SEP 2015 19:16
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1189,6 +1189,36 @@ LaTeX Warning: Label `par:wirkmechanismus' multiply defined.
 
 
 LaTeX Warning: Label `par:indikationen' multiply defined.
+
+
+LaTeX Warning: Label `ssub:wirkmechanismus' multiply defined.
+
+
+LaTeX Warning: Label `ssub:indikationen' multiply defined.
+
+
+LaTeX Warning: Label `par:pharmakokinetik' multiply defined.
+
+
+LaTeX Warning: Label `par:unerw_nschte_wirkungen' multiply defined.
+
+
+LaTeX Warning: Label `par:indikationen' multiply defined.
+
+
+LaTeX Warning: Label `sub:subsection_name' multiply defined.
+
+
+LaTeX Warning: Label `ssub:wirkmechanismus' multiply defined.
+
+
+LaTeX Warning: Label `ssub:wirkmechanismus' multiply defined.
+
+
+LaTeX Warning: Label `par:wirkmechanismus' multiply defined.
+
+
+LaTeX Warning: Label `ssub:wirkmechanismus' multiply defined.
 
 )
 \openout1 = `Pharmaskript.aux'.
@@ -2974,20 +3004,49 @@ Underfull \hbox (badness 10000) in paragraph at lines 4005--4020
 [115
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 4079--4086
+Underfull \hbox (badness 10000) in paragraph at lines 4079--4084
 
  []
 
-[116] (./Pharmaskript.aux)
+[116]
+Underfull \hbox (badness 10000) in paragraph at lines 4090--4096
+
+ []
+
+[117]
+Overfull \hbox (13.35962pt too wide) in paragraph at lines 4176--4178
+\OT1/cmr/m/n/10 Interkalation in DNA mit ver-min-der-ter DNA-/RNA.Synthese, Hem
+-mung der To-poi-so-me-ra-se II, DNA-Strangbr[]uche;
+ []
+
+[118] [119]
+Overfull \hbox (28.75858pt too wide) in paragraph at lines 4254--4256
+[]\OT1/cmr/m/n/10 Uber Feed-back-Mechanismen: hy-po-phys[]are LH-/FSH-Sekretion
+shemmung durch Ethi-ny-le-stra-di-ol (syn-thet. []Ostrogen),
+ []
+
+
+Overfull \hbox (14.6919pt too wide) in paragraph at lines 4259--4260
+[]\OT1/cmr/m/n/10 Hemmung der aus-ge-hend vom Philadelphia-Chromosom bei der CM
+L ge-bil-de-ten Fusionsprotein-Tyrosinkinase
+ []
+
+
+Overfull \hbox (0.7663pt too wide) in paragraph at lines 4271--4272
+[]\OT1/cmr/m/n/10 gegen ErbB2(HER2); Ein-satz bei me-ta-stas. Mamm-akar-zi-nom 
+mit ErbB2-[]Uberexpression; met. Ma-gen{CA;
+ []
+
+[120] (./Pharmaskript.aux)
 
 LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 17921 strings out of 493304
- 335179 string characters out of 6139871
- 422945 words of memory out of 5000000
- 20992 multiletter control sequences out of 15000+600000
+ 17944 strings out of 493304
+ 335736 string characters out of 6139871
+ 423271 words of memory out of 5000000
+ 21015 multiletter control sequences out of 15000+600000
  14669 words of font info for 57 fonts, out of 8000000 for 9000
  957 hyphenation exceptions out of 8191
  56i,18n,55p,10421b,303s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -3008,10 +3067,10 @@ exlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy5.pfb></usr/share/texlive/
 texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/share/texlive/texmf-d
 ist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/share/texlive/texmf-dist/fo
 nts/type1/public/amsfonts/symbols/msam10.pfb>
-Output written on Pharmaskript.pdf (117 pages, 1290317 bytes).
+Output written on Pharmaskript.pdf (121 pages, 1297381 bytes).
 PDF statistics:
- 470 PDF objects out of 1000 (max. 8388607)
- 317 compressed objects within 4 object streams
+ 483 PDF objects out of 1000 (max. 8388607)
+ 326 compressed objects within 4 object streams
  0 named destinations out of 1000 (max. 500000)
  73 words of extra memory for PDF output out of 10000 (max. 10000000)
 
