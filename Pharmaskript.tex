@@ -1,7 +1,9 @@
 \documentclass[10pt,a4paper]{report}
 \usepackage[utf8]{inputenc}
 \usepackage[german]{babel}
+\usepackage{textcomp}
 \usepackage{amsmath}
+\usepackage{pbox}
 \usepackage{amsfonts}
 \usepackage{amssymb}
 \usepackage{tabularx}
@@ -9,12 +11,14 @@
 \usepackage{wrapfig}
 \usepackage{tikz}
 \usepackage{gensymb}
+\usepackage{wasysym}
 \usepackage[normalem]{ulem}
 \usepackage[version=3]{mhchem}
-\usepackage[a4paper, left= 2cm, textwidth=17cm]{geometry}
+\usepackage[total={17cm,27.7cm},top=1cm, left=2cm, includefoot]{geometry}
 \title{Pharmakologie Skriptum}
 
 \newenvironment{reaction}{\begin{equation}}{\end{equation}}
+
 
 \begin{document}
 \maketitle
@@ -4289,4 +4293,341 @@ Hemmung der Wiederverknüpfung getrennter DNA-Stränge bei verschiedenen Neoplas
 \end{enumerate}
 % section resistenzentwicklungen (end)
 % chapter antineoplastika (end)
+\chapter{Toxikologie} % (fold)
+\label{cha:toxikologie}
+\section{Behandlungsprinzipien akuter Intoxikationen} % (fold)
+\label{sec:behandlungsprinzipien_akuter_intoxikationen}
+\subsubsection{Hemmung von Resorption} % (fold)
+\label{ssub:hemmung_von_resorption}
+\begin{enumerate}
+	\item Giftzufuhr beenden
+	\item Erbrechen induzieren (Kontraindikationen: s. unten !) Ipecacuanha-Sirup: Reflex-Emetikum, wirkt durch Irritation der Magenschleimhaut. Wirkbeginn nach ca. 15 Minuten, Nebenwirkung: anhaltendes Erbrechen, Diarrhoe mechanische Reizung Rachenhinterwand Apomorphin oder Kochsalzlösung: sind obsolet
+ 	\item Magenspülung
+	\item Aktivkohle (während Magenspülung oder oral)
+\end{enumerate}
+% subsubsection hemmung_von_resorption (end)
+\subsubsection{Induziertes Erbrechen nie bei} % (fold)
+\label{ssub:induziertes_erbrechen_nie_bei}
+\begin{itemize}
+	\item Bewusstseinsstörung, Krampfanfall
+	\item Vergiftung mit Säuren/Laugen, Schaumbildnern, organischen Lösungsmittel (Perforations-/Aspirationsgefahr !)
+\end{itemize}
+% subsubsection induziertes_erbrechen_nie_bei (end)
+\subsubsection{Beschleunighte Giftelimination} % (fold)
+\label{ssub:beschleunighte_giftelimination}
+\begin{itemize}
+	\item renale Toxinausscheidung
+	\begin{itemize}
+		\item Forcierte Diurese: Volumengabe, Schleifendiuretika, Osmodiuretika,
+		\item Minderung der tubulären Rückresorption durch Ansäuern oder Alkalisieren des Harnes
+	\end{itemize}
+	\item Unterbrechung des enterohepatischen Kreislaufes: Aktivkohle oder Cholestyramin, z.B. bei Intoxikation mit Amitriptylin, Imipramin, Digitoxin
+	\item Hämodialyse (Diffusion Blut gegen Dialyselösung), funktioniert umso besser,
+	\begin{itemize}
+		\item je kleiner das Molekulargewicht des Toxins
+		\item je geringer an Plasmaproteine gebunden
+		\item je geringer das Verteilungsvolumen
+	\end{itemize}
+	\item Hämoperfusion (Diffusion Blut gegen Aktivkohle): effektivste Methode der extrakorporalen Entgiftung, da auch lipophile, nicht dialysierbare Substanzen adsorbiert werden können
+\end{itemize}
+% subsubsection beschleunighte_giftelimination (end)
+\subsubsection{Antidote} % (fold)
+\label{ssub:antidote}
+Zur Antidottherapie eignen sich Stoffe mit geringer Eigentoxizität und hoher spezifischer Aktivität. Man unterscheidet:
+\begin{itemize}
+	\item funktionelle Antidote: verdrängen das Gift vom Wirkort
+	\item Dekorporierungsantidote: Antidot reagiert direkt mit dem Gift und wandelt es in ein weniger toxisches, gut eliminierbaren Produkt um.
+\end{itemize}
+% subsubsection antidote (end)
+% subsection behandlungsprinzipien_akuter_intoxikationen (end)
+\section{Gase} % (fold)
+\label{sec:gase}
+\begin{tabularx}{\textwidth}{XX}
+Reizgase&Systemisch wirksame Gase\\
+Vertreter: NO, NO2, O3, SO2, COCl2 (Phosgen), HCHO (Formaldehyd)&Vertreter: H2S, CO, HCN\\
+Klinik: lokale Reizung bis Lungenödem (je nach Eindringtiefe)&Wirkung: 
+Störung des O2-Transportes (CO),periphere und zentrale Atemlähmung (H2S, HCN) \\
+\end{tabularx}
+% section gase (end)
+\subsection{Reizgase} % (fold)
+\label{sub:reizgase}
+\begin{tabularx}{\textwidth}{XXX}
+H$_2$O-Löslichkeit&Angriffsort&Beispiele\\
+hoch&Auge, Larynx, Trachea&NH$_3$, HCl, HCHO, F$_2$\\
+mittel&Bronchien, Bronchiolen&SO$_2$, Cl$_2$, Br$_2$\\
+gering&Bronchiolen, Alveolen, Kapillaren&O$_3$, NO$_2$, COCl$_2$\\
+\end{tabularx}
+% subsection reizgase (end)
+\subsubsection{Toxisches Lungenödem} % (fold)
+\label{ssub:toxisches_lungen_dem}
+\begin{itemize}
+	\item[initial] Hustenreiz, Atemnot, Unruhe
+	\item[Vollbild] (evtl nach beschwerdefreiem Intervall!): Zyanose, bräunlicher Schaum aus Mund und Nase, Tachykardie. Tod durch Erstickung oder Herzversagen ]
+\end{itemize}
+% subsubsection toxisches_lungen_dem (end)
+\paragraph{Therapie} % (fold)
+\label{par:therapie}
+Glukokortikoide (inhalativ), Oberkörper hochlagern, O$_2$, Absaugen, Furosemid i.v., Sedierung
+% paragraph therapie (end)
+\subsection{Systemisch wirkende Gase} % (fold)
+\label{sub:systemisch_wirkende_gase}
+\begin{tabularx}{\textwidth}{lXXXX}
+Gas&Vorkommen&Warnung&Wirkmechanismus und Symptome&Therapie\\
+H$_2$S&red. Eiweißzersetzung, (Tierhaltung,Abwasser), Erdgas&faule Eier(aber Desensitisierung)&Hemmung von Enzymen, z.B. Atmungskette (CN-ähnlich), Atemwegsreizung, Lungenödem. Symptome: Bewußtlosigkeit, zentrale und periphere Atemlähmung, Koma&symptomatisch\\
+CO&Unvollst. Verbrennung, Mikroorganismen&Farb-, geruchlos&Konkurriert mit O$_2$ um Hb (Affinität 200-300 x), Schädigung durch O$_2$-Mangel, CO$_2$-Stau, Lactatazidose. Symptome: Bewußtlosigkeit, Koma&O$_2$- u. Bicarbonat\\
+HCN&Metallhärtung, Bittermandeln, Tabakrauch, Nitroprussid-Natrium&Bittermandelgeruch&Reversible Bindung von CN$^-$ an Fe$^{3+}$ der Cytochromoxidase u. anderer Metalloenzyme $\rightarrow$ Hemmung der Atmungskette $\rightarrow$ innere Erstickung. Symptome: Hyperpnoe, rote Haut Unwohlsein, Erbrechen; zentrale und periphere Atemlähmung&4-DMAP: CN$\rightarrow$MetHb oder: Thiosulfat: CN$\rightarrow$SCN (Rhodanese)\
+\end{tabularx}
+% subsection systemisch_wirkende_gase (end)
+% chapter toxikologie (end)
+\subsection{Methämoglobinbildner} % (fold)
+\label{sub:meth_moglobinbildner}
+\subsubsection{Mechanismus} % (fold)
+\label{ssub:mechanismus}
+Pharmaka (Sulfonamide, Primaquin) und Gifte (Nitrite, Nitrobenzol, Anilin u.a.) oxidieren Fe$^{2+}$ in Hämoglobin zu Fe$^{3+}$, dadurch Störung des O$_2$-Transports.
+% subsubsection mechanismus (end)
+\subsubsection{Klinik} % (fold)
+\label{ssub:klinik}
+wie CO-Intoxikation.
+% subsubsection klinik (end)
+\subsubsection{Therapie} % (fold)
+\label{ssub:therapie}
+Redoxfarbstoffe (Toluidinblau, Methylenblau)
+% subsubsection therapie (end)
+% subsection meth_moglobinbildner (end)
+\subsection{Metalle} % (fold)
+\label{sub:metalle}
+\begin{tabularx}{\textwidth}{lXXXX}
+Metall&Vorkommen&Wirkweise&Symptome&Therapie\\
+Arsenik AS$_2$O$_3$&Glasindustrie, Holzschutz-mittel, Ratten-gift, Halbleiter-herstellung&Reaktivität an SH-Gruppen in Proteinen&akut: Kapillarwirkung (Diarrhoe, Ödem) $\rightarrow$ Hypovolämie, Schock, Nierenfunktion $\downarrow$,Tod chronisch: „Arsenschnupfen“, Melanose, Hyperkeratose, Hauttumoren, Polyneuritis&DMSA, DMPS\\
+Blei&Batterien, Farben, Antiklopfmittel (Tetraethylblei)&Bindet an Hb, stört Enzym-funktionen; Speicherung in Zähnen und Knochen&Erythrozyten: Hb-synthese $\downarrow$ , $\delta$-ALA $\uparrow$    hypochr. Anämie, basophile Tüpfelung Glattmuskelspasmen: Bleiblässe, Bleikolik Nervensystem: Bleilähmung (N.radialis)&Na$_2$-Ca-EDTA, DMSA\\
+Thallium&Rattengift, Elektroindustrie&Epithel- und Nervengift (Mech. unklar)&zunächst symptomfrei, dann schwere Gastroenteritis, später Polyneuropathie, psych. Veränderungen, typ. Haarausfall nach 2 Wochen&Fe-III-Hexa-cyanoferrat (Berliner Blau)\\
+Quecksilber&Metallisch: Amalgam, Thermometer (Metalldampf), Anorgan.: z.B. Elektrotechnik, organisch : z.B. Fungizide&Reaktivität an SH-Gruppen in Proteinen&akut: erst lokale Symptome (pulmonal: Entzündung; oral: Verätzung), Gastro-enteritis, Anurie/Urämie; nach einigen Tagen Colitis mucomembranacea, Stomatitis mit Metallgeschmack chron.: ZNS-Störungen, bei Fingiziden: Schwere ZNS-Störungen (gut lipidlöslich)&DMPS Dimercaprol\\
+\end{tabularx}
+andere: Eisen (Desferoxamin parenteral), Kupfer (z.B. bei M. Wilson; D-Penicillamin); Cadmium (Na2-Ca-EDTA), Mangan, Nickel, Chrom, Cobalt (alle DMPS) 
+% subsection metalle (end)
+\subsection{Säuren, Laugen, Tenside, Lösungsmittel} % (fold)
+\label{sub:s_uren_laugen_tenside_l_sungsmittel}
+\begin{tabularx}{\textwidth}{lXXX}
+Substanz&Beispiele&Symptome orale Intoxikation&Therapie\\
+Säuren&Salzsäure, Schwefelsäure, Salpetersäure&lokale Verätzung  mit Ätzschorf (Koagulationsnekrose) Schluckbeschwerden, Bluterbrechen&viel Wasser trinken (evtl Milch, Antazida); Schock- und Schmerzbehandlung\\
+Laugen&Natronlauge, Kalilauge&Schleimhaut glasig gequollen (Kolliquationsnekrose !); Schmerz, Erbrechen, Perforationsgefahr (keine Magenspülung !)&viel Wasser trinken (evtl Milch); Schock- und Schmerztherapie\\
+Tenside&Waschmittel, Desinfektionsmittel&Gastroenteritis, Diarrhoe; bei Erbrechen Aspirationsgefahr&viel Wasser oder Milch trinken, Entschäumer \\
+Lösungsmittel&Benzol, Benzine, Chloroform&Erbrechen, Aspiration, Krämpfe, Narkose/Koma, Atemlähmung (Inhalation besonders relevant !*)&symptomatisch\\
+\end{tabularx}
+andere wichtige Applikationswege: transdermal, inhalativ, Auge
+% subsection s_uren_laugen_tenside_l_sungsmittel (end)
+\subsection{Halogenierte aromatische Kohlenwasserstoffe: Polychlorierte Dibenzodioxine und -furane} % (fold)
+\label{sub:halogenierte_aromatische_kohlenwasserstoffe_polychlorierte_dibenzodioxine_und_furane}
+Gruppe von Verbindungen mit > 200 Isomeren; toxikologisch relevant ist z.B. 2,3,7,8 Tetrachlordibenzo-p-dioxin („Seveso-Dioxin“)
+\subsubsection{Entstehung} % (fold)
+\label{ssub:entstehung}
+bei Verbrennungen (Hausbrand, Motoren) und metallurgischen Verfahren
+% subsubsection entstehung (end)
+\subsubsection{Kinetik} % (fold)
+\label{ssub:kinetik}
+Akkumulation, insbes. Leber u. Fettgewebe,Kaum Metabolismus und Elimination ! (HWZ: 5-10 Jahre)
+% subsubsection kinetik (end)
+\subsubsection{Wirkung} % (fold)
+\label{ssub:wirkung}
+Bindung an „Ah (Arylhydrocarbon)-Rezeptor“, Enzyminduktion (zB. CYP1A1 / CYP1A2) und Störung des Zellstoffwechsels 
+% subsubsection wirkung (end)
+\subsubsection{Toxische Wirkung} % (fold)
+\label{ssub:toxische_wirkung}
+Akut: Übelkeit und Erbrechen, Bronchialreizung\\
+Verzögert: Auszehrungssyndrom, Magen-Darm Blutungen, Chlorakne, Leberschäden, Kanzerogenität 
+% subsubsection toxische_wirkung (end)
+% subsection halogenierte_aromatische_kohlenwasserstoffe_polychlorierte_dibenzodioxine_und_furane (end)
+\subsection{Bakterielle Toxine} % (fold)
+\label{sub:bakterielle_toxine}
+\begin{tabularx}{\textwidth}{llXXX}
+Toxin&Spezies&Mechanismus&Klinik&Therapie\\
+Cholera&V. cholerae&Konstitutive G$_s$-Aktivierung = cAMP-Bildung $\rightarrow$ Transport von Ionen und Wasser vom Blut ins Darmlumen&Gastroenteritiden, Wasserverluste bis zu 10 l/d&Wasser- u. Elektrolytersatz, Tetracyclin\\
+Pertussis&B. pertussis&ADP-Ribosylierung G$_i$ $\rightarrow$Adenylatcyclase$\uparrow$, Blockade Kationenkanäle&ADP-Ribosylierung Gi $\rightarrow$ Adenylatcyclase$\uparrow$, Blockade von Kationenkanälen&Tetracyclin\\
+Tetanus&Cl. tetani&Aufnahme über Haut-verletzungen, retrograder axonaler Transport ins Rückenmark, Glycin und GABA-Freisetzung aus Interneuronen gehemmt (proteolytische Spaltung von SNARE-Molekülen)
+Tonische Kontraktionen der willkürlichen Muskulatur $\rightarrow$ Dauerkrämpfe $\rightarrow$ Tod durch Ersticke&Inmmunserum; Penicillin G, symptomatisch. Präventiv aktive Immunisierung\\
+Botulinus A-G, C$_1$&Cl. botulinum&v.a. Lebensmittelkonser-ven: Hemmung der ACh-Freisetzung an der neuro-muskulären Synapse (proteolytische Spaltung von SNARE-Molekülen)&Lähmung&symptomatisch u. Antitoxin\\
+\end{tabularx}
+% subsection bakterielle_toxine (end)
+\subsection{Alkohole (Methanol, Ethanol)} % (fold)
+\label{sub:alkohole_}
+\subsubsection{Pharmakokinetik} % (fold)
+\label{ssub:pharmakokinetik}
+\begin{itemize}
+	\item Kinetik 0. Ordnung (Abnahme $\mars$ 0.1g/kg/h; $\venus$ 0.085g/kg/h = 0.15\textperthousand/h)
+	\item vollständige Resorption durch Diffusion nach oraler Gabe
+	\item 1-2h nach Alkoholaufnahme ist das Maximum der Blutkonzentration erreicht
+	\item Metabolisierung durch Alkoholdehydrogenase bzw. Aldehyddehydrogenase:	
+	\begin{itemize}
+	 	\item Methanol: via Formaldehyd zu Ameisensäure
+		\item Ethanol: via Acetaldehyd zu Essigsäure
+	 \end{itemize} 
+\end{itemize}
+% subsubsection pharmakokinetik (end)
+\begin{figure}
+\begin{equation}
+	EtOH\:im\:Blut[g/l]=\frac{EtOH\:aufgenommen[g]}{KG[kg]*VD[l/kg]}
+\end{equation}
+\caption{Blutethanol Berechnung VD$_{M\ddot{a}nner}$ = 0,7 VD$_{Frauen}$ = 0,6}
+\end{figure}
+\subsubsection{akute Effekte Ethanol} % (fold)
+\label{ssub:akute_effekte_ethanol}
+\begin{itemize}
+	\item[0.3-1.0\textperthousand] euphorische Phase: Enthemmung, beginnende Gangstörung, verzögerte Reaktionen, u.U. bereits beginnende Dämpfung 
+	\item[1.0-2.0\textperthousand] Exzitationsstadium: Erregung, Aggressivität, Enthemmung
+	\item [2.0-2.5\textperthousand]  Rauschstadium: Bewusstseinsstörung, Amnesie, Schmerzwahrnehmung$\downarrow$, rosige Haut, Hypothermie, Hyperpnoe, Diurese, Hypoglykämie.
+	\item[2.5-4.0\textperthousand]  Narkosestadium: Bewusstlosigkeit, beginnender Schock
+	\item[$>$4.0\textperthousand] Asphyxiestadium: tiefes Koma
+\end{itemize}
+% subsubsection akute_effekte_ethanol (end)
+\subsubsection{chronische Effekte Ethanol} % (fold)
+\label{ssub:chronische_effekte_ethanol}
+\begin{itemize}
+	\item Toleranz, psychische Abhängigkeit, physische Abhängigkeit
+	\item neurologisch: chronischer Tremor, Korsakow-Psychose, Wernicke-Enzephalopathie, Polyneuropathie, alkoholtoxische Hirn-/Kleinhirnatrophie
+	\item internistisch: Zungen- und Ösophaguskarzinom, Gastritis, Ulkus, Resorptionsstörungen, Anämie, Hypertonie (chronisch), Kardiomyopathie, Leberzirrhose, Pankreatitis, Hyperlipidämie
+\end{itemize}
+% subsubsection chronische_effekte_ethanol (end)
+\subsubsection{akute Effekte Methanol} % (fold)
+\label{ssub:akute_effekte_methanol}
+Rausch gering ausgeprägt; ab 2.-3. Tag reversible Störung des Visus und schwere metabolische Azidose; ab 4.-5 Tag irreversible Sehstörungen
+% subsubsection akute_effekte_methanol (end)
+% subsection alkohole_ (end)
+\subsection{Tabakrauch} % (fold)
+\label{sub:tabakrauch}
+\subsubsection{Tabakrauch} % (fold)
+\label{ssub:subsubsection_name}
+Hauptstromrauch + Nebenstromrauch\\ Gemisch aus Gasen und Aerosolen (ca. 1000 identifiziert): 
+\begin{itemize}
+	\item Reizende Substanzen: NO, NO$_2$, NH$_3$ 
+	\item Bluttoxische Substanzen: CO 
+	\item Narcotoxische Substanzen: Nicotin 
+	\item Kanzerogene Substanzen: Benz(a)pyren und andere PAK, Nitrosamine, aromatische Amine, Schwermetalle wie Cr, As, Cd, V. 
+\end{itemize}
+% subsubsection subsubsection_name (end)
+\subsubsection{akute Wirkung v.a. Nikotin} % (fold)
+\label{ssub:akute_wirkung_v_a_nikotin}
+\begin{itemize}
+	\item Stimulation von nAChR an autonomen Ganglien (Parasympathikus: Magensaftsekretion $\uparrow$, Darmmotilität$\uparrow$; Sympathikus: Hypertonie, Tachykardie, Tachypnoe)
+	\item zentrale Effekte
+	\item Vasopressinausschüttung (Antidiurese)
+	\item Abhängigkeit erzeugend
+\end{itemize}
+% subsubsection akute_wirkung_v_a_nikotin (end)
+\subsubsection{chronische Wirkung} % (fold)
+\label{ssub:chronische_wirkung}
+\begin{itemize}
+	\item Tabakkrebs (Ursache in Partikelphase, „Teer“) (s. krebserzeugende Stoffe)
+	\item Kardiovaskuläres Risiko (z.B. pAVK)
+\end{itemize}
+% subsubsection chronische_wirkung (end)
+% subsection tabakrauch (end)
+\section{Krebserzeugende Stoffe} % (fold)
+\label{sec:krebserzeugende_stoffe}
+\subsubsection{Polycyclische aromatische Kohlenwasserstoffe: Benzo(a)pyren, Benzo(a)athracen} % (fold)
+\label{ssub:polycyclische_aromatische_kohlenwasserstoffe_benzo}
+\subsubsection{Entstehung} % (fold)
+\label{ssub:entstehung}
+durch unvollständige Verbrennung organischen Materials, z.B. Tabakrauch, Verbrennungsmotoren
+% subsubsection entstehung (end)
+\subsubsection{Pharmakokinetik} % (fold)
+\label{ssub:pharmakokinetik}
+Starke Induktion verschiedener hepatischer Enzyme (CYP1A1/CYP1A2) über nukleären Ah-Rezeptor (ähnlich Dioxin)
+% subsubsection pharmakokinetik (end)
+\subsubsection{Chronische Toxizität} % (fold)
+\label{ssub:chronische_toxizit_t}
+Kanzerogenität durch Bildung von DNA-Addukten, v.a. Haut- und Lungentumoren
+% subsubsection chronische_toxizit_t (end)
+% subsubsection polycyclische_aromatische_kohlenwasserstoffe_benzo (end)
+\subsection{Nitrosamine / Nitrosamide} % (fold)
+\label{sub:nitrosamine_nitrosamide}
+\subsubsection{Exogene Enstehung} % (fold)
+\label{ssub:subsubsection_name}
+Tabakrauch (Lungen-CA!), Lebensmittel (Pökelfleisch, alkoholische Getränke), verschiedene Industriezweige 
+% subsubsection subsubsection_name (end)
+\subsubsection{Endogene Entstehung} % (fold)
+\label{ssub:endogene_entstehung}
+Bildung aus Aminen der Nahrung in Anwesenheit nitrosierender Agentien [Stickoxid, Nitrit (NO$_2$)] v.a. im Magen
+% subsubsection endogene_entstehung (end)
+\subsubsection{Wirkung} % (fold)
+\label{ssub:wirkung}
+Giftung durch Cytochrom P450-vermittelte oxidative Denitrosierung zu alkylierenden Verbindungen, Teilweise spontaner Zerfall unter Alkylantien-Bildung 
+% subsubsection wirkung (end)
+\subsubsection{Toxizität} % (fold)
+\label{ssub:akute_toxizit_t}
+Akut: zytotoxisch (hohe Dosen erforderlich)\\
+Chonisch:: kanzerogen (Magen, Speiseröhre, Leber, Niere, Harnwege)
+% subsubsection akute_toxizit_t (end)
+% subsection nitrosamine_nitrosamide (end)
+\subsubsection{Andere krebserzeugende Substanzen} % (fold)
+\label{ssub:andere_krebserzeugende_substanzen_aromatische_amine_gegrilltes_fleisch_tabakrauch_aflatoxine_metalle_ni_cr_as_}
+Aromatische Amine (gegrilltes Fleisch, Tabakrauch), Aflatoxine, Metalle (Ni, Cr, As)
+% subsubsection andere_krebserzeugende_substanzen_aromatische_amine_gegrilltes_fleisch_tabakrauch_aflatoxine_metalle_ni_cr_as_ (end)
+% section krebserzeugende_stoffe (end)
+\section{Pilzgifte} % (fold)
+\label{sec:pilzgifte}
+\subsubsection{Niedere Pilze (Ascomyceten)} % (fold)
+\label{ssub:niedere_pilze_ascomyceten_}
+Aspergillusarten: Befall v. Lebensmitteln wie Erdnüsse, Weizen, Reis, Mais, Sojabohnen u.a.; Aflatoxine: nach enteraler Aufnahme Umwandl. in der Leber in reaktionsfäh. Epoxide $\rightarrow$ kovalente Bindung an Makromoleküle der Zelle; akute Einnahme großer Mengen $\rightarrow$ Leberzellnekrosen, Leberversagen; chron. Aufnahme geringer Dosen $\rightarrow$ Leberzirrhose, Lebertumoren
+% subsubsection niedere_pilze_ascomyceten_ (end)
+\subsubsection{Höhere Pilze (Basidiomyceten)} % (fold)
+\label{ssub:h_here_pilze_basidiomyceten_}
+Knollenblätterpilze: Grüner/weißer/gelber Knollenblätterp. (Amanita phalloides/virosa/citrina); Frühlingsknollenblätterpilz (Amanita verna); 80-90\% der tödl. verlauf. Pilzvergiftung. (50-60 Fälle/Jahr in Dtl.) d. grünen Knollenblätterpilz; Amatoxine / Phallotoxine: Thermostabile zyklische Peptide; nach enteral. Aufnahme Wirkung v.a. auf Leberzellen (first-pass-Effekt, enterohepat. Kreislauf), Schädigung d. GI-Traktes und der Nieren; Wirkmechanismus: $\alpha$- und $\beta$- Amanitin gelangen in den Kern und hemmen die RNA-Polymerase II $\rightarrow$ Abnahme der mRNA-Konzentr. $\rightarrow$ Verarmung der Zellen an Protein $\rightarrow$ Zelltod; Phallotoxine binden an Aktin $\rightarrow$ Hemmung d. Depolymerisation; Symptomatik der Vergiftung: v.a. durch Amatoxine bedingt: nach Latenz von 8-24 h: Erbrechen / Durchfall; nach weiteren 3-10 d: Leber- und Nierenversagen; Toxizität: tödliche Dosis: 0,1mg Amatoxin; 5-10 mg Phallotoxin; 100 g Frischpilz enthält 17 mg Amatoxine $\rightarrow$ 1 ausgewachsener Pilz ist bereits letal; Therapie erschwert weg. Latenz der Symptomentw.: Erbrechen auslösen, Magenspülung; Aktivkohle; Dialyse, Schockbekämpfung, Ausgleich v. Elektrolyt- und Wasserverlusten; Hemmung der Aufnahme von Amatoxinen durch Penicillin, Silibinin; Lebertransplantation
+% subsubsection h_here_pilze_basidiomyceten_ (end)
+\subsubsection{Fliegenpilz (Amanita muscaria); Pantherpilz (Amanita pantherina)} % (fold)
+\label{ssub:subsubsection_name}
+Muscimol  $\rightarrow$  Ibotensäure; Auslösung einer toxischen Psychose (Pantherpilz $>$ Fliegenpilz); Erregungszustände, Verwirrtheit, Halluzinationen, Koma
+Therapie: Emetika, Magenspülung, Aktivkohle, Sedativa, Tranquillantien
+% subsubsection subsubsection_name (end)
+\subsubsection{Risspilze (Inocybe – Arten)} % (fold)
+\label{ssub:risspilze_inocybe_arten_}
+enthalten große Mengen Muscarin parasympathomimetische Wirkungen bis zu Atemnot, Schock; Therapie: Atropin
+% subsubsection risspilze_inocybe_arten_ (end)
+% section pilzgifte (end)
+\section{Chemische Kampfstoffe} % (fold)
+\label{sec:chemische_kampfstoffe}
+\subsection{Organophosphate} % (fold)
+\label{sub:organophosphate}
+Tabun, Sarin, Soman u.a.; s. cholinerges System
+% subsection organophosphate (end)
+\subsection{Alkylatien} % (fold)
+\label{sub:alkylatien}
+Substanzen, die Alkylreste auf andere Verbindungen (insb. Nukleins.) übertragen können. Anwend. auch als Zytostatika. Anwendung erstmals im I. WK, eingeführt d. Lommel und Steinkopf (Lost); lipophile, hochreaktive Verbindungen, die auf  allen Wegen rasch in den Organismus gelangen. Rasche Reaktion und Elimination $\rightarrow$ Detoxifikationsmaßnahmen meist zu spät;
+% subsection alkylatien (end)
+\subsubsection{Symptomatik} % (fold)
+\label{ssub:symptomatik}
+Exposition wird nicht wahrgenommen, gelegentlich nur als Geruch (Fisch, Knoblauch, Senf), durch Verunreinigungen; nach Exposition symptomfreies Intervall von meist mehreren Stunden (je nach Dosis); langsames Einsetzen der Symptome (max. nach 2-3 Tagen); $\rightarrow$ Jucken, Erythem/Blasenbildung, Übelkeit/Erbrechen/Durchfall, Husten/Bronchitis/Pneumonie; Konjunktivitis/Korneaerosion;
+% subsubsection symptomatik (end)
+\subsubsection{Therapie} % (fold)
+\label{ssub:therapie}
+symptomatisch
+% subsubsection therapie (end)
+% section chemische_kampfstoffe (end)
+\section{Wichtige Intoxikationen} % (fold)
+\label{sec:wichtige_intoxikationen}
+\begin{tabularx}{\textwidth}{XXXX}
+Intoxikation mit…&Mechanismus&Klinik&spezifische Therapie/Antidot\\
+Antidepressiva (v.a. trizyklische)&anticholinerge Wirkung, direkte Kardiotoxizität&Arrhythmie, Exzitation anticholinerges Syndr. &Physostigmin Antiarrhythmika\\
+Atropin (+ andere Alkaloide von Nacht-schattengewächsen)&Antagonismus an musk. ACh-Rezeptoren&Anticholinerges Syndrom&Physostigmin\\
+Benzodiazepine&Vermehrte Wirkung von GABA am GABAA-Rez.&Bewusstseinsverlust, Atemdepression (in Komb. mit Ethanol)&Flumazenil (bei schwerer Misch-intoxikation)\\
+Blausäure / HCN&CN- blockiert Cytochrom-oxidase in Atmungskette &Bewusstseinstörung bis Koma, Hyperpnoe, rote Haut&Na-Thiosulfat, Met-Hb-Bildner\\
+Cumarine&Hemmung der Synthese von Faktor II, VII, IX, X&Blutung&Vitamin K\\
+Heparine&Faktor X und II-Hemmung&Blutung&Protamin\\
+Herzglykosid&Hemmung Na/K-ATPase: Elektrolytverschiebung, veränderte Erregbarkeit&Herzrhythmusstörung, ZNS-Störung, GI-Störung&K$\uparrow$, F(ab)-Frag-ment, Cholestyramin\\
+Kohlenmonoxid&Verdrängung von O$_2$ aus Hb-Fe$^{2+}$-Bindung&Konz-abhängig leichte Dyspnoe bis Koma&O$_2$\\
+Met-Hb-Bildner&Fe$^{2+}$ in Hämoglobin wird zu Fe$^{3+}$ (=Met-Hb) oxidiert O$_2$-Transport unmöglich&Bewusstseinsstörung bis Koma, blasse Haut&Methylenblau, O$_2$\\
+Opioid&Agonismus an $\delta$, $\kappa$, $\mu$-Opioidrezeptoren&Miosis, Bewusstlosigkeit, Atemdepression&Naloxon\\
+Organophosphate&Irreversible Hemmung der Cholinesterase&Cholinerges Syndrom&Atropin, Obidoxim\\
+Paracetamol&Toxischer Metabolit Benzochinonimin&Leberversagen&N-Acetylcystein\\
+Schwermetalle&oft Enzymhemmung&variabel&Chelatbildner\\
+\end{tabularx}
+% section wichtige_intoxikationen (end)
+\subsection{Typische Vergiftungssyndrome} % (fold)
+\label{sub:typische_vergiftungssyndrome}
+\begin{itemize}
+	\item Narkotisches Syndrom: Koma, Hypoventilation, Hypotonie etc (typisch bei: Narkotika, Opioiden, Ethanol+Sedativa)
+	\item Cholinerges Syndrom: Miosis, Bradykardie, Erbrechen, Urinabgang, Defäkation, Tränenfluß; bei schwerer Intox: Tachykardie, Hypertonie, Muskelfaszikulation, Lähmung, Atemlähmung (bei: Organophosphaten)
+	\item Anticholinerges Syndrom: trockene, gerötete Haut; Schluckstörung, Fieber, Exsikkose, Mydriasis, Tachykardie, Delir, Krämpfe (bei: trizykl. Antiderpressiva, Fliegenpilz, Tollkirsche)
+	\item Sympathomimetisches Syndrom: Hypertonie, Tachykardie, Fieber, psych. Erregung, Krämpfe (bei: Cocain, Amphetamin, Theophyllin, Coffein)
+\end{itemize}
+% subsection typische_vergiftungssyndrome (end)
 \end{document}
