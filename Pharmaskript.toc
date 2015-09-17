@@ -874,3 +874,13 @@
 \contentsline {subsubsection}{Beispiel Initialtherapie bei HIV}{114}
 \contentsline {paragraph}{Mimbranfusionshemmer}{114}
 \contentsline {paragraph}{Neuramidasehemmer}{114}
+\contentsline {chapter}{\numberline {18}Hypnotika}{115}
+\contentsline {section}{\numberline {18.1}$\gamma $-Aminobutters\IeC {\"a}ure (GABA)}{115}
+\contentsline {subsection}{\numberline {18.1.1}GABA-Rezeptoren}{115}
+\contentsline {subsubsection}{GABA$_A-Rezeptor$}{115}
+\contentsline {subsubsection}{GABA$_B$-Rezeptor}{115}
+\contentsline {section}{\numberline {18.2}Benzodiazipine}{116}
+\contentsline {subsubsection}{Wirkprofil}{116}
+\contentsline {subsubsection}{Pharmakokinetik}{116}
+\contentsline {subsubsection}{unerw\IeC {\"u}nschte Wirkungen}{116}
+\contentsline {subsubsection}{Abh\IeC {\"a}ngigkeit und Toleranz}{116}
