@@ -939,3 +939,10 @@
 \contentsline {subsubsection}{Muskarinrezeptor-Antagonisten}{124}
 \contentsline {subsection}{\numberline {20.4.4}Blockade von Glutamat-Rezepotoren (NMDA-Typ)}{124}
 \contentsline {subsubsection}{NMDA Rezeptor-Antagonisten}{124}
+\contentsline {chapter}{\numberline {21}Antiepileptika}{125}
+\contentsline {section}{\numberline {21.1}Formen der Epilepsie}{125}
+\contentsline {subsection}{\numberline {21.1.1}Fokal}{125}
+\contentsline {subsection}{\numberline {21.1.2}Pim\IeC {\"a}r generalisiert}{125}
+\contentsline {subsection}{\numberline {21.1.3}Nicht klassifizierbar}{125}
+\contentsline {section}{\numberline {21.2}Pathomechanismen der Epilepsie}{125}
+\contentsline {subsection}{\numberline {21.2.1}Zellul\IeC {\"a}res Korrelat}{125}
