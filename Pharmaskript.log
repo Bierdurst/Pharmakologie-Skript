@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2015.9.13)  20 SEP 2015 18:02
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2015.9.13)  20 SEP 2015 22:39
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1149,7 +1149,37 @@ LaTeX Warning: Label `tab:relevante_enzyme' multiply defined.
 LaTeX Warning: Label `tab:relevante_enzyme' multiply defined.
 
 
-LaTeX Warning: Label `tab:relevante_enzyme' multiply defined.
+LaTeX Warning: Label `fig:ligand1' multiply defined.
+
+
+LaTeX Warning: Label `sub@fig:ligand1' multiply defined.
+
+
+LaTeX Warning: Label `fig:ligand2' multiply defined.
+
+
+LaTeX Warning: Label `sub@fig:ligand2' multiply defined.
+
+
+LaTeX Warning: Label `fig:liganden_enzyme' multiply defined.
+
+
+LaTeX Warning: Label `fig:agonimus' multiply defined.
+
+
+LaTeX Warning: Label `sub@fig:agonimus' multiply defined.
+
+
+LaTeX Warning: Label `fig:rezeptorzustande' multiply defined.
+
+
+LaTeX Warning: Label `sub@fig:rezeptorzustande' multiply defined.
+
+
+LaTeX Warning: Label `tab:nukleaererezeptoren' multiply defined.
+
+
+LaTeX Warning: Label `tab:nukleaererezeptoren' multiply defined.
 
 
 LaTeX Warning: Label `' multiply defined.
@@ -2389,130 +2419,274 @@ Underfull \vbox (badness 10000) detected at line 830
 File: Bilder/ligandenzum.jpeg Graphic file (type jpg)
 
 <use Bilder/ligandenzum.jpeg>
-Package pdftex.def Info: Bilder/ligandenzum.jpeg used on input line 838.
+Package pdftex.def Info: Bilder/ligandenzum.jpeg used on input line 839.
 (pdftex.def)             Requested size: 270.30118pt x 185.36147pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 880--880
-[]|\OT1/cmr/m/n/10 Ethinylestradiol (Ag); Ta-mo-xi-
+Underfull \vbox (badness 10000) detected at line 889
  []
 
+<Bilder/activity.png, id=119, 479.7925pt x 311.1625pt>
+File: Bilder/activity.png Graphic file (type png)
 
-Underfull \hbox (badness 2809) in paragraph at lines 880--880
-[]|\OT1/cmr/m/n/10 Spironolacton (Ant); Fludro-cor-ti-son
- []
+<use Bilder/activity.png>
+Package pdftex.def Info: Bilder/activity.png used on input line 926.
+(pdftex.def)             Requested size: 162.18234pt x 105.18137pt.
 
+<Bilder/Wirksamkeit.png, id=120, 479.7925pt x 347.2975pt>
+File: Bilder/Wirksamkeit.png Graphic file (type png)
 
-LaTeX Warning: `h' float specifier changed to `ht'.
+<use Bilder/Wirksamkeit.png>
+Package pdftex.def Info: Bilder/Wirksamkeit.png used on input line 933.
+(pdftex.def)             Requested size: 162.18234pt x 117.39597pt.
 
-
-Overfull \vbox (226.66896pt too high) has occurred while \output is active []
+Overfull \vbox (163.03972pt too high) has occurred while \output is active []
 
 
 [21 <./Bilder/gproteinzyklus.png (PNG copy)>] [22] [23 <./Bilder/ligand2.png (P
 NG copy)> <./Bilder/ligand1.png (PNG copy)>] [24 <./Bilder/ligandenzum.jpeg>]
-[25] [26]
-Underfull \hbox (badness 10000) in paragraph at lines 1047--1048
+<Bilder/agonismus.png, id=135, 480.79625pt x 477.785pt>
+File: Bilder/agonismus.png Graphic file (type png)
+
+<use Bilder/agonismus.png>
+Package pdftex.def Info: Bilder/agonismus.png used on input line 965.
+(pdftex.def)             Requested size: 162.18234pt x 161.16893pt.
+
+<Bilder/agonismus2.jpeg, id=136, 542.025pt x 542.025pt>
+File: Bilder/agonismus2.jpeg Graphic file (type jpg)
+
+<use Bilder/agonismus2.jpeg>
+Package pdftex.def Info: Bilder/agonismus2.jpeg used on input line 972.
+(pdftex.def)             Requested size: 162.18234pt x 162.17868pt.
+
+<Bilder/antagonismus.png, id=137, 586.19pt x 335.2525pt>
+File: Bilder/antagonismus.png Graphic file (type png)
+
+<use Bilder/antagonismus.png>
+Package pdftex.def Info: Bilder/antagonismus.png used on input line 1000.
+(pdftex.def)             Requested size: 162.18234pt x 92.75487pt.
+
+<Bilder/antagonismus2.png, id=138, 433.62pt x 339.2675pt>
+File: Bilder/antagonismus2.png Graphic file (type png)
+
+<use Bilder/antagonismus2.png>
+Package pdftex.def Info: Bilder/antagonismus2.png used on input line 1007.
+(pdftex.def)             Requested size: 162.18234pt x 126.89368pt.
+
+Underfull \hbox (badness 4647) in paragraph at lines 1008--1008
+[]\OT1/cmr/m/n/9 (b) |Wir-kungs-re-duk-ti-on durch nicht-
+ []
+
+[25 <./Bilder/activity.png (PNG copy)> <./Bilder/Wirksamkeit.png (PNG copy)> <.
+/Bilder/agonismus.png (PNG copy)> <./Bilder/agonismus2.jpeg>]
+<Bilder/toleranz.jpeg, id=142, 1754.555pt x 1885.0425pt>
+File: Bilder/toleranz.jpeg Graphic file (type jpg)
+
+<use Bilder/toleranz.jpeg>
+Package pdftex.def Info: Bilder/toleranz.jpeg used on input line 1025.
+(pdftex.def)             Requested size: 162.18234pt x 174.21988pt.
+ [26 <./Bilder/antagonismus.png (PNG copy)> <./Bilder/antagonismus2.png (PNG co
+py)> <./Bilder/toleranz.jpeg>]
+<Bilder/tbreite.png, id=146, 557.08125pt x 343.2825pt>
+File: Bilder/tbreite.png Graphic file (type png)
+
+<use Bilder/tbreite.png>
+Package pdftex.def Info: Bilder/tbreite.png used on input line 1071.
+(pdftex.def)             Requested size: 162.18234pt x 99.93698pt.
+ [27 <./Bilder/tbreite.png (PNG copy)>]
+Underfull \hbox (badness 10000) in paragraph at lines 1142--1142
+[]|\OT1/cmr/m/n/10 Johanniskraut, Ri-fam-pi-
+ []
+
+
+Underfull \vbox (badness 10000) detected at line 1161
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1187--1188
 
  []
 
-[27]
+[28] [29]
 Kapitel 3.
+<Bilder/cholinergessystem.png, id=156, 551.9019pt x 441.8106pt>
+File: Bilder/cholinergessystem.png Graphic file (type png)
 
-Underfull \hbox (badness 10000) in paragraph at lines 1099--1099
-[]|\OT1/cmr/m/n/10 Vasodilatation (NO-
+<use Bilder/cholinergessystem.png>
+Package pdftex.def Info: Bilder/cholinergessystem.png used on input line 1201.
+(pdftex.def)             Requested size: 486.53882pt x 389.50238pt.
+
+Underfull \vbox (badness 10000) detected at line 1221
+ []
+
+<Bilder/ach.png, id=157, 1027.84pt x 312.16624pt>
+File: Bilder/ach.png Graphic file (type png)
+ <use Bilder/ach.png>
+Package pdftex.def Info: Bilder/ach.png used on input line 1230.
+(pdftex.def)             Requested size: 162.18234pt x 49.25694pt.
+
+<Bilder/achsynapse.png, id=158, 375.4025pt x 520.94624pt>
+File: Bilder/achsynapse.png Graphic file (type png)
+
+<use Bilder/achsynapse.png>
+Package pdftex.def Info: Bilder/achsynapse.png used on input line 1237.
+(pdftex.def)             Requested size: 216.23764pt x 300.07434pt.
+ [30
+
+ <./Bilder/cholinergessystem.png (PNG copy)>]
+<Bilder/achesterase1.png, id=163, 230.8625pt x 371.3875pt>
+File: Bilder/achesterase1.png Graphic file (type png)
+
+<use Bilder/achesterase1.png>
+Package pdftex.def Info: Bilder/achesterase1.png used on input line 1264.
+(pdftex.def)             Requested size: 108.11882pt x 173.92877pt.
+
+<Bilder/achesterase2.png, id=164, 122.4575pt x 117.43875pt>
+File: Bilder/achesterase2.png Graphic file (type png)
+
+<use Bilder/achesterase2.png>
+Package pdftex.def Info: Bilder/achesterase2.png used on input line 1271.
+(pdftex.def)             Requested size: 108.11882pt x 103.69046pt.
+
+<Bilder/achesterase3.png, id=165, 116.435pt x 143.53625pt>
+File: Bilder/achesterase3.png Graphic file (type png)
+
+<use Bilder/achesterase3.png>
+Package pdftex.def Info: Bilder/achesterase3.png used on input line 1278.
+(pdftex.def)             Requested size: 108.11882pt x 133.28801pt.
+ [31 <./Bilder/ach.png (PNG copy)> <./Bilder/achsynapse.png (PNG copy)>]
+File: Bilder/gprotein.png Graphic file (type png)
+ <use Bilder/gprotein.png>
+Package pdftex.def Info: Bilder/gprotein.png used on input line 1304.
+(pdftex.def)             Requested size: 108.11882pt x 84.7262pt.
+
+Overfull \hbox (54.62117pt too wide) in alignment at lines 1312--1331
+ [] [] [] [] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1099--1099
-[]|\OT1/cmr/m/n/10 Kontraktion (Nah-ak-ko-
+Underfull \vbox (badness 10000) detected at line 1331
  []
 
-[28
+<Bilder/achrezeptor.png, id=169, 330.23375pt x 169.63374pt>
+File: Bilder/achrezeptor.png Graphic file (type png)
 
-]
-Underfull \hbox (badness 10000) in paragraph at lines 1118--1119
+<use Bilder/achrezeptor.png>
+Package pdftex.def Info: Bilder/achrezeptor.png used on input line 1356.
+(pdftex.def)             Requested size: 162.18234pt x 83.31279pt.
 
+Overfull \vbox (272.59958pt too high) has occurred while \output is active []
+
+
+[32 <./Bilder/achesterase1.png (PNG copy)> <./Bilder/achesterase2.png (PNG copy
+)> <./Bilder/achesterase3.png (PNG copy)>]
+<Bilder/motorischeendplatte.png, id=173, 485.815pt x 315.1775pt>
+File: Bilder/motorischeendplatte.png Graphic file (type png)
+
+<use Bilder/motorischeendplatte.png>
+Package pdftex.def Info: Bilder/motorischeendplatte.png used on input line 1384
+.
+(pdftex.def)             Requested size: 216.23764pt x 140.2848pt.
+
+Underfull \vbox (badness 10000) detected at line 1426
  []
 
-[29]
-Overfull \hbox (25.06223pt too wide) in paragraph at lines 1139--1150
-\OT1/cmr/m/n/10 so-let. [] 
- []
 
-
-Overfull \hbox (2.1628pt too wide) in paragraph at lines 1154--1155
+Overfull \hbox (2.1628pt too wide) in paragraph at lines 1441--1442
  \OT1/cmr/bx/n/10 Wir-kung[] \OT1/cmr/m/n/10 Ago-nis-mus am Re-zep-tor, lang-sa
 -mer Ab-bau per-si-stie-ren-de De-po-la-ri-sa-ti-on $\OMS/cmsy/m/n/10 !$ \OT1/c
 mr/m/n/10 In-ak-tiv. span-nungs-abh. Na$[]$-Kan[]alen
  []
 
-[30] [31] [32]
+
+Overfull \vbox (102.54909pt too high) has occurred while \output is active []
+
+
+[33 <./Bilder/achrezeptor.png (PNG copy)> <./Bilder/motorischeendplatte.png (PN
+G copy)>] [34]
+Underfull \vbox (badness 10000) detected at line 1531
+ []
+
+<Bilder/achesterase.jpeg, id=181, 4991.64874pt x 4050.13126pt>
+File: Bilder/achesterase.jpeg Graphic file (type jpg)
+
+<use Bilder/achesterase.jpeg>
+Package pdftex.def Info: Bilder/achesterase.jpeg used on input line 1555.
+(pdftex.def)             Requested size: 270.30118pt x 219.2662pt.
+
+<Bilder/achesterasehemmung.jpeg, id=182, 4622.26875pt x 4635.3175pt>
+File: Bilder/achesterasehemmung.jpeg Graphic file (type jpg)
+
+<use Bilder/achesterasehemmung.jpeg>
+Package pdftex.def Info: Bilder/achesterasehemmung.jpeg used on input line 1571
+.
+(pdftex.def)             Requested size: 216.23764pt x 216.78487pt.
+ [35] [36 <./Bilder/achesterase.jpeg> <./Bilder/achesterasehemmung.jpeg>] [37]
 Kapitel 4.
-[33
+[38
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 1331--1331
+Underfull \hbox (badness 10000) in paragraph at lines 1687--1687
 []|\OT1/cmr/m/n/10 glatte Gef[]a^^Ymuskulatur
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1331--1331
+Underfull \hbox (badness 10000) in paragraph at lines 1687--1687
 []|\OT1/cmr/m/n/10 Glycogenolyse$\OMS/cmsy/m/n/10 "$
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1331--1331
+Underfull \hbox (badness 10000) in paragraph at lines 1687--1687
 []|\OT1/cmr/m/n/10 sympathische, post-gangl.
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1331--1331
+Underfull \hbox (badness 10000) in paragraph at lines 1687--1687
 \OT1/cmr/m/n/10 pr[]asynapt.Nervenend.($\OML/cmm/m/it/10 []$
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1331--1331
+Underfull \hbox (badness 10000) in paragraph at lines 1687--1687
 []|\OT1/cmr/m/n/10 K$[]$-Kanal$\OMS/cmsy/m/n/10 "$ \OT1/cmr/m/n/10 A-cyclase $\
 OMS/cmsy/m/n/10 #$
  []
 
 
-Underfull \hbox (badness 2503) in paragraph at lines 1331--1331
+Underfull \hbox (badness 2503) in paragraph at lines 1687--1687
 []|\OT1/cmr/m/n/10 Sympathikotonus $\OMS/cmsy/m/n/10 #$ \OT1/cmr/m/n/10 Se-die-
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1331--1331
+Underfull \hbox (badness 10000) in paragraph at lines 1687--1687
 []|\OT1/cmr/m/n/10 Inotropie$\OMS/cmsy/m/n/10 "$ \OT1/cmr/m/n/10 Chronotropie$\
 OMS/cmsy/m/n/10 "$
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1331--1331
+Underfull \hbox (badness 10000) in paragraph at lines 1687--1687
 []|\OT1/cmr/m/n/10 A-cyclase$\OMS/cmsy/m/n/10 "$ \OT1/cmr/m/n/10 Ca$[]$-Kanal$\
 OMS/cmsy/m/n/10 "$
  []
 
 
-Underfull \hbox (badness 2875) in paragraph at lines 1331--1331
+Underfull \hbox (badness 2875) in paragraph at lines 1687--1687
 []|\OT1/cmr/m/n/10 glatter Gef[]a^^Ymuskel (Ske-
  []
 
-[34]
-Underfull \hbox (badness 10000) in paragraph at lines 1362--1362
+[39]
+Underfull \hbox (badness 10000) in paragraph at lines 1718--1718
 []|$\OML/cmm/m/it/10 $\OT1/cmr/m/n/10 -Methyldopa:Umwandlung
  []
 
 
-Overfull \hbox (32.35048pt too wide) in paragraph at lines 1367--1368
+Overfull \hbox (32.35048pt too wide) in paragraph at lines 1723--1724
 []\OT1/cmr/m/n/10 Aktivierung post-syn-ap-ti-scher $\OML/cmm/m/it/10 []$\OT1/c
 mr/m/n/10 -Rezeptoren im Be-reich des Nucl. trac-tus so-li-ta-rii (u.a. Um-scha
 lt-stel-le des Barorezeptoren-
  []
 
 
-Overfull \hbox (29.20471pt too wide) in paragraph at lines 1377--1378
+Overfull \hbox (29.20471pt too wide) in paragraph at lines 1733--1734
  \OT1/cmr/bx/n/10 un-erw[]unschte Wir-kun-gen[] \TS1/cmr/m/n/10 ˆ \OT1/cmr/m/n/
 10 Se-da-ti-on (zen-tra-le $\OML/cmm/m/it/10 alpha[]$\OT1/cmr/m/n/10 -Rezeptore
 n) \TS1/cmr/m/n/10 ˆ \OT1/cmr/m/n/10 Mund-trocken-heit (Parasympathikotonus$\OM
@@ -2520,1831 +2694,1831 @@ S/cmsy/m/n/10 #$\OT1/cmr/m/n/10 , pr[]asynaptische
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1408--1408
+Underfull \hbox (badness 10000) in paragraph at lines 1764--1764
 []|\OT1/cmr/m/n/10 Rezept.-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1408--1408
+Underfull \hbox (badness 10000) in paragraph at lines 1764--1764
 []|\OT1/cmr/m/n/10 Bioverf[]ug-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1408--1408
+Underfull \hbox (badness 10000) in paragraph at lines 1764--1764
 []|\OT1/cmr/m/n/10 Plsama-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1408--1408
+Underfull \hbox (badness 10000) in paragraph at lines 1764--1764
 []|\OT1/cmr/m/n/10 Dosis (mg)
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1408--1408
+Underfull \hbox (badness 10000) in paragraph at lines 1764--1764
 []|\OT1/cmr/m/n/10 Dosis(mg)
  []
 
 
-Overfull \hbox (2.73154pt too wide) in paragraph at lines 1408--1408
+Overfull \hbox (2.73154pt too wide) in paragraph at lines 1764--1764
 []|$\OML/cmm/m/it/10 ^^L[]=beta[]$\OT1/cmr/m/n/10 (pA)| 
  []
 
 
-Overfull \hbox (14.5082pt too wide) in paragraph at lines 1408--1408
+Overfull \hbox (14.5082pt too wide) in paragraph at lines 1764--1764
 []|\OT1/cmr/m/n/10 vasodilatierende| 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1408--1408
+Underfull \hbox (badness 10000) in paragraph at lines 1764--1764
 []|$\OML/cmm/m/it/10 ^^L[] >
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1408--1408
+Underfull \hbox (badness 10000) in paragraph at lines 1764--1764
 \OML/cmm/m/it/10 ^^L[]$\OT1/cmr/m/n/10 +NO-
  []
 
-[35] [36]
-Overfull \hbox (39.77536pt too wide) in paragraph at lines 1500--1500
+[40] [41]
+Overfull \hbox (39.77536pt too wide) in paragraph at lines 1856--1856
 []\OT1/cmr/bx/n/14.4 Relative Re-zep-tor-s-e-lek-ti-vit[]at von Adrenozeptor-Ag
 onisten und -Antagonisten 
  []
 
-[37]
+[42]
 Kapitel 5.
 
-Underfull \hbox (badness 10000) in paragraph at lines 1522--1522
+Underfull \hbox (badness 10000) in paragraph at lines 1878--1878
 []|\OT1/cmr/m/n/10 Tageszieldosis
  []
 
-[38
+[43
 
 ]
-Overfull \hbox (1.53745pt too wide) in paragraph at lines 1582--1584
+Overfull \hbox (1.53745pt too wide) in paragraph at lines 1938--1940
  \OT1/cmr/bx/n/10 Re-gu-la-ti-on der Renin-frei-set-zung []uber MD[] \OT1/cmr/m
 /n/10 z.B. dro-hen-der NaCl/Volumen-Verlust $\OMS/cmsy/m/n/10 !$ \OT1/cmr/m/n/1
 0 NaCl$[]$Aufnahme in MD-Zellen$\OMS/cmsy/m/n/10 !$
  []
 
-[39]
-Overfull \hbox (3.80351pt too wide) in paragraph at lines 1635--1637
+[44]
+Overfull \hbox (3.80351pt too wide) in paragraph at lines 1991--1993
  \OT1/cmr/bx/n/10 Wirk-me-cha-nis-mus[] \OT1/cmr/m/n/10 Hem-mung des fast aus-s
 chlie^^Y-lich im fr[]uhdistalen Tu-bu-lus ex-pri-mier-ten Na$[]$/Cl$[]$-Kotrans
 portes (NCC) 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1635--1637
+Underfull \hbox (badness 10000) in paragraph at lines 1991--1993
 
  []
 
-[40] [41]
-Underfull \hbox (badness 10000) in paragraph at lines 1729--1741
+[45] [46]
+Underfull \hbox (badness 10000) in paragraph at lines 2085--2097
 
  []
 
-[42] [43]
+[47] [48]
 Kapitel 6.
-[44
+[49
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 1856--1856
+Underfull \hbox (badness 10000) in paragraph at lines 2212--2212
 []|\OT1/cmr/m/n/10 Abklingquote (t[]agl. pro-zen-tua-ler
  []
 
-[45]
-Overfull \hbox (15.37975pt too wide) in paragraph at lines 1898--1898
+[50]
+Overfull \hbox (15.37975pt too wide) in paragraph at lines 2254--2254
 []|\OT1/cmr/m/n/10 Mineralkortikoidrezeptor-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1898--1898
+Underfull \hbox (badness 10000) in paragraph at lines 2254--2254
 []|\OT1/cmr/m/n/10 Hydralazin-
  []
 
-[46]
+[51]
 Kapitel 7.
 
-Overfull \hbox (24.95758pt too wide) in paragraph at lines 1906--1908
+Overfull \hbox (24.95758pt too wide) in paragraph at lines 2262--2264
 []\OT1/cmr/m/n/10 Phase 4 (dia-sto-li-sche Vor-de-po-la-ri-sa-ti-on) lang-sa-me
  De-pol., die Schritt-ma-cher-po-ten-ti-al er-zeugt; lang-sa-mer Na$[]$-Einw[]a
 rtsstroms
  []
 
-[47
+[52
 
-] [48] [49]
-Underfull \hbox (badness 10000) in paragraph at lines 2024--2025
+] [53] [54]
+Underfull \hbox (badness 10000) in paragraph at lines 2380--2381
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2032--2032
+Underfull \hbox (badness 10000) in paragraph at lines 2388--2388
 []|\OT1/cmr/m/n/10 Oxytocinrezeptor-Antagonisten, Pros-tag-lan-di-ne, $\OML/cmm
 /m/it/10 ^^L[]$\OT1/cmr/m/n/10 -
  []
 
 
-Overfull \hbox (15.0pt too wide) in paragraph at lines 2032--2033
+Overfull \hbox (15.0pt too wide) in paragraph at lines 2388--2389
 [][] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2035--2036
+Underfull \hbox (badness 10000) in paragraph at lines 2391--2392
 
  []
 
 
-Overfull \hbox (15.0pt too wide) in paragraph at lines 2041--2042
+Overfull \hbox (15.0pt too wide) in paragraph at lines 2397--2398
 [][] 
  []
 
-[50]
-Underfull \hbox (badness 10000) in paragraph at lines 2129--2129
+[55]
+Underfull \hbox (badness 10000) in paragraph at lines 2485--2485
 []|\OT1/cmr/m/n/10 L-Type(long la-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2129--2129
+Underfull \hbox (badness 10000) in paragraph at lines 2485--2485
 \OT1/cmr/m/n/10 sting; high vol-ta-ge
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2129--2129
+Underfull \hbox (badness 10000) in paragraph at lines 2485--2485
 \OT1/cmr/m/n/10 ac-ti-vating, high
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2129--2129
+Underfull \hbox (badness 10000) in paragraph at lines 2485--2485
 \OT1/cmr/m/n/10 con-duc-tan-ce, slow
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2129--2129
+Underfull \hbox (badness 10000) in paragraph at lines 2485--2485
 []|\OT1/cmr/m/n/10 Skeletal muscle (t-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2129--2129
+Underfull \hbox (badness 10000) in paragraph at lines 2485--2485
 []|\OT1/cmr/m/n/10 Excitation-contion-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2129--2129
+Underfull \hbox (badness 10000) in paragraph at lines 2485--2485
 []|\OT1/cmr/m/n/10 Dihydropyridines,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2129--2129
+Underfull \hbox (badness 10000) in paragraph at lines 2485--2485
 \OT1/cmr/m/n/10 Phe-nyl-al-kylami-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2129--2129
+Underfull \hbox (badness 10000) in paragraph at lines 2485--2485
 \OT1/cmr/m/n/10 nes, Ben-zo-thia-ze-pi-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2129--2129
+Underfull \hbox (badness 10000) in paragraph at lines 2485--2485
 \OT1/cmr/m/n/10 nes (wirk-sam v.a.
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2129--2129
+Underfull \hbox (badness 10000) in paragraph at lines 2485--2485
 \OT1/cmr/m/n/10 bei $\OML/cmm/m/it/10 Ca[]$\OT1/cmr/m/n/10 1,2a und
  []
 
 
-Underfull \hbox (badness 1259) in paragraph at lines 2129--2129
+Underfull \hbox (badness 1259) in paragraph at lines 2485--2485
 \OT1/cmr/m/n/10 mod. Vol-ta-ge ac-tiv.,
  []
 
 
-Underfull \hbox (badness 1092) in paragraph at lines 2129--2129
+Underfull \hbox (badness 1092) in paragraph at lines 2485--2485
 []|\OT1/cmr/m/n/10 Nerve ter-mi-nals and
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2129--2129
+Underfull \hbox (badness 10000) in paragraph at lines 2485--2485
 []|\OT1/cmr/m/n/10 Neurotransmitter
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2129--2129
+Underfull \hbox (badness 10000) in paragraph at lines 2485--2485
 \OT1/cmr/m/n/10 re-lea-se; den-dri-tic
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2129--2129
+Underfull \hbox (badness 10000) in paragraph at lines 2485--2485
 []|\OT1/cmr/m/n/10 N-Type (neu-ro-nal;
  []
 
 
-Underfull \hbox (badness 5274) in paragraph at lines 2129--2129
+Underfull \hbox (badness 5274) in paragraph at lines 2485--2485
 \OT1/cmr/m/n/10 high vol-ta-ge ac-tiv.,
  []
 
 
-Underfull \hbox (badness 1092) in paragraph at lines 2129--2129
+Underfull \hbox (badness 1092) in paragraph at lines 2485--2485
 []|\OT1/cmr/m/n/10 Nerve ter-mi-nals and
  []
 
 
-Underfull \hbox (badness 2894) in paragraph at lines 2129--2129
+Underfull \hbox (badness 2894) in paragraph at lines 2485--2485
 []|\OT1/cmr/m/n/10 Neurotransmitter re-
  []
 
 
-Underfull \hbox (badness 1102) in paragraph at lines 2129--2129
+Underfull \hbox (badness 1102) in paragraph at lines 2485--2485
 []|\OT1/cmr/m/n/10 Neuronal cell bo-dies
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2129--2129
+Underfull \hbox (badness 10000) in paragraph at lines 2485--2485
 \OT1/cmr/m/n/10 volt. Ac-tiv., small
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2129--2129
+Underfull \hbox (badness 10000) in paragraph at lines 2485--2485
 []|\OT1/cmr/m/n/10 Neuronal cell bo-
  []
 
 
-Underfull \hbox (badness 7012) in paragraph at lines 2129--2129
+Underfull \hbox (badness 7012) in paragraph at lines 2485--2485
 \OT1/cmr/m/n/10 dies and den-dri-tes;
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2129--2129
+Underfull \hbox (badness 10000) in paragraph at lines 2485--2485
 \OT1/cmr/m/n/10 car-dio-myo-cy-tes
  []
 
-[51]
-Underfull \hbox (badness 10000) in paragraph at lines 2162--2163
+[56]
+Underfull \hbox (badness 10000) in paragraph at lines 2518--2519
 
  []
 
-[52]
-Overfull \hbox (15.0pt too wide) in paragraph at lines 2171--2172
+[57]
+Overfull \hbox (15.0pt too wide) in paragraph at lines 2527--2528
 [][] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2203--2204
+Underfull \hbox (badness 10000) in paragraph at lines 2559--2560
 
  []
 
 
-Overfull \hbox (15.0pt too wide) in paragraph at lines 2212--2213
+Overfull \hbox (15.0pt too wide) in paragraph at lines 2568--2569
 [][] 
  []
 
-[53]
-Underfull \hbox (badness 10000) in paragraph at lines 2214--2215
+[58]
+Underfull \hbox (badness 10000) in paragraph at lines 2570--2571
 
  []
 
 
-Overfull \hbox (15.0pt too wide) in paragraph at lines 2221--2222
+Overfull \hbox (15.0pt too wide) in paragraph at lines 2577--2578
 [][] 
  []
 
 
-Underfull \hbox (badness 3826) in paragraph at lines 2242--2242
+Underfull \hbox (badness 3826) in paragraph at lines 2598--2598
 []|\OT1/cmr/m/n/10 glatter Mus-kel, Ge-
  []
 
 
-Underfull \hbox (badness 2443) in paragraph at lines 2242--2242
+Underfull \hbox (badness 2443) in paragraph at lines 2598--2598
 []|\OT1/cmr/m/n/10 Bronchien, Im-munz.,
  []
 
 
-Overfull \hbox (1.35197pt too wide) in paragraph at lines 2242--2242
+Overfull \hbox (1.35197pt too wide) in paragraph at lines 2598--2598
 []|\OT1/cmr/m/n/10 Roflumilast,Cilomilast| 
  []
 
-[54]
-Overfull \hbox (135.55577pt too wide) in paragraph at lines 2269--2274
+[59]
+Overfull \hbox (135.55577pt too wide) in paragraph at lines 2625--2630
 \OT1/cmr/m/n/10 (geringe the-ra-peu-ti-sche Brei-te) [] 
  []
 
-[55]
+[60]
 Kapitel 8.
 
-Overfull \hbox (18.70424pt too wide) in paragraph at lines 2328--2329
+Overfull \hbox (18.70424pt too wide) in paragraph at lines 2684--2685
 []\OT1/cmr/m/n/10 Vererbungsrisiko h[]oher als bei Typ I Dia-be-tes Ma-ni-fe-st
 a-ti-on und Ver-lauf von exo-ge-nen Fak-to-ren (Ern[]ahrung, K[]orpergewicht,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2363--2365
+Underfull \hbox (badness 10000) in paragraph at lines 2719--2721
 
  []
 
-[56
+[61
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 2371--2373
+Underfull \hbox (badness 10000) in paragraph at lines 2727--2729
 
  []
 
 
-Underfull \hbox (badness 3039) in paragraph at lines 2388--2388
+Underfull \hbox (badness 3039) in paragraph at lines 2744--2744
 []|\OT1/cmr/m/n/10 Kurz-/ ultrakurz-wirksame
  []
 
 
-Underfull \hbox (badness 1024) in paragraph at lines 2388--2388
+Underfull \hbox (badness 1024) in paragraph at lines 2744--2744
 []|\OT1/cmr/m/n/10 Mittellang-/ lang-wirksame
  []
 
-[57] [58]
-Underfull \hbox (badness 2111) in paragraph at lines 2548--2548
+[62] [63]
+Underfull \hbox (badness 2111) in paragraph at lines 2904--2904
 []||   []\OT1/cmr/m/n/10 (Marktr[]ucknahme 2010 we-gen ung[]unstigem
  []
 
-[59]
-Overfull \hbox (0.84032pt too wide) in paragraph at lines 2645--2646
+[64]
+Overfull \hbox (0.84032pt too wide) in paragraph at lines 3001--3002
 []\OT1/cmr/m/n/10 Stufe 3: In-sulin-the-ra-pie oder Zwei-fach-kom-bi-na-tio-nen
 , z.B. In-su-lin+ Met-for-min (bzw. Gli-ben-cla-mid oder DPP4-Hemmer)
  []
 
-[60] [61]
+[65] [66]
 Kapitel 9.
 
-Underfull \hbox (badness 10000) in paragraph at lines 2686--2686
+Underfull \hbox (badness 10000) in paragraph at lines 3042--3042
 []|\OT1/cmr/m/n/10 LDL/VLDL
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2686--2686
+Underfull \hbox (badness 10000) in paragraph at lines 3042--3042
 []|\OT1/cmr/m/n/10 Typ III-(Remnant-)
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2686--2686
+Underfull \hbox (badness 10000) in paragraph at lines 3042--3042
 []|\OT1/cmr/m/n/10 Chylomikronen-
  []
 
 
-Underfull \hbox (badness 2529) in paragraph at lines 2686--2686
+Underfull \hbox (badness 2529) in paragraph at lines 3042--3042
 []|\OT1/cmr/m/n/10 variabel, aber: Pan-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2708--2708
+Underfull \hbox (badness 10000) in paragraph at lines 3064--3064
 []|\OT1/cmr/m/n/10 Gesamtmortalit[]at
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2708--2708
+Underfull \hbox (badness 10000) in paragraph at lines 3064--3064
 []|\OT1/cmr/m/n/10 Gesamtmortalit[]at
  []
 
 
-Underfull \hbox (badness 6001) in paragraph at lines 2708--2708
+Underfull \hbox (badness 6001) in paragraph at lines 3064--3064
 []|\OT1/cmr/m/n/10 4444 KHK, 5,4 J.
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2708--2708
+Underfull \hbox (badness 10000) in paragraph at lines 3064--3064
 \OT1/cmr/m/n/10 LDL-C.188 $\OMS/cmsy/m/n/10 !$ \OT1/cmr/m/n/10 122
  []
 
 
-Underfull \hbox (badness 6001) in paragraph at lines 2708--2708
+Underfull \hbox (badness 6001) in paragraph at lines 3064--3064
 []|\OT1/cmr/m/n/10 9014 KHK, 6,1 J.
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2708--2708
+Underfull \hbox (badness 10000) in paragraph at lines 3064--3064
 \OT1/cmr/m/n/10 LDL-C.150 $\OMS/cmsy/m/n/10 !$ \OT1/cmr/m/n/10 113
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2708--2708
+Underfull \hbox (badness 10000) in paragraph at lines 3064--3064
 []|\OT1/cmr/m/n/10 20536
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2708--2708
+Underfull \hbox (badness 10000) in paragraph at lines 3064--3064
 \OT1/cmr/m/n/10 KHK,AVK,Diabetes,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2708--2708
+Underfull \hbox (badness 10000) in paragraph at lines 3064--3064
 []|\OT1/cmr/m/n/10 PROSPER (2002)
  []
 
 
-Underfull \hbox (badness 3128) in paragraph at lines 2708--2708
+Underfull \hbox (badness 3128) in paragraph at lines 3064--3064
 \OT1/cmr/m/n/10 vask. Ri-si-ko-fak-to-ren,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2708--2708
+Underfull \hbox (badness 10000) in paragraph at lines 3064--3064
 \OT1/cmr/m/n/10 LDL-C.147 $\OMS/cmsy/m/n/10 !$ \OT1/cmr/m/n/10 97
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2698--2711
+Underfull \hbox (badness 10000) in paragraph at lines 3054--3067
 
  []
 
-[62
+[67
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 2717--2717
+Underfull \hbox (badness 10000) in paragraph at lines 3073--3073
 []|\OT1/cmr/m/n/10 HMG-CoA-Reduktase-Hemmer (Sta-ti-ne) Anionen-
  []
 
-[63]
-Underfull \hbox (badness 10000) in paragraph at lines 2794--2800
+[68]
+Underfull \hbox (badness 10000) in paragraph at lines 3150--3156
 
  []
 
-[64] [65]
-Overfull \hbox (3.43932pt too wide) in paragraph at lines 2911--2922
+[69] [70]
+Overfull \hbox (3.43932pt too wide) in paragraph at lines 3267--3278
 \OT1/cmr/m/n/10 BILDUNTERTITEL di-ka-ti-on zur Be-hand-lung von Gesamtrisiko-Ko
 nstellation bez[]uglich kar-dio-vas-kul[]arer Er-eig-nis-se abh[]angig. 
  []
 
-[66]
+[71]
 Kapitel 10.
-[67
+[72
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 3041--3041
+Underfull \hbox (badness 10000) in paragraph at lines 3397--3397
 []|\OT1/cmr/m/n/10 Integrinselektivit[]at$\OML/cmm/m/it/10 $\OT1/cmr/m/n/10 II
 b$\OML/cmm/m/it/10 ^^L$\OT1/cmr/m/n/10 3,
  []
 
 
-Underfull \hbox (badness 1038) in paragraph at lines 3041--3041
+Underfull \hbox (badness 1038) in paragraph at lines 3397--3397
 []|\OT1/cmr/m/n/10 Affinit[]at f[]ur $\OML/cmm/m/it/10 $\OT1/cmr/m/n/10 IIb$\O
 ML/cmm/m/it/10 ^^L$\OT1/cmr/m/n/10 3 (KD,
  []
 
-[68] [69]
-Underfull \hbox (badness 10000) in paragraph at lines 3111--3123
+[73] [74]
+Underfull \hbox (badness 10000) in paragraph at lines 3467--3479
 
  []
 
-[70] [71] [72]
+[75] [76] [77]
 Kapitel 11.
 
-Underfull \hbox (badness 10000) in paragraph at lines 3273--3274
+Underfull \hbox (badness 10000) in paragraph at lines 3629--3630
 
  []
 
 
-Overfull \hbox (34.49532pt too wide) in paragraph at lines 3276--3277
+Overfull \hbox (34.49532pt too wide) in paragraph at lines 3632--3633
  \OT1/cmr/bx/n/10 Lo-ka-le Re-ak-ti-on[] \OT1/cmr/m/n/10 Pros-tag-lan-din E2 un
 d I2 (durch COX-1/COX-2 syn-the-ti-siert) sind wich-ti-ge Me-dia-to-ren der Ent
 z[]undungsreaktion
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 3276--3277
+Underfull \hbox (badness 10000) in paragraph at lines 3632--3633
 
  []
 
 
-Overfull \hbox (46.04448pt too wide) in paragraph at lines 3300--3303
+Overfull \hbox (46.04448pt too wide) in paragraph at lines 3656--3659
 \OT1/cmr/m/n/10 Magenschleinhauterosionen, Ul-ze-ra, []Ubelkeit, Er-bre-chen: p
 hy-sio-log.protektiver Ef-fekt von PGE$[]$ S[]aureproduktion$\OMS/cmsy/m/n/10 #
 $\OT1/cmr/m/n/10 ,Schleimproduktion$\OMS/cmsy/m/n/10 "$\OT1/cmr/m/n/10 ,
  []
 
-[73
+[78
 
-] [74]
-Overfull \hbox (1.93567pt too wide) in paragraph at lines 3422--3424
+] [79]
+Overfull \hbox (1.93567pt too wide) in paragraph at lines 3778--3780
 \OT1/cmr/m/n/10 gentechnologisch her-ge-stell-te mo-no-klo-na-le anti-TNF$\OML/
 cmm/m/it/10 $\OT1/cmr/m/n/10 -Antik[]orper (In-fli-xi-mab, Ada-li-mu-mab), Fu-
 si-ons-pro-te-i-ne die frei-en TNF$\OML/cmm/m/it/10 $
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 3447--3447
+Underfull \hbox (badness 10000) in paragraph at lines 3803--3803
 []|\OT1/cmr/m/n/10 Mineralkortikoid-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 3447--3447
+Underfull \hbox (badness 10000) in paragraph at lines 3803--3803
 []|\OT1/cmr/m/n/10 Cushing-Schwellen-
  []
 
-[75]
-Overfull \hbox (16.95995pt too wide) in paragraph at lines 3460--3463
+[80]
+Overfull \hbox (16.95995pt too wide) in paragraph at lines 3816--3819
 \OT1/cmr/m/n/10 hepatisch me-ta-bo-li-siert, Cor-ti-son (in-ak-tiv) $\OMS/cmsy/
 m/n/10 !$ \OT1/cmr/m/n/10 Hy-dro-cor-ti-son (Cor-ti-sol); Pred-nison (in-ak-tiv
 ) $\OMS/cmsy/m/n/10 !$ \OT1/cmr/m/n/10 Pred-niso-lon; Cor-ti-sol/Prednisolon:
  []
 
-[76]
-Overfull \hbox (30.88672pt too wide) in paragraph at lines 3551--3557
+[81]
+Overfull \hbox (30.88672pt too wide) in paragraph at lines 3907--3913
 \OT1/cmr/m/n/10 (schwer per-si-stie-rend, Sym-pto-me tags[]uber: st[]andig, Sym
 -pto-me nachts: h[]aufig) bei Be-darf: kurz-wirksames $\OML/cmm/m/it/10 ^^L[]$\
 OT1/cmr/m/n/10 -Sympathikomimetikum
  []
 
-[77]
+[82]
 Kapitel 12.
 
-Underfull \hbox (badness 10000) in paragraph at lines 3571--3571
+Underfull \hbox (badness 10000) in paragraph at lines 3927--3927
 []|\OT1/cmr/m/n/10 Hautafferenzen f[]ur
  []
 
 
-Underfull \hbox (badness 3601) in paragraph at lines 3571--3571
+Underfull \hbox (badness 3601) in paragraph at lines 3927--3927
 []|\OT1/cmr/m/n/10 Motorisch zu Mus-kel-spin-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 3571--3571
+Underfull \hbox (badness 10000) in paragraph at lines 3927--3927
 []|\OT1/cmr/m/n/10 Sympathische post-gan-gli-
  []
 
-[78
+[83
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 3606--3614
+Underfull \hbox (badness 10000) in paragraph at lines 3962--3970
 
  []
 
-[79] [80]
-Underfull \hbox (badness 10000) in paragraph at lines 3762--3762
+[84] [85]
+Underfull \hbox (badness 10000) in paragraph at lines 4118--4118
 []|\OT1/cmr/m/n/10 Astma bro-chia-le, an-de-re Lun-ge-ner-kran-kun-gen
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 3757--3764
+Underfull \hbox (badness 10000) in paragraph at lines 4113--4120
 
  []
 
 
-Overfull \hbox (2.22221pt too wide) in paragraph at lines 3765--3775
+Overfull \hbox (2.22221pt too wide) in paragraph at lines 4121--4131
 [] []
  []
 
 
-Overfull \hbox (3.62407pt too wide) in paragraph at lines 3786--3791
+Overfull \hbox (3.62407pt too wide) in paragraph at lines 4142--4147
  \OT1/cmr/bx/n/10 Mor-phin[] \OT1/cmr/m/n/10 nach ora-ler Auf-nah-me ho-her fir
 st-pass-Effekt (Bio-verf[]ugbarkeit 20-40%), m[]a^^Yig ZNS-g[]angig; v.a.Glukur
 onidierung
  []
 
-[81]
-Overfull \hbox (42.9634pt too wide) in paragraph at lines 3852--3854
+[86]
+Overfull \hbox (42.9634pt too wide) in paragraph at lines 4208--4210
 \OT1/cmr/m/n/10 nen, Ent-zugs-syn-drom bei Abh[]angigen; Ein-satz: aku-te Opiat
 -Intoxikation, Dia-gno-se ei-ner Opiat-Abh[]angigkeit, Abh[]angigkeitsprophylax
 e
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 3889--3889
+Underfull \hbox (badness 10000) in paragraph at lines 4245--4245
 []|\OT1/cmr/m/n/10 Lamotrigin (s. An-ti-kon-vul-si-va); hem-men pe-riph.
  []
 
 
-Underfull \hbox (badness 2644) in paragraph at lines 3889--3889
+Underfull \hbox (badness 2644) in paragraph at lines 4245--4245
 \OT1/cmr/m/n/10 Sensibilisier-ung + ek-to-pi-sche Er-re-gung von No-zi-zep-
  []
 
-[82]
-Underfull \hbox (badness 10000) in paragraph at lines 3936--3936
+[87]
+Underfull \hbox (badness 10000) in paragraph at lines 4292--4292
 []|\OT1/cmr/m/n/10 keine Ober-gren-ze (BtM:
  []
 
 
-Underfull \hbox (badness 4726) in paragraph at lines 3956--3956
+Underfull \hbox (badness 4726) in paragraph at lines 4312--4312
 []|\OT1/cmr/m/n/10 Vergleichbare Wir-kung bei NSAR und Pa-ra-ce-ta-mol;
  []
 
-[83] [84]
+[88] [89]
 Kapitel 13.
-[85
+[90
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 4050--4050
+Underfull \hbox (badness 10000) in paragraph at lines 4406--4406
 []|\OT1/cmr/m/n/10 17$\OML/cmm/m/it/10 $\OT1/cmr/m/n/10 -Hydroxyprogesteron-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 4070--4074
+Underfull \hbox (badness 10000) in paragraph at lines 4426--4430
 
  []
 
-[86]
-Underfull \hbox (badness 2073) in paragraph at lines 4088--4088
+[91]
+Underfull \hbox (badness 2073) in paragraph at lines 4444--4444
 []|\OT1/cmr/m/n/10 Levonogestrel, No-re-thi-ste-ro-nace-tat,Dienogest, De-so-ge
 -strel, Nor-ge-sti-nat, Chlor-ma-di-no-nace-tat
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 4084--4089
+Underfull \hbox (badness 10000) in paragraph at lines 4440--4445
 
  []
 
-[87] [88]
+[92] [93]
 Kapitel 14.
-[89
+[94
 
-] [90]
-Underfull \hbox (badness 10000) in paragraph at lines 4326--4330
+] [95]
+Underfull \hbox (badness 10000) in paragraph at lines 4682--4686
 
  []
 
-[91]
+[96]
 Kapitel 15.
 
-Underfull \hbox (badness 10000) in paragraph at lines 4345--4360
+Underfull \hbox (badness 10000) in paragraph at lines 4701--4716
 
  []
 
-[92
+[97
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 4419--4424
+Underfull \hbox (badness 10000) in paragraph at lines 4775--4780
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 4430--4436
+Underfull \hbox (badness 10000) in paragraph at lines 4786--4792
 
  []
 
 
-Underfull \hbox (badness 7851) in paragraph at lines 4452--4452
+Underfull \hbox (badness 7851) in paragraph at lines 4808--4808
 []|\OT1/cmr/m/n/10 Cyclophosphamid, Ifos-fa-mid, Tro-fos-fa-mid, Mel-pha-lan,
  []
 
-[93] [94]
-Overfull \hbox (2.54865pt too wide) in paragraph at lines 4594--4596
+[98] [99]
+Overfull \hbox (2.54865pt too wide) in paragraph at lines 4950--4952
 []\OT1/cmr/m/n/10 Uber Feed-back-Mechanismen: hy-po-phys[]are LH-/FSH-Sekretion
 shemmung durch Ethi-ny-le-stra-di-ol (syn-thet. []Ostrogen), Down-
  []
 
-[95]
-Overfull \hbox (37.05583pt too wide) in paragraph at lines 4622--4623
+[100]
+Overfull \hbox (37.05583pt too wide) in paragraph at lines 4978--4979
 [][]\OT1/cmr/m/n/10 Uberexpression des Multi-Drug-Resistence-Gens (MDR-1): Ener
 gie-abh[]angige Mem-bran-pum-pe, be-schleu-nigt Ausw[]artstransport
  []
 
-[96]
+[101]
 Kapitel 16.
-[97
+[102
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 4715--4715
+Underfull \hbox (badness 10000) in paragraph at lines 5071--5071
 []|\OT1/cmr/m/n/10 Wirkmechanismus und
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 4715--4715
+Underfull \hbox (badness 10000) in paragraph at lines 5071--5071
 []|\OT1/cmr/m/n/10 red. Ei-wei^^Y-zer-set-zung,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 4715--4715
+Underfull \hbox (badness 10000) in paragraph at lines 5071--5071
 \OT1/cmr/m/n/10 (Tier-hal-tung,Abwasser),
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 4715--4715
+Underfull \hbox (badness 10000) in paragraph at lines 5071--5071
 []|\OT1/cmr/m/n/10 Hemmung von En-zy-
  []
 
 
-Underfull \hbox (badness 1859) in paragraph at lines 4715--4715
+Underfull \hbox (badness 1859) in paragraph at lines 5071--5071
 \OT1/cmr/m/n/10 men, z.B. At-mungs-ket-te
  []
 
 
-Underfull \hbox (badness 1360) in paragraph at lines 4715--4715
+Underfull \hbox (badness 1360) in paragraph at lines 5071--5071
 \OT1/cmr/m/n/10 (CN-[]ahnlich), Atem-wegs-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 4715--4715
+Underfull \hbox (badness 10000) in paragraph at lines 5071--5071
 \OT1/cmr/m/n/10 rei-zung, Lun-gen[]odem.
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 4715--4715
+Underfull \hbox (badness 10000) in paragraph at lines 5071--5071
 \OT1/cmr/m/n/10 Sym-pto-me: Be-wu^^Yt-lo-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 4715--4715
+Underfull \hbox (badness 10000) in paragraph at lines 5071--5071
 \OT1/cmr/m/n/10 sig-keit, zen-tra-le und
  []
 
 
-Underfull \hbox (badness 5147) in paragraph at lines 4715--4715
+Underfull \hbox (badness 5147) in paragraph at lines 5071--5071
 \OT1/cmr/m/n/10 pe-ri-phe-re Ateml[]ahmung,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 4715--4715
+Underfull \hbox (badness 10000) in paragraph at lines 5071--5071
 []|\OT1/cmr/m/n/10 Unvollst. Ver-bren-nung,
  []
 
 
-Underfull \hbox (badness 1189) in paragraph at lines 4715--4715
+Underfull \hbox (badness 1189) in paragraph at lines 5071--5071
 []|\OT1/cmr/m/n/10 Konkurriert mit O$[]$ um
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 4715--4715
+Underfull \hbox (badness 10000) in paragraph at lines 5071--5071
 \OT1/cmr/m/n/10 Hb (Af-fi-nit[]at 200-300
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 4715--4715
+Underfull \hbox (badness 10000) in paragraph at lines 5071--5071
 \OT1/cmr/m/n/10 x), Sch[]adigung durch
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 4715--4715
+Underfull \hbox (badness 10000) in paragraph at lines 5071--5071
 \OT1/cmr/m/n/10 O$[]$-Mangel, CO$[]$-Stau,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 4715--4715
+Underfull \hbox (badness 10000) in paragraph at lines 5071--5071
 []|\OT1/cmr/m/n/10 Metallh[]artung, Bit-ter-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 4715--4715
+Underfull \hbox (badness 10000) in paragraph at lines 5071--5071
 \OT1/cmr/m/n/10 man-deln, Ta-bakrauch,
  []
 
 
-Underfull \hbox (badness 3229) in paragraph at lines 4715--4715
+Underfull \hbox (badness 3229) in paragraph at lines 5071--5071
 []|\OT1/cmr/m/n/10 Reversible Bin-dung von
  []
 
 
-Underfull \hbox (badness 1400) in paragraph at lines 4715--4715
+Underfull \hbox (badness 1400) in paragraph at lines 5071--5071
 \OT1/cmr/m/n/10 chro-moxi-da-se u. an-de-rer
  []
 
 
-Underfull \hbox (badness 1642) in paragraph at lines 4715--4715
+Underfull \hbox (badness 1642) in paragraph at lines 5071--5071
 \OT1/cmr/m/n/10 Me-tal-loen-zy-me $\OMS/cmsy/m/n/10 !$ \OT1/cmr/m/n/10 Hem-
  []
 
 
-Underfull \hbox (badness 1931) in paragraph at lines 4715--4715
+Underfull \hbox (badness 1931) in paragraph at lines 5071--5071
 \OT1/cmr/m/n/10 mung der At-mungs-ket-te
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 4715--4715
+Underfull \hbox (badness 10000) in paragraph at lines 5071--5071
 \OMS/cmsy/m/n/10 !$ \OT1/cmr/m/n/10 in-ne-re Er-stickung.
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 4715--4715
+Underfull \hbox (badness 10000) in paragraph at lines 5071--5071
 \OT1/cmr/m/n/10 Sym-pto-me: Hy-per-p-noe,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 4715--4715
+Underfull \hbox (badness 10000) in paragraph at lines 5071--5071
 \OT1/cmr/m/n/10 ro-te Haut Un-wohl-sein,
  []
 
 
-Underfull \hbox (badness 2626) in paragraph at lines 4715--4715
+Underfull \hbox (badness 2626) in paragraph at lines 5071--5071
 \OT1/cmr/m/n/10 Er-bre-chen; zen-tra-le und
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 4715--4715
+Underfull \hbox (badness 10000) in paragraph at lines 5071--5071
 []|\OT1/cmr/m/n/10 4-DMAP: CN$\OMS/cmsy/m/n/10 !$\OT1/cmr/m/n/10 MetHb
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 4715--4715
+Underfull \hbox (badness 10000) in paragraph at lines 5071--5071
 \OT1/cmr/m/n/10 oder: Thio-sul-fat:
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 4715--4715
+Underfull \hbox (badness 10000) in paragraph at lines 5071--5071
 \OT1/cmr/m/n/10 CN$\OMS/cmsy/m/n/10 !$\OT1/cmr/m/n/10 SCN (Rho-da-ne-
  []
 
-[98]
-Underfull \hbox (badness 10000) in paragraph at lines 4741--4741
+[103]
+Underfull \hbox (badness 10000) in paragraph at lines 5097--5097
 []|\OT1/cmr/m/n/10 Glasindustrie,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 4741--4741
+Underfull \hbox (badness 10000) in paragraph at lines 5097--5097
 \OT1/cmr/m/n/10 Holzschutz-mittel,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 4741--4741
+Underfull \hbox (badness 10000) in paragraph at lines 5097--5097
 []|\OT1/cmr/m/n/10 Reaktivit[]at an SH-
  []
 
 
-Underfull \hbox (badness 6691) in paragraph at lines 4741--4741
+Underfull \hbox (badness 6691) in paragraph at lines 5097--5097
 []|\OT1/cmr/m/n/10 akut: Ka-pil-lar-wir-kung
  []
 
 
-Underfull \hbox (badness 4254) in paragraph at lines 4741--4741
+Underfull \hbox (badness 4254) in paragraph at lines 5097--5097
 \OT1/cmr/m/n/10 (Di-arr-hoe, []Odem) $\OMS/cmsy/m/n/10 !$
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 4741--4741
+Underfull \hbox (badness 10000) in paragraph at lines 5097--5097
 \OT1/cmr/m/n/10 Hy-po-vol[]amie, Schock,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 4741--4741
+Underfull \hbox (badness 10000) in paragraph at lines 5097--5097
 \OT1/cmr/m/n/10 Nie-ren-funk-ti-on $\OMS/cmsy/m/n/10 #$\OT1/cmr/m/n/10 ,Tod
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 4741--4741
+Underfull \hbox (badness 10000) in paragraph at lines 5097--5097
 \OT1/cmr/m/n/10 chro-nisch: []Ar-sen-
  []
 
 
-Underfull \hbox (badness 5064) in paragraph at lines 4741--4741
+Underfull \hbox (badness 5064) in paragraph at lines 5097--5097
 \OT1/cmr/m/n/10 schnup-fen\, Me-la-no-se,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 4741--4741
+Underfull \hbox (badness 10000) in paragraph at lines 5097--5097
 []|\OT1/cmr/m/n/10 Batterien, Far-ben,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 4741--4741
+Underfull \hbox (badness 10000) in paragraph at lines 5097--5097
 \OT1/cmr/m/n/10 An-ti-klopf-mit-tel (Te-
  []
 
 
-Underfull \hbox (badness 4048) in paragraph at lines 4741--4741
+Underfull \hbox (badness 4048) in paragraph at lines 5097--5097
 []|\OT1/cmr/m/n/10 Bindet an Hb, st[]ort
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 4741--4741
+Underfull \hbox (badness 10000) in paragraph at lines 5097--5097
 \OT1/cmr/m/n/10 Enzym-funktionen;
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 4741--4741
+Underfull \hbox (badness 10000) in paragraph at lines 5097--5097
 []|\OT1/cmr/m/n/10 Erythrozyten: Hb-
  []
 
 
-Underfull \hbox (badness 5954) in paragraph at lines 4741--4741
+Underfull \hbox (badness 5954) in paragraph at lines 5097--5097
 \OT1/cmr/m/n/10 synthese $\OMS/cmsy/m/n/10 #$ \OT1/cmr/m/n/10 , $\OML/cmm/m/it/
 10 ^^N$\OT1/cmr/m/n/10 -ALA
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 4741--4741
+Underfull \hbox (badness 10000) in paragraph at lines 5097--5097
 \OMS/cmsy/m/n/10 "$ \OT1/cmr/m/n/10 hy-po-chr. An[]amie,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 4741--4741
+Underfull \hbox (badness 10000) in paragraph at lines 5097--5097
 \OT1/cmr/m/n/10 ba-so-phi-le T[]upfelung
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 4741--4741
+Underfull \hbox (badness 10000) in paragraph at lines 5097--5097
 \OT1/cmr/m/n/10 Glatt-mus-kel-spas-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 4741--4741
+Underfull \hbox (badness 10000) in paragraph at lines 5097--5097
 \OT1/cmr/m/n/10 men: Bleibl[]asse,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 4741--4741
+Underfull \hbox (badness 10000) in paragraph at lines 5097--5097
 \OT1/cmr/m/n/10 Blei-ko-lik Ner-ven-sy-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 4741--4741
+Underfull \hbox (badness 10000) in paragraph at lines 5097--5097
 \OT1/cmr/m/n/10 stem: Bleil[]ahmung
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 4741--4741
+Underfull \hbox (badness 10000) in paragraph at lines 5097--5097
 []|\OT1/cmr/m/n/10 Rattengift, Elek-tro-in-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 4741--4741
+Underfull \hbox (badness 10000) in paragraph at lines 5097--5097
 []|\OT1/cmr/m/n/10 zun[]achst sym-ptom-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 4741--4741
+Underfull \hbox (badness 10000) in paragraph at lines 5097--5097
 \OT1/cmr/m/n/10 frei, dann schwe-re
  []
 
 
-Underfull \hbox (badness 3407) in paragraph at lines 4741--4741
+Underfull \hbox (badness 3407) in paragraph at lines 5097--5097
 \OT1/cmr/m/n/10 Ga-stro-en-te-ri-tis, sp[]ater
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 4741--4741
+Underfull \hbox (badness 10000) in paragraph at lines 5097--5097
 \OT1/cmr/m/n/10 Po-ly-n-eu-ro-pa-thie,
  []
 
 
-Underfull \hbox (badness 1946) in paragraph at lines 4741--4741
+Underfull \hbox (badness 1946) in paragraph at lines 5097--5097
 \OT1/cmr/m/n/10 psych. Ver[]anderungen,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 4741--4741
+Underfull \hbox (badness 10000) in paragraph at lines 5097--5097
 []|\OT1/cmr/m/n/10 Fe-III-Hexa-cyanoferrat
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 4741--4741
+Underfull \hbox (badness 10000) in paragraph at lines 5097--5097
 []|\OT1/cmr/m/n/10 Metallisch: Amal-gam,
  []
 
 
-Underfull \hbox (badness 3396) in paragraph at lines 4741--4741
+Underfull \hbox (badness 3396) in paragraph at lines 5097--5097
 \OT1/cmr/m/n/10 Ther-mo-me-ter (Me-tall-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 4741--4741
+Underfull \hbox (badness 10000) in paragraph at lines 5097--5097
 \OT1/cmr/m/n/10 Elek-tro-tech-nik, or-ga-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 4741--4741
+Underfull \hbox (badness 10000) in paragraph at lines 5097--5097
 []|\OT1/cmr/m/n/10 Reaktivit[]at an SH-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 4741--4741
+Underfull \hbox (badness 10000) in paragraph at lines 5097--5097
 []|\OT1/cmr/m/n/10 akut: erst lo-ka-le
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 4741--4741
+Underfull \hbox (badness 10000) in paragraph at lines 5097--5097
 \OT1/cmr/m/n/10 Sym-pto-me (pul-mo-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 4741--4741
+Underfull \hbox (badness 10000) in paragraph at lines 5097--5097
 \OT1/cmr/m/n/10 nal: Entz[]undung;
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 4741--4741
+Underfull \hbox (badness 10000) in paragraph at lines 5097--5097
 \OT1/cmr/m/n/10 oral: Ver[]atzung),
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 4741--4741
+Underfull \hbox (badness 10000) in paragraph at lines 5097--5097
 \OT1/cmr/m/n/10 Gastro-enteritis, An-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 4741--4741
+Underfull \hbox (badness 10000) in paragraph at lines 5097--5097
 \OT1/cmr/m/n/10 urie/Ur[]amie; nach
  []
 
 
-Underfull \hbox (badness 4108) in paragraph at lines 4741--4741
+Underfull \hbox (badness 4108) in paragraph at lines 5097--5097
 \OT1/cmr/m/n/10 ei-ni-gen Ta-gen Co-li-tis
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 4741--4741
+Underfull \hbox (badness 10000) in paragraph at lines 5097--5097
 \OT1/cmr/m/n/10 mu-co-mem-bra-nacea,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 4741--4741
+Underfull \hbox (badness 10000) in paragraph at lines 5097--5097
 \OT1/cmr/m/n/10 Sto-ma-ti-tis mit Me-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 4741--4741
+Underfull \hbox (badness 10000) in paragraph at lines 5097--5097
 \OT1/cmr/m/n/10 tall-ge-schmack chron.:
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 4741--4741
+Underfull \hbox (badness 10000) in paragraph at lines 5097--5097
 \OT1/cmr/m/n/10 ZNS-St[]orungen, bei
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 4741--4741
+Underfull \hbox (badness 10000) in paragraph at lines 5097--5097
 \OT1/cmr/m/n/10 Fin-gi-zi-den: Schwe-re
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 4741--4741
+Underfull \hbox (badness 10000) in paragraph at lines 5097--5097
 \OT1/cmr/m/n/10 ZNS-St[]orungen (gut
  []
 
 
-Underfull \hbox (badness 5607) in paragraph at lines 4752--4752
+Underfull \hbox (badness 5607) in paragraph at lines 5108--5108
 \OT1/cmr/m/n/10 (Ko-agu-la-ti-ons-ne-kro-se) Schluck-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 4752--4752
+Underfull \hbox (badness 10000) in paragraph at lines 5108--5108
 []|\OT1/cmr/m/n/10 Schleimhaut gla-sig ge-quol-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 4752--4752
+Underfull \hbox (badness 10000) in paragraph at lines 5108--5108
 \OT1/cmr/m/n/10 len (Kol-li-qua-ti-ons-ne-kro-se !);
  []
 
 
-Underfull \hbox (badness 1881) in paragraph at lines 4752--4752
+Underfull \hbox (badness 1881) in paragraph at lines 5108--5108
 \OT1/cmr/m/n/10 Schmerz, Er-bre-chen, Per-fo-ra-ti-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 4752--4752
+Underfull \hbox (badness 10000) in paragraph at lines 5108--5108
 \OT1/cmr/m/n/10 Nar-ko-se/Koma, Ateml[]ahmung
  []
 
 
-Underfull \hbox (badness 3942) in paragraph at lines 4752--4752
+Underfull \hbox (badness 3942) in paragraph at lines 5108--5108
 \OT1/cmr/m/n/10 (In-ha-la-ti-on be-son-ders re-le-vant
  []
 
-[99]
-Underfull \hbox (badness 10000) in paragraph at lines 4785--4785
+[104]
+Underfull \hbox (badness 10000) in paragraph at lines 5141--5141
 []|\OT1/cmr/m/n/10 Konstitutive G$[]$-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 4785--4785
+Underfull \hbox (badness 10000) in paragraph at lines 5141--5141
 \OT1/cmr/m/n/10 Aktivierung = cAMP-
  []
 
 
-Underfull \hbox (badness 1648) in paragraph at lines 4785--4785
+Underfull \hbox (badness 1648) in paragraph at lines 5141--5141
 \OT1/cmr/m/n/10 Io-nen und Was-ser vom
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 4785--4785
+Underfull \hbox (badness 10000) in paragraph at lines 5141--5141
 []|\OT1/cmr/m/n/10 Gastroenteritiden, Was-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 4785--4785
+Underfull \hbox (badness 10000) in paragraph at lines 5141--5141
 \OT1/cmr/m/n/10 ser-ver-lu-ste bis zu 10
  []
 
 
-Underfull \hbox (badness 1275) in paragraph at lines 4785--4785
+Underfull \hbox (badness 1275) in paragraph at lines 5141--5141
 []|\OT1/cmr/m/n/10 Wasser- u. Elek-tro-ly-ter-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 4785--4785
+Underfull \hbox (badness 10000) in paragraph at lines 5141--5141
 []|\OT1/cmr/m/n/10 ADP-Ribosylierung G$[]$
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 4785--4785
+Underfull \hbox (badness 10000) in paragraph at lines 5141--5141
 \OMS/cmsy/m/n/10 !$\OT1/cmr/m/n/10 Adenylatcyclase$\OMS/cmsy/m/n/10 "$\OT1/cmr/
 m/n/10 ,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 4785--4785
+Underfull \hbox (badness 10000) in paragraph at lines 5141--5141
 []|\OT1/cmr/m/n/10 Aufnahme []uber Haut-
  []
 
 
-Underfull \hbox (badness 6252) in paragraph at lines 4785--4785
+Underfull \hbox (badness 6252) in paragraph at lines 5141--5141
 \OT1/cmr/m/n/10 axo-na-ler Trans-port ins
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 4785--4785
+Underfull \hbox (badness 10000) in paragraph at lines 5141--5141
 \OT1/cmr/m/n/10 GABA-Freisetzung aus
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 4785--4785
+Underfull \hbox (badness 10000) in paragraph at lines 5141--5141
 \OT1/cmr/m/n/10 In-ter-neu-ro-nen ge-hemmt
  []
 
 
-Underfull \hbox (badness 4316) in paragraph at lines 4785--4785
+Underfull \hbox (badness 4316) in paragraph at lines 5141--5141
 \OT1/cmr/m/n/10 (pro-teo-ly-ti-sche Spal-tung
  []
 
 
-Underfull \hbox (badness 6675) in paragraph at lines 4785--4785
+Underfull \hbox (badness 6675) in paragraph at lines 5141--5141
 \OT1/cmr/m/n/10 von SNARE-Molek[]ulen)
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 4785--4785
+Underfull \hbox (badness 10000) in paragraph at lines 5141--5141
 \OT1/cmr/m/n/10 To-ni-sche Kon-trak-tio-nen
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 4785--4785
+Underfull \hbox (badness 10000) in paragraph at lines 5141--5141
 []|\OT1/cmr/m/n/10 Inmmunserum; Pe-ni-cil-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 4785--4785
+Underfull \hbox (badness 10000) in paragraph at lines 5141--5141
 \OT1/cmr/m/n/10 lin G, sym-pto-ma-tisch.
  []
 
 
-Underfull \hbox (badness 3826) in paragraph at lines 4785--4785
+Underfull \hbox (badness 3826) in paragraph at lines 5141--5141
 []|\OT1/cmr/m/n/10 v.a. Lebensmittelkonser-
  []
 
-[100] [101] [102] [103]
-Underfull \hbox (badness 10000) in paragraph at lines 4958--4958
+[105] [106] [107] [108]
+Underfull \hbox (badness 10000) in paragraph at lines 5314--5314
 []|\OT1/cmr/m/n/10 spezifische The-ra-
  []
 
 
-Underfull \hbox (badness 3826) in paragraph at lines 4958--4958
+Underfull \hbox (badness 3826) in paragraph at lines 5314--5314
 []|\OT1/cmr/m/n/10 Physostigmin An-ti-ar-rhyth-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 4958--4958
+Underfull \hbox (badness 10000) in paragraph at lines 5314--5314
 []|\OT1/cmr/m/n/10 Atropin (+ an-de-re
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 4958--4958
+Underfull \hbox (badness 10000) in paragraph at lines 5314--5314
 \OT1/cmr/m/n/10 Al-ka-loi-de von Nacht-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 4958--4958
+Underfull \hbox (badness 10000) in paragraph at lines 5314--5314
 []|\OT1/cmr/m/n/10 Antagonismus an musk.
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 4958--4958
+Underfull \hbox (badness 10000) in paragraph at lines 5314--5314
 []|\OT1/cmr/m/n/10 Vermehrte Wir-kung von
  []
 
 
-Underfull \hbox (badness 1248) in paragraph at lines 4958--4958
+Underfull \hbox (badness 1248) in paragraph at lines 5314--5314
 \OT1/cmr/m/n/10 de-pres-si-on (in Komb. mit
  []
 
 
-Underfull \hbox (badness 7869) in paragraph at lines 4958--4958
+Underfull \hbox (badness 7869) in paragraph at lines 5314--5314
 []|\OT1/cmr/m/n/10 Flumazenil (bei schwe-rer
  []
 
 
-Underfull \hbox (badness 1584) in paragraph at lines 4958--4958
+Underfull \hbox (badness 1584) in paragraph at lines 5314--5314
 []|\OT1/cmr/m/n/10 CN- blockiert Cytochrom-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 4958--4958
+Underfull \hbox (badness 10000) in paragraph at lines 5314--5314
 []|\OT1/cmr/m/n/10 Na-Thiosulfat, Met-Hb-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 4958--4958
+Underfull \hbox (badness 10000) in paragraph at lines 5314--5314
 []|\OT1/cmr/m/n/10 Hemmung Na/K-ATPase:
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 4958--4958
+Underfull \hbox (badness 10000) in paragraph at lines 5314--5314
 \OT1/cmr/m/n/10 Elek-tro-lyt-ver-schie-bung,
  []
 
 
-Underfull \hbox (badness 2521) in paragraph at lines 4958--4958
+Underfull \hbox (badness 2521) in paragraph at lines 5314--5314
 []|\OT1/cmr/m/n/10 Verdr[]angung von O$[]$ aus
  []
 
 
-Underfull \hbox (badness 1406) in paragraph at lines 4958--4958
+Underfull \hbox (badness 1406) in paragraph at lines 5314--5314
 []|\OT1/cmr/m/n/10 Fe$[]$ in H[]amoglobin wird
  []
 
 
-Underfull \hbox (badness 6204) in paragraph at lines 4958--4958
+Underfull \hbox (badness 6204) in paragraph at lines 5314--5314
 []|\OT1/cmr/m/n/10 Agonismus an $\OML/cmm/m/it/10 ^^N$\OT1/cmr/m/n/10 , $\OML/c
 mm/m/it/10 ^^T$\OT1/cmr/m/n/10 , $\OML/cmm/m/it/10 ^^V$\OT1/cmr/m/n/10 -
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 4958--4958
+Underfull \hbox (badness 10000) in paragraph at lines 5314--5314
 []|\OT1/cmr/m/n/10 Miosis, Be-wusst-lo-sig-keit,
  []
 
 
-Underfull \hbox (badness 2221) in paragraph at lines 4958--4958
+Underfull \hbox (badness 2221) in paragraph at lines 5314--5314
 []|\OT1/cmr/m/n/10 Irreversible Hem-mung der
  []
 
-[104]
+[109]
 Kapitel 17.
 
-Underfull \hbox (badness 10000) in paragraph at lines 5053--5053
+Underfull \hbox (badness 10000) in paragraph at lines 5409--5409
 []|\OT1/cmr/m/n/10 Wirkung
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 5053--5053
+Underfull \hbox (badness 10000) in paragraph at lines 5409--5409
 []|\OT1/cmr/m/n/10 Wirkung
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 5053--5053
+Underfull \hbox (badness 10000) in paragraph at lines 5409--5409
 []|\OT1/cmr/m/n/10 Wirkung
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 5053--5053
+Underfull \hbox (badness 10000) in paragraph at lines 5409--5409
 []|\OT1/cmr/m/n/10 Benzyl-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 5053--5053
+Underfull \hbox (badness 10000) in paragraph at lines 5409--5409
 []|\OT1/cmr/m/n/10 Penicillin G
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 5053--5053
+Underfull \hbox (badness 10000) in paragraph at lines 5409--5409
 []|\OT1/cmr/m/n/10 Kokken,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 5053--5053
+Underfull \hbox (badness 10000) in paragraph at lines 5409--5409
 \OT1/cmr/m/n/10 St[]abchen,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 5053--5053
+Underfull \hbox (badness 10000) in paragraph at lines 5409--5409
 []|\OT1/cmr/m/n/10 Phenoxy-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 5053--5053
+Underfull \hbox (badness 10000) in paragraph at lines 5409--5409
 \OT1/cmr/m/n/10 penicilline
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 5053--5053
+Underfull \hbox (badness 10000) in paragraph at lines 5409--5409
 []|\OT1/cmr/m/n/10 Penicillin V
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 5053--5053
+Underfull \hbox (badness 10000) in paragraph at lines 5409--5409
 \OT1/cmr/m/n/10 Pro-pi-cil-lin
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 5053--5053
+Underfull \hbox (badness 10000) in paragraph at lines 5409--5409
 []|\OT1/cmr/m/n/10 Kokken,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 5053--5053
+Underfull \hbox (badness 10000) in paragraph at lines 5409--5409
 \OT1/cmr/m/n/10 St[]abchen,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 5053--5053
+Underfull \hbox (badness 10000) in paragraph at lines 5409--5409
 []|\OT1/cmr/m/n/10 Isoxazolyl-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 5053--5053
+Underfull \hbox (badness 10000) in paragraph at lines 5409--5409
 []|\OT1/cmr/m/n/10 Oxacillin,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 5053--5053
+Underfull \hbox (badness 10000) in paragraph at lines 5409--5409
 \OT1/cmr/m/n/10 Dic-loxa-cil-lin,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 5053--5053
+Underfull \hbox (badness 10000) in paragraph at lines 5409--5409
 []|\OT1/cmr/m/n/10 Penicillinase-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 5053--5053
+Underfull \hbox (badness 10000) in paragraph at lines 5409--5409
 \OT1/cmr/m/n/10 bildende
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 5053--5053
+Underfull \hbox (badness 10000) in paragraph at lines 5409--5409
 \OT1/cmr/m/n/10 Sta-phy-lo-kok-
  []
 
 
-Overfull \hbox (3.66016pt too wide) in paragraph at lines 5053--5053
+Overfull \hbox (3.66016pt too wide) in paragraph at lines 5409--5409
 []|\OT1/cmr/m/n/10 Aminopenicillin| 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 5053--5053
+Underfull \hbox (badness 10000) in paragraph at lines 5409--5409
 []|\OT1/cmr/m/n/10 Ampicillin,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 5053--5053
+Underfull \hbox (badness 10000) in paragraph at lines 5409--5409
 []|\OT1/cmr/m/n/10 Wie Pen G
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 5053--5053
+Underfull \hbox (badness 10000) in paragraph at lines 5409--5409
 \OT1/cmr/m/n/10 (schw[]acher)
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 5053--5053
+Underfull \hbox (badness 10000) in paragraph at lines 5409--5409
 \OT1/cmr/m/n/10 St[]abchen
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 5053--5053
+Underfull \hbox (badness 10000) in paragraph at lines 5409--5409
 \OT1/cmr/m/n/10 (E. co-li, H.
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 5053--5053
+Underfull \hbox (badness 10000) in paragraph at lines 5409--5409
 \OT1/cmr/m/n/10 in-fl. Prot.
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 5053--5053
+Underfull \hbox (badness 10000) in paragraph at lines 5409--5409
 []|\OT1/cmr/m/n/10 Acylamino-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 5053--5053
+Underfull \hbox (badness 10000) in paragraph at lines 5409--5409
 []|\OT1/cmr/m/n/10 Wie Pen G
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 5053--5053
+Underfull \hbox (badness 10000) in paragraph at lines 5409--5409
 \OT1/cmr/m/n/10 (schw[]acher)
  []
 
 
-Underfull \hbox (badness 1303) in paragraph at lines 5053--5053
+Underfull \hbox (badness 1303) in paragraph at lines 5409--5409
 []|\OT1/cmr/m/n/10 v.a. Pi-pe-ra-cil-
  []
 
-[105
+[110
 
 ]
-Overfull \hbox (5.1109pt too wide) in paragraph at lines 5061--5062
+Overfull \hbox (5.1109pt too wide) in paragraph at lines 5417--5418
 []\OT1/cmr/m/n/10 Allergische Re-ak-tio-nen (0,5{2%; Ana-phy-lakt. Schock: 0,01
 {0,04%, Kreuzall-er-gie al-ler Pe-ni-cil-li-ne!); Di-arr-hoe; Herxheimer-
  []
 
 
-Overfull \hbox (9.12604pt too wide) in paragraph at lines 5083--5084
+Overfull \hbox (9.12604pt too wide) in paragraph at lines 5439--5440
 []\OT1/cmr/m/n/10 Infektionen mit Pe-ni-cil-lin G-resistenten Sta-phy-lo-kok-ke
 n, z.B. Fu-run-ku-lo-se, Osteo-mye-li-tis $\OMS/cmsy/m/n/10 !$ []\OT1/cmr/m/n/1
 0 Staphylokokken-Penicilline\;
  []
 
-[106]
-Overfull \hbox (114.68695pt too wide) in paragraph at lines 5103--5105
+[111]
+Overfull \hbox (114.68695pt too wide) in paragraph at lines 5459--5461
  \OT1/cmr/bx/n/10 Acylami-no-pe-ni-cil-li-ne[] []
  []
 
 
-Overfull \hbox (113.51125pt too wide) in paragraph at lines 5109--5112
+Overfull \hbox (113.51125pt too wide) in paragraph at lines 5465--5468
  $\OML/cmm/m/it/10 ^^L$\OT1/cmr/bx/n/10 -Lactamasehemmer[] []
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 5114--5128
+Underfull \hbox (badness 10000) in paragraph at lines 5470--5484
 
  []
 
-[107]
-Underfull \hbox (badness 10000) in alignment at lines 5172--5172
+[112]
+Underfull \hbox (badness 10000) in alignment at lines 5528--5528
 [][][] 
  []
 
-[108]
-Underfull \hbox (badness 2707) in paragraph at lines 5217--5217
+[113]
+Underfull \hbox (badness 2707) in paragraph at lines 5573--5573
 []|\OT1/cmr/m/n/10 Unerw[]unschte Arz-nei-wir-kun-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 5217--5217
+Underfull \hbox (badness 10000) in paragraph at lines 5573--5573
 []|\OT1/cmr/m/n/10 Zellwand-synthese-
  []
 
 
-Underfull \hbox (badness 6493) in paragraph at lines 5217--5217
+Underfull \hbox (badness 6493) in paragraph at lines 5573--5573
 []|\OT1/cmr/m/n/10 UAW: Neuro-/nephrotoxisch
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 5217--5217
+Underfull \hbox (badness 10000) in paragraph at lines 5573--5573
 \OT1/cmr/m/n/10 Ind: nur bei schwer-sten
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 5217--5217
+Underfull \hbox (badness 10000) in paragraph at lines 5573--5573
 \OT1/cmr/m/n/10 (Misch-)nfektionen (v.a.
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 5217--5217
+Underfull \hbox (badness 10000) in paragraph at lines 5573--5573
 \OT1/cmr/m/n/10 bei Sep-sis, Im-mun-sup-pres-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 5217--5217
+Underfull \hbox (badness 10000) in paragraph at lines 5573--5573
 \OT1/cmr/m/n/10 si-on)Bes.: ra-scher Ab-bau
  []
 
 
-Underfull \hbox (badness 1552) in paragraph at lines 5217--5217
+Underfull \hbox (badness 1552) in paragraph at lines 5573--5573
 \OT1/cmr/m/n/10 von Imi-pe-nem durch De-hy-
  []
 
 
-Underfull \hbox (badness 3907) in paragraph at lines 5217--5217
+Underfull \hbox (badness 3907) in paragraph at lines 5573--5573
 \OT1/cmr/m/n/10 dro-pep-ti-da-se I kann durch
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 5217--5217
+Underfull \hbox (badness 10000) in paragraph at lines 5573--5573
 []|\OT1/cmr/m/n/10 50S-Ribosomen-UE (b-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 5217--5217
+Underfull \hbox (badness 10000) in paragraph at lines 5573--5573
 \OT1/cmr/m/n/10 markssch[]adigung mit u.U.
  []
 
 
-Underfull \hbox (badness 3407) in paragraph at lines 5217--5217
+Underfull \hbox (badness 3407) in paragraph at lines 5573--5573
 \OT1/cmr/m/n/10 le-ta-ler apla-sti-scher An[]amie,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 5217--5217
+Underfull \hbox (badness 10000) in paragraph at lines 5573--5573
 \OT1/cmr/m/n/10 GI-St[]orungen, Neu-ri-tis,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 5217--5217
+Underfull \hbox (badness 10000) in paragraph at lines 5573--5573
 \OT1/cmr/m/n/10 Ex-an-them, Gray-Syndrom
  []
 
 
-Underfull \hbox (badness 3417) in paragraph at lines 5217--5217
+Underfull \hbox (badness 3417) in paragraph at lines 5573--5573
 \OT1/cmr/m/n/10 Ind: schwe-re Sal-mo-nel-lo-sen,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 5228--5228
+Underfull \hbox (badness 10000) in paragraph at lines 5584--5584
 []|\OT1/cmr/m/n/10 Zellwand-synthese-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 5228--5228
+Underfull \hbox (badness 10000) in paragraph at lines 5584--5584
 []|\OT1/cmr/m/n/10 Zellwand-synthese-
  []
 
 
-Underfull \hbox (badness 5431) in paragraph at lines 5228--5228
+Underfull \hbox (badness 5431) in paragraph at lines 5584--5584
 []|\OT1/cmr/m/n/10 UAW: oto- und ne-phro-
  []
 
 
-Underfull \hbox (badness 1248) in paragraph at lines 5228--5228
+Underfull \hbox (badness 1248) in paragraph at lines 5584--5584
 \OT1/cmr/m/n/10 to-xisch, Ind: schwe-re Sta-
  []
 
 
-Underfull \hbox (badness 2961) in paragraph at lines 5228--5228
+Underfull \hbox (badness 2961) in paragraph at lines 5584--5584
 []|\OT1/cmr/m/n/10 Lincosamine: Clin-da-my-cin,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 5228--5228
+Underfull \hbox (badness 10000) in paragraph at lines 5584--5584
 []|\OT1/cmr/m/n/10 50S-Ribosomen-UE (b-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 5228--5228
+Underfull \hbox (badness 10000) in paragraph at lines 5584--5584
 []|\OT1/cmr/m/n/10 UAW: h[]aufig GI-
  []
 
 
-Underfull \hbox (badness 7796) in paragraph at lines 5228--5228
+Underfull \hbox (badness 7796) in paragraph at lines 5584--5584
 \OT1/cmr/m/n/10 (MR-SA); An-ae-ro-bie-r-in-fek-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 5228--5228
+Underfull \hbox (badness 10000) in paragraph at lines 5584--5584
 []|\OT1/cmr/m/n/10 50S-Ribosomen-UE (b-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 5228--5228
+Underfull \hbox (badness 10000) in paragraph at lines 5584--5584
 []|\OT1/cmr/m/n/10 Ind: schwe-re Staph-
  []
 
 
-Underfull \hbox (badness 7273) in paragraph at lines 5228--5228
+Underfull \hbox (badness 7273) in paragraph at lines 5584--5584
 []|\OT1/cmr/m/n/10 Nitromidazole: Me-tro-ni-da-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 5228--5228
+Underfull \hbox (badness 10000) in paragraph at lines 5584--5584
 []|\OT1/cmr/m/n/10 UAW: GI-St[]orungen;
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 5228--5228
+Underfull \hbox (badness 10000) in paragraph at lines 5584--5584
 \OT1/cmr/m/n/10 Al-ko-holin-to-le-ranz, Ind:
  []
 
 
-Underfull \hbox (badness 8094) in paragraph at lines 5228--5228
+Underfull \hbox (badness 8094) in paragraph at lines 5584--5584
 []|\OT1/cmr/m/n/10 Streptogramine: Quinu-pri-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 5228--5228
+Underfull \hbox (badness 10000) in paragraph at lines 5584--5584
 []|\OT1/cmr/m/n/10 50S-Ribosomen-UE (b-
  []
 
 
-Underfull \hbox (badness 1803) in paragraph at lines 5228--5228
+Underfull \hbox (badness 1803) in paragraph at lines 5584--5584
 \OML/cmm/m/it/10 >$ \OT1/cmr/m/n/10 Ga-be []uber ZVK, Ind:
  []
 
 
-Underfull \hbox (badness 2409) in paragraph at lines 5228--5228
+Underfull \hbox (badness 2409) in paragraph at lines 5584--5584
 \OT1/cmr/m/n/10 Vancomycin-resistentem E.
  []
 
 
-Underfull \hbox (badness 2126) in paragraph at lines 5228--5228
+Underfull \hbox (badness 2126) in paragraph at lines 5584--5584
 \OT1/cmr/m/n/10 Bes.: st[]arkstes Bak-te-ri-zid;
  []
 
-[109]
-Underfull \hbox (badness 10000) in paragraph at lines 5302--5302
+[114]
+Underfull \hbox (badness 10000) in paragraph at lines 5658--5658
 []|\OT1/cmr/m/n/10 neurotoxische Wir-kung
  []
 
 
-Underfull \hbox (badness 7291) in paragraph at lines 5302--5302
+Underfull \hbox (badness 7291) in paragraph at lines 5658--5658
 []|\OT1/cmr/m/n/10 oft h[]amatologische UAW
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 5315--5315
+Underfull \hbox (badness 10000) in paragraph at lines 5671--5671
 []|\OT1/cmr/m/n/10 Thrombophlebitis, Ne-pho-to-xi-zit[]at
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 5315--5315
+Underfull \hbox (badness 10000) in paragraph at lines 5671--5671
 \OT1/cmr/m/n/10 (Kri-stall-bil-dung in Tu-bu-li); GI-
  []
 
-[110]
-Underfull \hbox (badness 10000) in paragraph at lines 5337--5337
+[115]
+Underfull \hbox (badness 10000) in paragraph at lines 5693--5693
 []|\OT1/cmr/m/n/10 Nukleosidale Reverse-Transkriptase-Hemmer
  []
 
 
-Underfull \hbox (badness 1371) in paragraph at lines 5337--5337
+Underfull \hbox (badness 1371) in paragraph at lines 5693--5693
 []|[]\OT1/cmr/m/n/10 Uberempfindlichkeitsreaktionen, v.a. bei Vor-
  []
 
 
-Underfull \hbox (badness 1558) in paragraph at lines 5337--5337
+Underfull \hbox (badness 1558) in paragraph at lines 5693--5693
 []|\OT1/cmr/m/n/10 gute Ver-tr[]aglichkeit, sel-ten le-bens-be-droh-li-che
  []
 
-[111]
+[116]
 Kapitel 18.
 
-Underfull \hbox (badness 10000) in alignment at lines 5377--5377
+Underfull \hbox (badness 10000) in alignment at lines 5733--5733
 [][] 
  []
 
 
-Underfull \hbox (badness 10000) in alignment at lines 5394--5394
+Underfull \hbox (badness 10000) in alignment at lines 5750--5750
 [][] 
  []
 
 
-Underfull \hbox (badness 10000) in alignment at lines 5420--5420
+Underfull \hbox (badness 10000) in alignment at lines 5776--5776
 [][][][] 
  []
 
-[112
+[117
 
 ]
-Overfull \hbox (3.3575pt too wide) in paragraph at lines 5429--5433
+Overfull \hbox (3.3575pt too wide) in paragraph at lines 5785--5789
 \OT1/cmr/m/n/10 Wirkdauer ist z.B. re-le-vant bei der An-wen-dung als Schlaf-mi
 t-tel. Kur-z-wirks. Ben-zo-dia-ze-pi-ne bei Ein-schlafst[]orungen, mittellang-
  []
 
-[113]
-Overfull \hbox (4.28505pt too wide) in paragraph at lines 5477--5479
+[118]
+Overfull \hbox (4.28505pt too wide) in paragraph at lines 5833--5835
 []\OT1/cmr/m/n/10 weniger stark mus-kel-re-la-xie-rend und an-ti-kon-vul-siv (Z
 ol-pi-dem: ho-he Af-fi-nit[]at zur $\OML/cmm/m/it/10 []$\OT1/cmr/m/n/10 -Unter
 einheit des GABA$[]$-Rezeptors) 
  []
 
-[114]
+[119]
 Kapitel 19.
 
-Underfull \hbox (badness 10000) in paragraph at lines 5546--5546
+Underfull \hbox (badness 10000) in paragraph at lines 5902--5902
 []|\OT1/cmr/m/n/10 Verteilungskoeffizient
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 5546--5546
+Underfull \hbox (badness 10000) in paragraph at lines 5902--5902
 []|\OT1/cmr/m/n/10 Verteilungskoeffizient
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 5546--5546
+Underfull \hbox (badness 10000) in paragraph at lines 5902--5902
 []|\OT1/cmr/m/n/10 An-
  []
 
 
-Overfull \hbox (4.76862pt too wide) in paragraph at lines 5546--5546
+Overfull \hbox (4.76862pt too wide) in paragraph at lines 5902--5902
 \OT1/cmr/m/n/10 /Abflutgeschwindigkeit| 
  []
 
-[115
+[120
 
 ]
-Underfull \hbox (badness 10000) in alignment at lines 5621--5621
+Underfull \hbox (badness 10000) in alignment at lines 5977--5977
 [][][][] 
  []
 
-[116] [117] [118]
+[121] [122] [123]
 Kapitel 20.
 
-Underfull \hbox (badness 2781) in paragraph at lines 5739--5739
+Underfull \hbox (badness 2781) in paragraph at lines 6095--6095
 []|\OT1/cmr/m/n/10 weit ver-brei-tet, Fron-tal-kortex, lim-bi-sches Sy-stem,
  []
 
 
-Underfull \hbox (badness 2781) in paragraph at lines 5739--5739
+Underfull \hbox (badness 2781) in paragraph at lines 6095--6095
 []|\OT1/cmr/m/n/10 weit ver-brei-tet, Fron-tal-kortex, lim-bi-sches Sy-stem,
  []
 
 
-Overfull \hbox (0.96425pt too wide) in paragraph at lines 5759--5760
+Overfull \hbox (0.96425pt too wide) in paragraph at lines 6115--6116
 []\OT1/cmr/m/n/10 vegetative St[]orungen: Speichel- / Tr[]anenfluss $\OMS/cmsy/
 m/n/10 "$\OT1/cmr/m/n/10 ; Talg-pro-duk-ti-on $\OMS/cmsy/m/n/10 "$\OT1/cmr/m/n/
 10 ; W[]armeregulation gest[]ort; Schwei^^Y-pro-duk-ti-on gest[]ort;
  []
 
-[119
+[124
 
-] [120]
-Overfull \hbox (12.86644pt too wide) in paragraph at lines 5878--5879
+] [125]
+Overfull \hbox (12.86644pt too wide) in paragraph at lines 6234--6235
 [][]\OT1/cmr/m/n/10 Ubelkeit, Er-bre-chen, or-thost. St[]orungen, Ver-wirrt-hei
 t, Hal-lu-zi-na-tio-nen; Per-go-lid u. Ca-ber-go-lin: Herz-klap-pen-ver[]anderu
 ngen
  []
 
-[121]
+[126]
 Kapitel 21.
-[122
+[127
 
 ]
-Overfull \hbox (26.56657pt too wide) in paragraph at lines 5973--5975
+Overfull \hbox (26.56657pt too wide) in paragraph at lines 6329--6331
 \OT1/cmr/m/n/10 Unterdr[]uckung ins-be-son-de-re der hoch-fre-quen-ten Ak-ti-on
 s-po-ten-tia-le am Be-ginn der par-oxys-ma-len De-po-la-ri-sa-ti-on, Na$[]$-Kan
 alblocker,
  []
 
-[123] [124]
+[128] [129]
 Kapitel 22.
 
-Underfull \hbox (badness 10000) in alignment at lines 6153--6153
+Underfull \hbox (badness 10000) in alignment at lines 6509--6509
 [][][][][][][][][]
  []
 
-[125
+[130
 
-] [126] [127]
-Underfull \hbox (badness 10000) in alignment at lines 6289--6289
+] [131] [132]
+Underfull \hbox (badness 10000) in alignment at lines 6645--6645
 [][] 
- []
-
-[128]
-Kapitel 23.
-
-Underfull \hbox (badness 10000) in alignment at lines 6327--6327
-[][][] 
- []
-
-[129
-
-]
-Underfull \hbox (badness 3449) in paragraph at lines 6386--6386
-[]|\OT1/cmr/m/n/10 Extrapyramidal mo-to-
- []
-
-[130]
-Underfull \hbox (badness 10000) in alignment at lines 6457--6457
-[][][][][][][] 
- []
-
-[131]
-Kapitel 24.
-
-Underfull \hbox (badness 10000) in alignment at lines 6538--6538
-[][] 
- []
-
-[132
-
-]
-Underfull \hbox (badness 10000) in alignment at lines 6587--6587
-[][] 
- []
-
-
-Underfull \hbox (badness 10000) in alignment at lines 6626--6626
-[][][][][] 
  []
 
 [133]
-Underfull \hbox (badness 10000) in alignment at lines 6638--6638
+Kapitel 23.
+
+Underfull \hbox (badness 10000) in alignment at lines 6683--6683
+[][][] 
+ []
+
+[134
+
+]
+Underfull \hbox (badness 3449) in paragraph at lines 6742--6742
+[]|\OT1/cmr/m/n/10 Extrapyramidal mo-to-
+ []
+
+[135]
+Underfull \hbox (badness 10000) in alignment at lines 6813--6813
+[][][][][][][] 
+ []
+
+[136]
+Kapitel 24.
+
+Underfull \hbox (badness 10000) in alignment at lines 6894--6894
+[][] 
+ []
+
+[137
+
+]
+Underfull \hbox (badness 10000) in alignment at lines 6943--6943
 [][] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 6700--6708
+Underfull \hbox (badness 10000) in alignment at lines 6982--6982
+[][][][][] 
+ []
+
+[138]
+Underfull \hbox (badness 10000) in alignment at lines 6994--6994
+[][] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 7056--7064
 
  []
 
-[134]
-Underfull \hbox (badness 10000) in paragraph at lines 6726--6730
+[139]
+Underfull \hbox (badness 10000) in paragraph at lines 7082--7086
 
  []
 
 
-Underfull \hbox (badness 10000) in alignment at lines 6744--6744
+Underfull \hbox (badness 10000) in alignment at lines 7100--7100
 [][][][][][] 
  []
 
-[135]
-Overfull \hbox (196.16817pt too wide) in paragraph at lines 6839--6849
+[140]
+Overfull \hbox (196.16817pt too wide) in paragraph at lines 7195--7205
 \OT1/cmr/m/n/10 Sekretion im Ko-lon $\OMS/cmsy/m/n/10 "$\OT1/cmr/m/n/10 , pro-p
 ul-si-ve Pe-ri-stal-tik $\OMS/cmsy/m/n/10 "$ [] 
  []
 
-[136] [137] (./Pharmaskript.aux)
+[141] [142] (./Pharmaskript.aux)
 
 LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 20315 strings out of 493304
- 377156 string characters out of 6139871
- 450761 words of memory out of 5000000
- 23309 multiletter control sequences out of 15000+600000
+ 20446 strings out of 493304
+ 380132 string characters out of 6139871
+ 451531 words of memory out of 5000000
+ 23421 multiletter control sequences out of 15000+600000
  20882 words of font info for 80 fonts, out of 8000000 for 9000
  957 hyphenation exceptions out of 8191
  56i,18n,55p,10437b,502s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -4372,10 +4546,10 @@ r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb></usr
 /share/texmf/fonts/type1/public/cm-super/sfbx1440.pfb></usr/share/texmf/fonts/t
 ype1/public/cm-super/sfrm1000.pfb></usr/share/texlive/texmf-dist/fonts/type1/pu
 blic/wasy/wasy10.pfb>
-Output written on Pharmaskript.pdf (138 pages, 2186349 bytes).
+Output written on Pharmaskript.pdf (143 pages, 5694575 bytes).
 PDF statistics:
- 580 PDF objects out of 1000 (max. 8388607)
- 384 compressed objects within 4 object streams
+ 614 PDF objects out of 1000 (max. 8388607)
+ 395 compressed objects within 4 object streams
  0 named destinations out of 1000 (max. 500000)
- 148 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 238 words of extra memory for PDF output out of 10000 (max. 10000000)
 

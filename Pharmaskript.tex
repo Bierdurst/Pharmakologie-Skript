@@ -828,16 +828,17 @@ Chemokine CCR1-10; CXCR1-5
 		ATP&P2X&Na$^+$/ K$^+$/ (Ca$^{2+}$)&\\
 		\bottomrule
 	\end{longtable}
-	\caption{Übersicht: pharmakologisch relevante Enzyme}
- 	\label{tab:relevante_enzyme}
+	\caption{Wichtige Rezeptortypen}
+ 	\label{tab:rezeptortypen}
 \end{table}
 
 \section{Liganden-regulierte Enzyme}
+
 \begin{figure}
 	\centering
 	\includegraphics[width=0.5\textwidth]{Bilder/ligandenzum.jpeg}
-	\caption{Caption here}
-	\label{fig:figure1}
+	\caption{Beispiel: Insulinrezeptor}
+	\label{fig:insulinrezeptor}
 \end{figure}
 
 \subsection{Rezeptoren mit Tyrosinkinase-Aktivität (Beispiel: Insulin-Rezeptor)}
@@ -860,40 +861,50 @@ Chemokine CCR1-10; CXCR1-5
 \end{itemize}
 
 \section{nukleäre Rezeptoren}
-\begin{tabularx}{\textwidth}{XXX}
-Ligand&Rezeptor A/B&Pharmaka (Beispiele)\\
-Östrogen&ER/ER&Ethinylestradiol (Ag); Tamoxifen(Ag/Ant); Clomiphen (pAg)\\
-Progesteron&PR/PR&Norethisteron (Ag), Mifepriston (Ant)\\
-Androgen&AR/AR&Nandrolon (Ag), Flutamid (Ant)\\
-Aldosteron&MR/MR&Spironolacton (Ant); Fludrocortison (Ag)\\
-Glukokortikoide&GR/GR&Dexamethason (Ag)\\
-Retinsäure&RAR/RXR&Acitretin (Ag)\\		
-Schilddrüsenhormon&TR/RXR&T$_3$ (Ag)\\
-Vitamin D&VDR/RXR&Tacalcitol (Ag)\\
-Gallensäuren&FXR/RXR&\\
-Oxysterole&LXR/RXR&\\
-Xenobiotika&Ah-Rezeptor/ARNT&Dioxin (Ag)\\
-Xenobiotika&CAR / RXR&Barbiturate (Ag)\\
-Xenobiotika&PXR bzw. SXR/RXR&Rifampicin (Ag) u.a.\\	
-Fettsäuren&PPAR$\alpha$ / RXR&Fibrate (Ag)\\
-Fettsäuren&PPAR$\gamma$ / RXR&Thiazolidindione (Ag)\\
-\end{tabularx}
+
+\begin{table}
+	\rowcolors{2}{lightgray}{white}
+	\centering
+	\begin{longtable}{lll}
+		\toprule
+		Ligand&Rezeptor A/B&Pharmaka (Beispiele)\\
+		\midrule
+		\addlinespace
+		Östrogen&ER/ER&Ethinylestradiol (Ag); Tamoxifen(Ag/Ant); Clomiphen (pAg)\\
+		Progesteron&PR/PR&Norethisteron (Ag), Mifepriston (Ant)\\
+		Androgen&AR/AR&Nandrolon (Ag), Flutamid (Ant)\\
+		Aldosteron&MR/MR&Spironolacton (Ant); Fludrocortison (Ag)\\
+		Glukokortikoide&GR/GR&Dexamethason (Ag)\\
+		Retinsäure&RAR/RXR&Acitretin (Ag)\\		
+		Schilddrüsenhormon&TR/RXR&T$_3$ (Ag)\\
+		Vitamin D&VDR/RXR&Tacalcitol (Ag)\\
+		Gallensäuren&FXR/RXR&\\
+		Oxysterole&LXR/RXR&\\
+		Xenobiotika&Ah-Rezeptor/ARNT&Dioxin (Ag)\\
+		Xenobiotika&CAR / RXR&Barbiturate (Ag)\\
+		Xenobiotika&PXR bzw. SXR/RXR&Rifampicin (Ag) u.a.\\	
+		Fettsäuren&PPAR$\alpha$ / RXR&Fibrate (Ag)\\
+		Fettsäuren&PPAR$\gamma$ / RXR&Thiazolidindione (Ag)\\
+		\bottomrule
+	\end{longtable}
+	\caption{Relevante Liganden und ihre nukleären Rezeptoren}
+ 	\label{tab:nukleaererezeptoren}
+\end{table}
+
 \section{Pharmakon-Rezeptor-Interaktion}
-\begin{figure}[h]
-\begin{reaction}
-	\ce{P + R <-->[{k_1}][{k_2}] PR}
-\end{reaction}	
-\begin{reaction}
-	\ce{\frac{[P] * [R]}{[PR]}=\frac{k_2}{k_1}=K_D}
-\end{reaction}
-\caption{Pharmakon-Rezeptor-Interaktion:\textit{k1}: Geschwindigkeitskonstante der Assoziation;
-\textit{k2}: Geschwindigkeitskonstante der Dissoziation 
-im Äquilibrium gilt gemäß Massenwirkungsgesetz:
-\textit{KD}: Äquilibrium-Dissoziations-Konstante
-       Maß für die Affinität
-KD der meisten physiologischen Rezeptoren im Bereich von: 10-9 - 10-6 M}
+
+\begin{figure}
+	\begin{equation}
+		\ce{P + R <-->[{k_1}][{k_2}] PR}
+	\end{equation}	
+	\begin{equation}
+		\ce{\frac{[P] * [R]}{[PR]}=\frac{k_2}{k_1}=K_D}
+	\end{equation}
+	\caption{Pharmakon-Rezeptor-Interaktion: \textit{k$_1$}: Geschwindigkeitskonstante der Assoziation; \textit{k$_2$}: eschwindigkeitskonstante der Dissoziation im Äquilibrium gilt gemäß Massenwirkungsgesetz: \textit{K$_D$}: Äquilibrium-Dissoziations-Konstante Maß für die Affinität K$_D$ der meisten physiologischen Rezeptoren im Bereich von: 10$^{-9}$ - 10$^{-6}$ M}
 \end{figure}
+
 \section{Wirkungsauslösung}
+
 \begin{figure}
 \begin{reaction}
 	\ce{P + R <-->[{k_1}][{k_2}] PR ->[{proportional}] Effekt}
@@ -901,23 +912,45 @@ KD der meisten physiologischen Rezeptoren im Bereich von: 10-9 - 10-6 M}
 \caption{Wirkungsauslösung: Der Effekt ist proportional der Rezeptor-Besetzung}
 \end{figure}
 
-\subsubsection{Intrinsische Aktivität 
-(Wirksamkeit, „efficacy“)}Maß für die maximale Wirkung 
-eines Pharmakons
-\subsubsection{Konzentrations-
-Wirkungs-Beziehung:}$EC_{50}$:effektive Konzentration 50\% $\neq K_D$
+\subsection{Intrinsische Aktivität (Wirksamkeit, „efficacy“)}
+Maß für die maximale Wirkung eines Pharmakons
+
+\subsection{Konzentrations-Wirkungs-Beziehung:}
+$EC_{50}$:effektive Konzentration 50\% $\neq K_D$
+
 \section{Wirksamkeit/Potenz}
-\subsubsection{Potenz:}Maß für die 
-Konzentration einer Substanz, 
-die zur Erreichung der halb-
-maximalen Wirkung 
-notwendig ist
-\subsubsection{Wirksamkeit:}Maß für 
-die maximal erreichbare 
-Wirkung
+
+\begin{figure}
+    \centering
+    \begin{subfigure}[b]{0.3\textwidth}
+        \includegraphics[width=\textwidth]{Bilder/activity.png}
+        \caption{Wirksamkeit und EC$_{50}$, Potenz}
+        \label{fig:ligand1}
+    \end{subfigure}
+    ~ %add desired spacing between images, e. g. ~, \quad, \qquad, \hfill etc. 
+      %(or a blank line to force the subfigure onto a new line)
+    \begin{subfigure}[b]{0.3\textwidth}
+        \includegraphics[width=\textwidth]{Bilder/Wirksamkeit.png}
+        \caption{Wirksamkeit und Potenz}
+        \label{fig:ligand2}
+    \end{subfigure}
+    \caption{Instrinsische Aktivität, EC$_50$, Potenz}
+    \label{fig:liganden_enzyme}
+\end{figure}
+
+\subsubsection{Potenz}
+Maß für die Konzentration einer Substanz, die zur Erreichung der halbmaximalen Wirkung notwendig ist.
+
+\subsubsection{Wirksamkeit}
+Maß für die maximal erreichbare Wirkung
+
 \section{Agonismus}
+
+\subsubsection{Agonist}
+Affinität zum Rezeptor + intrinsische Aktivität
+
 \begin{itemize}
- \item unbesetzter Rezeptor hat basale Aktivität
+ 	\item unbesetzter Rezeptor hat basale Aktivität
 	\item Agonist: Affinität zu Rezeptor + intrinsische Aktivität 
 		\begin{itemize}
 		\item	volle/partielle Wirksamkeit $\rightarrow$ voller/partieller Agonismus
@@ -925,54 +958,136 @@ Wirkung
 		\end{itemize}	
 	\item Antagonist/Blocker: Affinität zu Rezeptor, keine intrinsische Aktivität	
 \end{itemize}
+
+\begin{figure}
+    \centering
+    \begin{subfigure}[b]{0.3\textwidth}
+        \includegraphics[width=\textwidth]{Bilder/agonismus.png}
+        \caption{Agonismus, Potenz und Wirksamkeit}
+        \label{fig:agonimus}
+    \end{subfigure}
+    ~ %add desired spacing between images, e. g. ~, \quad, \qquad, \hfill etc. 
+      %(or a blank line to force the subfigure onto a new line)
+    \begin{subfigure}[b]{0.3\textwidth}
+        \includegraphics[width=\textwidth]{Bilder/agonismus2.jpeg}
+        \caption{Rezeptorzustände}
+        \label{fig:rezeptorzustande}
+    \end{subfigure}
+    \caption{Agonismus}
+    \label{fig:agonimusundpotenz}
+\end{figure}
+
 \section{Antagonismus}
-\subsubsection{Agonist:}Affinität zum Rezeptor
-+ intrinsische Aktivität
-\subsubsection{Antagonist:} Affinität zum Rezeptor, 
-keine intrinsische Aktivität
-\subsubsection{kompetitiver Antagonismus} Antagonist konkurriert mit Agonist um 
-Bindungsstelle $\rightarrow$ Parallelverschiebung der DWK
+
+\subsubsection{Antagonist}
+Affinität zum Rezeptor, keine intrinsische Aktivität
+
+\subsubsection{kompetitiver Antagonismus} 
+Antagonist konkurriert mit Agonist um Bindungsstelle $\rightarrow$ Parallelverschiebung der DWK
+
 \subsubsection{nichtkompetitiver Antagonismus}
+
 \begin{itemize}
 	\item keine Kompetition mit Agonist, eher selten
 	\item Beeinflussung der Rezeptor-Effektor-Kopplung
 	\item Wirkung kann durch hohe Agonist-Konzentrationen nicht aufgehoben werden
 	\item Maximaleffekt des Agonisten	verringert
 \end{itemize}
+
+\begin{figure}
+    \centering
+    \begin{subfigure}[b]{0.3\textwidth}
+        \includegraphics[width=\textwidth]{Bilder/antagonismus.png}
+        \caption{Parallelverschiebung bei kompetitivem Antagonismus}
+        \label{fig:agonimus}
+    \end{subfigure}
+    ~ %add desired spacing between images, e. g. ~, \quad, \qquad, \hfill etc. 
+      %(or a blank line to force the subfigure onto a new line)
+    \begin{subfigure}[b]{0.3\textwidth}
+        \includegraphics[width=\textwidth]{Bilder/antagonismus2.png}
+        \caption{Wirkungsreduktion durch nicht-kompetitiven Antagonismus}
+        \label{fig:rezeptorzustande}
+    \end{subfigure}
+    \caption{Antagonismus}
+    \label{fig:antagonimus}
+\end{figure}
+
 \section{Toleranzphänomene}
-\subsection{Toleranz:} abnehmende Wirkung nach wiederholter Gabe bei gleicher Dosis
-\subsubsection{pharmakokinetische Toleranz} z.B. Metabolisation $\uparrow$ (Barbiturate, Äthanol)
-\subsubsection{pharmakodynamische Toleranz} z.B.: Rezeptorzahl $\downarrow$ ($\beta$-Adrenozeptor-Agonisten)
+
+\subsection{Toleranz} 
+abnehmende Wirkung nach wiederholter Gabe bei gleicher Dosis
+
+\subsubsection{pharmakokinetische Toleranz}
+z.B. Metabolisation $\uparrow$ (Barbiturate, Äthanol)
+
+\begin{figure}
+	\centering
+	\includegraphics[width=0.3\textwidth]{Bilder/toleranz}
+	\caption{Pharmakolokinetische Toleranz}
+	\label{fig:pharmakokinetischetoleranz}
+\end{figure}	
+
+\subsubsection{pharmakodynamische Toleranz}
+z.B.: Rezeptorzahl $\downarrow$ ($\beta$-Adrenozeptor-Agonisten)
+
 \subsection{Tachyphylaxie}
 sehr rasche Toleranzentwicklung (Minuten bis Stunden)
+
 \begin{itemize}
 	\item indirekte Sympathomimetika
 	\item (organische Nitrate; Stunden bis Tage)
 \end{itemize}
+
 \section{Unerwünschte Wirkungen von Pharmaka}
-\subsubsection{Hauptwirkung} therapeutisch erwünschte Wirkung
-\subsubsection{Nebenwirkung} jede Reaktion außerhalb der Hauptwirkung
-\subsubsection{Unerwünschte Wirkung} jede unerwünschte Reaktion, die auf die Verordnung eines Arzneimittels ursächlich zurückgeführt werden kann
+
+\subsubsection{Hauptwirkung} 
+therapeutisch erwünschte Wirkung
+
+\subsubsection{Nebenwirkung} 
+jede Reaktion außerhalb der Hauptwirkung
+
+\subsubsection{Unerwünschte Wirkung} 
+jede unerwünschte Reaktion, die auf die Verordnung eines Arzneimittels ursächlich zurückgeführt werden kann
+
 \begin{equation}
 erw\ddot{u}nschte\:therapeutische\:Wirkung\:(Hauptwirkung) \longleftrightarrow  unerw\ddot{u}unschte\:Wirkung\:(Nebenwirkung)
 \end{equation}
 
 \subsection{Häufigkeit unerwünschter Arzneimittelwirkungen}
-2 - 5\% in der Praxis 		\\
-6 - 20\% in der Klinik\\
-ca. 5\% der Klinikaufnahmenerfolgen wegen unerw. Arzneimittelwirkungen\\
+
+\begin{itemize}
+	\item[2-5\%] in der Praxis 
+	\item[6 - 20\%] in der Klinik
+	\item[ca. 5\%] der Klinikaufnahmenerfolgen wegen unerw. Arzneimittelwirkungen
+\end{itemize}
+
 \glqq Alle Dinge sind Gift und nichts ist ohn’ Gift; allein die Dosis macht, daß ein Ding kein Gift ist.Paracelsus\grqq
-\subsection{Unerwünschte Wirkungen im Rahmen des
-pharmakodynamischen Wirkprofils}
+
+\subsection{Unerwünschte Wirkungen im Rahmen des pharmakodynamischen Wirkprofils}
 treten bei jedem Patienten dosisabhängig und spezifisch auf: \glqq Die Dosis macht das Gift\grqq
+
+\begin{figure}[htb]
+	\centering
+	\includegraphics[width=0.3\textwidth]{Bilder/tbreite.png}
+	\caption{Therapeutische Breite}
+	\label{fig: therbreite}
+\end{figure}
+
 \begin{itemize}
 	\item bei therapeutischer Dosierung   z.B.: Zytostatika
 	\item erst bei Überdosierung: Pharmaka mit geringer therapeutischer Breite (Beispiele):	Digitalisglykoside, Cumarin-Derivate, Lithium, Theophyllin
 \end{itemize}
+
 \subsection{Ursachen dosisabhängiger unerwünschter Arzneimittelwirkungen}
-\subsubsection{Absolute Überdosierung} durch Verordnungs- oder Einnahmefehler
-\subsubsection{Relative Überdosierung} durch verminderte Elimination (Metabolisierung/Ausscheidung) oder verstärkte Wirkung
+
+\subsubsection{Absolute Überdosierung} 
+durch Verordnungs- oder Einnahmefehler
+
+\subsubsection{Relative Überdosierung} 
+durch verminderte Elimination (Metabolisierung/Ausscheidung) oder verstärkte Wirkung
+
 \subsection{Arzneimittel-unabhängige Faktoren, die zu einer relativen Überdosierung führen}
+
 \begin{itemize}
 	\item Alter des Patienten: 
 	\begin{itemize}
@@ -1002,74 +1117,174 @@ treten bei jedem Patienten dosisabhängig und spezifisch auf: \glqq Die Dosis ma
 	 	\item Pharmakodynamik z.B.: Polymorphismen von pharmakologischen Zielstrukturen
 	\end{itemize}
 \end{itemize}
+
 \subsection{Unerwünschte Wirkungen durch Arzneimittelinteraktionen}
 Häufigkeit steigt exponentiell mit Anzahl der verabreichten Pharmaka
 Auftreten unerw. Wirkungen, aber auch Wirkungsabschwächung
-\subsubsection{Beispiele}\mbox{} \\
-\begin{tabularx}{\textwidth}{XXX}
-Pharmakokinetisch&&\\
-Resorption&&Effekte\\                                                                       
-$Ca^{2+}, Mg^{2+}, Al^{2+}, Fe^{2+},$ &+ Tetracycline & Tetracyclinresorption $\downarrow$\\
-Colestyramin&+Digitalisglyk., Thyroxin u.a.&Resorption $\downarrow$\\
-Metabolismus&&\\
-CYP3A4 Induktion&&\\
-Johanniskraut, Rifampicin&+ Ciclosporin&Transplantatabstoßung\\
-Phenytoin, Carbamazepin&+ Ethinylestradiol&“Pillenversager”\\
-HIV-Protease Hemmer&&Wirkverlust der antiviralen Therapie\\
-CYP3A4 Hemmung&&\\
-Azol-Antimykotika,&+ Statine&Statin-Abbau $\downarrow$ $\rightarrow$ Myopathierisiko $\uparrow$\\
-HIV-Proteasehemmer,& + Ciclosporin& Nephrotoxizität $\uparrow$\\
-Makrolide, Grapefruitsaft& + Cisaprid, Terfenadin& Long-QT-S., Torsade de Pointes\\
-CYP2C9 Induktion&&\\
-Rifampicin, Phenytoin&+ Cumarine&Thromboserisiko $\uparrow$\\
-CYP2D6 Hemmung&&\\
-Fluoxetin, Paroxetin&+ Trizykl. Antidepressiva&Kardiale Effekte\\
-Ausscheidung&&\\
-Diuretika&+ Lithium&Lithiumausscheidung $\downarrow$\\
-ASS&+ Methotrexat&Methotrexattoxizität $\uparrow$\\
-Pharmakodynamisch&&\\
-additive Effekte&&\\
-Fibrate&+ Statine&Myopathierisiko $\uparrow$\\
-$\beta$-Blocker&+ Verapamil/Diltazem&Bradykardie, AV-Block, Herzinsuff.\\
-Aminoglykoside&+ Schleifendiuretika&Oto-, Nephro-Toxizität $\uparrow$\\
-PDE5-Hemmer&+ organ. Nitrate&Schwere Hypotension\\
-MAOA-Hemmer&+ SSRI (z.B.: Fluoxetin)&Serotoninsyndrom\\
-ASS, Clopidogrel&+ Cumarinderivate&Blutungsneigung (v.a. Magen/Darm) $\uparrow$\\
-K$^+$-sparende Diuretika&+ ACE-Hemmer/AT1-Blocker&Hyperkaliämiegefahr\\
-Benzodiazepine&+ Ethanol&Sedation$\Uparrow$\\
-Antagonistischer Effekt&&\\
-NSAIDs (z.B. Ibuprofen, Indomethacin)&+ Antihypertensiva(v.a. Diuretika)&Aufhebung der antihypertensiven Wirkung\\
-$\beta$-Blocker&+ $\beta_2$Agonisten&Antiasthmat. Effekt $\downarrow$\\
-L-Dopa&+ klass. Neuroleptika&gegenseit. Abschwächung der Effekte\\
-Ibuprofen&+ ASS&Thrombozytenfunktionshemmung $\downarrow$\\
-\end{tabularx}
+
+\subsubsection{Beispiele}
+
+\begin{table}
+	\rowcolors{2}{lightgray}{white}
+	\centering
+	\begin{longtable}{p{4cm}ll}
+		\toprule
+		Pharmakokinetisch&&\\
+		\midrule \addlinespace
+		Resorption&&Effekte\\                                              \midrule                         
+		Ca$^{2+}$, Mg$^{2+}$, Al$^{2+}$, Fe$^{2+}$&+ Tetracycline& Tetracyclinresorption $\downarrow$\\
+		Colestyramin&+ Digitalisglyk., Thyroxin u.a.&Resorption $\downarrow$\\
+		\addlinespace
+		Metabolismus&&\\
+		\midrule
+		\addlinespace
+		CYP3A4 Induktion&&\\ 
+		Johanniskraut, Rifampicin&+ Ciclosporin&Transplantatabstoßung\\
+		Phenytoin, Carbamazepin&+ Ethinylestradiol&“Pillenversager”\\
+		HIV-Protease Hemmer&&Wirkverlust der antiviralen Therapie\\
+		\addlinespace
+		CYP3A4 Hemmung&&\\ 
+		Azol-Antimykotika,&+ Statine&Statin-Abbau $\downarrow$ $\rightarrow$ Myopathierisiko $\uparrow$\\
+		HIV-Proteasehemmer,& + Ciclosporin& Nephrotoxizität $\uparrow$\\
+		Makrolide, Grapefruitsaft& + Cisaprid, Terfenadin& Long-QT-S., Torsade de Pointes\\
+		\addlinespace
+		CYP2C9 Induktion&&\\ 
+		Rifampicin, Phenytoin&+ Cumarine&Thromboserisiko $\uparrow$\\
+		\addlinespace
+		CYP2D6 Hemmung&&\\ 
+		Fluoxetin, Paroxetin&+ Trizykl. Antidepressiva&Kardiale Effekte\\
+		\addlinespace
+		Ausscheidung&&\\
+		\midrule
+		Diuretika&+ Lithium&Lithiumausscheidung $\downarrow$\\
+		ASS&+ Methotrexat&Methotrexattoxizität $\uparrow$\\
+		\toprule
+		Pharmakodynamisch&&\\
+		\addlinespace
+		additive Effekte&&\\
+		\midrule
+		Fibrate&+ Statine&Myopathierisiko $\uparrow$\\
+		$\beta$-Blocker&+ Verapamil/Diltazem&Bradykardie, AV-Block, Herzinsuff.\\
+		Aminoglykoside&+ Schleifendiuretika&Oto-, Nephro-Toxizität $\uparrow$\\
+		PDE5-Hemmer&+ organ. Nitrate&Schwere Hypotension\\
+		MAOA-Hemmer&+ SSRI (z.B.: Fluoxetin)&Serotoninsyndrom\\
+		ASS, Clopidogrel&+ Cumarinderivate&Blutungsneigung (v.a. Magen/Darm) $\uparrow$\\
+		K$^+$-sparende Diuretika&+ ACE-Hemmer/AT1-Blocker&Hyperkaliämiegefahr\\
+		Benzodiazepine&+ Ethanol&Sedation$\Uparrow$\\
+		Antagonistischer Effekt&&\\
+		NSAIDs (z.B. Ibuprofen, Indomethacin)&+ Antihypertensiva(v.a. Diuretika)&Aufhebung der antihypertensiven Wirkung\\
+		$\beta$-Blocker&+ $\beta_2$Agonisten&Antiasthmat. Effekt $\downarrow$\\
+		L-Dopa&+ klass. Neuroleptika&gegenseit. Abschwächung der Effekte\\
+		Ibuprofen&+ ASS&Thrombozytenfunktionshemmung $\downarrow$\\
+	\bottomrule
+	\end{longtable}
+	\caption{Beispiele: unerwüschte Arzneimittelinteraktionen}
+ 	\label{tab:arzneimittelinteraktionen}
+\end{table}
+
+
 \subsection{Unerw.Wirkungen außerhalb des pharmakodynam. Wirkprofils}
 dosisunabhängig, nicht Arzneistoff-spezifisch, meist allergisch\\
-\subsubsection{Arzneimittelallergie}: Arzneistoff / Metabolit bindet (als Hapten) an körpereigenes Makromolekül $\rightarrow$ Bildung eines Vollantigens $\rightarrow$ Bildung von Antikörpern oder sensibilisierten T-Lymphozyten $\rightarrow$ allergische Reaktion nach Reexposition
-\subsubsection{Pseudoallergische Reaktion}: meist dosisabhängige, unspezif. Aktivierung immunologischer Prozesse, z.B. Freisetzung v. Mediatoren aus Mastzellen 
+
+\subsubsection{Arzneimittelallergie}
+Arzneistoff / Metabolit bindet (als Hapten) an körpereigenes Makromolekül $\rightarrow$ Bildung eines Vollantigens $\rightarrow$ Bildung von Antikörpern oder sensibilisierten T-Lymphozyten $\rightarrow$ allergische Reaktion nach Reexposition
+
+\subsubsection{Pseudoallergische Reaktion}
+meist dosisabhängige, unspezif. Aktivierung immunologischer Prozesse, z.B. Freisetzung v. Mediatoren aus Mastzellen 
+
 \chapter{Cholinerges System}
+
 \section{cholinerge und adrenerge Übertragung im peripheren efferenten Nervensystem}
+
+\begin{figure}[htb]
+	\centering
+	\includegraphics[width=0.9\textwidth]{Bilder/cholinergessystem.png}
+	\caption{Cholinerges System im Vergleich}
+	\label{fig:cholinergessystem}
+\end{figure}
+
 \subsection{Eigenschaften des somatomotor. und autonomen Systems}
-\begin{tabularx}{\textwidth}{XXX}
-&somatomotor. System&autonomes System\\
-distale Synapse&Vorderhorn&	Ganglion\\
-Plexusbildung&nein&ja (v.a. Sympathikus)\\
-Verzweigung&ja (motor. Einheit)&ja (Symp.$>$Parasymp.)\\
-Myelinisierung&Nerven myelinisiert&postganglionär nicht myelinisiert\\
-\end{tabularx}
+
+\begin{table}[htb]
+	\rowcolors{2}{lightgray}{white}
+	\centering
+	\begin{longtable}{lll}
+		\toprule
+		Eigenschaft&somatomotor. System&autonomes System\\
+		\addlinespace
+		\midrule
+		distale Synapse&Vorderhorn&	Ganglion\\
+		Plexusbildung&nein&ja (v.a. Sympathikus)\\
+		Verzweigung&ja (motor. Einheit)&ja (Symp.$>$Parasymp.)\\
+		Myelinisierung&Nerven myelinisiert&postganglionär nicht myelinisiert\\
+		\bottomrule
+	\end{longtable}
+	\caption{Eigenschaften des somatomotorischen und autonomen Systems}
+ 	\label{tab:somatomotorischautonom}
+\end{table}
+
 \section{Acetylcholin}
+\begin{figure}[htb]
+    \centering
+    \begin{subfigure}[b]{0.3\textwidth}
+        \includegraphics[width=\textwidth]{Bilder/ach.png}
+        \caption{Acetylcholin}
+        \label{fig:acetylcholin}
+    \end{subfigure}
+    ~ %add desired spacing between images, e. g. ~, \quad, \qquad, \hfill etc. 
+      %(or a blank line to force the subfigure onto a new line)
+    \begin{subfigure}[b]{0.4\textwidth}
+        \includegraphics[width=\textwidth]{Bilder/achsynapse.png}
+        \caption{Acetylcholin-Synapse}
+        \label{fig:achsynapse}
+    \end{subfigure}
+    \caption{Acetylcholin-System}
+    \label{fig:achsystem}
+\end{figure}
+
 \subsection{Cholinerge Synapse}
 Depolarisation $\rightarrow$ Ca$^{2+}$-Einstrom $\rightarrow$ 	Freisetzung von Ach aus Vesikeln in den synapt. Spalt $\rightarrow$ Bindung von Ach an postsynapt. Rezeptor $\rightarrow$ Inaktivierung von Ach durch Acetylcholinesterase (260 kDa, $\alpha$2,$\beta$2-Struktur, ca. 20.000/s)
+
 \subsection{Acetylcholinesterase}
+
 \subsubsection{motorische Endplatte}
 3 x 4 enzymatische Untereinheiten über Kollagenanker an Basalmembran des synaptischen Spalts verankert extrem hohe Umsatzrate (ca. 20.000 Ach-Moleküle/s)
+
 \subsubsection{ZNS}
 1 x 4 enzymatische Untereinheiten, über Lipidrest in Plasmamembran verankert
+
 \subsubsection{sezernierte Form} 
 1 x 4 enzymatische Untereinheiten, hydrophil
 Acetylcholin-spezifische Form: u.a. Liquor
 unspez. Cholinesterase (Pseudocholinesterase, Butyrylcholinesterase): v.a. in der Leber synthetisiert, hohe Aktivität im Plasma
+
+\begin{figure}
+    \centering
+    \begin{subfigure}[b]{0.2\textwidth}
+        \includegraphics[width=\textwidth]{Bilder/achesterase1.png}
+        \caption{Motorische Endplatte}
+        \label{fig:endplatte}
+    \end{subfigure}
+    ~ %add desired spacing between images, e. g. ~, \quad, \qquad, \hfill etc. 
+      %(or a blank line to force the subfigure onto a new line)
+    \begin{subfigure}[b]{0.2\textwidth}
+        \includegraphics[width=\textwidth]{Bilder/achesterase2.png}
+        \caption{ZNS}
+        \label{fig:zns}
+    \end{subfigure}
+     ~ %add desired spacing between images, e. g. ~, \quad, \qquad, \hfill etc. 
+      %(or a blank line to force the subfigure onto a new line)
+    \begin{subfigure}[b]{0.2\textwidth}
+        \includegraphics[width=\textwidth]{Bilder/achesterase3.png}
+        \caption{sezernierte Form}
+        \label{fig:sezernierte_form}
+    \end{subfigure}
+    \caption{Subtypen der Acetylcholinesterase}
+    \label{fig:achesterase}
+\end{figure}
+
 \section{Pharmakologische Beeinflussung cholinerger Systeme}
+
 \begin{itemize}
 	\item Nikotinischer Ach-Rezeptor (Agonisten/Antagonisten)
 	\item Muskarinischer Ach-Rezeptor (Agonisten) $\rightarrow$ Direkte Parasympathomimetika
@@ -1078,111 +1293,200 @@ unspez. Cholinesterase (Pseudocholinesterase, Butyrylcholinesterase): v.a. in de
 	\item Acetylcholinesterase-Hemmer 
    $\rightarrow$ Indirekte Parasympathomimetika
 \end{itemize}
+
 \subsection{Cholinerge Rezeptoren}
+
 \subsubsection{muskarinisch}
-G-Protein-gekoppelte Rezeptoren\mbox{} \\
-\begin{tabularx}{\textwidth}{XXXX}
-Rezeptorsubtyp&Hauptlokalisation&zellulärer Effekt&Effektorsystem\\
-$M_1$&neuronal ZNS&Exzitation &\\
-&auton. Ganglien&Magensaftsekretion $\uparrow$&PLC$\uparrow$ ($G_{q/11}$)\\
-&(v.a. enteral)&M.-D.-Motilität $\uparrow$&\\
-$M_2$&kardial Sinusknoten&diastol. Depolar.$\downarrow$ $\Rightarrow$ HF $\downarrow$ &K$^+$-Kanal$\uparrow$\\
-&AV-Knoten&Fortleitung $\downarrow$&Ca$^{2+}$-Kanal $\downarrow$\\ 
-&Atrium (Ventrikel)&Kontraktionskraft $\downarrow$&A-cyclase $\downarrow$\\
-&präsynaptisch&Transmitterfreisetzung $\downarrow$&($G_{i/o}$)\\
-$M_3$&exokrine Drüsen (Pankreas, Parotis)&Sekretion $\uparrow$&\\
-&glatte Muskulatur(Bronch., Darm, Harnbl.)&Kontraktion $\uparrow$&PLC $\uparrow$ ($G_{q/11}$)\\
-&vaskuläres Endothel&Vasodilatation (NO-Freisetz.)&\\
-&Auge (Ziliarmuskel,M. constr. pupillae)&Kontraktion (Nahakkomod.),  Kontraktion (Miosis)&\\
-$M_4$&ZNS&?&wie $M_2$\\
-$M_5$&weit verbreitet (low level)&?&PLC $\uparrow$ ($G_{q/11}$)\\
-\end{tabularx}
+G-Protein-gekoppelte Rezeptoren
+
+\begin{figure}
+	\centering
+	\includegraphics[width=0.2\textwidth]{Bilder/gprotein.png}
+	\caption{muskarinischer G-Proteinrezeptor}
+	\label{fig:mgpr}
+\end{figure}
+
+\begin{table}
+	\rowcolors{2}{lightgray}{white}
+	\centering
+	\begin{longtable}{llll}
+		\toprule
+		Rezeptorsubtyp&Hauptlokalisation&zellulärer Effekt&Effektorsystem\\
+		$M_1$&neuronal ZNS&Exzitation &\\
+		\addlinespace
+		\midrule
+		&auton. Ganglien&Magensaftsekretion $\uparrow$&PLC$\uparrow$ ($G_{q/11}$)\\
+		&(v.a. enteral)&M.-D.-Motilität $\uparrow$&\\
+		$M_2$&kardial Sinusknoten&diastol. Depolar.$\downarrow$ $\Rightarrow$ HF $\downarrow$ &K$^+$-Kanal$\uparrow$\\
+		&AV-Knoten&Fortleitung $\downarrow$&Ca$^{2+}$-Kanal $\downarrow$\\ 
+		&Atrium (Ventrikel)&Kontraktionskraft $\downarrow$&A-cyclase $\downarrow$\\
+		&präsynaptisch&Transmitterfreisetzung $\downarrow$&($G_{i/o}$)\\
+		$M_3$&exokrine Drüsen (Pankreas, Parotis)&Sekretion $\uparrow$&\\
+		&glatte Muskulatur(Bronch., Darm, Harnbl.)&Kontraktion $\uparrow$&PLC $\uparrow$ ($G_{q/11}$)\\
+		&vaskuläres Endothel&Vasodilatation (NO-Freisetz.)&\\
+		&Auge (Ziliarmuskel,M. constr. pupillae)&Kontraktion (Nahakkomod.),  Kontraktion (Miosis)&\\
+		$M_4$&ZNS&?&wie $M_2$\\
+		$M_5$&weit verbreitet (low level)&?&PLC $\uparrow$ ($G_{q/11}$)\\
+		\bottomrule
+	\end{longtable}
+	\caption{Cholinerge Rezeptoren}
+ 	\label{tab:cholrezeptoren}
+\end{table}
+
 \subsubsection{nikotinisch}	
-ionotrope Rezeptoren, Pentamere, 
-2 $\alpha$-Untereinheiten ($\alpha$2-10
-3 $\beta$-Untereinheiten ($\beta$2-4)
-$\alpha$-Untereinheit bindet Ach
-Rezeptor bildet $Na^+/K^+$-Kanal, 
-der d. Bindung von Ach geöffnet wird 
-$\rightarrow$ Na$^+$-Einstrom $\rightarrow$ Depolarisation 
- 
-$N_M$ 	(muskulärer Typ)
-($\alpha$1)$_2$,$\beta$1,$\delta$,$\epsilon$ (embryonal/denerv. Muskel:$\gamma$ statt $\epsilon$)
-neuromuskuläre Endplatte der Skelettmuskulatur, vermittelt Kontraktion	
-$N_N$ 	(neuronaler Typ)
-($\alpha$4)$_2$/($\beta$2)$_3$ 	häufig im ZNS, (v.a. $K^+/Na^+$ permeabel)
-($\alpha$7)$_5$ 	häufig im ZNS, (auch Ca$^{2+}$ permeabel)
-($\alpha$3)$_2$/($\beta$4)$_3$ Ganglion-Typ $\rightarrow$ Depolarisation/Weiterleitung; 
-NN-Mark $\rightarrow$ Sekretion von Katecholaminen
+
+ionotrope Rezeptoren, Pentamere, 2 $\alpha$-Untereinheiten ($\alpha$2-10 3 $\beta$-Untereinheiten ($\beta$2-4) $\alpha$-Untereinheit bindet Ach Rezeptor bildet Na$^+$/K$^+$-Kanal, der d. Bindung von Ach geöffnet wird $\rightarrow$ Na$^+$-Einstrom $\rightarrow$ Depolarisation 
+
+\begin{itemize}
+	\item[N$_M$](muskulärer Typ)
+	\begin{itemize}
+		\item[($\alpha$1)$_2$,$\beta$1,$\delta$,$\epsilon$] (embryonal/denerv. Muskel:$\gamma$ statt $\epsilon$) neuromuskuläre Endplatte der Skelettmuskulatur, vermittelt Kontraktion	
+	\end{itemize}
+	
+	\item[N$_N$](neuronaler Typ)
+		\begin{itemize}
+			\item[($\alpha$4)$_2$/($\beta$2)$_3$] häufig im ZNS, (v.a. K$^+$/Na$^+$ permeabel)
+			\item[($\alpha$7)$_5$] häufig im ZNS, (auch Ca$^{2+}$ permeabel)
+			\item[($\alpha$3)$_2$/($\beta$4)$_3$] Ganglion-Typ $\rightarrow$ Depolarisation/Weiterleitung; NN-Mark $\rightarrow$ Sekretion von Katecholaminen
+		\end{itemize}
+\end{itemize}
+
+\begin{figure}[htb]
+	\centering
+	\includegraphics[width=0.3\textwidth]{Bilder/achrezeptor.png}
+	\caption{Nikotinischer Acetylcholinrezeptor}
+	\label{fig:achrezeptor}
+\end{figure}
+
 \subsection{Agonisten / Antagonisten des nikotinischen Ach-Rezeptor}
-\subsubsection{Nikotin}(agonistische Wirkung v.a. auf neuronalen Rezeptor ($N_N$) \\
+
+\subsubsection{Nikotin}(agonistische Wirkung v.a. auf neuronalen Rezeptor (N$_N$)
+
 \paragraph{Pharmakokinetik}
+
 \begin{itemize}
 	\item rasche Aufnahme über Mundschleimhaut oder Lunge (je nach pH-Wert)
     \item gute Verteilung (insb. ZNS) der nicht-ionisierten Form; Plasma-HWZ: 2-3 h
     \item 80\% hepat. metabolisiert zu Cotinin
 \end{itemize}
+
 \paragraph{Pharmakodynamik}
- niedrige Dosis: Ganglien  erregend $\rightarrow$ Adrenalinfreisetzung aus NNM, RR$\uparrow$, hohe Dosis: Ganglien blockierend (Depol.) + zentrale Effekte
-$\rightarrow$ komplexe Effekte: Durchfall, Magensaftproduktion $\uparrow$, RR$	\upharpoonleft\downharpoonright$ , HF$	\upharpoonleft\downharpoonright$, Speichelsekretion $\uparrow$ , Übelkeit, Tremor; Krämpfe, Atemlähmung Sucht-erzeugende Wirkung durch Aktivierung des „reward pathways Toxizität: 50 mg tödlich (1 Zigarette $\simeq$ 10 mg)
-\subsubsection{Cytisin / Vareniclin}(partieller Agonismus an ($\alpha$4)2($\beta$2)3 Rezeptoren Cytisin z.B. im Goldregen vorkommend, 3-4 Früchte für Kleinkinder tödlich Abkömmling Vareniclin als Raucherentwöhnungsmittel 3/07 zugelassen.
-\subsubsection{Muskelrelaxantien}(Wirkung v.a. auf muskulären Rezeptor ($N_M$))
+niedrige Dosis: Ganglien  erregend $\rightarrow$ Adrenalinfreisetzung aus NNM, RR$\uparrow$, hohe Dosis: Ganglien blockierend (Depol.) + zentrale Effekte $\rightarrow$ komplexe Effekte: Durchfall, Magensaftproduktion $\uparrow$, RR$	\upharpoonleft\downharpoonright$ , HF$	\upharpoonleft\downharpoonright$, Speichelsekretion $\uparrow$ , Übelkeit, Tremor; Krämpfe, Atemlähmung Sucht-erzeugende Wirkung durch Aktivierung des „reward pathways Toxizität: 50 mg tödlich (1 Zigarette $\simeq$ 10 mg)
+
+\subsubsection{Cytisin / Vareniclin}
+(partieller Agonismus an ($\alpha$4)2($\beta$2)3 Rezeptoren Cytisin z.B. im Goldregen vorkommend, 3-4 Früchte für Kleinkinder tödlich Abkömmling Vareniclin als Raucherentwöhnungsmittel 3/07 zugelassen.
+
+\subsubsection{Muskelrelaxantien}
+(Wirkung v.a. auf muskulären Rezeptor ($N_M$))
+
+\begin{figure}[htb]
+	\centering
+	\includegraphics[width=0.4\textwidth]{Bilder/motorischeendplatte.png}
+	\caption{Motorische Endplatte}
+	\label{fig:motorischeendplatte}
+\end{figure}
+
 \begin{itemize}
 	\item nicht-depolarisierende Muskelrelaxantien kompetitive Antagonisten am muskulären nikotinischen Ach-Rezeptor
 	\item depolarisierende Muskelrelaxantien Agonisten am muskulären nikotinischen Ach-Rezeptor
 \end{itemize}
-\paragraph{Wirkung} Motorische Lähmung, keine Bewusstseinsbeeinflussung
-äußere Augenmuskeln $\rightarrow$ Zunge $\rightarrow$ Finger $\rightarrow$ Nacken $\rightarrow$ Stamm $\rightarrow$ Extremitäten $\rightarrow$ Atemmuskulatur
-\paragraph{Einsatz} V.a. Narkose
-\paragraph{Pharmakokinetik} Quarternären Stickstoff $\rightarrow$ schlechte Resorption nach oraler Gabe $\rightarrow$ keine ZNS-Gängigkeit
+
+\paragraph{Wirkung}
+Motorische Lähmung, keine Bewusstseinsbeeinflussung äußere Augenmuskeln $\rightarrow$ Zunge $\rightarrow$ Finger $\rightarrow$ Nacken $\rightarrow$ Stamm $\rightarrow$ Extremitäten $\rightarrow$ Atemmuskulatur
+
+\paragraph{Einsatz}
+ V.a. Narkose
+
+\paragraph{Pharmakokinetik}
+Quarternären Stickstoff $\rightarrow$ schlechte Resorption nach oraler Gabe $\rightarrow$ keine ZNS-Gängigkeit
+
 \subsection{nicht-depolarisierende Muskelrelaxantien}
-\textit{Tubocurarin}: Wirkdauer 60-80 min; zusätzliche Wirkungen: Histaminfreisetzung aus Mastzellen Ganglienblockade $\rightarrow$ RR$\downarrow$;  obsolet.
-\begin{tabularx}{\textwidth}{XXXX}
-&Potenz (im Vergl. zu Tubocurarin)&Wirkdauer&Wirkbeginn\\
-Benzylisochinoline&&&\\
-Atracurium&ca. 2x&20-35 min&2-4 min\\
-Mivacurium&ca. 3x&15-25 min&2-4 min\\
-Steroidderivate&&&\\
-Pancuronium&ca. 5x&60-120 min&4-6 min\\
-Vecuronium&ca. 5x&45-90 min&2-4 min\\
-Rocuronium&ca. 0,5x&35-70 min&1-2 min!\\
-\end{tabularx}
-\paragraph{Elimination}spontan (Atracurium); unspez. Esterasen (Atracurium, Mivacurium) renal/hepatisch: Steroidderivate
+Tubocurarin: Wirkdauer 60-80 min; zusätzliche Wirkungen: Histaminfreisetzung aus Mastzellen Ganglienblockade $\rightarrow$ RR$\downarrow$;  obsolet.
+
+\begin{table}[htb]
+	\rowcolors{2}{lightgray}{white}
+	\centering
+	\begin{longtable}{llll}
+		\toprule
+		Pharmakon&Potenz (im Vergl. zu Tubocurarin)&Wirkdauer&Wirkbeginn\\
+		\addlinespace
+		\midrule
+		\addlinespace
+		Benzylisochinoline&&&\\
+		\midrule
+		Atracurium&ca. 2x&20-35 min&2-4 min\\
+		Mivacurium&ca. 3x&15-25 min&2-4 min\\
+		\addlinespace
+		Steroidderivate&&&\\
+		\midrule
+		Pancuronium&ca. 5x&60-120 min&4-6 min\\
+		Vecuronium&ca. 5x&45-90 min&2-4 min\\
+		Rocuronium&ca. 0,5x&35-70 min&1-2 min!\\
+		\bottomrule
+	\end{longtable}
+	\caption{Nicht-depolarisierende Muskelrelaxantien}
+ 	\label{tab:nukleaererezeptoren}
+\end{table}
+
+\paragraph{Elimination}
+spontan (Atracurium); unspez. Esterasen (Atracurium, Mivacurium) renal/hepatisch: Steroidderivate
+
 \paragraph{Antidot} Acetylcholinesterase-Hemmer
+
 \subsection{depolarisiernde Muskelrelaxantien}
+
 \subsubsection{Suxamethonium, Succinylcholin}
-\paragraph{Wirkung} Agonismus am Rezeptor, langsamer Abbau persistierende Depolarisation $\rightarrow$ Inaktiv. spannungsabh. Na$^+$-Kanälen $\rightarrow$ Sarcolemm elektrisch unerregbar; kein Antagonismus durch Ach-esterase-Hemmer! Wirkdauer 5-10 min, Abbau d. Esterspaltung (unspez. Cholinesterasen)
-\paragraph{Einsatz}  nur noch selten eingesetzt (kurzdauernde Eingriffe)
-\paragraph{unerwünschte Wirkungen} protrahierte Apnoe (hereditärer Cholinesterase-Mangel); Muskelkater-ähnliche Symptome; Hyperkaliämie;  maligne Hyperthermie
-\section{Agonisten / Antagonisten muskarinischer Rezeptoren
-antimuskarinerge Substanzen / Parasympatholytika}
+
+\paragraph{Wirkung} 
+Agonismus am Rezeptor, langsamer Abbau persistierende Depolarisation $\rightarrow$ Inaktiv. spannungsabh. Na$^+$-Kanälen $\rightarrow$ Sarcolemm elektrisch unerregbar; kein Antagonismus durch Ach-esterase-Hemmer! Wirkdauer 5-10 min, Abbau d. Esterspaltung (unspez. Cholinesterasen)
+
+\paragraph{Einsatz}  
+nur noch selten eingesetzt (kurzdauernde Eingriffe)
+
+\paragraph{unerwünschte Wirkungen}
+protrahierte Apnoe (hereditärer Cholinesterase-Mangel); Muskelkater-ähnliche Symptome; Hyperkaliämie;  maligne Hyperthermie
+
+\section{Agonisten / Antagonisten muskarinischer Rezeptoren antimuskarinerge Substanzen / Parasympatholytika}
+
 \subsection{Belladonna-Alkaloide}
+
 \begin{itemize}
 	\item Atropin tertiäres Amin $\rightarrow$ gute Resorption, ZNS-gängig $\rightarrow$ Exzitation
 	\item Scopolamin tertiäres Amin $\rightarrow$ gute Resorption, ZNS-gängig
 $\rightarrow$ Dämpfung; i.G. zu Atropin stärker mydriatisch, sekretionshemmend, schwächer spasmolyt., kardial wirks.
 \end{itemize}
+
 \paragraph{Wirkung}
+
 \begin{itemize}
 	\item Auge:	Mydriasis, Akkomodationslähmung (8–12 d), intraokularen Drucks $\uparrow$
 	\item Herz:	Tachykardie, AV-Überleitungszeit verkürzt
-	\item Bronchien: 	Bronchodilatation, Sekretion $\downarrow$, Hemmung eines Laryngospasmus
-M.-D.-Trakt: Speichelsekretion $\downarrow$ (Mundtrockenheit) (0,5 mg), Magensaftsekretion $\downarrow$ (1–2 mg), Motilität$\downarrow$, Darmatonie, Tonus von Darm, Gallenblase $\downarrow$
+	\item Bronchien: 	Bronchodilatation, Sekretion $\downarrow$, Hemmung eines Laryngospasmus 
+	\item M.-D.-Trakt: Speichelsekretion $\downarrow$ (Mundtrockenheit) (0,5 mg), Magensaftsekretion $\downarrow$ (1–2 mg), Motilität$\downarrow$, Darmatonie, Tonus von Darm, Gallenblase $\downarrow$
 	\item Harnwege: 	Tonusabnahme, Blasenatonie 
 	\item Schweißdrüsen: Sekretionshemmung, ZNS:    Atropin: Unruhe/Verwirrtheit;  			\item Scopolamin: Sedation/Schlaf, Temperatur$\uparrow$
 \end{itemize}
+
 \begin{itemize}
 	\item Tropicamid Mydriatikum (gute Hornhautpenetration, Wirkdauer: 6h)
 	\item Pirenzepin nicht ZNS-gängig, $M_1$-selektiv; Magensaftsekretion$\downarrow$; $M_1$-Blockade an ECL-Zellen: Histaminfreisetzung $\downarrow$; bei höherer Dosierung auch $M_3$-Blockade an Parietalzellen
 \end{itemize}
-\subsection{M3-selektiv} Solifenacin, Darifenacin
-\subsection{quarternäre Derivate}(schlecht resorbierbar, keine ZNS-Gängigkeit !!)
+
+\subsection{M3-selektiv} 
+\begin{tabularx}{\textwidth}{XX}
+Solifenacin&Darifenacin\\
+\end{tabularx}
+
+\subsection{quarternäre Derivate}
+(schlecht resorbierbar, keine ZNS-Gängigkeit !!)
 \begin{itemize}
 	\item N-Butylscopolamin	Spasmolytikum bei Gallen-, Nierenkolik (meist i.v.-Gabe)
 	\item Ipratropiumbromid	Einsatz bei obstruktiven Atemwegserkrankungen
 	\item Tiotropiumbromid	(als Dosieraerosol) Plasma-HWZ: 4h (Ipratropiumbromid), 5d (Tiotropiumbromid)
 \end{itemize}
+
 \paragraph{Hauptindikationen für Parasympatholytika}
+
 \begin{itemize}
 	\item Spasmen der glatten Muskulatur (Gallen-, Nierenkolik, spast. Obstipation)
 	v.a. N-Butylscopolamin
@@ -1195,76 +1499,128 @@ M.-D.-Trakt: Speichelsekretion $\downarrow$ (Mundtrockenheit) (0,5 mg), Magensaf
 	\item Intoxikation mit Alkylphosphaten (Atropin, hohe Dosis) 
 	\item Prophylaxe von Kinetosen (Scopolamin) 
 \end{itemize}
+
 \paragraph{unerwünschte Wirkungen (je nach erwünschter Wirkung)}
 Mydriasis, Akkomodationsstörungen, Mundtrockenheit, Tachykardie, Obstipation 
+
 \paragraph{Kontraindikationen}
+
 \begin{itemize}
 	\item Glaukom (Kammerwasserabfluss $\downarrow$ unter Mydriasis)  
 	\item tachykarde Herzrhyth-musstörungen  
 	\item Prostataadenom (Kontraktion des Detrusor vesicae$\downarrow$) 
 	\item obstruktive gastrointestinale Störungen
 \end{itemize}
+
 \section{muskarinerge Agonisten / direkte Parasympathomimetika}
-\begin{tabularx}{\textwidth}{XXXX}
-&Rezeptorspezifität&Hydrolyse durch&\\
-&muskarin.&nikotin.&durch AchE/ChE\\
-Acetylcholin&+++&+++&+++\\
-Carbachol&+++&+++&-\\
-Bethanechol&+++&-&-\\
-Pilocarpin&++&-&-\\
-\end{tabularx}
+
+\begin{table}
+	\rowcolors{2}{lightgray}{white}
+	\centering
+	\begin{longtable}{lccc}
+		\toprule
+		&\multicolumn{2}{c}{Rezeptorspezifität}&\\
+		\cmidrule{2-3}
+		&muskarin.&nikotin.&Hydrolyse durch AchE/ChE\\
+		\midrule
+		Acetylcholin&+++&+++&+++\\
+		Carbachol&+++&+++&-\\
+		Bethanechol&+++&-&-\\
+		Pilocarpin&++&-&-\\
+		\bottomrule
+	\end{longtable}
+	\caption{Relevante Liganden und ihre nukleären Rezeptoren}
+ 	\label{tab:nukleaererezeptoren}
+\end{table}
+
 \paragraph{Hauptindikation für direkte Parasympathomimetika}
+
 \begin{itemize}
 	\item Glaukom (miotische Wirkung $\rightarrow$ Kammerwasserabfluß$\uparrow$) z.B. Pilocarpin lokal (gute Resorption, Wirkdauer: 1 Tag)
 	\item Darm-/Blasenatonie (z.B. postop., neurolog. Läsionen)(Carbachol,Bethanechol)
 \end{itemize}
-\paragraph{unerwünschte Wirkung}(je nach erwünschter Wirkung)
-Schweißausbruch; Speichelfluss; Übelkeit, Erbrechen, Diarrhoe; Bradykardie, Blutdruckabfall; asthmatische Beschwerden; Harndrang; Myopie
-\paragraph{Kontraindikationen} Herzinsuffizienz, Asthma bronchiale
+
+\paragraph{unerwünschte Wirkung}
+(je nach erwünschter Wirkung) Schweißausbruch; Speichelfluss; Übelkeit, Erbrechen, Diarrhoe; Bradykardie, Blutdruckabfall; asthmatische Beschwerden; Harndrang; Myopie
+
+\paragraph{Kontraindikationen} 
+Herzinsuffizienz, Asthma bronchiale
+
 \section{Cholinesterase-Hemmer/indirekte Parasympathomimetika}
+
 \subsection{Hydrolyse von Ach durch AchE:}
+
+\begin{figure}[htb]
+	\centering
+	\includegraphics[width=0.5\textwidth]{Bilder/achesterase}
+	\caption{Zyklus der Acetylcholinesterase}
+	\label{fig:achesterasezyklus}
+\end{figure}
+
 \subsection{Wirkung von AchE-Hemmern:}
+
 \begin{itemize}
 	\item reversible AchE-Hemmer (nicht-kovalent bzw. Carbaminsäure-Derivate) pharmakologische  Bedeutung
 	\item irreversible AchE-Hemmer (Alkylphosphate) toxikologische Bedeutung
 \end{itemize}
+
 \subsection{reversible AchE-Hemmer}
-nicht-kovalent:
+
+\begin{figure}[htb]
+	\centering
+	\includegraphics[width=0.4\textwidth]{Bilder/achesterasehemmung.jpeg}
+	\caption{Hemmung der Acetylcholinesterase}
+	\label{fig:achesterasehemmung}
+\end{figure}
+
+\subsubsection{nicht-kovalent} % (fold)
+\label{ssub:nicht_kovalent}
+
 \begin{itemize}
 	\item Edrophonium kurz wirksam, nur peripher zur Diagnose der Myasthenia gravis eingesetzt, nicht ZNS-gängig
 	\item Tacrin, Donepezil gute ZNS-Gängigkeit, Einsatz bei Alzheimer-Demenz (therapeut. Nutzen fraglich)
 \end{itemize}
-kovalent (carbamylierend)
+
+\subsubsection{kovalent (carbamylierend)} % (fold)
+\label{ssub:kovalent_carbamylierend_}
+
 \begin{itemize}
 	\item Physostigmin natürlich vorkommendes Alkaloid, ZNS-gängig (tert. Amin) mittellang wirksam (1-2 h), Einsatz als Antidot bei Vergiftungen mit parasympatholytischen Substanzen 
 	\item Neostigmin, Pyridostigmin 2-4 bzw. 3-6 h wirksam, keine ZNS-Gängigkeit
 \end{itemize}
+
 \paragraph{Hauptindikationen für ind. Parasympathomimetika}
+
 \begin{itemize}
 	\item Myasthenia gravis (diagnostisch, therapeutisch)
 	\item Aufhebung der neuromuskulären Blockade durch nicht-depolarisierende 	Muskelrelaxantien (zusammen mit Atropin)
 	\item Demenzen, z.B. M. Alzheimer (Verlust cholinerger Neurone)
 	\item Darm- und Blasenatonie (s.c. oder oral), Glaukom (lokal)
 \end{itemize}
+
 \subsection{irreversible AchE-Hemmer}
 Insektizide
+
 \begin{itemize}
 	\item Parathion (E605)	Verstoffwechselung zur wirksamen Form Paraoxon („Giftung“); hohe Humantoxizität
 \end{itemize}
-Kampfstoffe
+
+\subsubsection{Kampfstoffe} % (fold)
+\label{ssub:kampfstoffe}
+
 \begin{itemize}
-	\item Tabun, Sarin, Soman	extrem toxische „Nervengase“	
-Aufnahme in den Körper:  oral, inhalatorisch, transdermal!
-Vergiftungssymptome: 
+	\item Tabun, Sarin, Soman	extrem toxische „Nervengase“ Aufnahme in den Körper:  oral, inhalatorisch, transdermal!\\ 
+	Vergiftungssymptome: 
 	\begin{itemize}
 		\item muskarinische Wirkung: Schweißausbruch, Speichel-, 	Bronchialsekretion, Bronchospasmus, Miosis, Übelkeit, Erbrechen, Diarrhoe, Bradykardie
 		\item nikotinische Wirkung:	Muskelschwäche, evtl. Faszikulationen
 		\item ZNS Wirkung: Angstgefühl, Kopfschmerz, Krämpfe, Atemlähmung
-\end{itemize}
+	\end{itemize}
 	\item Behandlung:	Atropin (kein Effekt auf neuromuskuläre Blockade)
 		Cholinesterase-Regeneratoren:
 	\item Pralidoxim, Obidoxim	besonders gute Wirkung an neuromusk. Synapse, keine ZNS-Gängigkeit, Wirkung nur wenige Stunden nach Vergiftung (Alterungsphänomen der AchE)
 \end{itemize}
+
 \chapter{Adrenerges System}
 Noradrenalin Adrenalin
 \subsubsection{Katecholaminsynthese} Tyrosin$\rightarrow$Dopa$\rightarrow$Dopamin$\rightarrow$Noradrenalin$\rightarrow$Adrenalin
