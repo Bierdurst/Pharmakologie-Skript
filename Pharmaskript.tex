@@ -3,79 +3,102 @@
 \usepackage[german]{babel}
 \usepackage{textcomp}
 \usepackage{amsmath}
+\usepackage{subcaption}
 \usepackage{pbox}
 \usepackage{amsfonts}
 \usepackage{amssymb}
 \usepackage{tabularx}
 \usepackage{graphicx}
 \usepackage{wrapfig}
+\usepackage[table]{xcolor} %Für Zebrastripes
 \usepackage{tikz}
 \usepackage{gensymb}
 \usepackage{wasysym}
+\usepackage{longtable}
+\usepackage{booktabs} %Für Tabellenlinien
 \usepackage[normalem]{ulem}
 \usepackage[version=3]{mhchem}
-\usepackage[total={17cm,27.7cm},top=1cm, left=2cm, includefoot]{geometry}
+\usepackage[total={19cm,27.7cm},top=1cm, left=1cm, includefoot]{geometry}
+
+\definecolor{lightgray}{gray}{0.9} %Für Zebrastripes
 \title{Pharmakologie Skriptum}
 
 \newenvironment{reaction}{\begin{equation}}{\end{equation}}
 
-
 \begin{document}
 \maketitle
-
 \tableofcontents
-\chapter{Pharmakokinetik} Vorgänge nach oral Gabe eines Pharmakon
-\begin{figure}[h]
+
+\chapter{Pharmakokinetik} 
+\begin{figure}
 	\centering 
-	\includegraphics[width=0.6\textwidth]{Pharmakokinetik.jpg} 
-	\caption{Pharmakokinetik/Pharmakodynamik} 
+		\includegraphics[width=0.6\textwidth]{Bilder/Pharmakokinetik.jpg} 
+		\caption{Pharmakokinetik/Pharmakodynamik} 
 	\label{fig:Pharmakokinetik}
 \end{figure}
-\subsection{Definitionen}
-\subsubsection{Pharmakon} biologisch wirksame Substanz (ohne Wertung)
-		auch „Wirkstoff“; Wirkung erwünscht $\rightarrow$ Heilmittel;
-					Wirkung unerwünscht  $\rightarrow$ Gift
-\subsubsection{Arzneistoff} Pharmakon, das zur Vorbeugung, Linderung, Heilung oder 
-Erkennung von Erkrankungen dienen kann
+
+\section{Definitionen}
+\subsubsection{Pharmakon} 
+biologisch wirksame Substanz (ohne Wertung) auch „Wirkstoff“; Wirkung erwünscht $\rightarrow$ Heilmittel; Wirkung unerwünscht  $\rightarrow$ Gift
+
+\subsubsection{Arzneistoff} 
+Pharmakon, das zur Vorbeugung, Linderung, Heilung oder Erkennung von Erkrankungen dienen kann
+
 \subsubsection{Arzneimittel} zur Anwendung bei Mensch/Tier bestimmte Zubereitungsform eines Pharmakons nach der Zulassung
-\subsection{Bezeichnung von Pharmaka}
+
+\section{Bezeichnung von Pharmaka}
 \begin{enumerate}
 	\item chemischer Name, Code-Nummer	\textit{4’-Hydroxyacetanilid}
-	\item internationaler Freiname „generic name“	\textit{Paracetamol}
-	\item Handelsname, Warenzeichen Benuron $^{\textregistered} $, Captin $ ^{\textregistered} $, Enelfa $^{\textregistered}$ 
+	\item internationaler Freiname „generic name“ \texttt{Paracetamol}
+	\item Handelsname, Warenzeichen Benuron $^{\textregistered}$, Captin $ ^{\textregistered}$, Enelfa $^{\textregistered}$ 
 	(25 Namen allein in Deutschl.)
 \end{enumerate}
-\subsection{Pharmakokinetik/Pharmakodynamik}
-\subsubsection{Pharmakokinetik} 	Einflüsse des Organismus auf das Pharmakon (Resorption, Verteilung, Speicherung, Elimination)
-\subsubsection{Pharmakodynamik} Einflüsse des Pharmakon auf den Organismus (Wirkmechanismus, zelluläre und system. Wirkung)
-\subsubsection{Pharmakokinetik}  Vorgänge nach oraler Applikation eines Pharmakon
-\subsubsection{Elimination} Prozesse, die zur Konzentrationsabnahme des Pharmakons im Körper führen
+
+\section{Pharmakokinetik/Pharmakodynamik}
+
+\subsubsection{Pharmakokinetik} 	
+Einflüsse des Organismus auf das Pharmakon (Resorption, Verteilung, Speicherung, Elimination)
+
+\subsubsection{Pharmakodynamik}
+Einflüsse des Pharmakon auf den Organismus (Wirkmechanismus, zelluläre und system. Wirkung)
+
+\subsubsection{Pharmakokinetik}  
+Vorgänge nach oraler Applikation eines Pharmakon
+
+\subsubsection{Elimination} 
+Prozesse, die zur Konzentrationsabnahme des Pharmakons im Körper führen
+
 \begin{enumerate}
 	\item Biotransformation / Metabolisierung
 	\item Ausscheidung (Niere, Galle, Lunge)
 \end{enumerate}
-\subsection{Biotransformation / Metabolisierung}
-\paragraph{Problem} lipophile, unpolare Pharmaka werden gut resorbiert, aber schlecht 	ausgeschieden. 
-\paragraph{Lösung} Biotransformation zu hydrophilen Metaboliten v.a. in der Leber, Darm, Niere, Lunge u.a.
 
-\subsubsection{Phase I: 	Funktionalisierungsreaktion}
-Oxidation, Reduktion, Hydrolyse u.a. 
-Einführung oder Freisetzung funktioneller, meist polarer Gruppen 
+\section{Biotransformation / Metabolisierung}
+\begin{itemize}
+	\item[Problem] lipophile, unpolare Pharmaka werden gut resorbiert, aber schlecht ausgeschieden. 
+	\item[Lösung] Biotransformation zu hydrophilen Metaboliten v.a. in der Leber, Darm, Niere, Lunge u.a.
+\end{itemize}
+
+\subsection{Phase I: Funktionalisierungsreaktion}
+Oxidation, Reduktion, Hydrolyse u.a. Einführung oder Freisetzung funktioneller, meist polarer Gruppen 
 
 \begin{itemize}
 \item Wirkung des Pharmakons wird beeinflusst
 \item meist Voraussetzung für Phase II Reaktion
 \end{itemize}
-\subsubsection{Phase II: Konjugationsreaktion}
+
+\subsection{Phase II: Konjugationsreaktion}
 Glucuronidierung, Acetylierung, Sulfatierung, Methylierung u.a.. Kopplung von entsprechenden Resten an funktionelle Gruppe, die häufig in Phase I geschaffen wurde $\rightarrow$ Entstehung von meist biologisch inaktiven, gut wasserlöslichen Produkten, die problemlos ausgeschieden werden können.
-\begin{figure}[h]
+
+\begin{figure}
 	\centering 
-	\includegraphics[width=0.4\textwidth]{Biotransformation.png} 
+	\includegraphics[width=0.4\textwidth]{Bilder/Biotransformation.png} 
 	\caption{Biotransformation} 
 	\label{fig:Biotransformation}
 \end{figure}
 
-\subsubsection{Bedeutung von Arzneimittelmetabolisierungsprozessen}
+\subsection{Bedeutung von Arzneimittelmetabolisierungsprozessen}
+
 \begin{itemize}
 	\item Eliminationsmechanismus
 	\item Arzneimittelinteraktionen durch Enzymhemmung oder Enzyminduktion
@@ -84,207 +107,291 @@ Glucuronidierung, Acetylierung, Sulfatierung, Methylierung u.a.. Kopplung von en
 	\item genetisch bedingte individuelle Unterschiede der Arzneimittelelimination
 \end{itemize}
 
-\subsubsection{Für den Fremdstoffmetabolismus wichtige Vertreter aus der Superfamilie der humanen Cytochrom P450 Monooxygenasen (CYP)} \mbox{}\\
+\subsection{Superfamilie der humanen Cytochrom P450 Monooxygenasen} % (fold)
+\label{sub:superfamilie_der_humanen_cytochrom_p450_monooxygenasen}
 
-\begin{tabularx}{\textwidth}{X|XXXXX}
-  Name & Vorkommen & typische Substrate & Induktoren & Inhibitoren	& Bemerkungen \\\hline \hline
-  CYP1A1&intestinal, pulmonal&arom. Kohlenwasserstoffe, Paracetamol&arom. Kohlenwasserstoffe, via Ah-Rezeptor&Chinole&mögliche Bedeutung bei Biotoxinfizierung von Präkanzerogenen \\
-  CYP1A2&hepatisch&Coffein, Theophyllin&arom. Kohlenwasserstoffe via Ah-Rezeptor (z.B. Tabakrauch)&&mögliche Bedeutung bei Biotoxinfizierung von Präkanzerogenen \\
-  CYP2B6&hepatisch&Cyclophosphamid&Cyclophosphamid, Phenobarbital&&\\
-  CYP2C9/19&hepatisch, intestinal&Phenytoin, Wafarin, Omeprazol&Barbiturate, Rifampicin&Cimetidin&ca. 20\% aller Pharmaka\\
-  CYP2D6&hepatisch intestinal renal& $\beta$-Blocker Antiarrhythmika Antidepressiva Neuroleptika&&Chinidin SSRI (z.B. Fluoxetin)& ca. 25\% aller Pharmaka, 40\% aller Allele defekt\\
-  CYP2E1&hepatisch intestinal Leukozyten&Ethanol Nitrosamine&Ethanol Isoniazid& Disolfiram& ca. 15\% aller Pharmaka Biotoxifizierung?\\
-  CYP3A4&hepatisch intestinal& Ciclosporin Nifedipin Terfendadin Ethindylestradiol HIV-Proteaseh. Statine&Rifampicin Carbamazepin Phenytoin Phenobarbital Hyperforin (Johanniskraut)& Azol-Antimykotika Naringin (Grapefruitsaft) HIV-Proteaseh. Makrolide& ca. 40-50\% aller Pharmaka\\ \hline  
-\end{tabularx}
+% subsection superfamilie_der_humanen_cytochrom_p450_monooxygenasen (end)
+
+\begin{table}[h]
+	\centering
+	\rowcolors{1}{}{lightgray}
+	\begin{tabularx}{\textwidth}{lp{1,9cm}p{3cm}Xp{1,8cm}X}
+		\toprule \addlinespace
+		Name & Vorkommen & typische Substrate & Induktoren & Inhibitoren& Bemerkungen \\ \addlinespace
+		\midrule
+		CYP1A1&intestinal pulmonal&arom. Kohlenwasserstoffe, Paracetamol&arom. Kohlenwasserstoffe, via Ah-Rezeptor&Chinole&mögliche Bedeutung bei Biotoxinfizierung von Präkanzerogenen \\
+		CYP1A2&hepatisch&Coffein, Theophyllin&arom. Kohlenwasserstoffe via Ah-Rezeptor (z.B. Tabakrauch)&&mögliche Bedeutung bei Biotoxinfizierung von Präkanzerogenen \\
+		CYP2B6&hepatisch&Cyclophosphamid&Cyclophosphamid, Phenobarbital&&\\
+		CYP2C9/19&hepatisch intestinal&Phenytoin, Wafarin, Omeprazol&Barbiturate, Rifampicin&Cimetidin&ca. 20\% aller Pharmaka\\
+		CYP2D6&hepatisch intestinal renal& $\beta$-Blocker Antiarrhythmika Antidepressiva Neuroleptika&&Chinidin SSRI (z.B. Fluoxetin)& ca. 25\% aller Pharmaka, 40\% aller Allele defekt\\
+		CYP2E1&hepatisch intestinal Leukozyten&Ethanol Nitrosamine&Ethanol Isoniazid& Disolfiram& ca. 15\% aller Pharmaka Biotoxifizierung?\\
+		CYP3A4&hepatisch intestinal& Ciclosporin Nifedipin Terfendadin Ethindylestradiol HIV-Proteaseh. Statine&Rifampicin Carbamazepin Phenytoin Phenobarbital Hyperforin (Johanniskraut)& Azol-Antimykotika Naringin (Grapefruitsaft) HIV-Proteaseh. Makrolide& ca. 40-50\% aller Pharmaka\\   
+		\bottomrule
+	\end{tabularx}
+	\caption{Für den Fremdstoffmetabolismus wichtige Vertreter aus der Superfamilie der humanen Cytochrom P450 Monooxygenasen (CYP)}
+\label{tab:CYP450}
+\end{table}
+
 \begin{figure}[h]
 	\centering 
-	\includegraphics[width=0.4\textwidth]{konzentrationzeit.png} 
-	\caption{Bioverfügbarkeit} 
-	\label{fig:Bioverfuegbarkeit}
+	\includegraphics[width=0.4\textwidth]{Bilder/CYP.png} 
+	\caption{CYP-Beispiele} 
+	\label{fig:cyp-beispiele}
 \end{figure}
-\subsubsection{Mechanismen der Induktion von Cytochrom P450 Monooxygenasen} \mbox{}\\
+
+\subsection{Induktion von Cytochrom P450 Monooxygenasen}
+
 \begin{figure}[h]
 	\centering 
-	\includegraphics[width=0.4\textwidth]{CYP2.png} 
+	\includegraphics[width=0.4\textwidth]{Bilder/CYP2.png} 
 	\caption{Induktion von Cytochrom P450 Monooxygenasen} 
-	\label{fig:Cytochrom2}
+	\label{fig:cytochrom2}
 \end{figure}
-\begin{tabularx}{\textwidth}{XXXX}
-Xenobiotikum Pharmakon& nukleärer Rezeptor (A/B)&induz. Enzym / Transporter&Enzymubstrate\\\hline
-Dioxin, aromat. Hydrocarbone (Rauchen)& Ah-Rezeptor/ARNT&CYP1A1 CYP1A2&aromat. Hydrocarbone, Coffein, Theophyllin; \textit{nicht} Dioxin!\\
-Barbiturate&CAR/RXR&CYP2B,C ABCC3&viele Pharmaka\\
-Rifampicin, Hyperforin, Paclitaxel, u.a.&PXR/RXR&CYP3A/2C)/ MDR-1, ABCB1, C2&viele Pharmaka\\
-Fibrate&PPAR$\alpha$/RXR&CYP4A1,3&\\
-\end{tabularx}
-\subsubsection{Beispiele für Arzneimittelinteraktionen 
-durch Enzymhemmung und -induktion} \mbox{}\\
-\paragraph{Enzyminduktion}
+
+\begin{table}[h]
+	\centering
+	\rowcolors{1}{}{lightgray}
+	\begin{tabularx}{\textwidth}{llp{3cm}X}
+		\toprule
+		Xenobiotikum Pharmakon& nukleärer Rezeptor (A/B)&induz. Enzym / Transporter&Enzymubstrate\\ \midrule
+		Dioxin, aromat. Hydrocarbone (Rauchen)& Ah-Rezeptor/ARNT&CYP1A1 CYP1A2&aromat. Hydrocarbone, Coffein, Theophyllin; nicht Dioxin!\\
+		Barbiturate&CAR/RXR&CYP2B,C ABCC3&viele Pharmaka\\
+		Rifampicin, Hyperforin, Paclitaxel, u.a.&PXR/RXR&CYP3A/2C)/ MDR-1, ABCB1, C2&viele Pharmaka\\
+		Fibrate&PPAR$\alpha$/RXR&CYP4A1,3&\\ 
+		\bottomrule
+	\end{tabularx}
+	\caption{Induktion von Cytochrom P450 Monooxygenasen}
+\label{tab:cypinduktion}
+\end{table}
+
+\subsection{Arzneimittelinteraktionen durch Enzymhemmung und -induktion}
+
+\subsubsection{Enzyminduktion (Beispiele)}
+
 \begin{itemize}
 	\item Induktion von CYP1A1/2 bei Rauchern $\rightarrow$ Abbau von Theophyllin und Coffein $\uparrow$
 	\item Induktion von CYP3A4 durch Rifampicin, Johanniskraut, Phenytoin u.a. 
-	\begin{itemize}%[leftmargin=1em]
-  \renewcommand{\labelitemi}{$\rightarrow$}
- \item Abbau von Ethinylestradiol $\uparrow$ („Pillenversager“)
- \item Abbau von Ciclosporin (Transplantat-Abstoßung) etc.
+	\begin{itemize}
+ 		\item Abbau von Ethinylestradiol $\uparrow$ („Pillenversager“)
+ 		\item Abbau von Ciclosporin (Transplantat-Abstoßung) etc.
+	\end{itemize}
 \end{itemize}
-\end{itemize}
-\paragraph{Enzymhemmung}
+
+\subsubsection{Enzymhemmung (Beispiele)}
+
 \begin{itemize}
 	\item Hemmung von CYP2D6 durch Selektive Serotonin-„Reuptake“-Hemmer (z.B. Fluoxetin)
 	\begin{itemize}
-	\renewcommand{\labelitemi}{$\rightarrow$}
-	\item verminderter	 Abbau von Antidepressiva, Neuroleptika
+			\item verminderter	 Abbau von Antidepressiva, Neuroleptika
 	\end{itemize}
 	\item Hemmung von CYP3A4 durch Azol-Antimykotika oder Grapefruitsaft u.v.a.
 	\begin{itemize}
-		\renewcommand{\labelitemi}{$\rightarrow$}
-		\item verminderter Abbau von Ciclosporin ($\rightarrow$ Nephrotoxizität) 
-	     oder Terfenadin, Cisaprid ($\rightarrow$ Herzrhythmusstörungen) oder Statinen ($\rightarrow$ Myopathie)
+			\item verminderter Abbau von Ciclosporin ($\rightarrow$ Nephrotoxizität) oder Terfenadin, Cisaprid ($\rightarrow$ Herzrhythmusstörungen) oder Statinen ($\rightarrow$ Myopathie)
 	\end{itemize}
 \end{itemize}
-\subsubsection{Phase II Reaktionen} \mbox{}\\
-\paragraph{Glucuronosyltransferasen}
+
+\subsection{Phase II Reaktionen} 
+
+\subsubsection{Glucuronosyltransferasen}
+
 \begin{itemize}
 	\item ca. 40\% aller Pharmaka
 	\item Uridindiphosphat-Glucuronosyltransferasen (UGT)
 	\item 17 Isoformen, mikrosomal; Leber, Darmepithel, Niere
 \end{itemize}
-\paragraph{Glutathion-S-Transferase (GST)}
+
+\subsubsection{Glutathion-S-Transferase (GST)}
+
 \begin{itemize}
 	\item ca. 10\% aller Pharmaka
 \end{itemize}
-\paragraph{N-Acetyltransferase (NAT) }
+
+\subsubsection{N-Acetyltransferase (NAT) }
+
 \begin{itemize}
 	\item ca. 10\% aller Pharmaka
 	\item 2 Isoformen (NAT I und NAT II); NAT II Polymorphismus
 \end{itemize}
-\paragraph{Sulfotransferase (SULT)}
+
+\subsubsection{Sulfotransferase (SULT)}
+
 \begin{itemize}
 	\item ca. 20\% aller Pharmaka
-	\item Transfer eines Sulfat-Restes aus 
-	dem Kosubstrat PAPS
+	\item Transfer eines Sulfat-Restes aus dem Kosubstrat PAPS
 \end{itemize}
-\paragraph{Methyltransferase}
+
+\subsubsection{Methyltransferase}
+
 \begin{itemize}
 	\item Methylgruppentransfer aus S-Adenosylmethionin
 \end{itemize}
-\subsubsection{Bildung aktiver oder toxischer Metabolite (Beispiele)} \mbox{} \\
+
+\subsection{Bildung aktiver oder toxischer Metabolite (Beispiele)}
+%siehe Abbildung~\ref{fig:Metabolite}
+
 \begin{figure}[h]
 	\centering 
-	\includegraphics[width=0.5\textwidth]{Pharmakodynamik.png} 
+	\includegraphics[width=0.5\textwidth]{Bilder/Pharmakodynamik.png} 
 	\caption{Bildung aktiver oder toxischer Metabolite (Beispiele)} 
 	\label{fig:Metabolite}
 \end{figure}
-\subsubsection{First-Pass-Effekt} \mbox{} \\
-enteral resorbierte Pharmaka gelangen nach Passage der Darmwand über die Pfortader zuerst in die Leber, danach in die systemische Zirkulation \textit{First-Pass-Effekt}: Anteil eines Pharmakons, der bei Passage der Darmwand und Leber metabolisiert 
-oder zurückgehalten wird hoher first-pass-Effekt: z.B. Glyceroltrinitrat, Lidocain
+
+\subsection{First-Pass-Effekt} 
+enteral resorbierte Pharmaka gelangen nach Passage der Darmwand über die Pfortader zuerst in die Leber, danach in die systemische Zirkulation.\\
+First-Pass-Effekt: Anteil eines Pharmakons, der bei Passage der Darmwand und Leber metabolisiert oder zurückgehalten wird hoher First-Pass-Effekt: z.B. Glyceroltrinitrat, Lidocain
+
 \begin{figure}[h]
 	\centering 
-	\includegraphics[width=0.4\textwidth]{firstpass.png} 
+	\includegraphics[width=0.4\textwidth]{Bilder/firstpass.png} 
 	\caption{First-Pass-Effekt} 
 	\label{fig:FirstPass}
 \end{figure}
-\subsection{Pharmakogenetik / Genetisch bedingte Unterschiede in der Metabolisierung von Pharmaka (Beispiele)} \mbox{} \\
+
+\subsection{Pharmakogenetik / Genetisch bedingte Unterschiede in der Metabolisierung von Pharmaka (Beispiele)} 
+
 \begin{figure}[h]
 	\centering 
-	\includegraphics[width=0.4\textwidth]{ethanolbiotransformation.png} 
+	\includegraphics[width=0.4\textwidth]{Bilder/ethanolbiotransformation.png} 
 	\caption{Ethanol Biotransformation} 
 	\label{fig:EthanolBiotransformation}
 \end{figure}
+
 \subsubsection{Phase I} 
-\textit{Aldehyd-Dehydrogenase 2}: inaktive Variante bei 50\% der Asiaten $\rightarrow$ Abbau von Äthanol $\downarrow$\\ \\
-\textit{CYP2D6} 	inaktive Variante bei 8\% der Europäer „PM, poor metabolizer“ vs. „EM, extensive metabolizer“ Abbau von $\beta$-Blockern, Antidepressiva, Antiarrhythmika u.a. $\downarrow$
+Aldehyd-Dehydrogenase 2: inaktive Variante bei 50\% der Asiaten $\rightarrow$ Abbau von Äthanol $\downarrow$\\ 
+CYP2D6:	inaktive Variante bei 8\% der Europäer „PM, poor metabolizer“ vs. „EM, extensive metabolizer“ Abbau von $\beta$-Blockern, Antidepressiva, Antiarrhythmika u.a. $\downarrow$
+
 \subsubsection{Phase II}
 \textit{N-Acetyltransferase (NAT II)}		„langsam Acetylierer“ vs. „schnell Acetylierer (je 50\% bei Europäern)$\rightarrow$ Abbau von Isoniazid u.a. $\downarrow$
-\subsection{Ausscheidung} \mbox{} \\
+
+
+\section{Ausscheidung} 
 v.a. renal, biliär/intestinal, pulmonal
+
 \subsubsection{renal}
 (häufigster Ausscheidungsweg)
+
 \begin{itemize}
 	\item glomeruläre Filtration bis Molmasse von ca. 15.000-20.000
 	\item tubuläre Rückresorption lipophile Stoffe: gut; hydrophile Stoffe: schlecht Basen und Säuren: pH-abhängig
 	\item tubuläre Sekretion: aktiver Prozeß im proximalen Tubulus; Transportsystem für organische Säuren z.B. Harnsäure, Penicillin G (u.a. MRP2) Transportsystem für organische Basen z.B. Dopamin (u.a. MDR1), organ. Anionen (z.B.: Thiazide)
 \end{itemize}
+
 Allgemein: Renale Ausscheidung $\downarrow$ bei Niereninsuffizienz und im Alter
-\subsubsection{bilär/intestinal} häufig Metabolite mit Molmassen $>$500 z.B. Tetracycline, Digitoxin-Metabolite
-\textit{enterohepatischer Kreislauf} Intestinale Ausscheidung
+
+\subsubsection{bilär/intestinal} 
+häufig Metabolite mit Molmassen $>$500 z.B. Tetracycline, Digitoxin-Metabolite.\\
+enterohepatischer Kreislauf: Intestinale Ausscheidung
+
 \subsubsection{pulmonal}
 z.B. Inhalationsanästhetika
+
 \subsection{Elimination von Pharmaka} \mbox{} \\
+
 \begin{figure}[h]
 	\centering 
-	\includegraphics[width=0.4\textwidth]{Elimination.png} 
+	\includegraphics[width=0.4\textwidth]{Bilder/Elimination.png} 
 	\caption{Elimination} 
 	\label{fig:Elimination}
 \end{figure}
-\subsection{Pharmakokinetische Parameter} \mbox{} \\
-\subsubsection{Bioververfügbarkeit}
-Der Anteil eines Pharmakons, der unverändert ins systemische Blut (großer Kreislauf) gelangt
-Bei i.v.-Gabe: 100\%\\
-\paragraph{Bei oraler gabe abhängig von:} Wirkstofffreisetzung,	Resorptionsquote, First-Pass-Effekt\\
-\paragraph{„area under the curve” (AUC):}
-AUC repräsentiert die Substanzmenge, 
-die in das systemische Blut gelangt 
+
+\section{Pharmakokinetische Parameter} 
+
+\subsection{Bioververfügbarkeit}
+Der Anteil eines Pharmakons, der unverändert ins systemische Blut (großer Kreislauf) gelangt. Bei i.v.-Gabe: 100\%\\
+
+\subsubsection{Bei oraler gabe abhängig von}
+Wirkstofffreisetzung, Resorptionsquote, First-Pass-Effekt\\
+
+\subsection{„area under the curve” (AUC)}
+AUC repräsentiert die Substanzmenge, die in das systemische Blut gelangt 
 (unabhängig von der Resorptionsgeschwindigkeit)\\
 AUC ist ein Maß für die Bioverfügbarkeit  $f=\frac{AUC_x}{AUC_{i.v.}}*100[\%]$
+
 \begin{figure}[h]
 	\centering 
-	\includegraphics[width=0.4\textwidth]{konzentrationzeit.png} 
+	\includegraphics[width=0.4\textwidth]{Bilder/konzentrationzeit.png} 
 	\caption{Bioverfügbarkeit} 
 	\label{fig:Bioverfuegbarkeit}
 \end{figure}
-\subsubsection{Verteilungsvolumen}
- fiktives Volumen, in dem sich ein Pharmakon verteilen würde, wenn es die gleiche Konzentration wie im Plasma hätte $V=\frac{Menge des Pharmakon im Organismus}{Plasmakonzentration}$ Das Verteilungsvolumen ist ein \textit{Proportionalitätsfaktor} zwischen der im Körper vorhandenen Menge und der Plasmakonzentration
- \subsubsection{Clearance}
- Plasmavolumen, das pro Zeiteinheit von einem Pharmakon befreit wird  $\rightarrow$ Maß für die Eliminationsleistung $CL=\frac{Menge eines Pharmakons, die pro Zeiteinheit eliminiert wird}{Plasmakonzentration}$
+
+\subsection{Verteilungsvolumen}
+ fiktives Volumen, in dem sich ein Pharmakon verteilen würde, wenn es die gleiche Konzentration wie im Plasma hätte 
+ \begin{equation}
+ 	V=\frac{Menge\:des\:Pharmakon\:im\:Organismus}{Plasmakonzentration}
+ \end{equation}
+ Das Verteilungsvolumen ist ein Proportionalitätsfaktor zwischen der im Körper vorhandenen Menge und der Plasmakonzentration
+
+ \subsection{Clearance}
+ Plasmavolumen, das pro Zeiteinheit von einem Pharmakon befreit wird  $\rightarrow$ Maß für die Eliminationsleistung 
+ \begin{equation}
+ 	CL=\frac{Menge\:eines\:Pharmakons,\:die\:pro\:Zeiteinheit\:eliminiert\:wird}{Plasmakonzentration}
+ \end{equation}
+ 
 \begin{figure}[h]
 	\centering 
-	\includegraphics[width=0.4\textwidth]{clearance.png} 
+	\includegraphics[width=0.9\textwidth]{Bilder/clearance.png} 
 	\caption{Clearance} 
 	\label{fig:Clearance}
 \end{figure}
-\subsubsection{Plasmahalbwertszeit $t_{\frac{1}{2}}$} Zeit, in der die Plasmakonzentration auf die Hälfte des ursprünglichen Wertes abfällt.
-\begin{figure}[!htb]\centering
-   \begin{minipage}{0.49\textwidth}
-     \includegraphics[width=\linewidth]{kinetik0.png}
-     \caption{Kinetik 0. Ordnung: (häufig !) Eliminationsgeschwindigkeitist proportional 	zur jeweiligen Plasmakonzentration, 
-Exponentialfunktion}\label{Fig:kinetik0}
-   \end{minipage}
-   \begin {minipage}{0.49\textwidth}
-     \includegraphics[width=\linewidth]{kinetik1.png}
-     \caption{Kinetik 1. Ordung: (selten)
-Eliminationsgeschwindigkeit ist konstant
-z.B. durch Sättigung des abbauenden Enzyms}\label{Fig:kinetik1}
-   \end{minipage}
-\end{figure}
-\subsubsection{Kinetik nach wiederholter Gabe}
-Konz. im Körper abhängig von:- Dosis, - Dosierintervall, - Eliminations-HWZ \\
-\paragraph{Kumulation}  Wirkstoffzunahme nach wiederholter Gabe; abhängig vom relativen Dosierintervall ($\epsilon$); $\epsilon=\frac{Dosierintervall(\tau)}{Eliminations-HWZ}$ ($t_{\frac{1}{2}}$);$\epsilon <1$ $\rightarrow$  Gefahr der Kumulation (z.B. Pharmaka mit langer $t_{\frac{1}{2}}$; Digitoxin, Cumarine u.a.) 
 
+\subsection{Plasmahalbwertszeit $t_{\frac{1}{2}}$} Zeit, in der die Plasmakonzentration auf die Hälfte des ursprünglichen Wertes abfällt.
+
+\begin{figure}[!htb]
+    \centering
+    \begin{subfigure}[b]{0.49\textwidth}
+        \includegraphics[width=\textwidth]{Bilder/kinetik0.png}
+        \caption{Kinetik 0. Ordnung: (häufig !) Eliminationsgeschwindigkeitist proportional 	zur jeweiligen Plasmakonzentration, Exponentialfunktion}
+        \label{fig:transmebrandomaene}
+    \end{subfigure}
+    ~ %add desired spacing between images, e. g. ~, \quad, \qquad, \hfill etc. 
+    %(or a blank line to force the subfigure onto a new line)
+    \begin{subfigure}[b]{0.43\textwidth}
+        \includegraphics[width=\textwidth]{Bilder/kinetik1.png}
+        \caption{Kinetik 1. Ordung: (selten) Eliminationsgeschwindigkeit ist konstant z.B. durch Sättigung des abbauenden Enzym}
+        \label{fig:kinetik1}
+    \end{subfigure}
+    \caption{Kinetik 0. und 1. Ordung}
+    \label{fig:struktur_na_kanal}
+\end{figure}
+
+\subsubsection{Kinetik nach wiederholter Gabe}
+Konz. im Körper abhängig von: Dosis, Dosierintervall, Eliminations-HWZ \\
+
+\subsubsection{Kumulation}  Wirkstoffzunahme nach wiederholter Gabe; abhängig vom relativen Dosierintervall ($\epsilon$); 
+\begin{equation}
+	\epsilon=\frac{Dosierintervall(\tau)}{Eliminations-HWZ}(t_{\frac{1}{2}});\epsilon <1
+\end{equation}
+$\rightarrow$  Gefahr der Kumulation (z.B. Pharmaka mit langer $t_{\frac{1}{2}}$; Digitoxin, Cumarine u.a.) 
 
 \chapter{Pharmakodynamik}
+
 \section{Angriffsorte von Pharmaka}
+
 \subsection{Fremdorganismus / Mikroorganismus}
 (Bakterium, Virus, Pilz, Parasit)
+
 \subsection{Menschlicher / tierischer Organismus (Makroorganismus)}
+
 \subsubsection{Extrazellulär}
+
 \begin{enumerate}
 	\item physikalisch wirksam: Laxantien, osmotische 	Diuretika,Plasmaexpander
 	\item chemisch wirksam: Antazida, Chelatbildner, Protaminsulfat (bindet Heparin), Ionenaustauscher wie Cholestyramin (bindet Gallensäuren)
 	\item enzymatisch wirksam: tPA (Fibrinolyse), Enzym-Substitution
 \end{enumerate}
+
 \subsubsection{Zellulär}
+
 \begin{enumerate}
 	\item Zytoskelett z.B.: Vincaalkoloide (Zytostatika), Colchizin 
 	\item DNS z.B.: Alkylantien (Zytostatika)
-	\item Transporter z.B.: 
-Noradrenalin-/Serotonin-Transporter (Antidepressiva) Ionentransporter (Diuretika); Protonenpumpe (Omeprazol)
+	\item Transporter z.B.: Noradrenalin-/Serotonin-Transporter (Antidepressiva) Ionentransporter (Diuretika); Protonenpumpe (Omeprazol)
 	\item Ionenkanäle z.B.: 
-	Spannungsabhängiger $Na^+$-Kanal (Lokalanästhetika)
-	Spannungsabh. $Ca^{2+}$-Kanal (Calciumkanal-Blocker)
-	ATP-regulierter $K^+$-Kanal (Sulfonylharnstoffe)
+	Spannungsabhängiger Na$^+$-Kanal (Lokalanästhetika)
+	Spannungsabh. Ca$^{2+}$-Kanal (Calciumkanal-Blocker)
+	ATP-regulierter K$^+$-Kanal (Sulfonylharnstoffe)
 	\item Schlüsselenzyme (meist Inhibition) z.B.:
-		$Na^+$/$K^+$-ATPase (Digitalis-Glykoside)
+		Na$^+$/K$^+$-ATPase (Digitalis-Glykoside)
 		Monoaminoxidasen (Antidepressiva, Anti-Parkinson)
 		Acetylcholinesterase (Parasympathomimetika)		
 		Cyclooxygenase (Analgetika)
@@ -294,219 +401,447 @@ Noradrenalin-/Serotonin-Transporter (Antidepressiva) Ionentransporter (Diuretika
 		Guanylyl-Cyclase (org. Nitrate, Stimulation!)
 	\item Rezeptoren (Agonismus oder Antagonismus)	viele !
 \end{enumerate}
+
 \section{Kanäle: Definiton und Funktion}
-Membranporen, die selektiv den Transport von Ionen oder Wasser entlang eines elektrochemischen Gradienten erlauben; $10^6-10^8\frac{Ionen}{Sekunde}$
-z.B.: Spannungs-abhängig, Liganden-operiert, d. Phosphorylierung reguliert.
+Membranporen, die selektiv den Transport von Ionen oder Wasser entlang eines elektrochemischen Gradienten erlauben; $10^6-10^8\frac{Ionen}{Sekunde}$ z.B.: Spannungs-abhängig, Liganden-operiert, d. Phosphorylierung reguliert.
+
 \begin{figure}[h]
 	\centering 
-	\includegraphics[width=0.4\textwidth]{kanaele.png} 
+	\includegraphics[width=0.7\textwidth]{Bilder/kanaele.png} 
 	\caption{Kanäle der Zellmembran} 
 	\label{fig:Kanaele}
 \end{figure}
-\subsubsection{$Na^+$-Kanäle} (Beispiele)\\
+
+\subsubsection{Na$^+$-Kanäle} (Beispiele)\\
+
 \begin{itemize}
-	\item Nicht-Spannungs-abhängig (epitheliale $Na^+$-Kanäle) \textit{Pharmaka:}  Diuretika (z.B.: Amilorid) ENac		                           
-	\item Spannungs-abhängige $Na^+$-Kanäle (erregbare Zellen)
-		\textit{Pharmaka: } Lokalanästhetika, Klasse-I-Antiarrhythmika, Antiepileptika (z.B.: Lidocain, Phenytoin, Carbamazepin)
+	\item Nicht-Spannungs-abhängig (epitheliale Na$^+$-Kanäle)\\
+	Pharmaka: Diuretika (z.B.: Amilorid) ENac	                       
+	\item Spannungs-abhängige Na$^+$-Kanäle (erregbare Zellen)\\
+		Pharmaka: Lokalanästhetika, Klasse-I-Antiarrhythmika, Antiepileptika (z.B.: Lidocain, Phenytoin, Carbamazepin)
 \end{itemize}
-\subsubsection{$Ca^{2+}$-Kanäle} (Beispiele)
+
+\begin{figure}
+    \centering
+    \begin{subfigure}[b]{0.3\textwidth}
+        \includegraphics[width=\textwidth]{Bilder/transmembran.png}
+        \caption{Tranmembranabschnitt}
+        \label{fig:transmembranna}
+    \end{subfigure}
+    ~ %add desired spacing between images, e. g. ~, \quad, \qquad, \hfill etc. 
+      %(or a blank line to force the subfigure onto a new line)
+    \begin{subfigure}[b]{0.5\textwidth}
+        \includegraphics[width=\textwidth]{Bilder/kanalaufbau2.png}
+        \caption{Transmembrandomäne}
+        \label{fig:transmebrandomaene}
+    \end{subfigure}
+    ~ %add desired spacing between images, e. g. ~, \quad, \qquad, \hfill etc. 
+    %(or a blank line to force the subfigure onto a new line)
+    \begin{subfigure}[b]{0.1\textwidth}
+        \includegraphics[width=\textwidth]{Bilder/kanalaufbau1.png}
+        \caption{Aufsicht}
+        \label{fig:aufsicht}
+    \end{subfigure}
+    \caption{Struktur des Na$^+$-Kanals}
+    \label{fig:struktur_na_kanal}
+\end{figure}
+
+\subsubsection{Ca$^{2+}$-Kanäle} 
+(Beispiele)
+
 \begin{itemize}
-	\item Spannungs-abhängige $Ca^{2+}$-Kanäle \textit{Pharmaka:} $Ca^{2+}$-Kanalblocker (z.B. Dihydropyridine (Nifedipin))
+	\item Spannungs-abhängige Ca$^{2+}$-Kanäle \\
+	Pharmaka: Ca$^{2+}$-Kanalblocker (z.B. Dihydropyridine (Nifedipin))
 \end{itemize}
-\subsubsection{$K^+$-Kanäle} (Beispiele)
+
+\begin{figure}[h]
+    \centering
+    \begin{subfigure}[b]{0.3\textwidth}
+        \includegraphics[width=\textwidth]{Bilder/transmembranca.png}
+        \caption{Tranmembranabschnitt}
+        \label{fig:transmembranna}
+    \end{subfigure}
+    ~ %add desired spacing between images, e. g. ~, \quad, \qquad, \hfill etc. 
+      %(or a blank line to force the subfigure onto a new line)
+    \begin{subfigure}[b]{0.5\textwidth}
+        \includegraphics[width=\textwidth]{Bilder/kanalaufbau2.png}
+        \caption{Transmembrandomäne}
+        \label{fig:transmebrandomaene}
+    \end{subfigure}
+    \caption{Struktur des Ca$^{2+}$-Kanals}
+    \label{fig:struktur_ca_kanal}
+\end{figure}
+
+\subsubsection{K$^+$-Kanäle} 
+(Beispiele)
+
+\begin{figure}[h]
+    \centering
+    \begin{subfigure}[b]{0.3\textwidth}
+        \includegraphics[width=\textwidth]{Bilder/transmembrank.png}
+        \caption{Tranmembranabschnitt}
+        \label{fig:transmembranna}
+    \end{subfigure}
+    ~ %add desired spacing between images, e. g. ~, \quad, \qquad, \hfill etc. 
+      %(or a blank line to force the subfigure onto a new line)
+    \begin{subfigure}[b]{0.3\textwidth}
+        \includegraphics[width=\textwidth]{Bilder/aufbauk.png}
+        \caption{Transmembrandomäne}
+        \label{fig:transmebrandomaene}
+    \end{subfigure}
+    \caption{Struktur des K$^+$-Kanals}
+    \label{fig:struktur_k_kanal}
+\end{figure}
+
 \begin{itemize}
-	\item Spannungs-abhängige $K^+$-Kanäle \textit{Pharmaka:} Klasse-III-Antiarrhythmika (z.B. Amiodaron, Sotalol)
-	\item ATP-regulierte  $K^+$-Kanäle \textit{Pharmaka:} 	Orale Antidiabetika (Sulfonylharnstoffe; z.B. Glibenclamid)
-Vasorelaxantien (z.B. Minoxidil)
+	\item Spannungs-abhängige K$^+$-Kanäle \\
+	Pharmaka: Klasse-III-Antiarrhythmika (z.B. Amiodaron, Sotalol)
+	\item ATP-regulierte  K$^+$-Kanäle \\
+	Pharmaka: Orale Antidiabetika (Sulfonylharnstoffe; z.B. Glibenclamid, Vasorelaxantien (z.B. Minoxidil)
 \end{itemize}
+
 \section{Transporter: Definition und Funktion}
 Membranproteine, die selektiv den Transport von Molekülen entlang oder gegen einen elektrochemischen Gradienten erlauben; im Gegensatz zu den Kanälen findet eine Bindung an das Solut sowie eine umfangreiche  des Transporters Konformationsänderung statt; Transportrate: $10^0-10^4 \frac{Molek\ddot{u}le}{Sekunde}$
-\subsubsection{Carrier} (primär nicht-aktiver Transporter) \\
-	Uniporter, Kotransporter (Symporter), Antiporter (Austauscher)
-	Beispiele:
-\paragraph{$Na^+$/Neurotransmitter-Kotransporter}
+
+\begin{figure}[tb]
+	\centering
+	\includegraphics[width=0.9\textwidth]{Bilder/carrierpumpen.png}
+	\caption{Carrier und Pumpensysteme}
+	\label{fig:carrierpumpen}
+\end{figure}
+
+\subsection{Carrier}
+(primär nicht-aktiver Transporter), Uniporter, Kotransporter (Symporter), Antiporter (Austauscher)\\Beispiele:
+
+\subsubsection{Na$^+$/Neurotransmitter-Kotransporter}
+
 \begin{itemize}
 	\item NAT (Noradralin)	\textit{Pharmaka}: Antidepressiva (z.B.: Reboxetin, Desipramin)
 	\item SERT (Serotonin)	\textit{Pharmaka}: Antidepressiva (z.B.: Fluoxetin) 
 	\item GAT (GABA)	\textit{Pharmaka}: Antiepileptika (z.B.: Tiagabin)
 	\item DAT (Dopamin)	\textit{Pharmaka}: Cocain
 \end{itemize} 
-\paragraph{Kation/Cl--Kotransporter}
+
+\subsubsection{Kation/Cl$^-$-Kotransporter}
+
 \begin{itemize}
-	\item NKCC ($Na^+$/$K^+$/2Cl-)	\textit{Pharmaka}: Schleifendiuretika (z.B.: Furosemid)
-	\item NCC ($Na^+$/Cl-)		\textit{Pharmaka}: Diuretika (z.B.: Hydrochlorothiazid)
+	\item NKCC (Na$^+$/K$^+$/2Cl$^-$)	\textit{Pharmaka}: Schleifendiuretika (z.B.: Furosemid)
+	\item NCC (Na$^+$/Cl$^-$)		\textit{Pharmaka}: Diuretika (z.B.: Hydrochlorothiazid)
 \end{itemize} 
-\subsubsection{Pumpen} (aktive, primär ATP-verbrauchende Transporter)\\
-\paragraph{Ionenpumpen} (Beispiele)
+
+\begin{figure}[h]
+    \centering
+    \begin{subfigure}[b]{0.2\textwidth}
+        \includegraphics[width=\textwidth]{Bilder/carrier1.png}
+        \caption{Na$^+$/Neurotransmitter-Kotransporter}
+        \label{fig:neurotransmitterkotransporter}
+    \end{subfigure}
+    ~ %add desired spacing between images, e. g. ~, \quad, \qquad, \hfill etc. 
+      %(or a blank line to force the subfigure onto a new line)
+    \begin{subfigure}[b]{0.2\textwidth}
+        \includegraphics[width=\textwidth]{Bilder/carrier2.png}
+        \caption{Kation/Cl$^-$-Kotransporter}
+        \label{fig:kationencarrier}
+    \end{subfigure}
+    \caption{Carrier - Beispiele}
+    \label{fig:carrierbsp}
+\end{figure}
+
+\subsubsection{Pumpen} 
+(aktive, primär ATP-verbrauchende Transporter)\\
+
+\paragraph{Ionenpumpen} 
+(Beispiele)
+
 \begin{itemize}
-	\item $Na^+$/$K^+$-ATPase 	\textit{Pharmaka}: Digitalisglykoside (z.B.: Digitoxin)
-	\item H+/$K^+$-ATPase		\textit{Pharmaka}: Protonenpumpenhemmer (z.B.: Omeprazol)
+	\item Na$^+$/K$^+$-ATPase 	\textit{Pharmaka}: Digitalisglykoside (z.B.: Digitoxin)
+	\item H+/K$^+$-ATPase		\textit{Pharmaka}: Protonenpumpenhemmer (z.B.: Omeprazol)
 \end{itemize}
-\paragraph{ABC-Transporter} (ATP-binding cassette; Beispiele)
+
+\paragraph{ABC-Transporter} 
+(ATP-binding cassette; Beispiele)
+
 \begin{itemize}
 	\item MDR, MRP		Multidrug resistence gene product Arzneimittelresistenz (z.B. Zytostatika)	
 \end{itemize}
+
 \section{Enzyme}
 Die meisten Pharmaka, die über Enzyme wirken, hemmen als Substratanaloga das Enzym kompetitiv, reversibel oder irreversibel. Eine Ausnahme stellen z.B. organ. Nitrate dar, die durch Freisetzung von NO die Guanylylcyclase stimulieren.\\
-\begin{tabularx}{\textwidth}{X|X|X|X}
-Körpereigene Enzyme&Substrat&Produkt&Pharmakon (Beispiel)\\
-Oxidoreduktasen&&&\\ \hline
-&&&\\
-HMG-CoA-Reduktase&HMG-CoA&Mevalonat&Lovastatin, Simvastatin\\
-Vit.-K-Reduktase&Vitamin K&Vitamin-K-Hydrochinon&Phenprocoumon\\
-$5\alpha$-Reduktase&Testosteron&$5\alpha$-Dihydrotestosteron&Finasterid\\
-Cyclooxygenase&Arachidonat&Prostaglandin H2&Acetylsalicylsäure (irrev.); Diclofenac (rev.) u.a.\\
-Monoaminoxidase A&Abbau v. Serotonin, Noradrenalin, Dopamin&&Moclobemid (rev.)\\
-Monoaminoxydase B&Abbau v. Dopamin, Phenylethylamin u.a.&&Selegilin (irrev.)\\
-Xanthinoxydase&Xanthin&Harnsäure&Allopurinol\\
-Peroxidase&Tyrosylreste&Iodotyrosylreste&Carbimazol\\
-Dihydrofolatreduktase&Dihydrofolat&Tetrahydrofolat&Methotrexat\\
-Transferasen&&&\\
-Tyrosinkinase&Tyrosinreste&Phosphotyrosinreste&Imatinib, Gefitinib\\
-COMT&Catecholgruppe&Methoxycatechol&Entacapon\\
-GABA Transaminase&GABA&Succinatsemialdehyd&Vigabatrin\\
-Hydrolasen&&&\\
-Phosphodiesterase&cAMP, cGMP&AMP, GMP&Theophyllin, Sildenafil\\
-Acetylcholinesterase&Acetylcholin&Cholin, Acetat&Tacrin, Neostigmin, Sarin(irrev.)\\
-Calcineurin (Phosphatase)&P-Ser/Thr/Tyr&Ser/Thr/Tyr&Ciclosporin,Tacrolimus\\
-$\alpha$-Glucosidase&Disaccharid&Monosaccharid&Acarbose\\
-Renin&Angiotensinogen&Angiotensin I&Aliskiren\\
-ACE/Kininase II&Angiotensin I&Angiotensin II&Captopril, Lisinopril\\
-Thrombin (Faktor IIa)&Fibrinogen&Fibrin&Hirudin, Dabigatrann\\
-Enkephalinase&Enkephalin&&Racecadotril\\
-Dipeptidylpeptidase IV&GLP-1(7-36)&GLP-1(9-36)&Sitagliptin, Vildagliptin\\
-Lipase&Triacylglycerine&Monoacylglycerin, FS&Orlistat\\
-Lyasen&&&\\
-Guanylyl cyclase&GTP&cGMP&Glyceroltrinitrat, Molsidomin\\
-Dopamin-decarboxylase&L-Dopa&Dopamin&Benserazid, Carbidopa\\
-\end{tabularx}
-\begin{tabularx}{\textwidth}{X|X}
-Mikrobielle Enzyme&Pharmakon (Beispiel)\\ \hline \\
-Bakterien&\\
-Peptidoglykansynthetasen&$\beta$-Laktame\\
-Dihydrofolat-Reduktase&Trimethoprim\\
-Dihydropteroat Synthase&Sulfonamide\\
-bakt. Topoisomerase II&Gyrasehemmer\\
-Pilze&\\  
-Lanosterol C14 Demethylase&Azole\\
-Squalenepoxidase&Allylamine\\
-Protozoen&\\
-Dihydrofolat-Reduktase&Pyrimethamin\\
-Viren&\\
-HIV Reverse Transkriptase&Zidovudin, Didanosid\\
-HIV Protease&Saquinavir\\
-Neuraminidase&Zanamivir\\
-\end{tabularx}
+
+\begin{table}[h]
+	\rowcolors{1}{lightgray}{white}
+	\centering
+	\begin{longtable}{lp{3,2cm}lp{4cm}}
+		\toprule
+		Körpereigene Enzyme&Substrat&Produkt&Pharmakon (Beispiel)\\
+		\midrule \addlinespace
+		Oxidoreduktasen&&&\\ 
+		\midrule
+		HMG-CoA-Reduktase&HMG-CoA&Mevalonat&Lovastatin, Simvastatin\\
+		Vit.-K-Reduktase&Vitamin K&Vitamin-K-Hydrochinon&Phenprocoumon\\
+		$5\alpha$-Reduktase&Testosteron&$5\alpha$-Dihydrotestosteron&Finasterid\\
+		Cyclooxygenase&Arachidonat&Prostaglandin H2&Acetylsalicylsäure (irrev.); Diclofenac (rev.) u.a.\\
+		Monoaminoxidase A&Abbau v. Serotonin, Noradrenalin, Dopamin&&Moclobemid (rev.)\\
+		Monoaminoxydase B&Abbau v. Dopamin, Phenylethylamin u.a.&&Selegilin (irrev.)\\
+		Xanthinoxydase&Xanthin&Harnsäure&Allopurinol\\
+		Peroxidase&Tyrosylreste&Iodotyrosylreste&Carbimazol\\
+		Dihydrofolatreduktase&Dihydrofolat&Tetrahydrofolat&Methotrexat\\
+		\addlinespace
+		Transferasen&&&\\
+		\midrule
+		Tyrosinkinase&Tyrosinreste&Phosphotyrosinreste&Imatinib, Gefitinib\\
+		COMT&Catecholgruppe&Methoxycatechol&Entacapon\\
+		GABA Transaminase&GABA&Succinatsemialdehyd&Vigabatrin\\
+		\addlinespace
+		Hydrolasen&&&\\
+		\midrule
+		Phosphodiesterase&cAMP, cGMP&AMP, GMP&Theophyllin, Sildenafil\\
+		Acetylcholinesterase&Acetylcholin&Cholin, Acetat&Tacrin, Neostigmin, Sarin(irrev.)\\
+		Calcineurin (Phosphatase)&P-Ser/Thr/Tyr&Ser/Thr/Tyr&Ciclosporin,Tacrolimus\\
+		$\alpha$-Glucosidase&Disaccharid&Monosaccharid&Acarbose\\
+		Renin&Angiotensinogen&Angiotensin I&Aliskiren\\
+		ACE/Kininase II&Angiotensin I&Angiotensin II&Captopril, Lisinopril\\
+		Thrombin (Faktor IIa)&Fibrinogen&Fibrin&Hirudin, Dabigatrann\\
+		Enkephalinase&Enkephalin&&Racecadotril\\
+		Dipeptidylpeptidase IV&GLP-1(7-36)&GLP-1(9-36)&Sitagliptin, Vildagliptin\\
+		Lipase&Triacylglycerine&Monoacylglycerin, FS&Orlistat\\
+		\addlinespace
+		Lyasen&&&\\
+		\midrule
+		Guanylyl cyclase&GTP&cGMP&Glyceroltrinitrat, Molsidomin\\
+		Dopamin-decarboxylase&L-Dopa&Dopamin&Benserazid, Carbidopa\\
+		\bottomrule
+	\end{longtable}
+	\caption{Übersicht: pharmakologisch relevante Enzyme}
+  	\label{tab:relevante_enzyme}
+\end{table}
+
+\begin{table}[h]
+	\rowcolors{1}{lightgray}{white}
+	\centering
+	\begin{longtable}{ll}
+		\toprule
+		Mikrobielle Enzyme&Pharmakon (Beispiel)\\ 
+		\midrule \addlinespace
+		Bakterien&\\
+		\midrule
+		Peptidoglykansynthetasen&$\beta$-Laktame\\
+		Dihydrofolat-Reduktase&Trimethoprim\\
+		Dihydropteroat Synthase&Sulfonamide\\
+		bakt. Topoisomerase II&Gyrasehemmer\\
+		\addlinespace
+		Pilze&\\  
+		\midrule
+		Lanosterol C14 Demethylase&Azole\\
+		Squalenepoxidase&Allylamine\\
+		Protozoen&\\
+		Dihydrofolat-Reduktase&Pyrimethamin\\
+		\addlinespace
+		Viren&\\
+		\midrule
+		HIV Reverse Transkriptase&Zidovudin, Didanosid\\
+		HIV Protease&Saquinavir\\
+		Neuraminidase&Zanamivir\\
+	\end{longtable}
+	\caption{Übersicht: pharmakologisch relevante Enzyme}
+ 	\label{tab:relevante_enzyme}
+\end{table}
+
 \section{Rezeptor: Definition und Funktion}
+
 \begin{enumerate}
 	\item Erkennen (hohe Spezifität) und reversibles Binden (hohe Affinität) des Wirkstoffes (physiol. Ligand oder Pharmakon)
 	\item Bindung löst Signalweiterleitungsfunktion aus
 \end{enumerate}
+
 \section{Rezeptortypen}
+
 \begin{itemize}
 	\item membranär
 	\begin{itemize}
 		\item G-Protein-gekoppelte Rezeptoren
 		\item Liganden-gesteuerte Ionenkanäle
-		\item Liganden-regulierte Enzyme
-			multimere Rezeptoren 
+		\item Liganden-regulierte Enzyme multimere Rezeptoren 
 	\end{itemize}
 	\item zytosolisch/nukleär
 	\begin{itemize}
 		\item nukleäre Rezeptoren
 	\end{itemize}
 \end{itemize}
+
 \section{G-Protein-gekoppelte Rezeptoren (GPCR)}
 ca. 1500 Säugergene für G-Protein-gekoppelte Rezeptoren, davon ca. 1000 olfaktorische, gustatorische und Pheromon-Rezeptoren sowie ca. 500 Rezeptoren für Hormone, Neurotransmitter u.a.
+
+\begin{figure}
+	\centering
+	\includegraphics[width=0.2\textwidth]{Bilder/gprotein.png}
+	\caption{G-Protein}
+	\label{fig:gprotein}
+\end{figure}
+
 \subsection{Aktivierungs-/Inaktivierungs-Zyklus}
+
+\begin{figure}
+	\centering
+	\includegraphics[width=0.5\textwidth]{Bilder/gproteinzyklus.png}
+	\caption{GPCR-Zyklus}
+	\label{fig:gpcrzyklus}
+\end{figure}
+
 \section{G-Protein vermittelte Signalwege (ubiquitär)}
+
 \subsection{G$_s$-gekoppelte Rezeptoren}
 $\rightarrow$ Adenylylcyclase$\uparrow$ $\rightarrow$ cAMP$\uparrow$ $\rightarrow$ PKA$\uparrow$ $\rightarrow$ Proteinphosphorylierung
+
 \subsubsection{Beispiele}
 $\beta_{1,2}$-adrenerg	, Histamin $H_2$,Dopamin $D_1,D_5$, Prostacyclin IP, Adenosin $A_2$, Vasopressin $V_2$
+
 \subsection{G$_{i/o}$-gekoppelte Rezeptoren}
 $\rightarrow$Adenylylcyclase $\downarrow$ $\rightarrow$ cAMP$\downarrow$
-$\rightarrow$ Spannungsabh. $Ca^{2+}$-Kanal $\downarrow$ 
-$\rightarrow$ $K^+$-Kanal (GIRK) $\uparrow$
+$\rightarrow$ Spannungsabh. Ca$^{2+}$-Kanal $\downarrow$ 
+$\rightarrow$ K$^+$-Kanal (GIRK) $\uparrow$
 $\rightarrow$ Erregbarkeit $\downarrow$
-\subsubsection{Beispiele}Opioide ($\mu,\delta,\kappa$),GABAB,Cannabinoide $CB_{1,2}$	Dopamin $D_{2-4}$, mGluR2-4,6-8, $\alpha_24$-adrenerg, muskarinerg M$_{2,4}$,Adenosin A$_1$, Somatostatin Sst$_{1-5}$, 5-HT$_1$
-Chemokine CCR1-10; CXCR1-5 \\ \\
-\scriptsize
-\begin{tabularx}{\textwidth}{XXXX}
-Physiol. Ligand&Rezeptor&G-Protein(e)&Pharmaka (Beispiele)\\
-Aminosäuren&&&\\
-Glutamat&mGluR1,5;2-4,6-8&$G_{q/11}; G_{i/o}$&DHPG (1/5-Ag, experimentell)\\
-GABA&$GABA_{B1} / GABA_{B2}$&$G_{i/o}$&Baclofen (Ag)\\
-Biogene Amine&&&\\
-Acetylcholin&$M_1, M_3, M_5; M_2, M_4$&$G_{q/11}; G_{i/o}$&Atropin (Ant); Carbachol (Ag)\\
-(Nor)Adrenalin& $\alpha_{1A}, \alpha_{1B}, \alpha_{1D}, \alpha_{2A}, \alpha_{2B}, \alpha_{2C}, $&$G_{q/11}; G_{i/o}, G_S$&Phenylephrin (Ag); Prazosin (Ant)  Clonidin (Ag); Yohimbin (Ant) Isopropanol (Ag); Propranolol (Ant)\\
-$\beta_1, \beta_2, \beta_3$&&\\
-Dopamin&$D_1,D_5; D_2,D_3,D_4$& $G_{S}; G_{i/o}$&Bromocriptin/Haloperidol($D_{2-4}$-Ag/Ant)\\
-Histamin&$H_1; H_2; H_3,H_4$&$G_{q/11}; G_{i/o}, G_S$&Loratadin (H1-Ant); Ranitidin (H2-Ant)\\
-Serotonin&5-$HT_{1A/B/D/E/F}$5-$HT_{2A/B/C}; $5-$HT_{4/6/7}$&$G_{q/11}; G_{i/o}, G_S$& Sumatriptan(1B/D-Ag);Buspiron(1A-Ag), Risperidon (2A-Ant); Cisaprid (4-Ag)\\
-Melatonin&$MT_1,MT_2$&$G_{i/o}$&Ramelteon (Ag)\\
-Trace Amines&$TA_1, TA_2$&$G_S$&\\
-Ionen&&&\\
-Calcium&CaSR&$G_{q/11}; G_{i/o}$&Cinacalcet (Modul.)\\
-Nukleotide / Nukleoside&&&\\
-Adenosin&$A_1,A_3; A_{2A}, A_{2B}$&$G_{i/o}, G_S$&Theophyllin, Coffein (Ant)\\
-ADP&$P2Y_{12}, P2Y_{13}$&$G_{i/o}$&Clopidogrel ($P2Y_{12}$-Ant)\\
-Lipide&&&\\
-Endocannabinoide&$CB_1, CB_2$&$G_{i/o}$&$\Delta$9-THC (Ag); Rimonabant (CB1-Ant)\\
-$LTC_4, LTD_4$&$CysLT1, CysLT2$&$G_{q/11}$&Montelukast (Ant)\\
-Lysophospholipide&$LPA_{1-5}, S1P_{1-5}$&$G_{q/11},G_{12/13}, G_{i/o}$&Fingolimod (FTY720; S1P-Ag.)\\
-Prostacyclin ($PGI_2$)&IP&$G_s$&Iloprost (Ag)\\
-Prostaglandin $E_2$&$EP_1; EP_2; EP_4; EP_3$&$G_{q/11}; G_s; G_{q/11}, G_i$&Misoprostol (Ag)\\
-Peptide / Proteine&&&\\
-Angiotensin II&$AT_1; AT_2$&$G_{q/11}, G_{12/13}, G_{i/o}; ?$&Losartan (AT1-Ant)\\
-Bradykinin&$B_1, B_2$&$G_{q/11}$&Icatibant($B_2$-Ant; experim.)\\
-CGRP&CL+RAMP1&$G_{q/11}. G_S$&BIBN 4096 BS (Ant, exp.)\\
-Chemokine&CCR1-10;CXCR1-5&$G_{i/o}$&Maraviroc (CCR5-Antag.)\\
-Cholecyctokinin&$CCK_1, CCK_2$&$G_{q/11}. G_S$&\\
-Komplem. C3a / C5a&C3a; C5a&$G_{i/o}$&\\
-Endothelin- 1, -2, -3&$ET_A; ET_B$&$G_{q/11}, G_{12/13}, G_s$&Bosentan (ETA/B-Ant), Darusentan (ETA-Ant)\\
-Galanil&GAL1-3&$G_{q/11}, G_{i/o}$&\\
-Glucagon-like pept.&GLP1-3&$G_S$&Exenatid (Ag)\\
-Glykoproteinhorm.&TSH, LH, FSH&$G_s$&\\
-Melanocortine&MC1,3,4,5&$G_S$&\\
-Glukagon&Glukagon&$G_S$&\\
-Gonadoliberin&GnRH&$G_{q/11}$&Buserelin (Ag)\\
-Motilin&GPR38&$G_{q/11}$&Erythromycin (Ag)\\
-Opioide&$\gamma, \kappa, \mu$, ORL1&$G_{i/o}$&Morphin (Ag), Naloxon (Ant)\\
-Orexin A/B&OXYD, OX2&$G_s, G_{q/11}$&\\
-Oxytocin&OT&$G_{q/11}, G_{i/o}$&Atosiban (Ant, experimentell)\\
-PTH&PTH/PTHrP&$G_s, G_{q/11}$&Teriparatid (Ag)\\
-Sekretin&Secretin&$G_s$&\\
-Somatostatin&$SST_{1-5}$&$G_{i/o}$&Octreotid (Ag)\\
-Substance P&$NK_1$&$G_{q/11}$&Aprepitant (Ant)\\
-Urotensin II&UT-II (GPR14)&$G_{q/11}$&\\
-VIP, PACAP&$VPAC_{1,2}, PAC_1$&$G_s$&\\
-Vasopressin&$V_{1a}, V_{1b}; V_2$&$G_{q/11}; G_s$&Desmopressin ($V_2$-Ag), Terlipressin ($V_1$-Ag)\\
-Proteasen (der durch proteolyt. Spaltung gebildete “neue” N-Terminus fungiert als interner Ligand)&&&\\
-Thrombin u.a.&PAR-1/2/4&$G_{q/11}, G_{12/13}, G{i/o}$&\\
-Trypsin u.a.&PAR-2&$G_{q/11}$&\\
-“orphan”-Rezeptoren (physiologischer Ligand bisher unbekannt)\\
-?&GRP109A (HM74a)&$G_i$&Nikotinsäure (Ag)\\
-\end{tabularx}
+
+\subsubsection{Beispiele}
+Opioide ($\mu,\delta,\kappa$),GABA$_B$,Cannabinoide CB$_{1,2}$	Dopamin D$_{2-4}$, mGluR2-4,6-8, $\alpha_24$-adrenerg, muskarinerg M$_{2,4}$,Adenosin A$_1$, Somatostatin Sst$_{1-5}$, 5-HT$_1$
+Chemokine CCR1-10; CXCR1-5 
+
+\begin{table}
+	\scriptsize
+	\rowcolors{2}{lightgray}{white}
+	\centering
+	\begin{longtable}{p{3cm}p{3cm}lp{6cm}}
+		\toprule
+		Physiol. Ligand&Rezeptor&G-Protein(e)&Pharmaka (Beispiele)\\
+		\addlinespace
+		Aminosäuren&&&\\
+		\midrule
+		Glutamat&mGluR1,5;2-4,6-8&$G_{q/11}; G_{i/o}$&DHPG (1/5-Ag, experimentell)\\
+		GABA&GABA$_{B1}$ GABA$_{B2}$&$G_{i/o}$&Baclofen (Ag)\\
+		\addlinespace
+		Biogene Amine&&&\\
+		\midrule
+		Acetylcholin&$M_1, M_3, M_5; M_2, M_4$&$G_{q/11}; G_{i/o}$&Atropin (Ant); Carbachol (Ag)\\
+		(Nor)Adrenalin& $\alpha_{1A}$, $\alpha_{1B}$, $\alpha_{1D}$, $\alpha_{2A}$, $\alpha_{2B}$, $\alpha_{2C}$, $\beta_1$, $\beta_2$, $\beta_3$&$G_{q/11}; G_{i/o}, G_S$&Phenylephrin (Ag); Prazosin (Ant)  Clonidin (Ag); Yohimbin (Ant) Isopropanol (Ag); Propranolol (Ant)\\
+		Dopamin&D$_1$,D$_5$; D$_2$,D$_3$,D$_4$& G$_{S}$; G$_{i/o}$&Bromocriptin/Haloperidol($D_{2-4}$-Ag/Ant)\\
+		Histamin&$H_1; H_2; H_3,H_4$&$G_{q/11}; G_{i/o}, G_S$&Loratadin (H1-Ant); Ranitidin (H2-Ant)\\
+		Serotonin&5-$HT_{1A/B/D/E/F}$5-$HT_{2A/B/C}; $5-$HT_{4/6/7}$&$G_{q/11}; G_{i/o}, G_S$& Sumatriptan(1B/D-Ag);Buspiron(1A-Ag), Risperidon (2A-Ant); Cisaprid (4-Ag)\\
+		Melatonin&$MT_1,MT_2$&$G_{i/o}$&Ramelteon (Ag)\\
+		Trace Amines&$TA_1, TA_2$&$G_S$&\\
+		\addlinespace
+		Ionen&&&\\
+		\midrule
+		Calcium&CaSR&$G_{q/11}; G_{i/o}$&Cinacalcet (Modul.)\\
+		\addlinespace
+		\multicolumn{4}{l}{Nukleotide / Nukleoside}\\
+		\midrule
+		Adenosin&$A_1,A_3; A_{2A}, A_{2B}$&$G_{i/o}, G_S$&Theophyllin, Coffein (Ant)\\
+		ADP&$P2Y_{12}, P2Y_{13}$&$G_{i/o}$&Clopidogrel ($P2Y_{12}$-Ant)\\
+		\addlinespace
+		Lipide&&&\\
+		\midrule
+		Endocannabinoide&$CB_1, CB_2$&$G_{i/o}$&$\Delta$9-THC (Ag); Rimonabant (CB1-Ant)\\
+		$LTC_4, LTD_4$&$CysLT1, CysLT2$&$G_{q/11}$&Montelukast (Ant)\\
+		Lysophospholipide&$LPA_{1-5}, S1P_{1-5}$&$G_{q/11},G_{12/13}, G_{i/o}$&Fingolimod (FTY720; S1P-Ag.)\\
+		Prostacyclin ($PGI_2$)&IP&$G_s$&Iloprost (Ag)\\
+		Prostaglandin $E_2$&$EP_1; EP_2; EP_4; EP_3$&$G_{q/11}; G_s; G_{q/11}, G_i$&Misoprostol (Ag)\\
+		\addlinespace
+		Peptide / Proteine&&&\\
+		\midrule
+		Angiotensin II&$AT_1; AT_2$&$G_{q/11}, G_{12/13}, G_{i/o}; ?$&Losartan (AT1-Ant)\\
+		Bradykinin&$B_1, B_2$&$G_{q/11}$&Icatibant($B_2$-Ant; experim.)\\
+		CGRP&CL+RAMP1&$G_{q/11}. G_S$&BIBN 4096 BS (Ant, exp.)\\
+		Chemokine&CCR1-10;CXCR1-5&$G_{i/o}$&Maraviroc (CCR5-Antag.)\\
+		Cholecyctokinin&$CCK_1, CCK_2$&$G_{q/11}. G_S$&\\
+		Komplem. C3a / C5a&C3a; C5a&$G_{i/o}$&\\
+		Endothelin- 1, -2, -3&$ET_A; ET_B$&$G_{q/11}, G_{12/13}, G_s$&Bosentan (ETA/B-Ant), Darusentan (ETA-Ant)\\
+		Galanil&GAL1-3&$G_{q/11}, G_{i/o}$&\\
+		Glucagon-like pept.&GLP1-3&$G_S$&Exenatid (Ag)\\
+		Glykoproteinhorm.&TSH, LH, FSH&$G_s$&\\
+		Melanocortine&MC1,3,4,5&$G_S$&\\
+		Glukagon&Glukagon&$G_S$&\\
+		Gonadoliberin&GnRH&$G_{q/11}$&Buserelin (Ag)\\
+		Motilin&GPR38&$G_{q/11}$&Erythromycin (Ag)\\
+		Opioide&$\gamma, \kappa, \mu$, ORL1&$G_{i/o}$&Morphin (Ag), Naloxon (Ant)\\
+		Orexin A/B&OXYD, OX2&$G_s, G_{q/11}$&\\
+		Oxytocin&OT&$G_{q/11}, G_{i/o}$&Atosiban (Ant, experimentell)\\
+		PTH&PTH/PTHrP&$G_s, G_{q/11}$&Teriparatid (Ag)\\
+		Sekretin&Secretin&$G_s$&\\
+		Somatostatin&$SST_{1-5}$&$G_{i/o}$&Octreotid (Ag)\\
+		Substance P&$NK_1$&$G_{q/11}$&Aprepitant (Ant)\\
+		Urotensin II&UT-II (GPR14)&$G_{q/11}$&\\
+		VIP, PACAP&$VPAC_{1,2}, PAC_1$&$G_s$&\\
+		Vasopressin&$V_{1a}, V_{1b}; V_2$&$G_{q/11}; G_s$&Desmopressin ($V_2$-Ag), Terlipressin ($V_1$-Ag)\\
+		\addlinespace
+		\multicolumn{4}{l}{Proteasen (der durch proteolyt. Spaltung gebildete “neue” N-Terminus fungiert als interner Ligand)}\\
+		\midrule
+		Thrombin u.a.&PAR-1/2/4&$G_{q/11}, G_{12/13}, G{i/o}$&\\
+		Trypsin u.a.&PAR-2&$G_{q/11}$&\\
+		\addlinespace
+		\multicolumn{4}{l}{“orphan”-Rezeptoren (physiologischer Ligand bisher unbekannt)}\\
+		\midrule
+		?&GRP109A (HM74a)&$G_i$&Nikotinsäure (Ag)\\
+		\bottomrule
+	\end{longtable}
+	\caption{Übersicht: pharmakologisch relevante Enzyme}
+ 	\label{tab:relevante_enzyme}
+\end{table}
+
 \normalsize
+
 \section{Liganden-gesteuerte Ionenkanäle}
-\begin{tabularx}{\textwidth}{XXXX}
-Rezeptor&Ligand&Kanaltyp&Pharmaka(Beispiele)\\
-Pentamere&&&\\
-nikotinisch&Acetylcholin&$Na^+/ K^+$&Curare/Muskelrelaxantien (Ant)\\
-$5-HT_3$&Serotonin&$Na^+/ K^+$&Ondansetron (Ant; Antiemetika)\\
-$GABA_A$&$GABA_A$&$Cl^-$&Benzodiazepine (Modul.)\\
-Glyzin-R.&Glyzin-R.&$Cl^-$&Strychnin (Ant)\\
-Tetramere&&&\\
-NMDA&Glutamat&$Na^+/ K^+/ (Ca^{2+})$&Phencyclidin (Ant), Memantin (Modul.)\\
-AMPA&“&$Na^+/ K^+$&\\
-Kainat&“&$Na^+/K^+$&\\
-Trimere&&&\\
-ATP&P2X&$Na^+/ K^+/ (Ca^{2+})$&\\
-\end{tabularx}
+
+\begin{figure}
+    \centering
+    \begin{subfigure}[b]{0.2\textwidth}
+        \includegraphics[width=\textwidth]{Bilder/ligand2.png}
+        \caption{Beispiel 1}
+        \label{fig:ligand1}
+    \end{subfigure}
+    ~ %add desired spacing between images, e. g. ~, \quad, \qquad, \hfill etc. 
+      %(or a blank line to force the subfigure onto a new line)
+    \begin{subfigure}[b]{0.2\textwidth}
+        \includegraphics[width=\textwidth]{Bilder/ligand1.png}
+        \caption{Beispiel 2}
+        \label{fig:ligand2}
+    \end{subfigure}
+    \caption{Liganden-regulierte Enzyme}
+    \label{fig:liganden_enzyme}
+\end{figure}
+
+\begin{table}
+	\rowcolors{2}{lightgray}{white}
+	\centering
+	\begin{longtable}{lllp{4cm}}
+		\toprule
+		Rezeptor&Ligand&Kanaltyp&Pharmaka(Beispiele)\\ \midrule \addlinespace
+		Pentamere&&&\\ \midrule 
+		nikotinisch&Acetylcholin&$Na^+/ K^+$&Curare/Muskelrelaxantien (Ant)\\
+		5-HT$_3$&Serotonin&Na$^+$/ K$^+$&Ondansetron (Ant; Antiemetika)\\
+		GABA$_A$&GABA$_A$&Cl$^-$&Benzodiazepine (Modul.)\\
+		Glyzin-R.&Glyzin-R.&$Cl^-$&Strychnin (Ant)\\ \addlinespace
+		Tetramere&&&\\ \midrule
+		NMDA&Glutamat&Na$^+$/ K$^+$/ (Ca$^{2+}$)&Phencyclidin (Ant), Memantin (Modul.)\\
+		AMPA&“&Na$^+$/ K$^+$&\\
+		Kainat&“&Na$^+$/K$^+$&\\
+		Trimere&&&\\
+		ATP&P2X&Na$^+$/ K$^+$/ (Ca$^{2+}$)&\\
+		\bottomrule
+	\end{longtable}
+	\caption{Übersicht: pharmakologisch relevante Enzyme}
+ 	\label{tab:relevante_enzyme}
+\end{table}
+
 \section{Liganden-regulierte Enzyme}
+\begin{figure}
+	\centering
+	\includegraphics[width=0.5\textwidth]{Bilder/ligandenzum.jpeg}
+	\caption{Caption here}
+	\label{fig:figure1}
+\end{figure}
+
 \subsection{Rezeptoren mit Tyrosinkinase-Aktivität (Beispiel: Insulin-Rezeptor)}
-BILD!
+
 \begin{itemize}
 	\item Insulin-Rezeptor Familie:  Insulin, Insulin-like growth factor (IGF-1) etc.
 	\item Pharmaka: verschiedene Insuline
@@ -523,6 +858,7 @@ BILD!
 	\item Hepatocyte growth factor (HGF): HGF 
 	\item Eph family receptors: Ephs, Ephrins;   Axl; Tie; etc..
 \end{itemize}
+
 \section{nukleäre Rezeptoren}
 \begin{tabularx}{\textwidth}{XXX}
 Ligand&Rezeptor A/B&Pharmaka (Beispiele)\\
@@ -658,7 +994,7 @@ treten bei jedem Patienten dosisabhängig und spezifisch auf: \glqq Die Dosis ma
 		\item Unerw: Wirkungen in der Schwangerschaft meist Phasen-spezifisch
 		\item Blastogenese  bei Schädigung $\rightarrow$ Abstoßung
 		\item Embryogenese/Organogenese (Tag 15 - Tag 60) hohe Gefährdung durch teratogene Substanzen ! z.B.: Thalidomid $\rightarrow$ Phokomelien, Lithium $\rightarrow$ Herzmißbildungen, Alkohol $\rightarrow$ Entwicklungsverzögerung, Gesichtsmißbildungen,	Phenytoin $\rightarrow$ Gaumenspalten
-		\item Fetalphase (Histogenese/funktionelle Reifung; 3. Monat - Geburt) keine teratogene Gefährdung, aber selektive unerwünschte Wirkungen v.a. auf Funktion und Wachstum des Fetus z.B.: 	ACE- Hemmer: gegenüber der Mutter gesteigerte Empfindlichkeit des Fetus $\rightarrow$ RR $\downarrow$ $\rightarrow$ Nierenfunktion $\downarrow$ $\rightarrow$ Anurie $\rightarrow$ Fruchtwassermangel; Tetrazykline: Einlagerung als $Ca^{2+}$-Komplex in Zahnschmelz und Knochen $\rightarrow$ Gelbfärbung der Zähne, evtl. Knochenschädigungen; Stillzeit: Im Gegensatz zur Schwangerschaft geringere Gefahr unerwünschter Wirkungen auf Kind
+		\item Fetalphase (Histogenese/funktionelle Reifung; 3. Monat - Geburt) keine teratogene Gefährdung, aber selektive unerwünschte Wirkungen v.a. auf Funktion und Wachstum des Fetus z.B.: 	ACE- Hemmer: gegenüber der Mutter gesteigerte Empfindlichkeit des Fetus $\rightarrow$ RR $\downarrow$ $\rightarrow$ Nierenfunktion $\downarrow$ $\rightarrow$ Anurie $\rightarrow$ Fruchtwassermangel; Tetrazykline: Einlagerung als Ca$^{2+}$-Komplex in Zahnschmelz und Knochen $\rightarrow$ Gelbfärbung der Zähne, evtl. Knochenschädigungen; Stillzeit: Im Gegensatz zur Schwangerschaft geringere Gefahr unerwünschter Wirkungen auf Kind
 	\end{itemize}
 	\item Pharmakogenetische Faktoren
 	\begin{itemize}
@@ -699,7 +1035,7 @@ Aminoglykoside&+ Schleifendiuretika&Oto-, Nephro-Toxizität $\uparrow$\\
 PDE5-Hemmer&+ organ. Nitrate&Schwere Hypotension\\
 MAOA-Hemmer&+ SSRI (z.B.: Fluoxetin)&Serotoninsyndrom\\
 ASS, Clopidogrel&+ Cumarinderivate&Blutungsneigung (v.a. Magen/Darm) $\uparrow$\\
-$K^+$-sparende Diuretika&+ ACE-Hemmer/AT1-Blocker&Hyperkaliämiegefahr\\
+K$^+$-sparende Diuretika&+ ACE-Hemmer/AT1-Blocker&Hyperkaliämiegefahr\\
 Benzodiazepine&+ Ethanol&Sedation$\Uparrow$\\
 Antagonistischer Effekt&&\\
 NSAIDs (z.B. Ibuprofen, Indomethacin)&+ Antihypertensiva(v.a. Diuretika)&Aufhebung der antihypertensiven Wirkung\\
@@ -723,7 +1059,7 @@ Myelinisierung&Nerven myelinisiert&postganglionär nicht myelinisiert\\
 \end{tabularx}
 \section{Acetylcholin}
 \subsection{Cholinerge Synapse}
-Depolarisation $\rightarrow$ $Ca^{2+}$-Einstrom $\rightarrow$ 	Freisetzung von Ach aus Vesikeln in den synapt. Spalt $\rightarrow$ Bindung von Ach an postsynapt. Rezeptor $\rightarrow$ Inaktivierung von Ach durch Acetylcholinesterase (260 kDa, $\alpha$2,$\beta$2-Struktur, ca. 20.000/s)
+Depolarisation $\rightarrow$ Ca$^{2+}$-Einstrom $\rightarrow$ 	Freisetzung von Ach aus Vesikeln in den synapt. Spalt $\rightarrow$ Bindung von Ach an postsynapt. Rezeptor $\rightarrow$ Inaktivierung von Ach durch Acetylcholinesterase (260 kDa, $\alpha$2,$\beta$2-Struktur, ca. 20.000/s)
 \subsection{Acetylcholinesterase}
 \subsubsection{motorische Endplatte}
 3 x 4 enzymatische Untereinheiten über Kollagenanker an Basalmembran des synaptischen Spalts verankert extrem hohe Umsatzrate (ca. 20.000 Ach-Moleküle/s)
@@ -750,8 +1086,8 @@ Rezeptorsubtyp&Hauptlokalisation&zellulärer Effekt&Effektorsystem\\
 $M_1$&neuronal ZNS&Exzitation &\\
 &auton. Ganglien&Magensaftsekretion $\uparrow$&PLC$\uparrow$ ($G_{q/11}$)\\
 &(v.a. enteral)&M.-D.-Motilität $\uparrow$&\\
-$M_2$&kardial Sinusknoten&diastol. Depolar.$\downarrow$ $\Rightarrow$ HF $\downarrow$ &$K^+$-Kanal$\uparrow$\\
-&AV-Knoten&Fortleitung $\downarrow$&$Ca^{2+}$-Kanal $\downarrow$\\ 
+$M_2$&kardial Sinusknoten&diastol. Depolar.$\downarrow$ $\Rightarrow$ HF $\downarrow$ &K$^+$-Kanal$\uparrow$\\
+&AV-Knoten&Fortleitung $\downarrow$&Ca$^{2+}$-Kanal $\downarrow$\\ 
 &Atrium (Ventrikel)&Kontraktionskraft $\downarrow$&A-cyclase $\downarrow$\\
 &präsynaptisch&Transmitterfreisetzung $\downarrow$&($G_{i/o}$)\\
 $M_3$&exokrine Drüsen (Pankreas, Parotis)&Sekretion $\uparrow$&\\
@@ -768,14 +1104,14 @@ ionotrope Rezeptoren, Pentamere,
 $\alpha$-Untereinheit bindet Ach
 Rezeptor bildet $Na^+/K^+$-Kanal, 
 der d. Bindung von Ach geöffnet wird 
-$\rightarrow$ $Na^+$-Einstrom $\rightarrow$ Depolarisation 
+$\rightarrow$ Na$^+$-Einstrom $\rightarrow$ Depolarisation 
  
 $N_M$ 	(muskulärer Typ)
 ($\alpha$1)$_2$,$\beta$1,$\delta$,$\epsilon$ (embryonal/denerv. Muskel:$\gamma$ statt $\epsilon$)
 neuromuskuläre Endplatte der Skelettmuskulatur, vermittelt Kontraktion	
 $N_N$ 	(neuronaler Typ)
 ($\alpha$4)$_2$/($\beta$2)$_3$ 	häufig im ZNS, (v.a. $K^+/Na^+$ permeabel)
-($\alpha$7)$_5$ 	häufig im ZNS, (auch $Ca^{2+}$ permeabel)
+($\alpha$7)$_5$ 	häufig im ZNS, (auch Ca$^{2+}$ permeabel)
 ($\alpha$3)$_2$/($\beta$4)$_3$ Ganglion-Typ $\rightarrow$ Depolarisation/Weiterleitung; 
 NN-Mark $\rightarrow$ Sekretion von Katecholaminen
 \subsection{Agonisten / Antagonisten des nikotinischen Ach-Rezeptor}
@@ -938,7 +1274,7 @@ Noradrenalin Adrenalin
 	\item Catechol-O-Methyltransferase (COMT) Abbau zirkulierend. Katecholam. v.a. Leber/Niere
 \end{itemize}
 \subsection{adrenerge Varikosität}
-das postganglionäre sympathische Neuron endet im Endorgan in Form eines Terminalretikulums, das Varikositäten aufweist Mechanismus der Freisetzung: Aktionspotential $\rightarrow$ Depolarisation $\rightarrow$ Einstrom von $Ca^{2+}$ durch spannungsabhängige $Ca^{2+}$-Kanäle $\rightarrow$ Fusion synaptischer Vesikel mit der präsynaptischen Membran $\rightarrow$ Freisetzung von Noradrenalin zusammen mit Kotransmittern (z.B. ATP, Neuropeptid Y) Terminierung der Wirkung von Noradrenalin durch Wiederaufnahme.
+das postganglionäre sympathische Neuron endet im Endorgan in Form eines Terminalretikulums, das Varikositäten aufweist Mechanismus der Freisetzung: Aktionspotential $\rightarrow$ Depolarisation $\rightarrow$ Einstrom von Ca$^{2+}$ durch spannungsabhängige Ca$^{2+}$-Kanäle $\rightarrow$ Fusion synaptischer Vesikel mit der präsynaptischen Membran $\rightarrow$ Freisetzung von Noradrenalin zusammen mit Kotransmittern (z.B. ATP, Neuropeptid Y) Terminierung der Wirkung von Noradrenalin durch Wiederaufnahme.
 \subsection{Hemmer der NA-Freisetzung}
 \begin{itemize}
 	\item Reserpin (Rauwolfia-Alkaloid) hemmt Speicherung von NA in Vesikel über vesikul. Monoamin-Transporter $\rightarrow$ Wirkung auch auf Dopamin- und Serotonin-Speicherung
@@ -946,7 +1282,7 @@ das postganglionäre sympathische Neuron endet im Endorgan in Form eines Termina
 		\item Einsatz: Reserveantihypertensivum
 		\item unerwünschte Wirkungen: Depression (ZNS-Effekt), Parkinsonismus, HF$\downarrow$, (RR$\downarrow$)
 	\end{itemize}		
-	\item Guanethidin Aufnahme und Speicherung wie NA$\rightarrow$ Anreicherung in Axon$\rightarrow$ Blockade schneller $Na^+$-Kanäle$\rightarrow$ Depol.$\downarrow$ $\rightarrow$ NA-Freisetzung$\downarrow$
+	\item Guanethidin Aufnahme und Speicherung wie NA$\rightarrow$ Anreicherung in Axon$\rightarrow$ Blockade schneller Na$^+$-Kanäle$\rightarrow$ Depol.$\downarrow$ $\rightarrow$ NA-Freisetzung$\downarrow$
 	\item $\alpha$-Methyldopa pro-drug, Umwandlung in $\alpha$-Methyl-NA$\rightarrow$ vesikuläre Speicherung als „falscher Transmitter“ 
 	\begin{itemize}
 		\item Agonist an prä- und postsynapt. $\alpha_2$-Adrenozeptoren 
@@ -980,10 +1316,10 @@ v.a. Serotonin: MDA, MDMA, Fenfluramin, Sibutramin
 & Blasensphinkter & Kontraktion & \\ \hline
 & Leber & Glycogenolyse$\uparrow$ Gluconeogenese$\uparrow$ &  \\ \hline
 & Auge (M. dilatator pup.) & Mydriasis & \textbf{} \\ \hline
-\textbf{$\alpha_2$($\alpha_{2A,B,C}$)} & sympathische, postgangl. präsynapt.Nervenend.($\alpha_{2A}$ + $\alpha_{2C}$)&NA-Freisetzung$\downarrow$ &  $K^+$-Kanal$\uparrow$ A-cyclase $\downarrow$ $Ca^{2+}$-Kanal$\downarrow$ ($G_i/G_o$) \\ \hline
+\textbf{$\alpha_2$($\alpha_{2A,B,C}$)} & sympathische, postgangl. präsynapt.Nervenend.($\alpha_{2A}$ + $\alpha_{2C}$)&NA-Freisetzung$\downarrow$ &  K$^+$-Kanal$\uparrow$ A-cyclase $\downarrow$ Ca$^{2+}$-Kanal$\downarrow$ ($G_i/G_o$) \\ \hline
 & ZNS	($\alpha_{2A}$) & Sympathikotonus $\downarrow$ Sedierung &  \\ \hline
 & $\beta$-Zellen (Pankreas) & Insulin-Freisetzung $\downarrow$ & \\ \hline
-{$\beta_1$} & Herz & Inotropie$\uparrow$ Chronotropie$\uparrow$ Dromotropie$\uparrow$ &  A-cyclase$\uparrow$ $Ca^{2+}$-Kanal$\uparrow$ (Herz via PKA) ($G_s$) \\ \hline
+{$\beta_1$} & Herz & Inotropie$\uparrow$ Chronotropie$\uparrow$ Dromotropie$\uparrow$ &  A-cyclase$\uparrow$ Ca$^{2+}$-Kanal$\uparrow$ (Herz via PKA) ($G_s$) \\ \hline
 & juxtaglomeruläre Zellen & Renin-Freisetzung $\uparrow$ & \\ \hline
 \textbf{$\beta_2$} & Bronchialmuskulatur & Relaxation & A-cyclase $\uparrow$ ($G_s$) \\ \hline
 & glatter Gefäßmuskel (Skelettm.) & Relaxation & \\ \hline
@@ -1117,7 +1453,7 @@ Lipophilie$\downarrow$&schlechte Resorption\\
 \end{itemize}
 \subsection{Wechselwirkungen}
 \begin{itemize}
-	\item $Ca^{2+}$-Antagonsiten vom Verapamil- und Diltiazem-Typ (Kardiodepression; AV-Block)
+	\item Ca$^{2+}$-Antagonsiten vom Verapamil- und Diltiazem-Typ (Kardiodepression; AV-Block)
 	\item Herzglykoside (neg. chronotrop)
 	\item orale Antidiabetika/Insulin (verstärkte Hypoglykämieneigung)
 \end{itemize}
@@ -1212,7 +1548,7 @@ Trandolapril&16-24 h&50\%&renal&1 x 4&1 x 4\\
 \end{itemize}
 \paragraph{Wechselwirkungen}
 \begin{itemize}
-	\item $K^+$-sparenden Diuretika vermeiden (Hyperkaliämiegefahr)
+	\item K$^+$-sparenden Diuretika vermeiden (Hyperkaliämiegefahr)
 	\item nicht-steroidale Antirheumatika (ACE-Hemmerwirkung$\downarrow$)
 \end{itemize}
 \section{$AT_1$-Rezeptor-Antagonisten}
@@ -1233,7 +1569,7 @@ Telmisartan24 h&43\%&v.a. biliär&1 x 20-80 mg\\
 Klasse&Wirkort\\
 Schleifendiuretika&aufsteigender Ast der Henleschen Schleife\\
 Benzothiadiazine/Thiazide&frühdistaler Tubulus\\
-$K^+$-sparende Diuretika&spätdistaler Tubulus, Sammelrohr\\
+K$^+$-sparende Diuretika&spätdistaler Tubulus, Sammelrohr\\
 Aldosteronantagonisten&	spätdistaler Tubulus, Sammelrohr\\
 osmotische Diuretika&\\
 \end{tabularx}
@@ -1242,16 +1578,16 @@ Regulation durch den „juxta-glomerulären Apparat“ Macula densa Zellen$\righ
 \\ 
 Juxtaglomeruläre Zellen / Vas afferens$\rightarrow$Reninfreisetzung / Tonusregulation
 \paragraph{Regulation der GFR des Einzelnephrons} 
-(TGF sensu stricto) GFR $\rightarrow$ NaCl-Aufnahme in MD-Zellen$\rightarrow$ ATP/ Adenosin-Bildung$\rightarrow$Vasokonstriktion d. Vas afferens
+(TGF sensu stricto) GFR $\rightarrow$ NaCl$^-$Aufnahme in MD-Zellen$\rightarrow$ ATP/ Adenosin-Bildung$\rightarrow$Vasokonstriktion d. Vas afferens
 \paragraph{Regulation der Reninfreisetzung über MD} z.B. drohender 
-NaCl/Volumen-Verlust $\rightarrow$ NaCl-Aufnahme in MD-Zellen$\rightarrow$ PGE2$\rightarrow$ Reninfreisetzung
+NaCl/Volumen-Verlust $\rightarrow$ NaCl$^-$Aufnahme in MD-Zellen$\rightarrow$ PGE2$\rightarrow$ Reninfreisetzung
 \section{Schleifendiuretika}
 \begin{tabularx}{\textwidth}{XX}
 Furosemid&Piretamid\\ 	  
 Torasemid&Bumetamid\\
 \end{tabularx}
 \paragraph{Wirkmechanismus}
-reversible Hemmung des $Na^+$ $K^+$ $2Cl^-$-Cotransporters (NKCC2) im aufsteig. Schenkel 
+reversible Hemmung des Na$^+$ K$^+$ $2Cl^-$-Cotransporters (NKCC2) im aufsteig. Schenkel 
 
 
 der Henleschen Schleife,rascher Venen-dilatierender Effekt (humoral über die Niere vermittelt)	Wirkung ist kurz und intensiv („high ceiling“)
@@ -1296,7 +1632,7 @@ Indapamid&93\%&15-18 h&2,5 mg\\
 Xipamid&$>$95\%&7 h&40 mg\\
 \end{tabularx}
 \paragraph{Wirkmechanismus}
-Hemmung des fast ausschließlich im frühdistalen Tubulus exprimierten $Na^+$/Cl--Kotransportes (NCC)\\
+Hemmung des fast ausschließlich im frühdistalen Tubulus exprimierten Na$^+$/Cl$^-$-Kotransportes (NCC)\\
 Wirkung weniger stark aber länger als Schleifendiuretika\\
 \begin{itemize}
 	\item maximal 10\% des glomerulär 	filtrierten  Volumens
@@ -1304,7 +1640,7 @@ Wirkung weniger stark aber länger als Schleifendiuretika\\
 	\item Wirkdauer: 8-12 h (Hydrochlorthiazid) 
 	\item GFR $\downarrow$ 
 \end{itemize}
-vermehrte Ausscheidung von $Na^+, Cl^-, K^+, Mg^{2+}$ verminderte Ausscheidung von $Ca^{2+}$
+vermehrte Ausscheidung von $Na^+, Cl^-, K^+, Mg^{2+}$ verminderte Ausscheidung von Ca$^{2+}$
 \paragraph{Pharmakokinetik}
 \begin{itemize}
 	\item Bioverfügbarkeit: 70-100 %, 
@@ -1334,12 +1670,12 @@ bei niedriger Dosierung selten!
 	\item Hyperkalziurie
 \end{itemize}
 \paragraph{Kontraindikationen}Niereninsuffizienz (Kreatinin $>$ 2-2,5 $\frac{mg}{dl}$), bei Hypokaliämieentwicklung: Kalium-reiche Kost oder Kombination mit Kalium-sparenden Diuretika (Triamteren 50 mg, Amilorid 5 mg; keine Kombination mit ACE-Hemmern!)
-\section{$K^+$-sparende Diuretika}
+\section{K$^+$-sparende Diuretika}
 \begin{tabularx}{\textwidth}{XX}
 Triamteren&Amilorid\\
 \end{tabularx}
 \paragraph{Wirkmechanismus}
-Hemmung des epithelialen $Na^+$-Kanals (ENaC)im spätdistalen Tubulus und im Sammelrohr\\
+Hemmung des epithelialen Na$^+$-Kanals (ENaC)im spätdistalen Tubulus und im Sammelrohr\\
 schwacher diuretischer Effekt, lange Wirkung
 \begin{itemize}
 	\item maximal 2-3\% des glomerulär filtrierten Volumens
@@ -1350,13 +1686,13 @@ schwacher Effekt!
 \\
 Leicht vermehrte Ausscheidung von $Na^+, Cl^-, HCO_3^-$\\ 
 Leicht verminderte Ausscheidung von: $K^+, Mg^{2+}$\\
-kaum Einfluß auf Ausscheidung von $Ca^{2+}$\\
-Hemmung der $Na^+$-Resorption $\rightarrow$ lumennegatives transzelluläres Potential $\downarrow$ $\rightarrow$ passive Sekretion von $K^+$ $\downarrow$
+kaum Einfluß auf Ausscheidung von Ca$^{2+}$\\
+Hemmung der Na$^+$-Resorption $\rightarrow$ lumennegatives transzelluläres Potential $\downarrow$ $\rightarrow$ passive Sekretion von K$^+$ $\downarrow$
 \paragraph{Pharmakokinetik}Resorption nach oraler Gabe: 80\% (Triamteren), 40\% (Amilorid),HWZ: 6-9 h (Amilorid); 2-3 h (Triamteren),hepatische Metabolisierung von Triamteren (akt. Metabolite), glomerulär filtriert, tubulär sezerniert
 \paragraph{Unerwünschte Wirkungen}relativ geringe therapeutische Breite\\
 Hyperkaliämie, Übelkeit, Erbrechen, Diarrhoe, Schwindel, Kopfschmerzen
 \paragraph{Einsatz}
-kardiale, renale oder hepatogene Ödeme (meist in Kombination mit Thiaziden (ähnliche Wirkdauer, gegenläufiger Effekt auf $K^+$-Ausscheidung)
+kardiale, renale oder hepatogene Ödeme (meist in Kombination mit Thiaziden (ähnliche Wirkdauer, gegenläufiger Effekt auf K$^+$-Ausscheidung)
 \paragraph{Kontraindikationen}Niereninsuffizienz, Hyperkaliämie
 \paragraph{Wechselwirkungen}ACE-Hemmer (Hyperkaliämiegefahr)
 \section{Mineralokortikoid-Rezeptor-Antagonisten}
@@ -1370,7 +1706,7 @@ Antagonismus am Mineralokortikoid-Rezeptor (Eplerenon ist selektiver!) protrahie
 	\item Wirkungseintritt: 1-2 Tage nach oraler Gabe; Wirkdauer: 5-7 Tage
 	\item keine Wirkung ohne Aldosteron (z.B. kochsalzreiche Diät, M. Addison)
 	\item leicht vermehrte Ausscheidung von $Na^+, Cl^-, Ca^{2+}, HCO_3^-$ 
-	\item leicht verminderte Ausscheidung von $K^+$
+	\item leicht verminderte Ausscheidung von K$^+$
 \end{itemize}
 \paragraph{Pharmakokinetik}
 Gute Resorption nach oraler Gabe. Spironolacton: Metabolisierung zu Canrenon (aktiver Metabolit), renal ausgeschieden, HWZ: 16.5 h (Canrenon)
@@ -1425,13 +1761,13 @@ bei hohem kardiovaskulärem Risiko (hypertensive Organschäden, symptomat. kardi
 	\item Diuretika (Thiazide)
 	\item ACE-Hemmer (z.B. bei Herzinsuff. oder diabet. Nephropathie)
 	\item $\beta$-Blocker (v.a. bei KHK oder Herzinsuffizienz)
-	\item $Ca^{2+}$-Antagonisten (z.B. bei KHK)
+	\item Ca$^{2+}$-Antagonisten (z.B. bei KHK)
 \end{itemize}		
 \paragraph{2. Stufe} 	Zweierkombination (Responder-Rate: 70-80\%) \\
 bei nicht ausreichender Blutdrucksenkung durch Monotherapie
 \begin{itemize}
 	\item Diuretikum + $\beta$-Blocker oder
-	\item Diuretikum + ACE-Hemmer $Ca^{2+}$-Antag. (Dihydropyridin) + $\beta$-Blocker			\item Diuretikum +	$Ca^{2+}$-Antagonist	$Ca^{2+}$-Antagonist + ACE-Hemmer
+	\item Diuretikum + ACE-Hemmer Ca$^{2+}$-Antag. (Dihydropyridin) + $\beta$-Blocker			\item Diuretikum +	Ca$^{2+}$-Antagonist	Ca$^{2+}$-Antagonist + ACE-Hemmer
 \end{itemize}		
 \paragraph{3. Stufe} Mehrfachkombination (Responder-Rate: 90-95\%), indiziert bei schwerer Hypertonieform, die mit Zweierkombination nicht zu behandeln ist (Diuretikum obligat). Nutzung der in Stufe 1 und 2 eingesetzten antihypertensiven Pharmaka  plus ggf. Reserveantihypertensiva (Dihydralazin, Minoxidil, Clonidin, $\alpha_1$-Antagonist u.a.)
 \chapter{Digitalisglykoside}
@@ -1474,11 +1810,11 @@ halbsynthetische Digitalisglykoside&\\
 $\beta$-Acetyldigoxin&Metildigoxin\\
 \end{tabularx}
 \subsubsection{Wirkmechanismus}
-Hemmung der plasmalemmalen $Na^+$-$K^+$-ATPase 
+Hemmung der plasmalemmalen Na$^+$-K$^+$-ATPase 
 \begin{itemize}
-	\item kardial: Akkumulation von $Na^+$ in der Zelle $\rightarrow$ $Na^+$/$Ca^{2+}$-Antiport (NCX1) $\downarrow$
+	\item kardial: Akkumulation von Na$^+$ in der Zelle $\rightarrow$ Na$^+$/Ca$^{2+}$-Antiport (NCX1) $\downarrow$
 	\begin{itemize}
-		\item Steigerung der intrazellulären $Ca^{2+}$-Konzentration 
+		\item Steigerung der intrazellulären Ca$^{2+}$-Konzentration 
 		\item positiv inotrop, positiv bathmotrop
 	\end{itemize}
 	\item zentral: Erregung zentraler Vaguskerne, gesteigerte Empfindlichkeit der Barorezeptoren $\rightarrow$ Parasympathikotonus $\uparrow$, Sympathikotonus $\downarrow$ (bereits bei niedriger Dosierung)	$\rightarrow$ negativ chronotrop, negativ dromotrop
@@ -1523,7 +1859,7 @@ therapeut. Plasmakonzentration&0,5-0,8 ng/ml&10-20 ng/ml\\
 Digoxin:   z.B. 2 Tage 2 x Erhaltungsdosis/d, dann 1 x tägl. 1x Erhaltungsdosis\\ Digitoxin: z.B. 3 Tage 3 x Erhaltungsdosis/d, dann 1 x tägl. 1x Erhaltungsdosis
 \subsubsection{Vergiftung}
 \paragraph{Zeichen} Herzrhythmusstörungen (AV-Block, Bradykardie, ventrikuläre Rhythmusstörung), gastrointestinale, neurotoxische Symptome (Übelkeit, Erbrechen, Durchfall, Verwirrtheit, Farbensehen, Kopfschmerzen)
-\paragraph{Therapie}leichte Intoxikation (chron.): Absetzen über mehrere Tage schwere Intoxikation:	Magenspülung, Aktivkohle, Digitalis-Antikörper (Fab-				Fragmente), ggf. $K^+$-Spiegel auf hochnormale Werte anheben, ansonsten symptomatische Behandlung
+\paragraph{Therapie}leichte Intoxikation (chron.): Absetzen über mehrere Tage schwere Intoxikation:	Magenspülung, Aktivkohle, Digitalis-Antikörper (Fab-				Fragmente), ggf. K$^+$-Spiegel auf hochnormale Werte anheben, ansonsten symptomatische Behandlung
 \subsubsection{Stellenwert der Digitalisglykoside}
 \begin{itemize}
 	\item DIG-Studie 1997: Senkung der Hospitalisierungsrate, kein Effekt auf Mortalität;
@@ -1564,24 +1900,24 @@ Diuretika in allen Stadien zur Herstellung der Euvolämie bei Luftnot/Ödemen
 \chapter{Antiarrhythmika}
 Ströme, die an der Generierung von Ruhepotential und Aktionspotential beteiligt sind: 
 \begin{itemize}
-	\item Phase 0: Aktivierung eines schnellen $Na^+$-Einwärtsstroms ($I_{Na}$), wenn Membranpotential einen bestimmten Schwellenwert erreicht  (ca. -60 mV)
-	\item Phase 2: $Ca^{2+}$-Einwärtsstroms (v.a. L-Typ Kanäle; $I_{Ca-L}$), $Ca^{2+}$-Einstrom stellt $Ca^{2+}$ für elektromechan. Kopplung zur Verfügung; $K^+$-Leitfähigkeit nimmt langsam zu
-	\item Phase 3: $Ca^{2+}$-Kanäle inaktivieren $\rightarrow$ Repolarisation; $K^+$-Auswärtsstrom ($I_K$) über spannungsabhäng. $K^+$-Kanäle mit langsamer Aktivierungskinetik $\rightarrow$ Repolarisation 
-	\item Phase 4 (diastolische Vordepolarisation) langsame Depol., die Schrittmacherpotential erzeugt; langsamer $Na^+$-Einwärtsstroms bis zur Schwelle über unspezif. Kationenkanal ($I_f$; Hyperpolarisations-aktiv. Kanal), gegen Ende: langsamer $Ca^{2+}$-Einwärtsstroms (v.a. L-Typ Kanäle, aber auch T-Typ); führt zur Depol. und Fortleitung  $\rightarrow$ Phase 0;
-$K^+$-Leitfähigkeit $\downarrow$. Phase 0 (Depolarisation) überw. durch $Ca^{2+}$-Einwärtsstrom getragen (T-/L-Typ); Phase 3 (Repolarisation) $Ca^{2+}$-Einwärtsstrom $\downarrow$, $K^+$-Auswärtsstrom $\uparrow$. 
+	\item Phase 0: Aktivierung eines schnellen Na$^+$-Einwärtsstroms ($I_{Na}$), wenn Membranpotential einen bestimmten Schwellenwert erreicht  (ca. -60 mV)
+	\item Phase 2: Ca$^{2+}$-Einwärtsstroms (v.a. L-Typ Kanäle; $I_{Ca-L}$), Ca$^{2+}$-Einstrom stellt Ca$^{2+}$ für elektromechan. Kopplung zur Verfügung; K$^+$-Leitfähigkeit nimmt langsam zu
+	\item Phase 3: Ca$^{2+}$-Kanäle inaktivieren $\rightarrow$ Repolarisation; K$^+$-Auswärtsstrom ($I_K$) über spannungsabhäng. K$^+$-Kanäle mit langsamer Aktivierungskinetik $\rightarrow$ Repolarisation 
+	\item Phase 4 (diastolische Vordepolarisation) langsame Depol., die Schrittmacherpotential erzeugt; langsamer Na$^+$-Einwärtsstroms bis zur Schwelle über unspezif. Kationenkanal ($I_f$; Hyperpolarisations-aktiv. Kanal), gegen Ende: langsamer Ca$^{2+}$-Einwärtsstroms (v.a. L-Typ Kanäle, aber auch T-Typ); führt zur Depol. und Fortleitung  $\rightarrow$ Phase 0;
+K$^+$-Leitfähigkeit $\downarrow$. Phase 0 (Depolarisation) überw. durch Ca$^{2+}$-Einwärtsstrom getragen (T-/L-Typ); Phase 3 (Repolarisation) Ca$^{2+}$-Einwärtsstrom $\downarrow$, K$^+$-Auswärtsstrom $\uparrow$. 
 \end{itemize}
 \section{Mechanismen der Arrhythmieenstehung}
-\subsubsection{abnorme Schrittmacheraktivität} Sinusknoten, AV-Knoten (Phase 4); - Arbeitsmyokard bei geschädigten Zellen $\rightarrow$ meist durch $Na^+$/$Ca^{2+}$-Ionen getragene Depol. $\rightarrow$ ektope Erregungsbildung
+\subsubsection{abnorme Schrittmacheraktivität} Sinusknoten, AV-Knoten (Phase 4); - Arbeitsmyokard bei geschädigten Zellen $\rightarrow$ meist durch Na$^+$/Ca$^{2+}$-Ionen getragene Depol. $\rightarrow$ ektope Erregungsbildung
 \subsubsection{Nachdepolarisation}
-\paragraph{frühe Nachdepolarisation (EAD)} Störung d. Repol.; $K^+$-Strom ($I_{Kr}$) , Verläng. d. $Ca^{2+}$/$Na^+$-Einstroms $\rightarrow$ QT-Zeit $\uparrow$ $\rightarrow$ Gefahr d. Entwicklung v. torsade de pointes Häufig d. Pharmaka: Klasse III Antiarrhythmika, Erythromycin,	Terfenadin, Clarithromycin, Cisaprid*, Astemizol*,Sertindol* u.a.\\
+\paragraph{frühe Nachdepolarisation (EAD)} Störung d. Repol.; K$^+$-Strom ($I_{Kr}$) , Verläng. d. Ca$^{2+}$/Na$^+$-Einstroms $\rightarrow$ QT-Zeit $\uparrow$ $\rightarrow$ Gefahr d. Entwicklung v. torsade de pointes Häufig d. Pharmaka: Klasse III Antiarrhythmika, Erythromycin,	Terfenadin, Clarithromycin, Cisaprid*, Astemizol*,Sertindol* u.a.\\
 *vom Markt genommen
-\paragraph{späte Nachdepolarisation} durch $Ca^{2+}$-Überladung der Zelle, z.B. durch	Katecholamine, Digitalisglykoside, Ischämie
+\paragraph{späte Nachdepolarisation} durch Ca$^{2+}$-Überladung der Zelle, z.B. durch	Katecholamine, Digitalisglykoside, Ischämie
 \subsubsection{Blockade der Fortleitung}z.B. AV-Block
 \subsubsection{Reentry} normalerweise endet Impuls mit der Erregung des Arbeitsmyokards. Voraussetzung für „Reentry“-Phänomen: Kreisweg durch Leitungshindernis, unidirektionaler Block; Leitungszeit lang genug, daß kreisende Erregung auf nicht-refraktäres Gewebe trifft.
 \section{Antiarrhythmika-Klassen (Vaughan-Williams)}
 \subsection{Klasse I-Antiarrhythmika}
-v.a. Blockade des schnellen $Na^+$-Einstroms in Phase 0 $\rightarrow$ Hemmung der Aktionspotential-Weiterleitung	Erholungszeit der $Na^+$-Kanäle $\uparrow$ $\rightarrow$ Refraktärzeit $\uparrow$ \\
-Klasse I Antiarrhythmika binden bevorzugt an offenen und/oder inaktiven Zustand des $Na^+$-Kanals $\rightarrow$ je häufiger aktiviert, desto größer der Grad der Blockade Dissoziation vom ruhenden Kanal
+v.a. Blockade des schnellen Na$^+$-Einstroms in Phase 0 $\rightarrow$ Hemmung der Aktionspotential-Weiterleitung	Erholungszeit der Na$^+$-Kanäle $\uparrow$ $\rightarrow$ Refraktärzeit $\uparrow$ \\
+Klasse I Antiarrhythmika binden bevorzugt an offenen und/oder inaktiven Zustand des Na$^+$-Kanals $\rightarrow$ je häufiger aktiviert, desto größer der Grad der Blockade Dissoziation vom ruhenden Kanal
 \subsubsection{Klasse Ia} %Seitlich den Paragraphen lassen? eigentlich gute abgrenzung und stilmittel
 
 \begin{tabularx}{\textwidth}{XX}
@@ -1589,10 +1925,10 @@ Chinidin&Procainamid\\
 Disopyramid&Ajmalin\\
 \end{tabularx}
 
-\paragraph{Wirkmechanismus} mittellange Blockade von $Na^+$-Kanälen ($I_{Na}$) im offenen Zustand $\rightarrow$ Depolarisationsgeschwindigkeit $\downarrow$ $\rightarrow$ Anstiegssteilheit des Aktionspotentials (Phase 0/1) $\downarrow$ $\rightarrow$ Leitungsgeschwindigkeit, Automatie, Erregbarkeit $\downarrow$ (auch reguläre Impulse werden beeinflusst) $\rightarrow$ möglicher proarrhythmogener  Effekt)
+\paragraph{Wirkmechanismus} mittellange Blockade von Na$^+$-Kanälen ($I_{Na}$) im offenen Zustand $\rightarrow$ Depolarisationsgeschwindigkeit $\downarrow$ $\rightarrow$ Anstiegssteilheit des Aktionspotentials (Phase 0/1) $\downarrow$ $\rightarrow$ Leitungsgeschwindigkeit, Automatie, Erregbarkeit $\downarrow$ (auch reguläre Impulse werden beeinflusst) $\rightarrow$ möglicher proarrhythmogener  Effekt)
 
 \begin{itemize}
-	\item Blockade von verschiedenen $K^+$-Kanälen $\rightarrow$ Repolarisation $\downarrow$ $\rightarrow$ Aktionspotentialdauer / Refraktärzeit $\uparrow$
+	\item Blockade von verschiedenen K$^+$-Kanälen $\rightarrow$ Repolarisation $\downarrow$ $\rightarrow$ Aktionspotentialdauer / Refraktärzeit $\uparrow$
 	\item anticholinerge Wirkung (v.a. Chinidin, Disopyramid ; ggf. paradoxe Wirkung bei niedriger Dosierung  $\rightarrow$ Tachykardie
 \end{itemize}
 
@@ -1610,7 +1946,7 @@ gastrointestinale Störungen, Mundtrockenheit (anticholinerge Wirkung) zentralne
 Lidocain&Phenytoin\\	 
 \end{tabularx}
 
-\paragraph{Wirkmechanismus} kurzfristige Bindung an $Na^+$-Kanäle ($I_{Na}$) im inaktivierten Zustand ; Dissoziation und Assoziation im Rhythmus des Herzschlages
+\paragraph{Wirkmechanismus} kurzfristige Bindung an Na$^+$-Kanäle ($I_{Na}$) im inaktivierten Zustand ; Dissoziation und Assoziation im Rhythmus des Herzschlages
 	$\rightarrow$ 	effektive Blockade bei frühzeitiger Erregung
 	$\rightarrow$ 	binden v.a. im depolarisierten Zustand (z.B. Ischämie) $\rightarrow$ Einsatz bei 	Ischämie-bedingten Arrhythmien; Frequenzfiltereffekt (je tachykarder desto wirksamer); (reguläre Impulse werden kaum beeinflusst)
 
@@ -1627,7 +1963,7 @@ Lidocain&Phenytoin\\
 Flecainid&Propafenon\\ 
 \end{tabularx}
 
-\paragraph{Wirkmechanismus} langfristige Bindung an $Na^+$-Kanäle (langsame Dissoziation); Blockade über mehrere Herzschläge $\rightarrow$ verringerte Erregbarkeit, Leitungsgeschwindigkeit $\downarrow$; Beeinflussung regulärer Impulse (proarrhythmogener Effekt); zusätzlich: $\beta$-Adrenozeptor-Blockade durch Propafenon
+\paragraph{Wirkmechanismus} langfristige Bindung an Na$^+$-Kanäle (langsame Dissoziation); Blockade über mehrere Herzschläge $\rightarrow$ verringerte Erregbarkeit, Leitungsgeschwindigkeit $\downarrow$; Beeinflussung regulärer Impulse (proarrhythmogener Effekt); zusätzlich: $\beta$-Adrenozeptor-Blockade durch Propafenon
 
 \paragraph{unerw. Wirkungen} negativ ino-/dromo-/chronotrop; arrhythmogen (CAST-Studie)
 
@@ -1643,8 +1979,8 @@ Flecainid&Propafenon\\
 Amiodaron&Sotalol&Dronedaron\\
 \end{tabularx}
 
-\paragraph{Wirkmechanismus} Blockade verschiedener $K^+$-Kanäle 	$\rightarrow$ Aktionspotential verlängert $\rightarrow$ Refraktärzeit verlängert; $\beta$-Adrenozeptorblockade (v.a. Sotalol)
-Amiodaron: zusätzlich leichte Blockade von $Na^+$- und $Ca^{2+}$-Kanälen
+\paragraph{Wirkmechanismus} Blockade verschiedener K$^+$-Kanäle 	$\rightarrow$ Aktionspotential verlängert $\rightarrow$ Refraktärzeit verlängert; $\beta$-Adrenozeptorblockade (v.a. Sotalol)
+Amiodaron: zusätzlich leichte Blockade von Na$^+$- und Ca$^{2+}$-Kanälen
 
 \paragraph{Pharmakokinetik} Sotalol: 100\% bioverfügbar, Plasma-HWZ 7-18 h
 Amiodaron: 22-86\% bioverfügbar, Plasma-HWZ 20-100 Tage !;
@@ -1663,7 +1999,7 @@ NICHT bei Herzinsuffizienz, permanentem VHF, AV-Block \degree II-III, Bradykardi
 Verapamil&Diltiazem\\
 \end{tabularx}
 
-\paragraph{Wirkmechanismus} $Ca^{2+}$-Kanal-Blockade (L-Typ) $\rightarrow$ Depolarisationsgeschwindigkeit in spontan-depolarisierenden Zellen $\downarrow$ $\rightarrow$ z.B. AV-Überleitung $\downarrow$ $\rightarrow$ pathol., $Ca^{2+}$-Kanal-vermittelte Depolarisationen $\downarrow$ $\rightarrow$ Nachdepolarisationen $\downarrow$ 
+\paragraph{Wirkmechanismus} Ca$^{2+}$-Kanal-Blockade (L-Typ) $\rightarrow$ Depolarisationsgeschwindigkeit in spontan-depolarisierenden Zellen $\downarrow$ $\rightarrow$ z.B. AV-Überleitung $\downarrow$ $\rightarrow$ pathol., Ca$^{2+}$-Kanal-vermittelte Depolarisationen $\downarrow$ $\rightarrow$ Nachdepolarisationen $\downarrow$ 
 
 \paragraph{Einsatz}  paroxysmale, supraventrikuläre Tachykardien; Vorhofflimmern, -flattern
 
@@ -1672,7 +2008,7 @@ Verapamil&Diltiazem\\
 \subsection{weitere als Antiarrhythmika eingesetzte Pharmaka}
 \subsubsection{Digitalisglykoside}  (supraventrikuläre Tachykardien, Vorhofflimmern/flattern)
 \subsubsection{Atropin}  Einsatz: Sinusbradykardien
-\subsubsection{Adenosin}  Wirkung über Adenosin A1 Rezeptoren im Vorhof, Sinus- und AV-Knoten: Aktivierung von $K^+$-Kanälen, Hemmung von $Ca^{2+}$-Kanälen $\rightarrow$ Hyperpolarisation, negativ dromotrop, chronotrop
+\subsubsection{Adenosin}  Wirkung über Adenosin A1 Rezeptoren im Vorhof, Sinus- und AV-Knoten: Aktivierung von K$^+$-Kanälen, Hemmung von Ca$^{2+}$-Kanälen $\rightarrow$ Hyperpolarisation, negativ dromotrop, chronotrop
 \paragraph{Pharmakokinetik} sehr schnelle Inaktivierung (Aufnahme und Desaminierung in Erythrozyten); Plasma-HWZ: Sekunden ! $\rightarrow$ Bolusinjektion
 \paragraph{Einsatz} Akutbehandlung supraventrikuläre Tachykardien
 \paragraph{Unerw. Wirkungen} AV-Block, Flush, Dyspnoe, Brustschmerzen, Übelkeit
@@ -1773,8 +2109,8 @@ Natriummnitroprussid&\\
 
 \paragraph{Interaktionen} PDE5-Hemmer
 
-\section{$Ca^{2+}$-Kanalblocker}
-\subsection{spannungsabhängige $Ca^{2+}$-Kanäle}
+\section{Ca$^{2+}$-Kanalblocker}
+\subsection{spannungsabhängige Ca$^{2+}$-Kanäle}
 \begin{tabularx}{\textwidth}{XXXXX}
 Current&$\alpha_1$-subunit&Localization&Function/Modulation&Blocker\\
 L-Type(long lasting; high voltage activating, high conductance, slow inactivation)&$Ca_v$1.1 ($\alpha_{1S}$)&Skeletal muscle (t-tub.)&Excitation-contion-coupling
@@ -1785,7 +2121,7 @@ L-Type(long lasting; high voltage activating, high conductance, slow inactivatio
 &$Ca_v$1.3 ($\alpha_{1D}$)&neuroendocrine&&\\
 &$Ca_v$1.4 ($\alpha_{1F}$)&Retina&Transmitter release&\\
 P/Q-Type (Purkinje; mod. Voltage activ., med. Conduct., very slow inactiv.)&$Ca_v$2.1 ($\alpha_{1A}$)&Nerve terminals and dendrites&Neurotransmitter release; dendritic  transients(G$\beta\gamma$ $\downarrow$)&$\omega$-Agatoxin IVA\\
-N-Type (neuronal; high voltage activ., med. Conduct., med. Inactiv.)&$Ca_v$2.2($\alpha_{1B}$)&Nerve terminals and dendrites&Neurotransmitter release; dendritic $Ca^{2+}$ transients (G$\beta\gamma$ $\downarrow$)&$\omega$-Conotoxin GVIA\\
+N-Type (neuronal; high voltage activ., med. Conduct., med. Inactiv.)&$Ca_v$2.2($\alpha_{1B}$)&Nerve terminals and dendrites&Neurotransmitter release; dendritic Ca$^{2+}$ transients (G$\beta\gamma$ $\downarrow$)&$\omega$-Conotoxin GVIA\\
 R-Type&$Ca_v$2.3($\alpha_{1E}$)&Neuronal cell bodies and dendrites&Repetitive firing (G$\beta\gamma$ $\downarrow$)&SNX-482\\
 T-Type(transient; low volt. Activ., small cond., fast inact.)&$Ca_v$3.1($\alpha_{1G}$)&Neuronal cell bodies and dendrites; cardiomyocytes ($Ca_v$3.1/3.2)&Pacemaking, repetitive firing&Mibefradil\\
 &$Ca_v$3.2($\alpha_{1H}$)&&&\\
@@ -1859,7 +2195,7 @@ Keine gleichzeitige Gabe von Diltiazem/Verapamil und $\beta$-Blockern!
 \begin{itemize}
 	\item $\beta$-Rezeptorenblocker mit $\beta$1-Selektivität (meist 1. Wahl) negativ dromotrop, negativ chronotrop, negativ inotrop $\rightarrow$ $O_2$-Verbrauch $\downarrow$
 	\item Organische Nitrate / Molsidomin (zusätzlich oder bei KI von $\beta$-Blocker) Dilatation v.a. venöser Gefäße  $\rightarrow$... $\rightarrow$ $O_2$-Verbrauch $\downarrow$ Kollateraldurchblutung $\uparrow$
-	\item $Ca^{2+}$-Antagonisten (selten Monotherapie, nicht bei u. 4 Wochen nach Infarkt!) Dihidropyridine (fast ausnahmslos retardierte Formulierungen): Gefahr d. Reflextachykardie, sinnvoll Komb. mit $\beta$-Blocker 
+	\item Ca$^{2+}$-Antagonisten (selten Monotherapie, nicht bei u. 4 Wochen nach Infarkt!) Dihidropyridine (fast ausnahmslos retardierte Formulierungen): Gefahr d. Reflextachykardie, sinnvoll Komb. mit $\beta$-Blocker 
 	\item Verapamil/Diltiazem: nicht bei Bradykardie, AV-Überleitungsstörung, $\beta$-Blocker 
 \end{itemize}
 Th. von Risikofaktoren (v.a. Diab. mell., Hypertonie, Hyperlipidämie, Rauchen) 
@@ -1867,11 +2203,11 @@ Th. von Risikofaktoren (v.a. Diab. mell., Hypertonie, Hyperlipidämie, Rauchen)
 \subsubsection{Symptomatische Therapie der A.p. je nach Begleitarkrankungen} \mbox{} \\
 
 \begin{tabularx}{\textwidth}{XX}
-Hypertonie&$\beta$-Blocker, $Ca^{2+}$-Antagonisten\\
+Hypertonie&$\beta$-Blocker, Ca$^{2+}$-Antagonisten\\
 Herzinsuffizienz&$\beta$-Blocker, Nitrate (zusätzl. zu ACE-Hemmern)\\
-Diabetes mellitus&Nitrate, ($Ca^{2+}$-Antagonisten)\\
-Asthma bronchiale&Nitrate, $Ca^{2+}$-Antagonisten; [cave: $\beta$-Blocker]\\
-supraventr. Tachykardie&$\beta$-Blocker, $Ca^{2+}$-Antagonisten\\
+Diabetes mellitus&Nitrate, (Ca$^{2+}$-Antagonisten)\\
+Asthma bronchiale&Nitrate, Ca$^{2+}$-Antagonisten; [cave: $\beta$-Blocker]\\
+supraventr. Tachykardie&$\beta$-Blocker, Ca$^{2+}$-Antagonisten\\
 periph.-art. Verschl.-Krankh.&Nitrate; [cave: $\beta$-Blocker]\\
 \end{tabularx}
 
@@ -1888,8 +2224,8 @@ $\beta$-Rez.-Blocker bei Postinfarktpatienten& $\downarrow$ventr. Arrhythmien, $
 
 Mittel d. Wahl: Glyceroltrinitrat als Zerbeißkapseln oder sublingual als Spray (Wirkeintritt binnen weniger Minuten), ggf. Wdhlg. (RR-Kontrolle!), Isosorbiddinitrat p.o. oder sublingual als Spray (Wirkeintritt langsamer)
 
-\section{$K^+$-Kanalöffner}
-\subsubsection{ATP-abhängiger $K^+$-Kanal}
+\section{K$^+$-Kanalöffner}
+\subsubsection{ATP-abhängiger K$^+$-Kanal}
 
 Aktivierung des Kanals in der glatten Gefäßmuskul. (Kir6.1/SUR2B) d. K$^+$-Kanalöffner (z.B. Cromakalim) $\rightarrow$ Relaxation v.a. arterieller Gefäße $\rightarrow$ Gefäßwiderstand 
 
@@ -1897,7 +2233,7 @@ Aktivierung des Kanals in der glatten Gefäßmuskul. (Kir6.1/SUR2B) d. K$^+$-Kan
 
 \begin{tabularx}{\textwidth}{XXXXX}
 Isoform&Substrat&Expression&Regulation&Hemmer\\
-PDE 1&cAMP&glatter Muskel, Gehirn&$Ca^{2+}$/CaM$\uparrow$\\  
+PDE 1&cAMP&glatter Muskel, Gehirn&Ca$^{2+}$/CaM$\uparrow$\\  
 PDE 2&cAMP/cGMP&Thrombozyten&cGMP$\uparrow$\\
 PDE 3&cAMP&glatter Muskel, Herz u.a.&cGMP$\downarrow$&Amrinon, Milrinon\\
 PDE 4&cAMP&Bronchien, Immunz., Gehirn&Roflumilast,Cilomilast\\
@@ -2090,7 +2426,7 @@ Hemmung ATP-sensitiver K$^+$-Kanäle der $\beta$-Zellen
 % subparagraph wirkmechanismus (end)
 
 % section sulfonylharnstoffe (end)
-\subsection{ATP-abhängiger $K^+$-Kanal} % (fold)
+\subsection{ATP-abhängiger K$^+$-Kanal} % (fold)
 \label{ssub:atp_abh_ngiger_k_kanal}
 Hemmung des Kanals in $\beta$-Zellen des Pankreas (Kir6.2/SUR1) durch Sulfonylharnstoffe \\
 \begin{tabularx}{\textwidth}{XXXX}
@@ -2717,7 +3053,7 @@ Elimination&Proteolyse / renal&v.a. renal&v.a. renal\\
 \subsubsection{Wirkmechanismus} % (fold)
 \label{par:wirkmechanismus}
 Hemmung der Reduktion von Vitamin K in der Leber $\rightarrow$ Störung der posttranslationalen $\gamma$-Carboxylierung der Gerinnungsfaktoren II, VII, IX, X sowie von Protein C u.a. \\
-$\rightarrow$ Bildung physiologisch inaktiver Gerinnungsfaktoren (fehlende Interaktion mit $Ca^{2+}$). Effekt abhängig von HWZ der Faktoren: Protein C: 6 h; Faktor X: 40 h; Faktor VII: 6 h;
+$\rightarrow$ Bildung physiologisch inaktiver Gerinnungsfaktoren (fehlende Interaktion mit Ca$^{2+}$). Effekt abhängig von HWZ der Faktoren: Protein C: 6 h; Faktor X: 40 h; Faktor VII: 6 h;
 Faktor II: 60 h; Faktor IX: 24 h.
 % paragraph wirkmechanismus (end)
 \subsubsection{Pharmakokinetik} % (fold)
@@ -3138,7 +3474,7 @@ eine Einzeldosis ist in der Regel ohne Nebenwirkungen
 \begin{itemize}
 	\item Infektanfälligkeit $\uparrow$ (immunsupressiv, antiphlogistisch)
 	\item Magen-Darm-Geschwüre, Reaktivierung! (Wundheilung $\downarrow$), Pankreatitis
-	\item Osteoporose (Eiweißabbau, $Ca^{2+}$-Verlust, Phosphatclearance $\uparrow$),   
+	\item Osteoporose (Eiweißabbau, Ca$^{2+}$-Verlust, Phosphatclearance $\uparrow$),   
 	Osteoklastenaktivität $\uparrow$, Osteoblastenaktivität $\downarrow$, katabole Wirkung
 	\item Wachstumshemmung (Kinder); Myopathie (Eiweißabbau)
 	\item diabetogen (KH-Stoffwechsel, Gluconeogenese$\uparrow$), Hyperlipoproteinämie
@@ -3244,7 +3580,7 @@ aktivierter Kationenkanal (TRPV1)-Vorkommen v.a. auf C-Faser-aktiviert durch Wä
 Vorkommen v.a. auf A$\delta$-Fasern, aktiviert durch Hitze ($>$52 \degree C)
 \subsubsection{Chronifizierung des Schmerzesbei pathologischen Zuständen: Periphere Sensibilisierung } % (fold)
 \label{par:chronifizierung_des_schmerzesbei_pathologischen_zust_nden_periphere_sensibilisierung_}
-durch Bradykinin, Histamin, Serotonin, Prostaglandine, $K^+$, $H^+$, ATP $\rightarrow$ Auslösung pathologischer \\
+durch Bradykinin, Histamin, Serotonin, Prostaglandine, K$^+$, $H^+$, ATP $\rightarrow$ Auslösung pathologischer \\
 Zustände: Hyperalgesie Allodynie, spontane Schmerzen
 % paragraph chronifizierung_des_schmerzesbei_pathologischen_zust_nden_periphere_sensibilisierung_ (end)
 % section nozizeptoren (end)
@@ -3547,9 +3883,9 @@ z.B.: im mesolimbischen dopaminergen Systems, Neurone des ventralen Tegments ver
 \label{sec:koanalgetika_adjuvantien}
 \subsection{Hemmer neuronaler Natrium und Calcium Kanäle} % (fold)
 \begin{tabularx}{\textwidth}{XX}
-Lidocain(Pflaster, 5\%)  topische Hemmung peripherer $Na^+$ Kanäle&Ziconitid Hemmung der spinalen nozizeptiven Übertragung durch Blockade v.a. von präsynaptischen  Ca$^{2+}$ Kanälen (Neurotransmitterfreisetzung $\downarrow$)\\
+Lidocain(Pflaster, 5\%)  topische Hemmung peripherer Na$^+$ Kanäle&Ziconitid Hemmung der spinalen nozizeptiven Übertragung durch Blockade v.a. von präsynaptischen  Ca$^{2+}$ Kanälen (Neurotransmitterfreisetzung $\downarrow$)\\
 Carbamezapin&Gabapentin (s. Antikolvulsiva)\\
-Lamotrigin (s. Antikonvulsiva); hemmen periph. Sensibilisier-ung + ektopische Erregung von Nozizeptoren durch $Na^+$ und $Ca^{2+}$ Kanäle\\
+Lamotrigin (s. Antikonvulsiva); hemmen periph. Sensibilisier-ung + ektopische Erregung von Nozizeptoren durch Na$^+$ und Ca$^{2+}$ Kanäle\\
 \end{tabularx}
 \subsection{Nicht-selektive Noradrenalin Serotonin Wiederaufnahmehemmer    } % (fold)
 \label{sub:nicht_selektive_noradrenalin_serotonin_wiederaufnahmehemmer_}
@@ -3883,7 +4219,7 @@ v.a. T$_3$ gelangt in den Zellkern und bindet an nukleären Rezeptor $\rightarro
 	direkte und indirekte Regulation von Chronotropie und Inotropie\\
 	Beeinflussung von $\beta$-Adrenozeptordichte und -empfindlichkeit
 	(erhöht bei Hyperthyreose); Beeinflussung der Expression myokardialer 
-	Proteine (MHC$\alpha$/$\beta$, Myosin, $Ca^{2+}$ ATPase)
+	Proteine (MHC$\alpha$/$\beta$, Myosin, Ca$^{2+}$ ATPase)
 \end{itemize}
 % paragraph wirkung (end)
 % paragraph wirkmechanismus (end)
@@ -5940,7 +6276,7 @@ Hemmung von:
 \subsubsection{akute Vergiftung} % (fold)
 \label{ssub:akute_vergiftung}
 Verstärkung der unerwünschten Wirkungen, Krampfanfälle, Koma \\
-Therapie: NaCl-Zufuhr, forcierte Diurese, Hämodialyse
+Therapie: NaCl$^-$Zufuhr, forcierte Diurese, Hämodialyse
 % subsubsection akute_vergiftung (end)
 \subsubsection{Problem} % (fold)
 \label{ssub:problem}
@@ -6120,6 +6456,394 @@ Haloperidol&+++&+&0&0&+&0\\
 Promazin&+&?&+&++&+++&+++\\
 \end{tabularx}
 % subsection rezeptorprofil_atyptischer_neuroleptika_ (end)
+\begin{itemize}
+	\item Clozapin\\
+	so gut wie keine extrapyramidalmotorischen Störungen
+	Sedierung, Mundtrockenheit, orthostat. Dysregulation, Gewichtszunahme Agranulozytosen !
+	\item Olanzapin\\
+	selten extrapyramidalmotorische Störungen, Sedierung, Mundtrockenheit, Gewichtszunahme, keine Agranulozytosen
+	\item Risperidon, Ziprasidon\\
+	extrapyramidalmot. Störungen seltener als bei klassischen Neuroleptika orthostat. Dysregulation, Schlaflosigkeit \\
+	Ziprasidon: QT-Verlängerung; auch: anxiolyt.-antidepressiv
+	\item Zotepin, Quetiapin\\
+	extrapyramidalmot. Störungen seltener als bei klassischen Neuroleptika
+	orthostat. Dysregulation , Sedierung, Mundtrockenheit, Gewichtszunahme
+\end{itemize}
 % section section_name (end)
 % chapter neuroleptika (end)
+\chapter{Magen-Darm-Pharmaka} % (fold)
+\label{cha:magen_darm_pharmaka}
+\section{Regulation der Magensaftsekretion} % (fold)
+\label{sec:regulation_der_magensaftsekretion}
+\subsubsection{Kephale Phase} % (fold)
+\label{sub:kephale_phase}
+\begin{itemize}
+	\item Geruch, Geschmack, Vorstellung, Anblick
+	\item Zentral über N. vagus vermittelt (30-40\% der max. Sekretion)
+\end{itemize}
+% subsection kephale_phase (end)
+\subsubsection{Gastrale Phase} % (fold)
+\label{ssub:gastrale_phase}
+\begin{itemize}
+	\item Magendehnung $\rightarrow$ lokal über N. vagus
+	\item Eiweißabbauprodukte $\rightarrow$ Gastrinfreisetzung aus G-Zellen
+	(50-60\% der max. Sekretion)
+\end{itemize}
+% subsubsection gastrale_phase (end)
+\subsubsection{Intestinale Phase} % (fold)
+\label{ssub:intestinale_phase}
+\begin{itemize}
+	\item mechanisch, humoral
+	\item Eiweißabbauprodukte $\rightarrow$ Gastrinfreisetzung aus G-Zellen 
+	\item Dünndarm pH $<$ 4 $\rightarrow$ Sekretin-, GIP-Freisetzung $\rightarrow$ Somatostatin-Freisetzung aus D-Zellen $\rightarrow$ Hemmung der Gastrinfreisetzung 
+\end{itemize}
+	
+% subsubsection intestinale_phase (end)
+\subsection{Regulation der H$^+$-Produktion im Magen} % (fold)
+\label{sub:regulation_der_}
+
+% subsection regulation_der_ (end)
+% section regulation_der_magensaftsekretion (end)
+\section{Antazida} % (fold)
+\label{sec:antiazida}
+\begin{tabularx}{\textwidth}{XX}
+Aluminiumhydroxid, Al(OH)$_3$&Magnesiumhydroxid Mg(OH)$_2$\\
+\end{tabularx}
+Meist kombinierte Gabe 1-2 Stunden nach den Mahlzeiten 
+\paragraph{Unerwünschte Wirkungen} % (fold)
+\label{ssub:unerw_nschte_wirkungen}
+Obstipation [Al(OH)$_3$]; Diarrhoe [Mg(OH)$_2$]
+% subsubsection unerw_nschte_wirkungen (end)
+\subsection{Schichtgitter Antazida} % (fold)
+\label{sub:schichtgitter_antazida}
+\begin{tabularx}{\textwidth}{XX}
+Magaldrat&Hydrotalcit\\
+\end{tabularx}
+Komplexverbindungen (Magnesium-Hydroxid-Matrix, in der  Magnesiumionen zum Teil durch Aluminiumionen ersetzt sind). Hohe Pufferkapazität
+\paragraph{Einsatz} % (fold)
+\label{par:einsatz}
+Sodbrennen, dyspept. Beschwerden, leichte Gastritis
+% paragraph einsatz (end)
+% subsection schichtgitter_antazida (end)
+% section antiazida (end)
+\section{Protonenpumpenhemmer} % (fold)
+\label{sec:protonenpumpenhemmer}
+\begin{tabularx}{\textwidth}{lc}
+&Dosierung (mg)\\
+&(1Dosis pro Tag zur Mahlzeit)\\
+Omeprazol&20\\
+Lansoprazol&30\\ 
+Pantoprazol&40\\
+Esomeprazol&(S-Enantiomer von Omeprazol)\\
+\end{tabularx}
+Pro-drugs\\
+Hemmung der basalen und stimulierten 
+Sekretion ($>$ 95\%) durch kovalente Modifikation 
+der H$^+$/K$^+$-ATPase
+\subsubsection{Pharmakokinetik} % (fold)
+\label{ssub:pharmakokinetik}
+\begin{itemize}
+	\item Verabreichung in Magensaft-resistenter Form
+	\item gute Resorption im Dünndarm (60-80\%)
+	\item Anreicherung in Canaliculi der Belegzellen
+	\item Protonierung und Umwandlung in aktive Form\\
+	$\rightarrow$ hohe Selektivität für Parietalzellen
+	\item Plasma-HWZ: 1 h (hepatische Metabolisierung v.a. durch CYP2C19 und CYP3A4); Wirkdauer deutlich länger !
+\end{itemize}
+% subsubsection pharmakokinetik (end)
+\subsubsection{Unerwünschte Wirkungen} % (fold)
+\label{ssub:unerw_nschte_wirkungen}
+\begin{itemize}
+	\item Kopfschmerzen
+	\item gastrointestinale Störungen (Diarrhoe, Dyspepsie, epigstr. Schmerzen)
+	\item Langzeittherapie: Magnesiummangel (Störung des aktiven Transports im 	Darm?), schwere neuromuskuläre Symptome
+\end{itemize}
+% subsubsection unerw_nschte_wirkungen (end)
+\subsubsection{Interaktionen} % (fold)
+\label{ssub:interaktionen}
+\begin{itemize}
+	\item Metabolisierung von Diazepam, Phenytoin $\downarrow$ (v.a. Omeprazol)
+	\item Abschwächung der thrombozytenaggregationshemmenden Wirkung von 	Thienopyridinen (z.B. Clopidogrel); evtl. über CYP2C19-Hemmung
+\end{itemize}
+% subsubsection interaktionen (end)
+\subsubsection{Einsatz} % (fold)
+\label{ssub:einsatz}
+\begin{itemize}
+	\item Ulcus duodeni/ventriculi; Ulkusprophylaxe
+	\item Refluxösophagitis
+\end{itemize}
+% subsubsection einsatz (end)
+% section protonenpumpenhemmer (end)
+\section{H$_2$-Rezeptoragonisten} % (fold)
+\label{sec:h__2_rezeptoragonisten}
+\begin{tabularx}{\textwidth}{lc}
+&Dosierung (mg)\\
+&(1-2 Dosen pro Tag)\\
+Cimetidin&800\\
+Ranitidin&300\\
+Famotidin&40\\
+Nizatidin&300\\
+Roxatidin&150\\
+\end{tabularx}
+\subsubsection{Wirkmechanismus} % (fold)
+\label{ssub:wirkmechanismus}
+Hemmung der basalen (ca. 90\%) und der stimulierten (Nahrung, Gastrin, Vagus) Sekretion (ca. 50\%)
+% subsubsection wirkmechanismus (end)
+\subsubsection{Pharmakokinetik} % (fold)
+\label{ssub:pharmakokinetik}
+\begin{itemize}
+	\item Schnelle und nahezu vollst. Resorption nach oraler Gabe
+	\item Plasma-HWZ: 	1-3 h
+\end{itemize}
+% subsubsection pharmakokinetik (end)
+\subsubsection{Unerwünschte Wirkung} % (fold)
+\label{ssub:unerw_nschte_wirkung}
+\begin{itemize}
+	\item Kopfschmerzen
+	\item Halluzinationen, Verwirrung
+	\item Cimetidin: Gynäkomastie, Galaktorrhoe (Östrogenabbau$\downarrow$, Antagonist am Androgen-Rezeptor)
+\end{itemize}
+% subsubsection unerw_nschte_wirkung (end)
+\subsubsection{Interaktionen} % (fold)
+\label{ssub:interaktionen}
+v.a. Cimetidin (Enzymhemmung), z.B. Abbau von Antikoagulantien, Antiepileptika $\downarrow$
+% subsubsection interaktionen (end)
+\subsubsection{Einsatz} % (fold)
+\label{ssub:einsatz}
+Zunehmend durch Protonenpumpemhemmer verdrängt
+% subsubsection einsatz (end)
+% section h__2_rezeptoragonisten (end)
+\section{Eradikationsbehandlung bei Helicobacter pylori-assoziierten Ulzera} % (fold)
+\label{sec:eradikationsbehandlung_bei_helicobacter_pylori_assoziierten_ulzera}
+Tripel-Therapie mit Protonenpumpenhemmer und antibakteriellen Substanzen:
+$\rightarrow$ rasche Heilung, Rezidivprophylaxe\\
+Synergie: Antibakterielle Wirkung ist bei erhöhtem pH-Wert verbessert\\
+\begin{tabularx}{\textwidth}{lcclc}
+Omeprazol&20 mg&&Omeprazol&20 mg\\
+Amoxicillin&1000 mg&oder&Metronidazol&400 mg\\
+Clarithromycin&250-500 mg&&Clarithromycin&250-500 mg\\
+\multicolumn{2}{@{}c}{2 x täglich über 7 Tage}&&\multicolumn{2}{@{}c}{2 x täglich über 7 Tage}\\
+\end{tabularx}
+4-6 Wochen nach Therapie: Überprüfung des H.p.-Status
+Erfolgsrate: $>$90\% (zunehmende Resistenzen v.a. gegen Metronidazol, Clarithromycin; evtl. sequenzielle Triple-Therapie?)
+% section eradikationsbehandlung_bei_helicobacter_pylori_assoziierten_ulzera (end)
+\section{Erbrechen} % (fold)
+\label{sec:erbrechen}
+\subsubsection{Auslösung des Brechreflexes} % (fold)
+\label{ssub:ausl_sung_des_brechreflexes}
+\begin{tabularx}{\textwidth}{ll}
+Zytotoxische Substanzen (Zytostatika)&GI-Trakt, Chemorezeptor-Triggerzone\\
+Bestrahlung&GI-Trakt\\
+Kinetosen, Hyperemesis gravidarum&Vestibularapparat, Cerebellum\\	
+\end{tabularx}
+% subsubsection ausl_sung_des_brechreflexes (end)
+\subsection{Emetika} % (fold)
+\label{sub:emetika}
+Gelegentlicher Einsatz zur Auslösung von Erbrechen bei Vergiftungen von Patienten bei vollem Bewußtsein
+\subsubsection{Emetin} % (fold)
+\label{ssub:emetin}
+(aus der Brechwurzel Psychotria ipecacuanha) als Ipecacuanha-Sirup oral verabreicht; Stimulation sensor. Nervenfasern des Vagus in der Magenschleimhaut; Einsatz bei Kindern u. Erwachsenen 
+% subsubsection emetin (end)
+\subsubsection{Apomorphin} % (fold)
+\label{ssub:apomorphin}
+Dopamin D$_2$ Rezeptor Agonist; Aktivierung des Brechzentrums über Chemorezeptor-Triggerzone und Nucl. tractus solitarii Unerwünschte Wirkungen: Atemdepression, Hypotension Indikation: sehr selten; kontraindiziert bei Kindern!
+% subsubsection apomorphin (end)
+\subsubsection{Antiemetika} % (fold)
+\label{ssub:antiemetika}
+\paragraph{Dopamin D$_2$-Rezeptor-Antagonisten} % (fold)
+\label{par:dopamin_d__2_rezeptor_antagonisten}
+\begin{itemize}
+	\item[unerw.Wirkung] Extrapyramidalmotorische Störungen
+   	\item[Einsatz] Gastroenteritis, Urämie, postoperativ (keine Wirkung bei Kinetosen)
+\end{itemize}
+% paragraph dopamin_d__2_rezeptor_antagonisten (end)
+\paragraph{Histamin H$_1$-Rezeptor-Antagonisten} % (fold)
+\label{par:histamin_h__1_rezeptor_antagonisten}
+\mbox{}\\
+\begin{tabularx}{\textwidth}{XXX}
+Promethazin&Meclozin&Dimenhydrinat\\
+\end{tabularx}
+\begin{itemize}
+	\item[unerw.Wirkung] Sedierung; 
+	\item[Einsatz] Kinetosen, Hyperemes. gravid.
+\end{itemize}
+% paragraph histamin_h__1_rezeptor_antagonisten (end)
+\paragraph{Muscarin-Rezeptor-Antagonisten} % (fold)
+\label{par:muscarin_rezeptor_antagonisten}
+\mbox{}\\
+\begin{tabularx}{\textwidth}{XXX}
+Scopolamin\\
+\end{tabularx}
+\begin{itemize}
+	\item[unerw.Wirkung] Sedierung, parasympatholytische Symptome
+	Einsatz: Kinetosen
+\end{itemize}
+% paragraph muscarin_rezeptor_antagonisten (end)
+\paragraph{Serotonin-(5-HT$_3$)-Rezeptor-Antagonisten} % (fold)
+\label{par:serotonin_5_ht__3_rezeptor_antagonisten}
+\mbox{}\\
+\begin{tabularx}{\textwidth}{XX}
+Ondansetron&Tropisetron\\
+Granisetron&Dolasetron\\
+\end{tabularx}
+\begin{itemize}
+	\item[unerw.Wirkung] Selten: Kopfschmerzen, Obstipation
+	\item[Einsatz]
+	\begin{itemize}
+	 	\item Zytostatika-induz. Erbrechen v.a. in der Frühphase (1. Tag)
+		\item Erbrechen nach Bestrahlung 
+	 \end{itemize} 
+\end{itemize}
+% paragraph serotonin_5_ht__3_rezeptor_antagonisten (end)
+\paragraph{Substanz-P-(NK$_1$)-Rezeptor-Antagonisten } % (fold)
+\label{par:substanz_p_nk__1_rezeptor_antagonisten_}
+\mbox{}\\
+\begin{tabularx}{\textwidth}{XX}
+Aprepitant\\
+\end{tabularx}
+Wirkung über NK$_1$-Rezeptoren im Bereich des Nucl. Tractus solitarii
+Anti-emetische Effekte bei Zytostatika-induziertem Erbrechen 
+(Früh- und Spätphase; 1.-3. Tag)\\
+Prophylaktische  antiemetische Therapie bei Chemotherapie mit hoch-emetogenen Pharmaka (z.B. Cisplatin, Cyclophosphamid (hochdosiert), Carmustin, Dacarbacin, Dactinomycin)\\
+\begin{itemize}
+	\item[1. Tag] 5-HT3 Antagonist + Dexamethason + Aprepitant
+	\item[2./3. Tag] Dexamethason + Aprepitant
+\end{itemize}
+% paragraph substanz_p_nk__1_rezeptor_antagonisten_ (end)
+\paragraph{Cannaboide} % (fold)
+\label{par:cannaboide}
+\mbox{}\\
+\begin{tabularx}{\textwidth}{XX}
+Nabilon (synthetisch)&Dronabinol (THC)\\
+\end{tabularx}
+Anti-emetische Wirkung über Cannabinoid-(CB$_1$)-Rezeptoren gut belegt. Nabilon und Dronabinol sind gemäß BtMVV „verkehrsfähig und ver-schreibungsfähig“; in Dtl. zur Zeit kein entsprechendes Präparat zugelassen
+% paragraph cannaboide (end)
+% subsubsection antiemetika (end)
+% subsection emetika (end)
+% section erbrechen (end)
+\section{Prokinetika} % (fold)
+\label{sec:prokinetika}
+Stoffe zur Anregung der Magen-Darm-Mobilität, Beschleunigung der Magenentlerung und Darmpassage \\ \\
+\begin{tabularx}{\textwidth}{XXX}
+Metoclopramid&Domperidon&\sout{Cisaprid}\\
+\end{tabularx}
+\subsubsection{Wirkmechanismus} % (fold)
+\label{ssub:wirkmechanismus}
+\begin{itemize}
+	\item Agonismus an präsynaptischen Serotonin(5-HT4)-Rezeptoren cholinerger Nerven im Magen-Darm-Trakt
+	$\rightarrow$ Freisetzung von Ach $\uparrow$ $\rightarrow$ Tonus, propulsive Peristaltik $\uparrow$
+	\item Antagonismus an Serotonin(5-HT$_3$)-Rezeptoren 
+	\item Antagonismus an Dopamin(D$_2$)-Rezeptoren 
+\end{itemize}
+\begin{tabularx}{\textwidth}{lccccc}
+&\multicolumn{3}{@{}c}{Agonism./Antagonism.}&\multicolumn{2}{@{}c}{Prokinet. Wirkung an}\\
+&5-HT$_4$-Ag&5-HT$_3$-Antag.&D$_2$-Antag&Ösophagus, Magen, Ileum&Kolon\\
+Metoclopramid&+&+&+&+&-\\
+\sout{Cisaprid}&++&+&-&+&+\\
+Domperidon&-&-&++&+&-\\
+\end{tabularx}
+% subsubsection wirkmechanismus (end)
+\subsubsection{Pharmakokinetik} % (fold)
+\label{ssub:pharmakokinetik}
+\begin{itemize}
+	\item rasche und vollständige Resorption, Metoclopramid ist ZNS-gängig
+	\item überwiegend metabolisiert (v.a. CYP3A4 $\rightarrow$ Cisaprid)
+\end{itemize}
+% subsubsection pharmakokinetik (end)
+\subsubsection{unerwünschte Wirkungen} % (fold)
+\label{ssub:unerw_nschte_wirkungen}
+Metoclopramid (bei hohen Dosen; v.a. nach i.v.-Gabe): 
+\begin{itemize}
+	\item extrapyramidalmotorische Störungen
+	\item Hyperprolaktinämie (Gynäkomastie, Galaktorrhoe)
+\end{itemize}
+(Cisaprid): Herzrhythmusstörungen bei Überdosierung oder wenn Eliminaton$\downarrow$
+Marktrücknahme 2000; abdominelle Krämpfe, Diarrhoe  
+% subsubsection unerw_nschte_wirkungen (end)
+\subsubsection{Einsatz} % (fold)
+\label{ssub:einsatz}
+Funktionelle Dyspepsie, Gastroparese, Refluxkrankheit
+Zur Anregung der Darmperistaltik bei paralytischem Ileus (z.B. postoperativ): Direkte oder indirekte Parasympathomimetika (KI: mechan. Ileus !)
+% subsubsection einsatz (end)
+% section prokinetika (end)
+\section{Diarrhoe} % (fold)
+\label{sec:diarrhoe}
+$>$ 3 x täglich breiiger/wässriger Stuhlgang
+\subsection{Ursachen} % (fold)
+\label{sub:ursachen}
+\begin{itemize}
+	\item Magen-Darm-Erkrankungen
+	\item Infektionen	invasiv 	(Salmonella typhi/paratyphi, Shigellen etc.)
+	\begin{itemize}
+		\item nicht-invasiv 	(Enterotoxin-bildende Erreger; E. coli, V. cholerae, 
+		\item Staph. aureus, Salmonellen etc.)
+	\end{itemize}
+	\item Medikamente (Antibiotika, Zytostatika, Antazida, Laxantien)
+\end{itemize}
+% subsection ursachen (end)
+\subsection{Therapie} % (fold)
+\label{sub:therapie}
+(Je nach zugrundeliegender Erkrankung)
+\subsubsection{Flüssigkeits- und Elektrolytersatz} % (fold)
+\label{ssub:fl_ssigkeits_und_elektrolytersatz}
+Substitution von Wasser, Glukose, Elektrolyten, Elektrolyt-Glukose-Lösung oral oder i.v.
+% subsubsection fl_ssigkeits_und_elektrolytersatz (end)
+\subsubsection{Opiate / Enkephalinase-Hemmer} % (fold)
+\label{ssub:opiate_enkephalinase_hemmer}
+ Loperamid 	max. 6 x 2 mg\\
+$\rightarrow$ Tonus$\uparrow$, propulsive Peristaltik$\downarrow$, Flüssigkeitssekretion$\downarrow$\\
+Nicht ZNS-gängig (cav: Säuglinge und Kleinkinder)\\
+KI: Ileus, invasive Infektionen, M. Crohn, Colitis ulcerosa; Alter $<$ 2 J.
+Bei Kindern alternativ: Racecadotril (Enkephalinase-Hemmer)
+% subsubsection opiate_enkephalinase_hemmer (end)
+\subsubsection{Antibiotika} % (fold)
+\label{ssub:antibiotika}
+bei schwerem Verlauf und system. Komplikationen, Verd. auf Infektion Co-trimoxazol; Ciprofloxacin
+% subsubsection antibiotika (end)
+% subsection therapie (end)
+% section diarrhoe (end)
+\section{Obstipation} % (fold)
+\label{sec:obstipation}
+Stuhlgang $<$ 3 x pro Woche für $>$ 6 Monate
+\subsection{Ursachen} % (fold)
+\label{sub:ursachen}
+\begin{itemize}
+	\item meist funktionelle Störung infolge fehlerhafter Ernährung / Lebensgewohnheiten
+	\item organ. Darmerkrankungen u.a.
+	\item Medikamente (Antazida, Psychopharmaka, Opiate, Anticholinergika, Laxantie
+\end{itemize}
+\subsubsection{Strenge Indikationsstellung für Laxantien!} % (fold)
+\label{ssub:strenge_indikationsstellung_f_r_laxantien_}
+Ausschluss organischer Ursachen / Medikamentenabusus; kurzdauernde, einmalige Gabe ist unproblematisch
+% subsubsection strenge_indikationsstellung_f_r_laxantien_ (end)
+% subsection ursachen (end)
+\subsection{Therapie} % (fold)
+\label{sub:therapie}
+\subsubsection{Quell- und Ballaststoffe, Gleitmittel} % (fold)
+\label{ssub:quell_und_ballaststoffe_gleitmittel}
+\begin{tabularx}{\textwidth}{XX}
+Weizenkleie&Leinsamen\\
+\end{tabularx}
+Quellung unter Wasseraufnahme; Verabreichung mit ausreichender Flüssigkeitsmenge; Wirkung nach 10-20 Stunden
+% subsubsection quell_und_ballaststoffe_gleitmittel (end)
+\subsubsection{Osmotisch wirksame Laxantien} % (fold)
+\label{ssub:osmotisch_wirksame_laxantien}
+Nicht-resorbierbare, niedermolekulare Substanzen\\
+\begin{tabularx}{\textwidth}{lX}
+Na$_2$SO$_4$ (Glaubersalz); MgSO$_4$ (Bittersalz)&Gabe als isotone Lösung; Wirkung nach 2-4 Stunden\\
+Lactulose, Sorbitol&Wirkung nach 8-12 Stunden\\
+\end{tabularx}
+% subsubsection osmotisch_wirksame_laxantien (end)
+\subsubsection{Stimulierende Laxantien} % (fold)
+\label{ssub:stimulierende_laxantien}
+Sekretion im Kolon $\uparrow$, propulsive Peristaltik $\uparrow$
+\begin{tabularx}{\textwidth}{lXX}
+Anthrachinon-Glykoside&Umwandlung in aktive Anthrone/Anthranole (Emodine) durch Glykosidasen (Darm) und Reduktasen (Darm-Bakterien)& Wirkung nach 8-10 Stunden\\
+Rizinusöl&Umwandlung d. Lipasen im Darm zu Ricinolsäure&Wirkung nach 2-4 h\\
+Diphenole&synthetische Wirkstoffe (Bisacodyl, Natriumpicosulfat) Resorption im Dünndarm $\rightarrow$ Glukuronidierung in der Leber $\rightarrow$ Ausscheidung mit der Galle $\rightarrow$ im Dickdarm Spaltung in freie Diphenole& Wirkung nach 4-8 Stunden; 
+\end{tabularx}
+% subsubsection stimulierende_laxantien (end)
+% subsection therapie (end)
+% section obstipation (end)
+% chapter magen_darm_pharmaka (end)
 \end{document}
